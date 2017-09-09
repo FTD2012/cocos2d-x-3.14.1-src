@@ -5755,8 +5755,6 @@
 		ED9C6A9518599AD8000A5232 /* CCNodeGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED9C6A9218599AD8000A5232 /* CCNodeGrid.cpp */; };
 		ED9C6A9618599AD8000A5232 /* CCNodeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */; };
 		ED9C6A9718599AD8000A5232 /* CCNodeGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */; };
-		FD8F8C151EF77CA300B59249 /* CustomClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD8F8C131EF77CA300B59249 /* CustomClass.cpp */; };
-		FD8F8C161EF77CA300B59249 /* CustomClass.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8F8C141EF77CA300B59249 /* CustomClass.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -7794,8 +7792,6 @@
 		ED74D7681A5B8A2600157FD4 /* CCPhysicsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPhysicsHelper.h; sourceTree = "<group>"; };
 		ED9C6A9218599AD8000A5232 /* CCNodeGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CCNodeGrid.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		ED9C6A9318599AD8000A5232 /* CCNodeGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNodeGrid.h; sourceTree = "<group>"; };
-		FD8F8C131EF77CA300B59249 /* CustomClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomClass.cpp; path = ../cocos/my/CustomClass.cpp; sourceTree = "<group>"; };
-		FD8F8C141EF77CA300B59249 /* CustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomClass.h; path = ../cocos/my/CustomClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -7892,7 +7888,6 @@
 		1551A334158F2AB200E66CFE = {
 			isa = PBXGroup;
 			children = (
-				FD8F8C121EF77C8A00B59249 /* my */,
 				46A15FCC1807A544005B8026 /* AUTHORS */,
 				1A57FFF7180BC5160088DEC7 /* CHANGELOG */,
 				50272539190BF1B900AAF4ED /* cocos2d.cpp */,
@@ -11377,15 +11372,6 @@
 			path = ../base/allocator;
 			sourceTree = "<group>";
 		};
-		FD8F8C121EF77C8A00B59249 /* my */ = {
-			isa = PBXGroup;
-			children = (
-				FD8F8C131EF77CA300B59249 /* CustomClass.cpp */,
-				FD8F8C141EF77CA300B59249 /* CustomClass.h */,
-			);
-			name = my;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -12095,7 +12081,6 @@
 				B6CAB4BD1AF9AA1A00B9B856 /* SpuGatheringCollisionDispatcher.h in Headers */,
 				1A57030E180BCF190088DEC7 /* CCComponent.h in Headers */,
 				B6CAB33D1AF9AA1A00B9B856 /* gim_array.h in Headers */,
-				FD8F8C161EF77CA300B59249 /* CustomClass.h in Headers */,
 				B6CAB2DB1AF9AA1A00B9B856 /* btPolyhedralConvexShape.h in Headers */,
 				50FC3FA81D74C2A1001C936A /* CCEventListenerController.h in Headers */,
 				B6CAB5251AF9AA1A00B9B856 /* btQuickprof.h in Headers */,
@@ -14868,7 +14853,6 @@
 				2962D5F81C61DBBF004821A3 /* CCUIPasswordTextField.m in Sources */,
 				D0FD034B1A3B51AA00825BB5 /* CCAllocatorDiagnostics.cpp in Sources */,
 				B6CAB3E11AF9AA1A00B9B856 /* btUniversalConstraint.cpp in Sources */,
-				FD8F8C151EF77CA300B59249 /* CustomClass.cpp in Sources */,
 				15AE189B19AAD33D00C27E9E /* CCNode+CCBRelativePositioning.cpp in Sources */,
 				15AE183819AAD2F700C27E9E /* CCRay.cpp in Sources */,
 				50ABBE391925AB6F00A911A9 /* CCData.cpp in Sources */,

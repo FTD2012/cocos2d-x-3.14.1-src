@@ -163,7 +163,6 @@ def main():
                     'cocos2dx_experimental_video.ini': ('cocos2dx_experimental_video', 'jsb_cocos2dx_experimental_video_auto'),
                     'cocos2dx_physics3d.ini': ('cocos2dx_physics3d', 'jsb_cocos2dx_physics3d_auto'),
                     'cocos2dx_navmesh.ini': ('cocos2dx_navmesh', 'jsb_cocos2dx_navmesh_auto'),
-                    'cocos2dx_custom.ini' : ('cocos2dx_custom', 'jsb_cocos2dx_custom'),
                     }
         target = 'spidermonkey'
         generator_py = '%s/generator.py' % cxx_generator_root

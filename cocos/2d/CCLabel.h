@@ -109,6 +109,9 @@ class EventListenerCustom;
  * - http://www.angelcode.com/products/bmfont/ (Free, Windows only)
  * @js NA
  */
+
+// DOUBT:用于设置Label的字符串内容
+
 class CC_DLL Label : public Node, public LabelProtocol, public BlendProtocol
 {
 public:
@@ -185,7 +188,7 @@ public:
     * @see TTFConfig setTTFConfig setMaxLineWidth
     */
     static Label* createWithTTF(const TTFConfig& ttfConfig, const std::string& text, 
-        TextHAlignment hAlignment = TextHAlignment::LEFT, int maxLineWidth = 0);
+        TextHAlignment hAlignment = TextHAlignment::LEFT, int maxLineWidth = 0 /* 最大文本行宽，0表示不设置。可用于自动换行只用 */);
 
     /**
     * Allocates and initializes a Label, with a bitmap font file.

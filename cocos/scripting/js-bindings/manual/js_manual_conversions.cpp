@@ -226,7 +226,6 @@ static Size getSizeFromJSObject(JSContext *cx, JS::HandleObject sizeObject)
 }
 
 bool jsval_to_opaque( JSContext *cx, JS::HandleValue vp, void **r)
-
 {
 #ifdef __LP64__
 
