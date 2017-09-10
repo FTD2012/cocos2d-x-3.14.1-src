@@ -73,11 +73,18 @@ bool HelloWorld::init()
 //    // add the sprite as a child to this layer
 //    this->addChild(sprite);
 
-    auto ttfLabel = Label::createWithTTF("createWithTTF", "fonts/arial.ttf", 23);
-    ttfLabel->setPosition(Vec2(visibleSize/2));
-    ttfLabel->setName("createWithTTF");
-    this->addChild(ttfLabel);
-    
+//    auto ttfLabel = Label::createWithTTF("createWithTTF", "fonts/arial.ttf", 23);
+//    ttfLabel->setPosition(Vec2(visibleSize/2));
+//    ttfLabel->setName("createWithTTF");
+//    this->addChild(ttfLabel);
+
+    TTFConfig _ttfConfig("fonts/arial.ttf", 23, GlyphCollection::DYNAMIC);
+    Label* createWithTTFConfigLabel = Label::createWithTTF(_ttfConfig, "createWithTTFConfigLabel");
+    createWithTTFConfigLabel->setPosition(Vec2(visibleSize/2));
+    createWithTTFConfigLabel->setName("createWithTTFConfigLabel");
+    this->addChild(createWithTTFConfigLabel);
+
+
     return true;
 }
 

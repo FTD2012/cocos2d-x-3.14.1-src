@@ -55,10 +55,10 @@ typedef struct _ttfConfig
     bool distanceFieldEnabled;
     int outlineSize;
 
-    bool italics;
+    bool italics; // 斜体
     bool bold;
     bool underline;
-    bool strikethrough;
+    bool strikethrough; // 删除线
 
     _ttfConfig(const std::string& filePath = "",float size = 12, const GlyphCollection& glyphCollection = GlyphCollection::DYNAMIC,
         const char *customGlyphCollection = nullptr, bool useDistanceField = false, int outline = 0,
