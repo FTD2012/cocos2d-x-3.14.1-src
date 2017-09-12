@@ -78,11 +78,18 @@ bool HelloWorld::init()
 //    ttfLabel->setName("createWithTTF");
 //    this->addChild(ttfLabel);
 
-    TTFConfig _ttfConfig("fonts/arial.ttf", 23, GlyphCollection::DYNAMIC);
-    Label* createWithTTFConfigLabel = Label::createWithTTF(_ttfConfig, "createWithTTFConfigLabel");
-    createWithTTFConfigLabel->setPosition(Vec2(visibleSize/2));
-    createWithTTFConfigLabel->setName("createWithTTFConfigLabel");
-    this->addChild(createWithTTFConfigLabel);
+//    TTFConfig _ttfConfig("fonts/arial.ttf", 23, GlyphCollection::DYNAMIC);
+//    Label* createWithTTFConfigLabel = Label::createWithTTF(_ttfConfig, "createWithTTFConfigLabel");
+//    createWithTTFConfigLabel->setPosition(Vec2(visibleSize/2));
+//    createWithTTFConfigLabel->setName("createWithTTFConfigLabel");
+//    this->addChild(createWithTTFConfigLabel);
+
+
+    Label* creatWithBMFont = Label::createWithBMFont("fonts/arial-unicode-26.fnt", "createWithBMFont");
+    creatWithBMFont->setPosition(Vec2(visibleSize/2));
+    creatWithBMFont->setName("creatWithBMFont");
+    this->addChild(creatWithBMFont);
+
 
 
     return true;
