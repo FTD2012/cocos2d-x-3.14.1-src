@@ -66,11 +66,11 @@ set(TESTS_SRC
   Classes/CurlTest/CurlTest.cpp
   Classes/CurrentLanguageTest/CurrentLanguageTest.cpp
   Classes/DataVisitorTest/DataVisitorTest.cpp
-  Classes/DownloaderTest/DownloaderTest.cpp
+#  Classes/DownloaderTest/DownloaderTest.cpp
   Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp
   Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp
   Classes/EffectsTest/EffectsTest.cpp
-  Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp
+#  Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp
   Classes/ExtensionsTest/CocosBuilderTest/AnimationsTest/AnimationsTestLayer.cpp
   Classes/ExtensionsTest/CocosBuilderTest/ButtonTest/ButtonTestLayer.cpp
   Classes/ExtensionsTest/CocosBuilderTest/CocosBuilderTest.cpp
@@ -86,7 +86,7 @@ set(TESTS_SRC
   Classes/ExtensionsTest/ControlExtensionTest/CCControlSliderTest/CCControlSliderTest.cpp
   Classes/ExtensionsTest/ControlExtensionTest/CCControlStepperTest/CCControlStepperTest.cpp
   Classes/ExtensionsTest/ControlExtensionTest/CCControlSwitchTest/CCControlSwitchTest.cpp
-  Classes/ExtensionsTest/ExtensionsTest.cpp
+#  Classes/ExtensionsTest/ExtensionsTest.cpp
   Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp
   Classes/ExtensionsTest/NotificationCenterTest/NotificationCenterTest.cpp
   Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp
@@ -103,7 +103,7 @@ set(TESTS_SRC
   Classes/MenuTest/MenuTest.cpp
   Classes/MotionStreakTest/MotionStreakTest.cpp
   Classes/MutiTouchTest/MutiTouchTest.cpp
-  Classes/NewAudioEngineTest/NewAudioEngineTest.cpp
+#  Classes/NewAudioEngineTest/NewAudioEngineTest.cpp
   Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp
   Classes/NewRendererTest/NewRendererTest.cpp
   Classes/NavMeshTest/NavMeshTest.cpp
@@ -159,7 +159,7 @@ set(TESTS_SRC
   Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp
   Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp
   Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp
-  Classes/UITest/UITest.cpp
+#  Classes/UITest/UITest.cpp
   Classes/UnitTest/RefPtrTest.cpp
   Classes/UnitTest/UnitTest.cpp
   Classes/UserDefaultTest/UserDefaultTest.cpp

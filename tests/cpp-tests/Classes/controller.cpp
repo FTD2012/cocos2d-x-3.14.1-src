@@ -26,7 +26,10 @@ public:
         addTest("Actions - Progress", [](){return new (std::nothrow) ActionsProgressTests(); });
         addTest("Allocator - Basic", [](){return new (std::nothrow) AllocatorTests(); });
         addTest("Audio - CocosDenshion", []() { return new (std::nothrow) CocosDenshionTests(); });
-        addTest("Audio - NewAudioEngine", []() { return new (std::nothrow) AudioEngineTests(); });
+
+        // Don't uncomment in IDE except Xcode.
+//        addTest("Audio - NewAudioEngine", []() { return new (std::nothrow) AudioEngineTests(); });
+
 #if CC_ENABLE_BOX2D_INTEGRATION
         addTest("Box2d - Basic", []() { return new (std::nothrow) Box2DTests(); });
         addTest("Box2d - TestBed", []() { return new (std::nothrow) Box2dTestBedSuite(); });
@@ -41,11 +44,14 @@ public:
         addTest("Curl", []() { return new CurlTests(); });
 #endif
         addTest("Current Language", []() { return new CurrentLanguageTests(); });
-        addTest("Downloader Test", []() { return new DownloaderTests(); });
+
+        // Don't uncomment in IDE except Xcode.
+//        addTest("Downloader Test", []() { return new DownloaderTests(); });
+
         addTest("EventDispatcher", []() { return new EventDispatcherTests(); });
         addTest("Effects - Advanced", []() { return new EffectAdvanceTests(); });
         addTest("Effects - Basic", [](){return new EffectTests(); });
-        addTest("Extensions", []() { return new ExtensionsTests(); });
+//        addTest("Extensions", []() { return new ExtensionsTests(); });
         addTest("FileUtils", []() { return new FileUtilsTests(); });
         addTest("Fonts", []() { return new FontTests(); });
         addTest("Interval", [](){return new IntervalTests(); });
@@ -82,7 +88,7 @@ public:
         addTest("Node: TileMap", [](){return new TileMapTests(); });
         addTest("Node: FastTileMap", [](){return new FastTileMapTests(); });
         addTest("Node: Text Input", [](){return new TextInputTests(); });
-        addTest("Node: UI", [](){  return new UITests(); });
+//        addTest("Node: UI", [](){  return new UITests(); });
         addTest("Mouse", []() { return new MouseTests(); });
         addTest("MultiTouch", []() { return new MutiTouchTests(); });
         addTest("Renderer", []() { return new NewRendererTests(); });

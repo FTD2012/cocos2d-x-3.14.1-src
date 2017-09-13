@@ -85,11 +85,31 @@ bool HelloWorld::init()
 //    this->addChild(createWithTTFConfigLabel);
 
 
-    Label* creatWithBMFont = Label::createWithBMFont("fonts/arial-unicode-26.fnt", "createWithBMFont");
-    creatWithBMFont->setPosition(Vec2(visibleSize/2));
-    creatWithBMFont->setName("creatWithBMFont");
-    this->addChild(creatWithBMFont);
+//    Label* creatWithBMFont = Label::createWithBMFont("fonts/arial-unicode-26.fnt", "createWithBMFont");
+//    creatWithBMFont->setPosition(Vec2(visibleSize/2));
+//    creatWithBMFont->setName("creatWithBMFont");
+//    this->addChild(creatWithBMFont);
 
+//    Label* createWithCharMap = Label::createWithCharMap("fonts/tuffy_bold_italic-charmap-hd.plist");
+//    createWithCharMap->setString("createWithCharMap");
+//    createWithCharMap->setPosition(Vec2(visibleSize/2));
+//    createWithCharMap->setName("createWithCharMap");
+//    this->addChild(createWithCharMap);
+
+//    Label* createWithCharMapPng = Label::createWithCharMap("fonts/tuffy_bold_italic-charmap-hd.png", 96, 128, 32);
+//    createWithCharMapPng->setString("createWithCharMapPng");
+//    createWithCharMapPng->setPosition(Vec2(visibleSize/2));
+//    createWithCharMapPng->setName("createWithCharMapPng");
+//    this->addChild(createWithCharMapPng);
+//
+    Texture2D* charMapTexture = Director::getInstance()->getTextureCache()->addImage("fonts/tuffy_bold_italic-charmap-hd.png");
+    if (charMapTexture) {
+        Label* createWithCharMapTexture = Label::createWithCharMap(charMapTexture, 96, 128, 32);
+        createWithCharMapTexture->setString("createWithCharMapTexture");
+        createWithCharMapTexture->setPosition(Vec2(visibleSize/2));
+        createWithCharMapTexture->setName("createWithCharMapTexture");
+        this->addChild(createWithCharMapTexture);
+    }
 
 
     return true;
