@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="cc__dummy_8c" kind="file" language="C++">
+    <compoundname>cc_dummy.c</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cc__dummy_8c_1aafb1520a9d3712bec4aa834e54b4b88b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void making_cmake_happy</definition>
+        <argsstring>(void)</argsstring>
+        <name>making_cmake_happy</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cc_dummy.c" line="1" column="1" bodyfile="cc_dummy.c" bodystart="1" bodyend="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>making_cmake_happy(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="cc_dummy.c"/>
+  </compounddef>
+</doxygen>

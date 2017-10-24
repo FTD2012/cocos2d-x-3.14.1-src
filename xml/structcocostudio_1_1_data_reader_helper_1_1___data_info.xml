@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structcocostudio_1_1_data_reader_helper_1_1___data_info" kind="struct" language="C++" prot="protected">
+    <compoundname>cocostudio::DataReaderHelper::_DataInfo</compoundname>
+    <includes refid="_c_c_data_reader_helper_8h" local="no">CCDataReaderHelper.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1aa717307913c6945572e470aa49a512b5" prot="public" static="no" mutable="no">
+        <type><ref refid="classcocostudio_1_1_data_reader_helper_1a6dbfa7729aa1a395f499dcc41cd39c72" kindref="member">AsyncStruct</ref> *</type>
+        <definition>AsyncStruct* cocostudio::DataReaderHelper::_DataInfo::asyncStruct</definition>
+        <argsstring></argsstring>
+        <name>asyncStruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="81" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a1cc9087a08693f25446ca3f1e4841f9e" prot="public" static="no" mutable="no">
+        <type>std::queue&lt; std::string &gt;</type>
+        <definition>std::queue&lt;std::string&gt; cocostudio::DataReaderHelper::_DataInfo::configFileQueue</definition>
+        <argsstring></argsstring>
+        <name>configFileQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="82" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a305d493120ed056771639936a62b4a34" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::DataReaderHelper::_DataInfo::contentScale</definition>
+        <argsstring></argsstring>
+        <name>contentScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="83" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1aded361ebc93f5a4636b90442ba9bff0f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_DataInfo::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="84" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a53599100aa34268f75650a85f781d3f8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_DataInfo::baseFilePath</definition>
+        <argsstring></argsstring>
+        <name>baseFilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="85" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1af8aecb39c974c66f9d64b4a1888e1ac1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::DataReaderHelper::_DataInfo::flashToolVersion</definition>
+        <argsstring></argsstring>
+        <name>flashToolVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="86" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a8a05dfbf2a8f88848f32c0dbe76ef161" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::DataReaderHelper::_DataInfo::cocoStudioVersion</definition>
+        <argsstring></argsstring>
+        <name>cocoStudioVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="87" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="336">
+        <label>cocostudio::DataReaderHelper::_AsyncStruct</label>
+        <link refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct"/>
+      </node>
+      <node id="335">
+        <label>cocostudio::DataReaderHelper::_DataInfo</label>
+        <link refid="structcocostudio_1_1_data_reader_helper_1_1___data_info"/>
+        <childnode refid="336" relation="usage">
+          <edgelabel>asyncStruct</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="80" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="79" bodyend="88"/>
+    <listofallmembers>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1aa717307913c6945572e470aa49a512b5" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>asyncStruct</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a53599100aa34268f75650a85f781d3f8" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>baseFilePath</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a8a05dfbf2a8f88848f32c0dbe76ef161" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>cocoStudioVersion</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a1cc9087a08693f25446ca3f1e4841f9e" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>configFileQueue</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1a305d493120ed056771639936a62b4a34" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>contentScale</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1aded361ebc93f5a4636b90442ba9bff0f" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>filename</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___data_info_1af8aecb39c974c66f9d64b4a1888e1ac1" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_DataInfo</scope><name>flashToolVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

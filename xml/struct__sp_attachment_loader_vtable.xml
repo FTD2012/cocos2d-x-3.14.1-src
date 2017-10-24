@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_attachment_loader_vtable" kind="struct" language="C++" prot="public">
+    <compoundname>_spAttachmentLoaderVtable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_attachment_loader_vtable_1a6891ff0a5924fc616eeae3a7eb236d01" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_attachment" kindref="compound">spAttachment</ref> *(*</type>
+        <definition>spAttachment*(* _spAttachmentLoaderVtable::createAttachment) (spAttachmentLoader *self, spSkin *skin, spAttachmentType type, const char *name, const char *path)</definition>
+        <argsstring>)(spAttachmentLoader *self, spSkin *skin, spAttachmentType type, const char *name, const char *path)</argsstring>
+        <name>createAttachment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AttachmentLoader.c" line="37" column="1" bodyfile="cocos/editor-support/spine/AttachmentLoader.c" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_attachment_loader_vtable_1a0d3e15234386f90ad439c585b97f75c5" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spAttachmentLoaderVtable::configureAttachment) (spAttachmentLoader *self, spAttachment *)</definition>
+        <argsstring>)(spAttachmentLoader *self, spAttachment *)</argsstring>
+        <name>configureAttachment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AttachmentLoader.c" line="39" column="1" bodyfile="cocos/editor-support/spine/AttachmentLoader.c" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_attachment_loader_vtable_1a6e97368d676a97ba4a70fc7b1fd3c91e" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spAttachmentLoaderVtable::disposeAttachment) (spAttachmentLoader *self, spAttachment *)</definition>
+        <argsstring>)(spAttachmentLoader *self, spAttachment *)</argsstring>
+        <name>disposeAttachment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AttachmentLoader.c" line="40" column="1" bodyfile="cocos/editor-support/spine/AttachmentLoader.c" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_attachment_loader_vtable_1a5f4462029206032bf7b4c20bf3afb245" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spAttachmentLoaderVtable::dispose) (spAttachmentLoader *self)</definition>
+        <argsstring>)(spAttachmentLoader *self)</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AttachmentLoader.c" line="41" column="1" bodyfile="cocos/editor-support/spine/AttachmentLoader.c" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="460">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="461" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="459">
+        <label>_spAttachmentLoaderVtable</label>
+        <link refid="struct__sp_attachment_loader_vtable"/>
+        <childnode refid="460" relation="usage">
+          <edgelabel>createAttachment</edgelabel>
+        </childnode>
+      </node>
+      <node id="461">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/AttachmentLoader.c" line="36" column="1" bodyfile="cocos/editor-support/spine/AttachmentLoader.c" bodystart="36" bodyend="42"/>
+    <listofallmembers>
+      <member refid="struct__sp_attachment_loader_vtable_1a0d3e15234386f90ad439c585b97f75c5" prot="public" virt="non-virtual"><scope>_spAttachmentLoaderVtable</scope><name>configureAttachment</name></member>
+      <member refid="struct__sp_attachment_loader_vtable_1a6891ff0a5924fc616eeae3a7eb236d01" prot="public" virt="non-virtual"><scope>_spAttachmentLoaderVtable</scope><name>createAttachment</name></member>
+      <member refid="struct__sp_attachment_loader_vtable_1a5f4462029206032bf7b4c20bf3afb245" prot="public" virt="non-virtual"><scope>_spAttachmentLoaderVtable</scope><name>dispose</name></member>
+      <member refid="struct__sp_attachment_loader_vtable_1a6e97368d676a97ba4a70fc7b1fd3c91e" prot="public" virt="non-virtual"><scope>_spAttachmentLoaderVtable</scope><name>disposeAttachment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

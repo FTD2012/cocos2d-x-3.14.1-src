@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class___video_player_tizen" kind="class" language="C++" prot="public">
+    <compoundname>_VideoPlayerTizen</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class___video_player_tizen_1a9a555ee3ea8c6fbdeddd0febeb331bcc" prot="public" static="no" mutable="no">
+        <type>player_h</type>
+        <definition>player_h _VideoPlayerTizen::_player</definition>
+        <argsstring></argsstring>
+        <name>_player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="108" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1a8f7166f4c94928a063670ba7e6a893c3" prot="public" static="no" mutable="no">
+        <type>Evas_Object *</type>
+        <definition>Evas_Object* _VideoPlayerTizen::_image</definition>
+        <argsstring></argsstring>
+        <name>_image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="109" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1a3ce5bfd42a0502cae130487b8f61d47e" prot="public" static="no" mutable="no">
+        <type>Evas_Object *</type>
+        <definition>Evas_Object* _VideoPlayerTizen::_layout</definition>
+        <argsstring></argsstring>
+        <name>_layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="110" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1ae70a59aa97a5d1fa2bbe438140e6a261" prot="public" static="no" mutable="no">
+        <type>VideoPlayer *</type>
+        <definition>VideoPlayer* _VideoPlayerTizen::_videoPlayer</definition>
+        <argsstring></argsstring>
+        <name>_videoPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="111" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1ab918ca488859ce1e9d90e284030458f6" prot="public" static="no" mutable="no">
+        <type>Evas_Coord</type>
+        <definition>Evas_Coord _VideoPlayerTizen::_x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="112" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1ac774e79ef47c6efee5bd133f23437c58" prot="public" static="no" mutable="no">
+        <type>Evas_Coord</type>
+        <definition>Evas_Coord _VideoPlayerTizen::_y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="113" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1af696ae6a0e0168bf715a93b4d4e1d7ac" prot="public" static="no" mutable="no">
+        <type>Evas_Coord</type>
+        <definition>Evas_Coord _VideoPlayerTizen::_width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="114" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class___video_player_tizen_1a741f5b57ce37bcf04b3d60b79d437750" prot="public" static="no" mutable="no">
+        <type>Evas_Coord</type>
+        <definition>Evas_Coord _VideoPlayerTizen::_height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="115" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class___video_player_tizen_1a93e11dacfc973c20fadc9e11cef8a394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_VideoPlayerTizen::_VideoPlayerTizen</definition>
+        <argsstring>(VideoPlayer *videoPlayer)</argsstring>
+        <name>_VideoPlayerTizen</name>
+        <param>
+          <type>VideoPlayer *</type>
+          <declname>videoPlayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="52" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="52" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class___video_player_tizen_1a82a5ca77b1b9b55f5554de1b93cf5c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual _VideoPlayerTizen::~_VideoPlayerTizen</definition>
+        <argsstring>()</argsstring>
+        <name>~_VideoPlayerTizen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="67" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="67" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class___video_player_tizen_1a3fa078a61ba7a43fbe1891dd33f53bbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void _VideoPlayerTizen::setRectangle</definition>
+        <argsstring>(Evas_Coord x, Evas_Coord y, Evas_Coord width, Evas_Coord height)</argsstring>
+        <name>setRectangle</name>
+        <param>
+          <type>Evas_Coord</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>Evas_Coord</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Evas_Coord</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>Evas_Coord</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="100" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class___video_player_tizen_1ae04124976d1d69a6adcfb880802f1c2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void _VideoPlayerTizen::mouse_up_cb</definition>
+        <argsstring>(void *data, Evas *e, Evas_Object *obj, void *event_info)</argsstring>
+        <name>mouse_up_cb</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Evas *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>Evas_Object *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>event_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="80" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="80" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class___video_player_tizen_1a8b60c4a144ed382bed5c3818081c6b20" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void _VideoPlayerTizen::win_back_cb</definition>
+        <argsstring>(void *data, Evas_Object *obj, void *event_info)</argsstring>
+        <name>win_back_cb</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Evas_Object *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>event_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="93" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="93" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/ui/UIVideoPlayer-tizen.cpp" line="50" column="1" bodyfile="cocos/ui/UIVideoPlayer-tizen.cpp" bodystart="49" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class___video_player_tizen_1a741f5b57ce37bcf04b3d60b79d437750" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_height</name></member>
+      <member refid="class___video_player_tizen_1a8f7166f4c94928a063670ba7e6a893c3" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_image</name></member>
+      <member refid="class___video_player_tizen_1a3ce5bfd42a0502cae130487b8f61d47e" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_layout</name></member>
+      <member refid="class___video_player_tizen_1a9a555ee3ea8c6fbdeddd0febeb331bcc" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_player</name></member>
+      <member refid="class___video_player_tizen_1ae70a59aa97a5d1fa2bbe438140e6a261" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_videoPlayer</name></member>
+      <member refid="class___video_player_tizen_1a93e11dacfc973c20fadc9e11cef8a394" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_VideoPlayerTizen</name></member>
+      <member refid="class___video_player_tizen_1af696ae6a0e0168bf715a93b4d4e1d7ac" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_width</name></member>
+      <member refid="class___video_player_tizen_1ab918ca488859ce1e9d90e284030458f6" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_x</name></member>
+      <member refid="class___video_player_tizen_1ac774e79ef47c6efee5bd133f23437c58" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>_y</name></member>
+      <member refid="class___video_player_tizen_1ae04124976d1d69a6adcfb880802f1c2e" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>mouse_up_cb</name></member>
+      <member refid="class___video_player_tizen_1a3fa078a61ba7a43fbe1891dd33f53bbe" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>setRectangle</name></member>
+      <member refid="class___video_player_tizen_1a8b60c4a144ed382bed5c3818081c6b20" prot="public" virt="non-virtual"><scope>_VideoPlayerTizen</scope><name>win_back_cb</name></member>
+      <member refid="class___video_player_tizen_1a82a5ca77b1b9b55f5554de1b93cf5c60" prot="public" virt="virtual"><scope>_VideoPlayerTizen</scope><name>~_VideoPlayerTizen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

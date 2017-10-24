@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacesetup" kind="namespace" language="Python">
+    <compoundname>setup</compoundname>
+    <innerclass refid="classsetup_1_1_set_env_var" prot="public">setup::SetEnvVar</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacesetup_1a55a20b95950c4836256bb1ec87fcf998" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.COCOS_CONSOLE_ROOT</definition>
+        <argsstring></argsstring>
+        <name>COCOS_CONSOLE_ROOT</name>
+        <initializer>=  &apos;COCOS_CONSOLE_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="59" column="1" bodyfile="setup.py" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a005dab4a3951d6dd9b40ca794bacadc2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.COCOS_X_ROOT</definition>
+        <argsstring></argsstring>
+        <name>COCOS_X_ROOT</name>
+        <initializer>=  &apos;COCOS_X_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="60" column="1" bodyfile="setup.py" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a37d841f2fae11805cd2ae18b7e77dbe5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.COCOS_TEMPLATES_ROOT</definition>
+        <argsstring></argsstring>
+        <name>COCOS_TEMPLATES_ROOT</name>
+        <initializer>=  &apos;COCOS_TEMPLATES_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="61" column="1" bodyfile="setup.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a20f5616b4fa4c15306eeb7d3fbe287f2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.NDK_ROOT</definition>
+        <argsstring></argsstring>
+        <name>NDK_ROOT</name>
+        <initializer>=  &apos;NDK_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="62" column="1" bodyfile="setup.py" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1ab277c84a2497dbb6dfb3c040529d5382" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.ANDROID_SDK_ROOT</definition>
+        <argsstring></argsstring>
+        <name>ANDROID_SDK_ROOT</name>
+        <initializer>=  &apos;ANDROID_SDK_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="63" column="1" bodyfile="setup.py" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a251ee6fd5f7f81bffb5b9a92b2981ddc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string setup.ANT_ROOT</definition>
+        <argsstring></argsstring>
+        <name>ANT_ROOT</name>
+        <initializer>=  &apos;ANT_ROOT&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="64" column="1" bodyfile="setup.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1aca38d6e152816fb1eab7ae199ef6d246" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.parser</definition>
+        <argsstring></argsstring>
+        <name>parser</name>
+        <initializer>=  OptionParser()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="720" column="1" bodyfile="setup.py" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1af5bb2f03dd6f30d88233bb33529985de" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.dest</definition>
+        <argsstring></argsstring>
+        <name>dest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="722" column="1" bodyfile="setup.py" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1af9c3a909d745695f0c54db08373a46db" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.help</definition>
+        <argsstring></argsstring>
+        <name>help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="722" column="1" bodyfile="setup.py" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1acd5eab4e1688c7baec73b674b2f80485" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="729" column="1" bodyfile="setup.py" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a750f83723cdec52787964bb21905b44c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.default</definition>
+        <argsstring></argsstring>
+        <name>default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="729" column="1" bodyfile="setup.py" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1aa674efd691c4c89877c6c692d877936d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.True</definition>
+        <argsstring></argsstring>
+        <name>True</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="729" column="1" bodyfile="setup.py" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1ad60867088701c6a28e7ea0695abf2e3e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.opts</definition>
+        <argsstring></argsstring>
+        <name>opts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="730" column="1" bodyfile="setup.py" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a2a220412231d84aab50c0cfbec7c0bb5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="730" column="1" bodyfile="setup.py" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1af9e6b43494ca7a59d5c93d53b6996071" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.env</definition>
+        <argsstring></argsstring>
+        <name>env</name>
+        <initializer>=  <ref refid="classsetup_1_1_set_env_var" kindref="compound">SetEnvVar</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="733" column="1" bodyfile="setup.py" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1ab5307444dab83ead49a283a9dd8346bb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int setup.HWND_BROADCAST</definition>
+        <argsstring></argsstring>
+        <name>HWND_BROADCAST</name>
+        <initializer>=  0xFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="739" column="1" bodyfile="setup.py" bodystart="739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a8f2cc704d97e811c846c8939363e1a4c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int setup.WM_SETTINGCHANGE</definition>
+        <argsstring></argsstring>
+        <name>WM_SETTINGCHANGE</name>
+        <initializer>=  0x1A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="740" column="1" bodyfile="setup.py" bodystart="740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a3e8f91aa4c3a5cb700500c9ff4874384" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int setup.SMTO_ABORTIFHUNG</definition>
+        <argsstring></argsstring>
+        <name>SMTO_ABORTIFHUNG</name>
+        <initializer>=  0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="741" column="1" bodyfile="setup.py" bodystart="741" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a45818193d772c8b800985f16f385bd1e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <initializer>=  ctypes.c_long()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="742" column="1" bodyfile="setup.py" bodystart="742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacesetup_1a9408ba10a20bea271193ff528b8e0fe8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.SendMessageTimeoutW</definition>
+        <argsstring></argsstring>
+        <name>SendMessageTimeoutW</name>
+        <initializer>=  ctypes.windll.user32.SendMessageTimeoutW</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="743" column="1" bodyfile="setup.py" bodystart="743" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacesetup_1a58093fed568d9a6a2a2881af99c41ad6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup._check_python_version</definition>
+        <argsstring>()</argsstring>
+        <name>_check_python_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="67" column="1" bodyfile="setup.py" bodystart="67" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="setup.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

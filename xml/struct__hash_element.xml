@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__hash_element" kind="struct" language="C++" prot="public">
+    <compoundname>_hashElement</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__hash_element_1af1df3f4c999d11e466cf7f8afed947a5" prot="public" static="no" mutable="no">
+        <type>struct _ccArray *</type>
+        <definition>struct _ccArray* _hashElement::actions</definition>
+        <argsstring></argsstring>
+        <name>actions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="43" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1a00fe8f78811c7713adb63c5316616f0c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* _hashElement::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="44" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1a040815fc6b84fb078b37de409994c523" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _hashElement::actionIndex</definition>
+        <argsstring></argsstring>
+        <name>actionIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="45" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1a2bdc5b06a6e899217aa8b4dcaed3d772" prot="public" static="no" mutable="no">
+        <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+        <definition>Action* _hashElement::currentAction</definition>
+        <argsstring></argsstring>
+        <name>currentAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="46" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1a153140976e1e248d8b13ea9de7b0f5bd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _hashElement::currentActionSalvaged</definition>
+        <argsstring></argsstring>
+        <name>currentActionSalvaged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="47" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1aee7ba57bd1039efec5314ccb02e864c2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _hashElement::paused</definition>
+        <argsstring></argsstring>
+        <name>paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="48" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_element_1a478c5e7c62426f22612799d32ee2234f" prot="public" static="no" mutable="no">
+        <type>UT_hash_handle</type>
+        <definition>UT_hash_handle _hashElement::hh</definition>
+        <argsstring></argsstring>
+        <name>hh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.cpp" line="49" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="382">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+        <childnode refid="383" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="355">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="405">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="369">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="369" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="417">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="398">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="379">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="380" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="399">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="399" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="384">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="412">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="395">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="409">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="380">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="381" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="380" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="370">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="386">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="363">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="402">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+        <childnode refid="362" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="403" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="401" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="405" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="406" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="393">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="396">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="374">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="382" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="384" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="360">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="365" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="366" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="372" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="387" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="358">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="401">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="391">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="381">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="381" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="362">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="362" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="373" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="385">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="357">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="358" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="359" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="353">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="381" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="388" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="392" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="415" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="397" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="416" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="359" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="354" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="387">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="410">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="392">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="392" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="394">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="395" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="377" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="375">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="375" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="376" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="377" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="356">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="378">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="378" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="408">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="380" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="409" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="361">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="362" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="363" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="364" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="397">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="398" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="399" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="400" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="414">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="368">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="376">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="376" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="372">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="374" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="385" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="376" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="403">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="364">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="364" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="365">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="365" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="418">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="371">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="371" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="352">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="353" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="417" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="411">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="367" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="400">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="413">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="379" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="377" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="367">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="368" relation="public-inheritance">
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="369" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="371" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="359">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="360" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="388" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="389" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="397" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="401" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="411" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="413" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="415">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="415" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="390">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+        <childnode refid="391" relation="public-inheritance">
+        </childnode>
+        <childnode refid="392" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="393" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="371" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="394" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="416">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="389">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="390" relation="public-inheritance">
+        </childnode>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="362" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="404">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCActionManager.cpp" line="42" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="41" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct__hash_element_1a040815fc6b84fb078b37de409994c523" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>actionIndex</name></member>
+      <member refid="struct__hash_element_1af1df3f4c999d11e466cf7f8afed947a5" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>actions</name></member>
+      <member refid="struct__hash_element_1a2bdc5b06a6e899217aa8b4dcaed3d772" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>currentAction</name></member>
+      <member refid="struct__hash_element_1a153140976e1e248d8b13ea9de7b0f5bd" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>currentActionSalvaged</name></member>
+      <member refid="struct__hash_element_1a478c5e7c62426f22612799d32ee2234f" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>hh</name></member>
+      <member refid="struct__hash_element_1aee7ba57bd1039efec5314ccb02e864c2" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>paused</name></member>
+      <member refid="struct__hash_element_1a00fe8f78811c7713adb63c5316616f0c" prot="public" virt="non-virtual"><scope>_hashElement</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

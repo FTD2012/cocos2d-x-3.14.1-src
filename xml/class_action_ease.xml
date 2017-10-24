@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_action_ease" kind="class" language="C++" prot="public">
+    <compoundname>ActionEase</compoundname>
+    <basecompoundref refid="class_action_interval" prot="public" virt="non-virtual">ActionInterval</basecompoundref>
+    <derivedcompoundref refid="class_ease_back_in" prot="public" virt="non-virtual">EaseBackIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_back_in_out" prot="public" virt="non-virtual">EaseBackInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_back_out" prot="public" virt="non-virtual">EaseBackOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_bounce" prot="public" virt="non-virtual">EaseBounce</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_bounce_in" prot="public" virt="non-virtual">EaseBounceIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_bounce_in_out" prot="public" virt="non-virtual">EaseBounceInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_bounce_out" prot="public" virt="non-virtual">EaseBounceOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_circle_action_in" prot="public" virt="non-virtual">EaseCircleActionIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_circle_action_in_out" prot="public" virt="non-virtual">EaseCircleActionInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_circle_action_out" prot="public" virt="non-virtual">EaseCircleActionOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_cubic_action_in" prot="public" virt="non-virtual">EaseCubicActionIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_cubic_action_in_out" prot="public" virt="non-virtual">EaseCubicActionInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_cubic_action_out" prot="public" virt="non-virtual">EaseCubicActionOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_elastic" prot="public" virt="non-virtual">EaseElastic</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_exponential_in" prot="public" virt="non-virtual">EaseExponentialIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_exponential_in_out" prot="public" virt="non-virtual">EaseExponentialInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_exponential_out" prot="public" virt="non-virtual">EaseExponentialOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quadratic_action_in" prot="public" virt="non-virtual">EaseQuadraticActionIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quadratic_action_in_out" prot="public" virt="non-virtual">EaseQuadraticActionInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quadratic_action_out" prot="public" virt="non-virtual">EaseQuadraticActionOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quartic_action_in" prot="public" virt="non-virtual">EaseQuarticActionIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quartic_action_in_out" prot="public" virt="non-virtual">EaseQuarticActionInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quartic_action_out" prot="public" virt="non-virtual">EaseQuarticActionOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quintic_action_in" prot="public" virt="non-virtual">EaseQuinticActionIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quintic_action_in_out" prot="public" virt="non-virtual">EaseQuinticActionInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_quintic_action_out" prot="public" virt="non-virtual">EaseQuinticActionOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_rate_action" prot="public" virt="non-virtual">EaseRateAction</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_sine_in" prot="public" virt="non-virtual">EaseSineIn</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_sine_in_out" prot="public" virt="non-virtual">EaseSineInOut</derivedcompoundref>
+    <derivedcompoundref refid="class_ease_sine_out" prot="public" virt="non-virtual">EaseSineOut</derivedcompoundref>
+    <includes refid="_c_c_action_ease_8h" local="no">CCActionEase.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_action_ease_1ad8931612dad1bb5b1a06b6e669074c9e" prot="public" static="no" mutable="no">
+        <type><ref refid="cc_config_8h_1a25ef1314f97c35a2ed3d029b0ead6da0" kindref="member">CC_CONSTRUCTOR_ACCESS</ref></type>
+        <definition>CC_CONSTRUCTOR_ACCESS ActionEase::__pad0__</definition>
+        <argsstring></argsstring>
+        <name>__pad0__</name>
+        <bitfield> ActionEase() : _inner(nullptr) {} virtual ~ActionEase()</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="63" column="1" bodyfile="cocos/2d/CCActionEase.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_action_ease_1a1fab11d29c039bc2814f53dd96098856" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> *</type>
+        <definition>ActionInterval* ActionEase::_inner</definition>
+        <argsstring></argsstring>
+        <name>_inner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The inner action </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="77" column="1" bodyfile="cocos/2d/CCActionEase.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_ease_1aa024b3c9b78949381d06af515ffeaf9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> *</type>
+        <definition>ActionInterval * ActionEase::getInnerAction</definition>
+        <argsstring>()</argsstring>
+        <name>getInnerAction</name>
+        <briefdescription>
+<para>Get the pointer of the inner action. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The pointer of the inner action. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="54" column="1" bodyfile="cocos/2d/CCActionEase.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_ease_1a04976f42219b97e850043ab9cd182918" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ActionEase::startWithTarget</definition>
+        <argsstring>(Node *target) override</argsstring>
+        <name>startWithTarget</name>
+        <reimplements refid="class_action_interval_1ad3d91186b2c3108488ddbbdbbd982484">startWithTarget</reimplements>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called before the action start. It will also set the target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="59" column="1" bodyfile="cocos/2d/CCActionEase.cpp" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_ease_1a1a12083389f0bec7b1de3ef2c832597a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ActionEase::stop</definition>
+        <argsstring>() override</argsstring>
+        <name>stop</name>
+        <reimplements refid="class_action_1a968267fa7a1dcc46a2976249a712d3c8">stop</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called after the action has finished. It will set the &apos;target&apos; to nil. IMPORTANT: You should never call &quot;Action::stop()&quot; manually. Instead, use: &quot;target-&gt;stopAction(action);&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="60" column="1" bodyfile="cocos/2d/CCActionEase.cpp" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_ease_1a77679f09c02cf75fb54776470c339fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ActionEase::update</definition>
+        <argsstring>(float time) override</argsstring>
+        <name>update</name>
+        <reimplements refid="class_action_1a937e646e63915e33ad05ba149bfcf239">update</reimplements>
+        <reimplementedby refid="class_ease_exponential_in_1abc674dd0975bb25dd079583546516602">update</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_out_1acbd15c86c12116c3482640a3f8f83d5f">update</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_out_1a856f7d0224d0ae8055b4a91a1538ce73">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_1aa409768eb74f38a9c8c7346f9c5243e1">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_out_1ab22bfc099303b7e48a1f8c308a930e66">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_out_1a6c5c73d3e2bfeb21315b2d9798cf562f">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_1a3b912af264515d06f8671179b17ae729">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_out_1a044e81fb5f2c10b4064891a9bfdae231">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_out_1abd929d5112158561a9d793a46cc51fc1">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_1a6c053160bd8e0c98f23b1dd3acbc527c">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_out_1a458a06e1b120e51c52a4687ced84f757">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_out_1ae26d3104da166cedfd16ea1915069a4a">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_1ac773c27eef9d3d90ae1021d75ad25301">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_out_1afa53b3044fab72ac2ad29a6c2a4b2a24">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_out_1ac72e1da241d156a748cf02d5cb8e72c1">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_1a82026b58ce9a4eee9165380de2dd80dc">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_out_1a00d0cdbad4cb7d38c9655780f2034a97">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_out_1a331f286f05a385660f6bff75d5665178">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_1a168f914597d873e6071d39118f2cf9f5">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_out_1ab78421446d94c0d0ded5329ed9a3716d">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_out_1ada59f8dcd6ba1daeaa1fb9d5b1087521">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_1a8d48762a47eb738ca2b8fb644182e91b">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_out_1a48e4c603a5dd0eb56f289dd2ffd8d26b">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_out_1a6a9cb49f30bc664ab65a067ce48b506e">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_1a245bc3028244567a11dbe02bc2e11a10">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_out_1a2bebf38d7167886e1ae4643b92e05d72">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_out_1a533edabe94657e779ad4e4c6d6d1782f">update</reimplementedby>
+        <reimplementedby refid="class_ease_in_1a9a03c0c893472d723d2d905e5fd39856">update</reimplementedby>
+        <reimplementedby refid="class_ease_out_1a1fe43c782ff47f143ab5db00f7c76aea">update</reimplementedby>
+        <reimplementedby refid="class_ease_in_out_1ac0e5f3d973cdc7b7d83cc73774ae0321">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_1acd62b61c4f4013bd98dcd991fbe9e276">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_out_1a37dea32a0e909747540cc5625cd7893a">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_out_1adb67d3b3eec6b3b8fd2b7a22ed72c4f8">update</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called once per frame. time a value between 0 and 1.</para><para>For example:<itemizedlist>
+<listitem><para>0 Means that the action just started.</para></listitem><listitem><para>0.5 Means that the action is in the middle.</para></listitem><listitem><para>1 Means that the action is over.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A value between 0 and 1. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="61" column="1" bodyfile="cocos/2d/CCActionEase.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_ease_1a57660327c119242bbb1fe682fc723b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ActionEase::initWithAction</definition>
+        <argsstring>(ActionInterval *action)</argsstring>
+        <name>initWithAction</name>
+        <param>
+          <type><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the action. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Return true when the initialization success, otherwise return false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="73" column="1" bodyfile="cocos/2d/CCActionEase.cpp" bodystart="47" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_action_ease_1a5a946b136aaa44b300c933777f71415d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionEase::CC_DISALLOW_COPY_AND_ASSIGN</definition>
+        <argsstring>(ActionEase)</argsstring>
+        <name>CC_DISALLOW_COPY_AND_ASSIGN</name>
+        <param>
+          <type><ref refid="class_action_ease" kindref="compound">ActionEase</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionEase.h" line="79" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for Easing actions. </para>    </briefdescription>
+    <detaileddescription>
+<para>Ease actions are created from other interval actions. The ease action will change the timeline of the inner action. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1104">
+        <label>EaseQuadraticActionInOut</label>
+        <link refid="class_ease_quadratic_action_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1079">
+        <label>FiniteTimeAction</label>
+        <link refid="class_finite_time_action"/>
+        <childnode refid="1080" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1118">
+        <label>EaseSineOut</label>
+        <link refid="class_ease_sine_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1080">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="1081" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1082" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1107">
+        <label>EaseQuarticActionInOut</label>
+        <link refid="class_ease_quartic_action_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>EaseInOut</label>
+        <link refid="class_ease_in_out"/>
+        <childnode refid="1112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1086">
+        <label>EaseBounce</label>
+        <link refid="class_ease_bounce"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1103">
+        <label>EaseQuadraticActionIn</label>
+        <link refid="class_ease_quadratic_action_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1110">
+        <label>EaseQuinticActionInOut</label>
+        <link refid="class_ease_quintic_action_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>EaseCubicActionInOut</label>
+        <link refid="class_ease_cubic_action_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1111">
+        <label>EaseQuinticActionOut</label>
+        <link refid="class_ease_quintic_action_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1077">
+        <label>ActionEase</label>
+        <link refid="class_action_ease"/>
+        <childnode refid="1078" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>EaseElasticIn</label>
+        <link refid="class_ease_elastic_in"/>
+        <childnode refid="1096" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1089">
+        <label>EaseBounceOut</label>
+        <link refid="class_ease_bounce_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1116">
+        <label>EaseSineIn</label>
+        <link refid="class_ease_sine_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1100">
+        <label>EaseExponentialIn</label>
+        <link refid="class_ease_exponential_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>EaseIn</label>
+        <link refid="class_ease_in"/>
+        <childnode refid="1112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1106">
+        <label>EaseQuarticActionIn</label>
+        <link refid="class_ease_quartic_action_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>EaseCircleActionInOut</label>
+        <link refid="class_ease_circle_action_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1099">
+        <label>EaseElasticOut</label>
+        <link refid="class_ease_elastic_out"/>
+        <childnode refid="1096" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1085">
+        <label>EaseBackOut</label>
+        <link refid="class_ease_back_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1102">
+        <label>EaseExponentialOut</label>
+        <link refid="class_ease_exponential_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1088">
+        <label>EaseBounceInOut</label>
+        <link refid="class_ease_bounce_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1081">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="1092">
+        <label>EaseCircleActionOut</label>
+        <link refid="class_ease_circle_action_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1108">
+        <label>EaseQuarticActionOut</label>
+        <link refid="class_ease_quartic_action_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1095">
+        <label>EaseCubicActionOut</label>
+        <link refid="class_ease_cubic_action_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1105">
+        <label>EaseQuadraticActionOut</label>
+        <link refid="class_ease_quadratic_action_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1101">
+        <label>EaseExponentialInOut</label>
+        <link refid="class_ease_exponential_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1082">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="1090">
+        <label>EaseCircleActionIn</label>
+        <link refid="class_ease_circle_action_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1093">
+        <label>EaseCubicActionIn</label>
+        <link refid="class_ease_cubic_action_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>EaseSineInOut</label>
+        <link refid="class_ease_sine_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>EaseElasticInOut</label>
+        <link refid="class_ease_elastic_in_out"/>
+        <childnode refid="1096" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1083">
+        <label>EaseBackIn</label>
+        <link refid="class_ease_back_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1078">
+        <label>ActionInterval</label>
+        <link refid="class_action_interval"/>
+        <childnode refid="1079" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>EaseOut</label>
+        <link refid="class_ease_out"/>
+        <childnode refid="1112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1084">
+        <label>EaseBackInOut</label>
+        <link refid="class_ease_back_in_out"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>EaseBounceIn</label>
+        <link refid="class_ease_bounce_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>EaseRateAction</label>
+        <link refid="class_ease_rate_action"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1109">
+        <label>EaseQuinticActionIn</label>
+        <link refid="class_ease_quintic_action_in"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1096">
+        <label>EaseElastic</label>
+        <link refid="class_ease_elastic"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1154">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="1147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1155" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1126">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1127" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="1121">
+        <label>FiniteTimeAction</label>
+        <link refid="class_finite_time_action"/>
+        <childnode refid="1122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1177">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1141">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1122">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1124" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1170">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="1151">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="1152" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="1171">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="1171" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1184">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1167">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="1133" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="1152">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="1153" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="1152" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="1133" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="1135">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="1174">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="1125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1134" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="1175" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="1174" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="1173" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="1176" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="1177" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="1178" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="1139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1168">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="1146">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="1147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="1154" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="1156" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="1132">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="1133" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="1137" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="1138" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="1159" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1119">
+        <label>ActionEase</label>
+        <link refid="class_action_ease"/>
+        <childnode refid="1120" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1120" relation="usage">
+          <edgelabel>_inner</edgelabel>
+        </childnode>
+      </node>
+      <node id="1130">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="1173">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="1125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1174" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="1157" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="1163">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="1153">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="1153" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1134">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="1134" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1145">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="1145" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="1158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="1179" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="1129">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1130" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="1125">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1126" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1153" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1160" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1164" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="1187" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="1169" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="1188" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="1123" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1123">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="1182">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="1164">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="1164" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1167" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="1149" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1147">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1147" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1148" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="1149" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1128">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="1129" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="1157" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="1150">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="1152" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="1181" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="1182" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="1133">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="1134" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="1135" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="1136" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="1169">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1170" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="1171" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="1172" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="1186">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1140">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="1148">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1148" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1144">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="1140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1145" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="1146" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1157" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="1148" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="1136">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="1136" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1137">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="1137" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1124">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="1143">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="1143" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="1127">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="1122" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="1184" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1138">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="1139" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="1120">
+        <label>ActionInterval</label>
+        <link refid="class_action_interval"/>
+        <childnode refid="1121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1149">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1129" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="1151" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="1149" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1139">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="1140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1142" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="1143" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="1131">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1132" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="1125" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="1126" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="1160" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1161" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="1169" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1173" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="1180" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="1183" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="1176" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="1185" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="1186" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="1187">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="1187" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="1125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1164" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="1165" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="1143" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="1166" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="1188">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1161">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="1162" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="1134" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="1123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCActionEase.h" line="48" column="1" bodyfile="cocos/2d/CCActionEase.h" bodystart="47" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_action_ease_1ad8931612dad1bb5b1a06b6e669074c9e" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>__pad0__</name></member>
+      <member refid="class_action_interval_1a302a0213670acf65516e78d1ba9db9ba" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_elapsed</name></member>
+      <member refid="class_action_interval_1a1fb2ef4f5ebddb344a019829254db7b5" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_firstTick</name></member>
+      <member refid="class_action_1afb213a69b3e48d43cbb6c28af6e5fbc1" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_flags</name></member>
+      <member refid="class_action_ease_1a1fab11d29c039bc2814f53dd96098856" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_inner</name></member>
+      <member refid="class_action_1a0fdafea8c39af1be2acd2bedc62ca01f" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_originalTarget</name></member>
+      <member refid="class_ref_1ab05a4c4ef09ecbaffc7c7c7f57d34bf6" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_referenceCount</name></member>
+      <member refid="class_action_1a7e04eca811f3f728862300b3e248d7c0" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_tag</name></member>
+      <member refid="class_action_1a3cf6593d3926baeefcd8197318680038" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>_target</name></member>
+      <member refid="class_ref_1a065f6972ebb82de3e2143cbf10a7ac2d" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>autorelease</name></member>
+      <member refid="class_action_ease_1a5a946b136aaa44b300c933777f71415d" prot="private" virt="non-virtual"><scope>ActionEase</scope><name>CC_DISALLOW_COPY_AND_ASSIGN</name></member>
+      <member refid="class_action_interval_1abc93ce0c2f54a90eb216a7803f25f44a" prot="public" virt="virtual"><scope>ActionEase</scope><name>clone</name></member>
+      <member refid="class_clonable_1a5fd8dad9fd4321a1372423892e16dad8" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>copy</name></member>
+      <member refid="class_action_1ab593241dbcf25a8ac9160d6eb9d1c247" prot="public" virt="virtual"><scope>ActionEase</scope><name>description</name></member>
+      <member refid="class_action_interval_1a376d54a39aef69cb640879c5ce1d589d" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getAmplitudeRate</name></member>
+      <member refid="class_finite_time_action_1aaa74e388b42ead7cfb7ed9013f6f9aea" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getDuration</name></member>
+      <member refid="class_action_interval_1acc73648af87e0c9c7c64daf266448bdb" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getElapsed</name></member>
+      <member refid="class_action_1aabe5706c0cc66d461b14558728dccf01" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getFlags</name></member>
+      <member refid="class_action_ease_1aa024b3c9b78949381d06af515ffeaf9e" prot="public" virt="virtual"><scope>ActionEase</scope><name>getInnerAction</name></member>
+      <member refid="class_action_1a50cdb52f323c6756ec300e4d0f86596a" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getOriginalTarget</name></member>
+      <member refid="class_ref_1a27b894ccc4c74b0c52f3fa2993f04ba0" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getReferenceCount</name></member>
+      <member refid="class_action_1a1f090a477cab2dbc8175385c66b91c31" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getTag</name></member>
+      <member refid="class_action_1a696d1ef82807cc18207ba93d59d6ca16" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>getTarget</name></member>
+      <member refid="class_action_ease_1a57660327c119242bbb1fe682fc723b5a" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>initWithAction</name></member>
+      <member refid="class_action_1a095470578a5d879bfe6f777414ce5831" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>INVALID_TAG</name></member>
+      <member refid="class_action_interval_1a466ff6a3a5f95e47d4d01bfa4775290d" prot="public" virt="virtual"><scope>ActionEase</scope><name>isDone</name></member>
+      <member refid="class_ref_1ab9cf238c39cc7fc6ffde82c8d94c465e" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>Ref</name></member>
+      <member refid="class_ref_1a6c8528cd8731765688943496c2eb3907" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>release</name></member>
+      <member refid="class_ref_1a7d182cae1be1e80a9884cacd6ff9cb01" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>retain</name></member>
+      <member refid="class_action_interval_1a9f9ac7164036a0bc261a72f62a2b2da7" prot="public" virt="virtual"><scope>ActionEase</scope><name>reverse</name></member>
+      <member refid="class_action_interval_1a507f9c2b4e2e06f9a093a91502dd69a2" prot="protected" virt="non-virtual"><scope>ActionEase</scope><name>sendUpdateEventToScript</name></member>
+      <member refid="class_action_interval_1a08c4d7dd0e8e3fb5e6b6684c6e1d86df" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setAmplitudeRate</name></member>
+      <member refid="class_finite_time_action_1a58c2f166e94dd5b39f8a4b566adf1281" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setDuration</name></member>
+      <member refid="class_action_1a848b0f80143acd07c814735463a8e920" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setFlags</name></member>
+      <member refid="class_action_1aa58699929e174e97a057b51e83fcc1f3" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setOriginalTarget</name></member>
+      <member refid="class_action_1ac23487f50607b5acef33c1aa7dd9468e" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setTag</name></member>
+      <member refid="class_action_1abd61e00e97d9604126cf149112b877de" prot="public" virt="non-virtual"><scope>ActionEase</scope><name>setTarget</name></member>
+      <member refid="class_action_ease_1a04976f42219b97e850043ab9cd182918" prot="public" virt="virtual"><scope>ActionEase</scope><name>startWithTarget</name></member>
+      <member refid="class_action_interval_1a9a520f0c4bd2d5b92e7f355bccd6f5cf" prot="public" virt="virtual"><scope>ActionEase</scope><name>step</name></member>
+      <member refid="class_action_ease_1a1a12083389f0bec7b1de3ef2c832597a" prot="public" virt="virtual"><scope>ActionEase</scope><name>stop</name></member>
+      <member refid="class_action_ease_1a77679f09c02cf75fb54776470c339fc5" prot="public" virt="virtual"><scope>ActionEase</scope><name>update</name></member>
+      <member refid="class_action_1acdb06775d157339256a8ecd55749226c" prot="public" virt="virtual"><scope>ActionEase</scope><name>~Action</name></member>
+      <member refid="class_clonable_1a2b9c911b4a49b532da3dea9951cf5fac" prot="public" virt="virtual"><scope>ActionEase</scope><name>~Clonable</name></member>
+      <member refid="class_ref_1a1c3c3986014151251b39041e2556d2e3" prot="public" virt="virtual"><scope>ActionEase</scope><name>~Ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

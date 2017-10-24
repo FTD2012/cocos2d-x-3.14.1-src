@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__hash_selector_entry" kind="struct" language="C++" prot="public">
+    <compoundname>_hashSelectorEntry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__hash_selector_entry_1aae5710bc8dd843086861882f2645bc6d" prot="public" static="no" mutable="no">
+        <type>ccArray *</type>
+        <definition>ccArray* _hashSelectorEntry::timers</definition>
+        <argsstring></argsstring>
+        <name>timers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="62" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1ae42a8b0c597c4def3f34ca0de526f93b" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _hashSelectorEntry::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="63" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1a1fc9d1f9933c07afe214462de879347b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _hashSelectorEntry::timerIndex</definition>
+        <argsstring></argsstring>
+        <name>timerIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="64" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1a8012f4d9cbc6dce8ef2c86a47ef1f083" prot="public" static="no" mutable="no">
+        <type>Timer *</type>
+        <definition>Timer* _hashSelectorEntry::currentTimer</definition>
+        <argsstring></argsstring>
+        <name>currentTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="65" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1a92dd7cdc1a34bde5fb92794beec9a56f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _hashSelectorEntry::currentTimerSalvaged</definition>
+        <argsstring></argsstring>
+        <name>currentTimerSalvaged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="66" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1a3abdfd03a00173d13d1138c15f0bf8e0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _hashSelectorEntry::paused</definition>
+        <argsstring></argsstring>
+        <name>paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="67" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_selector_entry_1ad007cfdf3a7df8672a9c6901e70c97ea" prot="public" static="no" mutable="no">
+        <type>UT_hash_handle</type>
+        <definition>UT_hash_handle _hashSelectorEntry::hh</definition>
+        <argsstring></argsstring>
+        <name>hh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="68" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/base/CCScheduler.cpp" line="61" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="60" bodyend="69"/>
+    <listofallmembers>
+      <member refid="struct__hash_selector_entry_1a8012f4d9cbc6dce8ef2c86a47ef1f083" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>currentTimer</name></member>
+      <member refid="struct__hash_selector_entry_1a92dd7cdc1a34bde5fb92794beec9a56f" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>currentTimerSalvaged</name></member>
+      <member refid="struct__hash_selector_entry_1ad007cfdf3a7df8672a9c6901e70c97ea" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>hh</name></member>
+      <member refid="struct__hash_selector_entry_1a3abdfd03a00173d13d1138c15f0bf8e0" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>paused</name></member>
+      <member refid="struct__hash_selector_entry_1ae42a8b0c597c4def3f34ca0de526f93b" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>target</name></member>
+      <member refid="struct__hash_selector_entry_1a1fc9d1f9933c07afe214462de879347b" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>timerIndex</name></member>
+      <member refid="struct__hash_selector_entry_1aae5710bc8dd843086861882f2645bc6d" prot="public" virt="non-virtual"><scope>_hashSelectorEntry</scope><name>timers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

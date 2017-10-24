@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcocostudio_1_1_action_fade_frame" kind="class" language="C++" prot="public">
+    <compoundname>cocostudio::ActionFadeFrame</compoundname>
+    <basecompoundref refid="classcocostudio_1_1_action_frame" prot="public" virt="non-virtual">cocostudio::ActionFrame</basecompoundref>
+    <includes refid="_c_c_action_frame_8h" local="no">CCActionFrame.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcocostudio_1_1_action_fade_frame_1a8002cd7dc84d83d3b5b2600a20219a8f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionFadeFrame::_opacity</definition>
+        <argsstring></argsstring>
+        <name>_opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="406" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_fade_frame_1ac2a18b75564fc79639e7c8883a855b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cocostudio::ActionFadeFrame::ActionFadeFrame</definition>
+        <argsstring>()</argsstring>
+        <name>ActionFadeFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="376" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_fade_frame_1a7f78c6950a476e5f7d2d178b465b82dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>cocostudio::ActionFadeFrame::~ActionFadeFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionFadeFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="381" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_fade_frame_1a1406c854b4e65c99e81566e1c4d95ea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFadeFrame::setOpacity</definition>
+        <argsstring>(int opacity)</argsstring>
+        <name>setOpacity</name>
+        <param>
+          <type>int</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the fade action opacity.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opacity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fade action opacity </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="388" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="333" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_fade_frame_1af7b5349e249e88ec98384513cb370751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cocostudio::ActionFadeFrame::getOpacity</definition>
+        <argsstring>()</argsstring>
+        <name>getOpacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the fade action opacity.</para><para><simplesect kind="return"><para>the fade action opacity. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="395" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="338" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_fade_frame_1a666690711af56eb3dbe6e39c43655f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>cocos2d::ActionInterval *</type>
+        <definition>ActionInterval * cocostudio::ActionFadeFrame::getAction</definition>
+        <argsstring>(float duration)</argsstring>
+        <name>getAction</name>
+        <reimplements refid="classcocostudio_1_1_action_frame_1a375216a44f6643d5e771299b1236dc51">getAction</reimplements>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the duration time of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="404" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="343" bodyend="346"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NA  NA </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1190">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1191">
+        <label>Ref</label>
+      </node>
+      <node id="1189">
+        <label>cocostudio::ActionFadeFrame</label>
+        <link refid="classcocostudio_1_1_action_fade_frame"/>
+        <childnode refid="1190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1193">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>Ref</label>
+      </node>
+      <node id="1192">
+        <label>cocostudio::ActionFadeFrame</label>
+        <link refid="classcocostudio_1_1_action_fade_frame"/>
+        <childnode refid="1193" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="370" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="369" bodyend="407"/>
+    <listofallmembers>
+      <member refid="classcocostudio_1_1_action_frame_1ae873ce5f7b6ba4f18ba8badcc96973b2" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_easingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a2cd1f0478b31da16b13d3573305d9880" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_frameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aa218ee2b103cf447ede7982f31145b0d" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_frameType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a1cf6282b3ba236431ebc55490044192f" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_fTime</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1a8002cd7dc84d83d3b5b2600a20219a8f" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_opacity</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a536f223d2b8bc65449c099ab61c79591" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>_Parameter</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1ac2a18b75564fc79639e7c8883a855b28" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>ActionFadeFrame</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a830bed4204d29fc48d9564629c28e8e6" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>ActionFrame</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1a666690711af56eb3dbe6e39c43655f08" prot="public" virt="virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aad2a9c2314821270f5961416f4d7fb18" prot="public" virt="virtual" ambiguityscope="cocostudio::ActionFrame::"><scope>cocostudio::ActionFadeFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a73e7244a9bebca9977830d861194e41c" prot="protected" virt="virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getEasingAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac9cbd5d9b6751f4802b83a35941b680f" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac0a9d3c72983fed42f1a8822a0375499" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aaf531864a6d4eecf2cffecc0999512c7" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a6dcd7610871fcbef3ed3806e56cd790a" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1af7b5349e249e88ec98384513cb370751" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>getOpacity</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1afb54df9da9e52bc85488ba6c51b40a28" prot="public" virt="virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setEasingParameter</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac853eabdb94f1f08deb52e09b8aece1d" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1adbca76015f4ce16ecb2bb0bca49ef712" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a9a64130e3c776f083ee959b6e261b78e" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ad2086156bd154ae75dc32515fd150314" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1a1406c854b4e65c99e81566e1c4d95ea5" prot="public" virt="non-virtual"><scope>cocostudio::ActionFadeFrame</scope><name>setOpacity</name></member>
+      <member refid="classcocostudio_1_1_action_fade_frame_1a7f78c6950a476e5f7d2d178b465b82dc" prot="public" virt="virtual"><scope>cocostudio::ActionFadeFrame</scope><name>~ActionFadeFrame</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a33cfe80667ec5c05b75d4cdc5e7b7b54" prot="public" virt="virtual"><scope>cocostudio::ActionFadeFrame</scope><name>~ActionFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_timeline_vtable" kind="struct" language="C++" prot="public">
+    <compoundname>_spTimelineVtable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_timeline_vtable_1a9cfa3e3e43994112bade913a247a9e00" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spTimelineVtable::apply) (const spTimeline *self, spSkeleton *skeleton, float lastTime, float time, spEvent **firedEvents, int *eventsCount, float alpha)</definition>
+        <argsstring>)(const spTimeline *self, spSkeleton *skeleton, float lastTime, float time, spEvent **firedEvents, int *eventsCount, float alpha)</argsstring>
+        <name>apply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Animation.c" line="83" column="1" bodyfile="cocos/editor-support/spine/Animation.c" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_timeline_vtable_1a70d94d02fafd2d93db978c4fb2196cfa" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spTimelineVtable::dispose) (spTimeline *self)</definition>
+        <argsstring>)(spTimeline *self)</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Animation.c" line="85" column="1" bodyfile="cocos/editor-support/spine/Animation.c" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/editor-support/spine/Animation.c" line="82" column="1" bodyfile="cocos/editor-support/spine/Animation.c" bodystart="82" bodyend="86"/>
+    <listofallmembers>
+      <member refid="struct__sp_timeline_vtable_1a9cfa3e3e43994112bade913a247a9e00" prot="public" virt="non-virtual"><scope>_spTimelineVtable</scope><name>apply</name></member>
+      <member refid="struct__sp_timeline_vtable_1a70d94d02fafd2d93db978c4fb2196cfa" prot="public" virt="non-virtual"><scope>_spTimelineVtable</scope><name>dispose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

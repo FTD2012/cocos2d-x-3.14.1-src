@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_skeleton_bounds" kind="struct" language="C++" prot="public">
+    <compoundname>_spSkeletonBounds</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_skeleton_bounds_1a3083b3d45a521511e6946da3a49168a4" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_skeleton_bounds" kindref="compound">spSkeletonBounds</ref></type>
+        <definition>spSkeletonBounds _spSkeletonBounds::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBounds.c" line="88" column="1" bodyfile="cocos/editor-support/spine/SkeletonBounds.c" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_bounds_1a69d3768b2d04159ad07051a58c903ccf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonBounds::capacity</definition>
+        <argsstring></argsstring>
+        <name>capacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBounds.c" line="89" column="1" bodyfile="cocos/editor-support/spine/SkeletonBounds.c" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="505">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="506" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="500">
+        <label>_spSkeletonBounds</label>
+        <link refid="struct__sp_skeleton_bounds"/>
+        <childnode refid="501" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="506">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="504">
+        <label>spVertexAttachment</label>
+        <link refid="structsp_vertex_attachment"/>
+        <childnode refid="505" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="503">
+        <label>spBoundingBoxAttachment</label>
+        <link refid="structsp_bounding_box_attachment"/>
+        <childnode refid="504" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="502">
+        <label>spPolygon</label>
+        <link refid="structsp_polygon"/>
+      </node>
+      <node id="501">
+        <label>spSkeletonBounds</label>
+        <link refid="structsp_skeleton_bounds"/>
+        <childnode refid="502" relation="usage">
+          <edgelabel>polygons</edgelabel>
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>boundingBoxes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/SkeletonBounds.c" line="87" column="1" bodyfile="cocos/editor-support/spine/SkeletonBounds.c" bodystart="87" bodyend="90"/>
+    <listofallmembers>
+      <member refid="struct__sp_skeleton_bounds_1a69d3768b2d04159ad07051a58c903ccf" prot="public" virt="non-virtual"><scope>_spSkeletonBounds</scope><name>capacity</name></member>
+      <member refid="struct__sp_skeleton_bounds_1a3083b3d45a521511e6946da3a49168a4" prot="public" virt="non-virtual"><scope>_spSkeletonBounds</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

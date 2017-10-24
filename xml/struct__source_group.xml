@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__source_group" kind="struct" language="C++" prot="public">
+    <compoundname>_sourceGroup</compoundname>
+    <includes refid="ios_2_cocos_denshion_8h" local="no">CocosDenshion.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__source_group_1aedf60c32c9f50907a1d7c4ceffebd34a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _sourceGroup::startIndex</definition>
+        <argsstring></argsstring>
+        <name>startIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="124" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_group_1ac8d629bee48fa95ffe085739c29c8393" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _sourceGroup::currentIndex</definition>
+        <argsstring></argsstring>
+        <name>currentIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="125" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_group_1af92866596e1c52d38901abb5986f1404" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _sourceGroup::totalSources</definition>
+        <argsstring></argsstring>
+        <name>totalSources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="126" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_group_1af41ac2109bf5383ea0c7e2816553055f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sourceGroup::enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="127" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_group_1a31063e653ba9ea9e93ba48131c704b4d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sourceGroup::nonInterruptible</definition>
+        <argsstring></argsstring>
+        <name>nonInterruptible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="128" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_group_1acb7a8f480d20d5a662e7273bb3e96ac4" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int * _sourceGroup::sourceStatuses</definition>
+        <argsstring></argsstring>
+        <name>sourceStatuses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="129" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/audio/ios/CocosDenshion.h" line="123" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="123" bodyend="130"/>
+    <listofallmembers>
+      <member refid="struct__source_group_1ac8d629bee48fa95ffe085739c29c8393" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>currentIndex</name></member>
+      <member refid="struct__source_group_1af41ac2109bf5383ea0c7e2816553055f" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>enabled</name></member>
+      <member refid="struct__source_group_1a31063e653ba9ea9e93ba48131c704b4d" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>nonInterruptible</name></member>
+      <member refid="struct__source_group_1acb7a8f480d20d5a662e7273bb3e96ac4" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>sourceStatuses</name></member>
+      <member refid="struct__source_group_1aedf60c32c9f50907a1d7c4ceffebd34a" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>startIndex</name></member>
+      <member refid="struct__source_group_1af92866596e1c52d38901abb5986f1404" prot="public" virt="non-virtual"><scope>_sourceGroup</scope><name>totalSources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

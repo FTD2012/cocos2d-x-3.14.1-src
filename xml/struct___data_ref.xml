@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___data_ref" kind="struct" language="C++" prot="public">
+    <compoundname>_DataRef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___data_ref_1ab7accaae6c2372d12839ae78726f793c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_data" kindref="compound">Data</ref></type>
+        <definition>Data _DataRef::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFreeType.cpp" line="46" column="1" bodyfile="cocos/2d/CCFontFreeType.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___data_ref_1a11c0f374308f3a79e03abb3ee0dc72a1" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _DataRef::referenceCount</definition>
+        <argsstring></argsstring>
+        <name>referenceCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFreeType.cpp" line="47" column="1" bodyfile="cocos/2d/CCFontFreeType.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="340">
+        <label>_DataRef</label>
+        <link refid="struct___data_ref"/>
+        <childnode refid="341" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="341">
+        <label>Data</label>
+        <link refid="class_data"/>
+        <childnode refid="341" relation="usage">
+          <edgelabel>Null</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCFontFreeType.cpp" line="45" column="1" bodyfile="cocos/2d/CCFontFreeType.cpp" bodystart="44" bodyend="48"/>
+    <listofallmembers>
+      <member refid="struct___data_ref_1ab7accaae6c2372d12839ae78726f793c" prot="public" virt="non-virtual"><scope>_DataRef</scope><name>data</name></member>
+      <member refid="struct___data_ref_1a11c0f374308f3a79e03abb3ee0dc72a1" prot="public" virt="non-virtual"><scope>_DataRef</scope><name>referenceCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_action_manager" kind="class" language="C++" prot="public">
+    <compoundname>ActionManager</compoundname>
+    <basecompoundref refid="class_ref" prot="public" virt="non-virtual">Ref</basecompoundref>
+    <includes refid="_c_c_action_manager_8h" local="no">CCActionManager.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_action_manager_1aae2490dbc684a1756a6f4942e338b560" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="struct__hash_element" kindref="compound">_hashElement</ref> *</type>
+        <definition>struct _hashElement* ActionManager::_targets</definition>
+        <argsstring></argsstring>
+        <name>_targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="203" column="1" bodyfile="cocos/2d/CCActionManager.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_manager_1a40a5f4f6ba0dfba4abd2c85e28f49b00" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="struct__hash_element" kindref="compound">_hashElement</ref> *</type>
+        <definition>struct _hashElement* ActionManager::_currentTarget</definition>
+        <argsstring></argsstring>
+        <name>_currentTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="204" column="1" bodyfile="cocos/2d/CCActionManager.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_manager_1a2bd8759a3fe91ac84392c419b53ec466" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ActionManager::_currentTargetSalvaged</definition>
+        <argsstring></argsstring>
+        <name>_currentTargetSalvaged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="205" column="1" bodyfile="cocos/2d/CCActionManager.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_manager_1a3c3e47b867da96699e32647b847b9df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionManager::ActionManager</definition>
+        <argsstring>(void)</argsstring>
+        <name>ActionManager</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ctor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="64" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1aa9a417d77050aa7f351df4996cf727e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionManager::~ActionManager</definition>
+        <argsstring>(void)</argsstring>
+        <name>~ActionManager</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NA  NA </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="70" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a88568fe751ad6e412b375e34b5584173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::addAction</definition>
+        <argsstring>(Action *action, Node *target, bool paused)</argsstring>
+        <name>addAction</name>
+        <param>
+          <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>paused</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds an action with a target. If the target is already present, then the action will be added to the existing target. If the target is not present, a new instance of this target will be created either paused or not, and the action will be added to the newly created target. When the target is paused, the queued actions won&apos;t be &apos;ticked&apos;.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain action. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The target which need to be added an action. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>paused</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Is the target paused or not. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="83" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="170" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1afe1a1a647e7c0432781c5146030fce5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeAllActions</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all actions from all the targets. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="87" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="200" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a09444b573711b9389e460f9a71837299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeAllActionsFromTarget</definition>
+        <argsstring>(Node *target)</argsstring>
+        <name>removeAllActionsFromTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all actions from a certain target. All the actions that belongs to the target will be removed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="94" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="210" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a06b04334e6282eba060000694088c807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeAction</definition>
+        <argsstring>(Action *action)</argsstring>
+        <name>removeAction</name>
+        <param>
+          <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes an action given an action reference.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="100" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="240" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1aceaf0328518eb5f8d1cf6cea71594ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeActionByTag</definition>
+        <argsstring>(int tag, Node *target)</argsstring>
+        <name>removeActionByTag</name>
+        <param>
+          <type>int</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes an action given its tag and the target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action&apos;s tag. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="107" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="261" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a2acfc347f4155ff6fc3e5261b09160a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeAllActionsByTag</definition>
+        <argsstring>(int tag, Node *target)</argsstring>
+        <name>removeAllActionsByTag</name>
+        <param>
+          <type>int</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all actions given its tag and the target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actions&apos; tag. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target.  NA </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="115" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="289" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1aceccce766c59e57c201474ea7f121a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeActionsByFlags</definition>
+        <argsstring>(unsigned int flags, Node *target)</argsstring>
+        <name>removeActionsByFlags</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all actions matching at least one bit in flags and the target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The flag field to match the actions&apos; flags based on bitwise AND. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target.  NA </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="123" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="321" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1abcc22187f785e996c04702afe161d383" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+        <definition>Action * ActionManager::getActionByTag</definition>
+        <argsstring>(int tag, const Node *target) const</argsstring>
+        <name>getActionByTag</name>
+        <param>
+          <type>int</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets an action given its tag an a target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The action&apos;s tag. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="class_action" kindref="compound">Action</ref> the with the given tag. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="131" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="360" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1add35fb2d5810bec63b59f432830746bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_c_c_std_c-win32_8h_1a894c4d58faeee7675b9e7e8244de1386" kindref="member">ssize_t</ref></type>
+        <definition>ssize_t ActionManager::getNumberOfRunningActionsInTarget</definition>
+        <argsstring>(const Node *target) const</argsstring>
+        <name>getNumberOfRunningActionsInTarget</name>
+        <param>
+          <type>const <ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the numbers of actions that are running in a certain target. Composable actions are counted as 1 action. Example:<itemizedlist>
+<listitem><para>If you are running 1 <ref refid="class_sequence" kindref="compound">Sequence</ref> of 7 actions, it will return 1.</para></listitem><listitem><para>If you are running 7 Sequences of 2 actions, it will return 7.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The numbers of actions that are running in a certain target.  NA </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="142" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="389" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a9c8575014bda8867759c63aa17c519c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_c_c_platform_macros_8h_1a6714431893427b129769f0bf2e940de4" kindref="member">CC_DEPRECATED_ATTRIBUTE</ref> <ref refid="_c_c_std_c-win32_8h_1a894c4d58faeee7675b9e7e8244de1386" kindref="member">ssize_t</ref></type>
+        <definition>CC_DEPRECATED_ATTRIBUTE ssize_t ActionManager::numberOfRunningActionsInTarget</definition>
+        <argsstring>(Node *target) const</argsstring>
+        <name>numberOfRunningActionsInTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000012"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="class_action_manager_1add35fb2d5810bec63b59f432830746bc" kindref="member">getNumberOfRunningActionsInTarget()</ref> instead. </para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="146" column="1" bodyfile="cocos/2d/CCActionManager.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1aa516eb2a5603e824ea95e6ca783cead0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t ActionManager::getNumberOfRunningActionsInTargetByTag</definition>
+        <argsstring>(const Node *target, int tag)</argsstring>
+        <name>getNumberOfRunningActionsInTargetByTag</name>
+        <param>
+          <type>const <ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the numbers of actions that are running in a certain target with a specific tag. Like getNumberOfRunningActionsInTarget Composable actions are counted as 1 action. Example:<itemizedlist>
+<listitem><para>If you are running 1 <ref refid="class_sequence" kindref="compound">Sequence</ref> of 7 actions, it will return 1.</para></listitem><listitem><para>If you are running 7 Sequences of 2 actions, it will return 7.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag that will be searched. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The numbers of actions that are running in a certain target with a specific tag. </para></simplesect>
+<simplesect kind="see"><para><ref refid="class_action_manager_1add35fb2d5810bec63b59f432830746bc" kindref="member">getNumberOfRunningActionsInTarget</ref>  NA </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="163" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="403" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a321523c8720cd7e8a973d959e5fdebf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::pauseTarget</definition>
+        <argsstring>(Node *target)</argsstring>
+        <name>pauseTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pauses the target: all running actions and newly added actions will be paused.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="170" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="124" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1ac65bf5b5a646ca46d2db9fdb5590a0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::resumeTarget</definition>
+        <argsstring>(Node *target)</argsstring>
+        <name>resumeTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resumes the target. All queued actions will be resumed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="176" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="134" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1aa98a62956dd3f0c7dad23e2a3cee2361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_vector" kindref="compound">Vector</ref>&lt; <ref refid="class_node" kindref="compound">Node</ref> * &gt;</type>
+        <definition>Vector&lt; Node * &gt; ActionManager::pauseAllRunningActions</definition>
+        <argsstring>()</argsstring>
+        <name>pauseAllRunningActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pauses all running actions, returning a list of targets whose actions were paused.</para><para><simplesect kind="return"><para>A list of targets whose actions were paused. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="182" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="144" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1abf8edeb8d4d6454cc428b3569b15c9d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::resumeTargets</definition>
+        <argsstring>(const Vector&lt; Node *&gt; &amp;targetsToResume)</argsstring>
+        <name>resumeTargets</name>
+        <param>
+          <type>const <ref refid="class_vector" kindref="compound">Vector</ref>&lt; <ref refid="class_node" kindref="compound">Node</ref> *&gt; &amp;</type>
+          <declname>targetsToResume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resume a set of targets (convenience function to reverse a pauseAllRunningActions call).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetsToResume</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A set of targets need to be resumed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="188" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1ab4f35fe52781cc9d972c89f8ab2381a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::update</definition>
+        <argsstring>(float dt)</argsstring>
+        <name>update</name>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Main loop of <ref refid="class_action_manager" kindref="compound">ActionManager</ref>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>In seconds. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="193" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="428" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_action_manager_1a04e8cfbaa84f641816e069c920f21a77" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::removeActionAtIndex</definition>
+        <argsstring>(ssize_t index, struct _hashElement *element)</argsstring>
+        <name>removeActionAtIndex</name>
+        <param>
+          <type><ref refid="_c_c_std_c-win32_8h_1a894c4d58faeee7675b9e7e8244de1386" kindref="member">ssize_t</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="struct__hash_element" kindref="compound">_hashElement</ref> *</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="198" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="91" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a4ae318342f03fde102a8b0336ba04bf7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::deleteHashElement</definition>
+        <argsstring>(struct _hashElement *element)</argsstring>
+        <name>deleteHashElement</name>
+        <param>
+          <type>struct <ref refid="struct__hash_element" kindref="compound">_hashElement</ref> *</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="199" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_manager_1a0dabc4984677c23f9c99e792a797d35e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionManager::actionAllocWithHashElement</definition>
+        <argsstring>(struct _hashElement *element)</argsstring>
+        <name>actionAllocWithHashElement</name>
+        <param>
+          <type>struct <ref refid="struct__hash_element" kindref="compound">_hashElement</ref> *</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionManager.h" line="200" column="1" bodyfile="cocos/2d/CCActionManager.cpp" bodystart="77" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_action_manager" kindref="compound">ActionManager</ref> is a singleton that manages all the actions. Normally you won&apos;t need to use this singleton directly. 99% of the cases you will use the <ref refid="class_node" kindref="compound">Node</ref> interface, which uses this singleton. But there are some cases where you might need to use this singleton. Examples: </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>When you want to run an action where the target is different from a <ref refid="class_node" kindref="compound">Node</ref>.</para></listitem><listitem><para>When you want to pause / resume the actions.</para></listitem></itemizedlist>
+</para><para><simplesect kind="since"><para>v0.8 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1549">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="1550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1550">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1581">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="1574" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1582" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1551">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1553" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="1604">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1555" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1568">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="1568" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1616">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1617" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1597">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="1578">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="1579" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="1598" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="1583">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1611">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1594">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="1560" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="1608">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="1579">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="1580" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="1579" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1569">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="1560" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="1585">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="1562">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="1601">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1561" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="1602" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="1601" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="1568" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="1600" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="1603" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="1604" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="1605" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="1592">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="1566" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1582">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1595">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="1573">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="1574" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="1581" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="1583" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="1559">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="1560" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="1564" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="1565" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="1571" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="1586" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1557">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="1600">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1601" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="1584" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="1590">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="1580">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="1580" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1561">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="1561" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1572">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="1572" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1584">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="1585" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="1606" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="1556">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1557" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="1558" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="1554">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1551" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1555" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1580" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1587" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1591" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="1614" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="1596" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1568" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="1615" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="1558" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="1552" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="1586">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1587">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1552">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="1609">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="1591">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="1591" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1594" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="1576" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1574">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1574" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1575" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="1576" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1555">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="1556" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="1584" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="1577">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="1579" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="1608" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="1609" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="1560">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="1561" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="1562" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="1563" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="1596">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1597" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="1598" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="1599" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="1613">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1567">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="1575">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1575" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1571">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="1567" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1555" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1572" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="1573" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="1568" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1584" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="1575" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="1563">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="1563" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1564">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="1564" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1617">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="1570">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="1570" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="1553">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="1616" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="1610">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="1611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1565">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="1566" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="1599">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="1612">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1576">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1556" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="1578" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="1576" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1566">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="1567" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1555" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1568" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1569" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="1570" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="1558">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1559" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="1554" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="1551" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1577" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="1587" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1588" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="1596" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1600" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="1607" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="1610" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="1603" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="1612" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="1613" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="1614">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="1614" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="1554" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1590" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1591" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="1592" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="1570" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="1593" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="1615">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1588">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="1589" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="1561" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="1603">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="1552" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCActionManager.h" line="59" column="1" bodyfile="cocos/2d/CCActionManager.h" bodystart="58" bodyend="206"/>
+    <listofallmembers>
+      <member refid="class_action_manager_1a40a5f4f6ba0dfba4abd2c85e28f49b00" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>_currentTarget</name></member>
+      <member refid="class_action_manager_1a2bd8759a3fe91ac84392c419b53ec466" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>_currentTargetSalvaged</name></member>
+      <member refid="class_ref_1ab05a4c4ef09ecbaffc7c7c7f57d34bf6" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>_referenceCount</name></member>
+      <member refid="class_action_manager_1aae2490dbc684a1756a6f4942e338b560" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>_targets</name></member>
+      <member refid="class_action_manager_1a0dabc4984677c23f9c99e792a797d35e" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>actionAllocWithHashElement</name></member>
+      <member refid="class_action_manager_1a3c3e47b867da96699e32647b847b9df5" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>ActionManager</name></member>
+      <member refid="class_action_manager_1a88568fe751ad6e412b375e34b5584173" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>addAction</name></member>
+      <member refid="class_ref_1a065f6972ebb82de3e2143cbf10a7ac2d" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>autorelease</name></member>
+      <member refid="class_action_manager_1a4ae318342f03fde102a8b0336ba04bf7" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>deleteHashElement</name></member>
+      <member refid="class_action_manager_1abcc22187f785e996c04702afe161d383" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>getActionByTag</name></member>
+      <member refid="class_action_manager_1add35fb2d5810bec63b59f432830746bc" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>getNumberOfRunningActionsInTarget</name></member>
+      <member refid="class_action_manager_1aa516eb2a5603e824ea95e6ca783cead0" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>getNumberOfRunningActionsInTargetByTag</name></member>
+      <member refid="class_ref_1a27b894ccc4c74b0c52f3fa2993f04ba0" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>getReferenceCount</name></member>
+      <member refid="class_action_manager_1a9c8575014bda8867759c63aa17c519c3" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>numberOfRunningActionsInTarget</name></member>
+      <member refid="class_action_manager_1aa98a62956dd3f0c7dad23e2a3cee2361" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>pauseAllRunningActions</name></member>
+      <member refid="class_action_manager_1a321523c8720cd7e8a973d959e5fdebf9" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>pauseTarget</name></member>
+      <member refid="class_ref_1ab9cf238c39cc7fc6ffde82c8d94c465e" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>Ref</name></member>
+      <member refid="class_ref_1a6c8528cd8731765688943496c2eb3907" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>release</name></member>
+      <member refid="class_action_manager_1a06b04334e6282eba060000694088c807" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeAction</name></member>
+      <member refid="class_action_manager_1a04e8cfbaa84f641816e069c920f21a77" prot="protected" virt="non-virtual"><scope>ActionManager</scope><name>removeActionAtIndex</name></member>
+      <member refid="class_action_manager_1aceaf0328518eb5f8d1cf6cea71594ee4" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeActionByTag</name></member>
+      <member refid="class_action_manager_1aceccce766c59e57c201474ea7f121a67" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeActionsByFlags</name></member>
+      <member refid="class_action_manager_1afe1a1a647e7c0432781c5146030fce5e" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeAllActions</name></member>
+      <member refid="class_action_manager_1a2acfc347f4155ff6fc3e5261b09160a2" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeAllActionsByTag</name></member>
+      <member refid="class_action_manager_1a09444b573711b9389e460f9a71837299" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>removeAllActionsFromTarget</name></member>
+      <member refid="class_action_manager_1ac65bf5b5a646ca46d2db9fdb5590a0ba" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>resumeTarget</name></member>
+      <member refid="class_action_manager_1abf8edeb8d4d6454cc428b3569b15c9d9" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>resumeTargets</name></member>
+      <member refid="class_ref_1a7d182cae1be1e80a9884cacd6ff9cb01" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>retain</name></member>
+      <member refid="class_action_manager_1ab4f35fe52781cc9d972c89f8ab2381a9" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>update</name></member>
+      <member refid="class_action_manager_1aa9a417d77050aa7f351df4996cf727e3" prot="public" virt="non-virtual"><scope>ActionManager</scope><name>~ActionManager</name></member>
+      <member refid="class_ref_1a1c3c3986014151251b39041e2556d2e3" prot="public" virt="virtual"><scope>ActionManager</scope><name>~Ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

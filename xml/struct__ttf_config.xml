@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__ttf_config" kind="struct" language="C++" prot="public">
+    <compoundname>_ttfConfig</compoundname>
+    <includes refid="_c_c_label_8h" local="no">CCLabel.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__ttf_config_1ad12176ab85f05707aff75365da58d693" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string _ttfConfig::fontFilePath</definition>
+        <argsstring></argsstring>
+        <name>fontFilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="49" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a3756376736bfedc26d560d6f61420c25" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float _ttfConfig::fontSize</definition>
+        <argsstring></argsstring>
+        <name>fontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="50" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a177d0ac6bfa83ff53f486474565b7da2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__base_1gac5e83e2fc436edc7833f2bcabad984f3" kindref="member">GlyphCollection</ref></type>
+        <definition>GlyphCollection _ttfConfig::glyphs</definition>
+        <argsstring></argsstring>
+        <name>glyphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="52" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1accb38748555c8c9480c173d735760445" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* _ttfConfig::customGlyphs</definition>
+        <argsstring></argsstring>
+        <name>customGlyphs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="53" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a5befc6b303c6c7c431c04621810083e1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _ttfConfig::distanceFieldEnabled</definition>
+        <argsstring></argsstring>
+        <name>distanceFieldEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="55" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1ac3405d0c31582ce9281ad228c25d0c9e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ttfConfig::outlineSize</definition>
+        <argsstring></argsstring>
+        <name>outlineSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="56" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a9f602ca6458e0c369fc88d44ba8c416b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _ttfConfig::italics</definition>
+        <argsstring></argsstring>
+        <name>italics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="58" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a4b6082ae3c4b58298596404775eab3d9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _ttfConfig::bold</definition>
+        <argsstring></argsstring>
+        <name>bold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="59" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1a047b4464c524e5e529c2cb83d6da67ab" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _ttfConfig::underline</definition>
+        <argsstring></argsstring>
+        <name>underline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="60" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ttf_config_1afb32df00e8eafb71fad76a055d55f555" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _ttfConfig::strikethrough</definition>
+        <argsstring></argsstring>
+        <name>strikethrough</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="61" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct__ttf_config_1ac9e64a73547785943b423c44a47e3c88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>_ttfConfig::_ttfConfig</definition>
+        <argsstring>(const std::string &amp;filePath=&quot;&quot;, float size=12, const GlyphCollection &amp;glyphCollection=GlyphCollection::DYNAMIC, const char *customGlyphCollection=nullptr, bool useDistanceField=false, int outline=0, bool useItalics=false, bool useBold=false, bool useUnderline=false, bool useStrikethrough=false)</argsstring>
+        <name>_ttfConfig</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>filePath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+          <defval>12</defval>
+        </param>
+        <param>
+          <type>const <ref refid="group__base_1gac5e83e2fc436edc7833f2bcabad984f3" kindref="member">GlyphCollection</ref> &amp;</type>
+          <declname>glyphCollection</declname>
+          <defval><ref refid="group__base_1ggac5e83e2fc436edc7833f2bcabad984f3a0fcc90da4811c877ba9f9c12f7d60bc9" kindref="member">GlyphCollection::DYNAMIC</ref></defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>customGlyphCollection</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useDistanceField</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outline</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useItalics</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useBold</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useUnderline</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useStrikethrough</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCLabel.h" line="63" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="63" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/2d/CCLabel.h" line="48" column="1" bodyfile="cocos/2d/CCLabel.h" bodystart="47" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct__ttf_config_1ac9e64a73547785943b423c44a47e3c88" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>_ttfConfig</name></member>
+      <member refid="struct__ttf_config_1a4b6082ae3c4b58298596404775eab3d9" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>bold</name></member>
+      <member refid="struct__ttf_config_1accb38748555c8c9480c173d735760445" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>customGlyphs</name></member>
+      <member refid="struct__ttf_config_1a5befc6b303c6c7c431c04621810083e1" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>distanceFieldEnabled</name></member>
+      <member refid="struct__ttf_config_1ad12176ab85f05707aff75365da58d693" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>fontFilePath</name></member>
+      <member refid="struct__ttf_config_1a3756376736bfedc26d560d6f61420c25" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>fontSize</name></member>
+      <member refid="struct__ttf_config_1a177d0ac6bfa83ff53f486474565b7da2" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>glyphs</name></member>
+      <member refid="struct__ttf_config_1a9f602ca6458e0c369fc88d44ba8c416b" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>italics</name></member>
+      <member refid="struct__ttf_config_1ac3405d0c31582ce9281ad228c25d0c9e" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>outlineSize</name></member>
+      <member refid="struct__ttf_config_1afb32df00e8eafb71fad76a055d55f555" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>strikethrough</name></member>
+      <member refid="struct__ttf_config_1a047b4464c524e5e529c2cb83d6da67ab" prot="public" virt="non-virtual"><scope>_ttfConfig</scope><name>underline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

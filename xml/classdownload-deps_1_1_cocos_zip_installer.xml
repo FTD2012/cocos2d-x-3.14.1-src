@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classdownload-deps_1_1_cocos_zip_installer" kind="class" language="Python" prot="public">
+    <compoundname>download-deps::CocosZipInstaller</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a848a3b24d7acb3bd38943672204f6a31" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_workpath</definition>
+        <argsstring></argsstring>
+        <name>_workpath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="65" column="1" bodyfile="download-deps.py" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a0bf4f937c4ecd7dc4d480c03ef256ded" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_config_path</definition>
+        <argsstring></argsstring>
+        <name>_config_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="66" column="1" bodyfile="download-deps.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1abf33a85a676c856d47ef00367b426a1d" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_version_path</definition>
+        <argsstring></argsstring>
+        <name>_version_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="67" column="1" bodyfile="download-deps.py" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a5349d98f55d17b8eeb1fd5248827bf5a" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_current_version</definition>
+        <argsstring></argsstring>
+        <name>_current_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="71" column="1" bodyfile="download-deps.py" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a5cbc23c46f292052855c37f7a08550cb" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_repo_name</definition>
+        <argsstring></argsstring>
+        <name>_repo_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="72" column="1" bodyfile="download-deps.py" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a4c428566165983b6ee946e73ce78581b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_move_dirs</definition>
+        <argsstring></argsstring>
+        <name>_move_dirs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="74" column="1" bodyfile="download-deps.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1ab89318a4b6078ac97a094d071f365082" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_filename</definition>
+        <argsstring></argsstring>
+        <name>_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="77" column="1" bodyfile="download-deps.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1a8a917131611f91ae288e40b3d90d9696" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_url</definition>
+        <argsstring></argsstring>
+        <name>_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="78" column="1" bodyfile="download-deps.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1ac1e56ff323a21289d9c23bb61a0d7bb0" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_zip_file_size</definition>
+        <argsstring></argsstring>
+        <name>_zip_file_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="79" column="1" bodyfile="download-deps.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1aaf5c70853a99462824c7b415d3ce1b98" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_extracted_folder_name</definition>
+        <argsstring></argsstring>
+        <name>_extracted_folder_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="81" column="1" bodyfile="download-deps.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdownload-deps_1_1_cocos_zip_installer_1aa199fee99523811a21beec4bbb9eefd5" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.CocosZipInstaller::_remote_version</definition>
+        <argsstring></argsstring>
+        <name>_remote_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="86" column="1" bodyfile="download-deps.py" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1af38fbad39d223d4ceb9e137a9fb2997b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.__init__</definition>
+        <argsstring>(self, workpath, config_path, version_path, remote_version_key=None)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>workpath</type>
+          <defname>workpath</defname>
+        </param>
+        <param>
+          <type>config_path</type>
+          <defname>config_path</defname>
+        </param>
+        <param>
+          <type>version_path</type>
+          <defname>version_path</defname>
+        </param>
+        <param>
+          <type>remote_version_key</type>
+          <defname>remote_version_key</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="64" column="1" bodyfile="download-deps.py" bodystart="64" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a76346ec90b31eb239f733609d22c47eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.get_input_value</definition>
+        <argsstring>(self, prompt)</argsstring>
+        <name>get_input_value</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>prompt</type>
+          <defname>prompt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="92" column="1" bodyfile="download-deps.py" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a539dd9a014086e1eec02d3362b7f0683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.download_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>download_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="97" column="1" bodyfile="download-deps.py" bodystart="97" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1ab201b9f5025ad593224e5bf2e775ab0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.ensure_directory</definition>
+        <argsstring>(self, target)</argsstring>
+        <name>ensure_directory</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>target</type>
+          <defname>target</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="155" column="1" bodyfile="download-deps.py" bodystart="155" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a93043957b5e9244249c31fd67636d3e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.unpack_zipfile</definition>
+        <argsstring>(self, extract_dir)</argsstring>
+        <name>unpack_zipfile</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>extract_dir</type>
+          <defname>extract_dir</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Unpack zip `filename` to `extract_dir`
+
+Raises ``UnrecognizedFormat`` if `filename` is not a zipfile (as determined
+by ``zipfile.is_zipfile()``).
+</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="159" column="1" bodyfile="download-deps.py" bodystart="159" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a3ba6607775d48adc18f14bf49063c466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.ask_to_delete_downloaded_zip_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>ask_to_delete_downloaded_zip_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="201" column="1" bodyfile="download-deps.py" bodystart="201" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a2a8254015676ccd8b3fb7b31d27e4a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.download_zip_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>download_zip_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="210" column="1" bodyfile="download-deps.py" bodystart="210" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a8b8689321cb33939af201db41bb40135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.need_to_update</definition>
+        <argsstring>(self)</argsstring>
+        <name>need_to_update</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="223" column="1" bodyfile="download-deps.py" bodystart="223" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1a96f1cf87391a76b4b15359ee3cb8e9f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.load_json_file</definition>
+        <argsstring>(self, file_path)</argsstring>
+        <name>load_json_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>file_path</type>
+          <defname>file_path</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="234" column="1" bodyfile="download-deps.py" bodystart="234" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_cocos_zip_installer_1ab1c41b592e5ab5b4add271e71a29cb0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.CocosZipInstaller.run</definition>
+        <argsstring>(self, workpath, folder_for_extracting, remove_downloaded, force_update, download_only)</argsstring>
+        <name>run</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>workpath</type>
+          <defname>workpath</defname>
+        </param>
+        <param>
+          <type>folder_for_extracting</type>
+          <defname>folder_for_extracting</defname>
+        </param>
+        <param>
+          <type>remove_downloaded</type>
+          <defname>remove_downloaded</defname>
+        </param>
+        <param>
+          <type>force_update</type>
+          <defname>force_update</defname>
+        </param>
+        <param>
+          <type>download_only</type>
+          <defname>download_only</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="242" column="1" bodyfile="download-deps.py" bodystart="242" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>object</label>
+      </node>
+      <node id="0">
+        <label>download-deps.CocosZipInstaller</label>
+        <link refid="classdownload-deps_1_1_cocos_zip_installer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>object</label>
+      </node>
+      <node id="2">
+        <label>download-deps.CocosZipInstaller</label>
+        <link refid="classdownload-deps_1_1_cocos_zip_installer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="download-deps.py" line="63" column="1" bodyfile="download-deps.py" bodystart="63" bodyend="277"/>
+    <listofallmembers>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1af38fbad39d223d4ceb9e137a9fb2997b" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>__init__</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a0bf4f937c4ecd7dc4d480c03ef256ded" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_config_path</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a5349d98f55d17b8eeb1fd5248827bf5a" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_current_version</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1aaf5c70853a99462824c7b415d3ce1b98" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_extracted_folder_name</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1ab89318a4b6078ac97a094d071f365082" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_filename</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a4c428566165983b6ee946e73ce78581b" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_move_dirs</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1aa199fee99523811a21beec4bbb9eefd5" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_remote_version</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a5cbc23c46f292052855c37f7a08550cb" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_repo_name</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a8a917131611f91ae288e40b3d90d9696" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_url</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1abf33a85a676c856d47ef00367b426a1d" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_version_path</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a848a3b24d7acb3bd38943672204f6a31" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_workpath</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1ac1e56ff323a21289d9c23bb61a0d7bb0" prot="private" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>_zip_file_size</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a3ba6607775d48adc18f14bf49063c466" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>ask_to_delete_downloaded_zip_file</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a539dd9a014086e1eec02d3362b7f0683" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>download_file</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a2a8254015676ccd8b3fb7b31d27e4a23" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>download_zip_file</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1ab201b9f5025ad593224e5bf2e775ab0e" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>ensure_directory</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a76346ec90b31eb239f733609d22c47eb" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>get_input_value</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a96f1cf87391a76b4b15359ee3cb8e9f4" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>load_json_file</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a8b8689321cb33939af201db41bb40135" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>need_to_update</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1ab1c41b592e5ab5b4add271e71a29cb0d" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>run</name></member>
+      <member refid="classdownload-deps_1_1_cocos_zip_installer_1a93043957b5e9244249c31fd67636d3e6" prot="public" virt="non-virtual"><scope>download-deps::CocosZipInstaller</scope><name>unpack_zipfile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

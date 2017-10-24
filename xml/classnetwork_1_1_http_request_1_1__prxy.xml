@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classnetwork_1_1_http_request_1_1__prxy" kind="class" language="C++" prot="public">
+    <compoundname>network::HttpRequest::_prxy</compoundname>
+    <includes refid="_http_request_8h" local="no">HttpRequest.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classnetwork_1_1_http_request_1_1__prxy_1a7493ede18daf7685997e15fb5451e379" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespacenetwork_1abe0142da27bcfbb216a337cf242da7dd" kindref="member">SEL_HttpResponse</ref></type>
+        <definition>SEL_HttpResponse network::HttpRequest::_prxy::_cb</definition>
+        <argsstring></argsstring>
+        <name>_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/network/HttpRequest.h" line="298" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classnetwork_1_1_http_request_1_1__prxy_1a01020d64085bbc59cf1218bed510355a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>network::HttpRequest::_prxy::_prxy</definition>
+        <argsstring>(SEL_HttpResponse cb)</argsstring>
+        <name>_prxy</name>
+        <param>
+          <type><ref refid="namespacenetwork_1abe0142da27bcfbb216a337cf242da7dd" kindref="member">SEL_HttpResponse</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/network/HttpRequest.h" line="292" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="292" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1_http_request_1_1__prxy_1aac8954b9e734cc5778de83fa2a452b47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>network::HttpRequest::_prxy::~_prxy</definition>
+        <argsstring>()</argsstring>
+        <name>~_prxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/network/HttpRequest.h" line="294" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="294" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1_http_request_1_1__prxy_1a77cd2d1b059a4ddc7332f5adbe87cddc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>network::HttpRequest::_prxy::operator SEL_HttpResponse</definition>
+        <argsstring>() const</argsstring>
+        <name>operator SEL_HttpResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/network/HttpRequest.h" line="295" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classnetwork_1_1_http_request_1_1__prxy_1a831ad26464579ae87f72d6113c5a8a6d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_c_c_platform_macros_8h_1a6714431893427b129769f0bf2e940de4" kindref="member">CC_DEPRECATED_ATTRIBUTE</ref></type>
+        <definition>CC_DEPRECATED_ATTRIBUTE network::HttpRequest::_prxy::operator SEL_CallFuncND</definition>
+        <argsstring>() const</argsstring>
+        <name>operator SEL_CallFuncND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/network/HttpRequest.h" line="296" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This sub class is just for migration SEL_CallFuncND to SEL_HttpResponse,someday this way will be removed.</para><para>NA </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="435">
+        <label>network::HttpClient</label>
+        <link refid="classnetwork_1_1_http_client"/>
+      </node>
+      <node id="434">
+        <label>network::HttpRequest::_prxy</label>
+        <link refid="classnetwork_1_1_http_request_1_1__prxy"/>
+        <childnode refid="435" relation="usage">
+          <edgelabel>_cb</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/network/HttpRequest.h" line="289" column="1" bodyfile="cocos/network/HttpRequest.h" bodystart="288" bodyend="299"/>
+    <listofallmembers>
+      <member refid="classnetwork_1_1_http_request_1_1__prxy_1a7493ede18daf7685997e15fb5451e379" prot="protected" virt="non-virtual"><scope>network::HttpRequest::_prxy</scope><name>_cb</name></member>
+      <member refid="classnetwork_1_1_http_request_1_1__prxy_1a01020d64085bbc59cf1218bed510355a" prot="public" virt="non-virtual"><scope>network::HttpRequest::_prxy</scope><name>_prxy</name></member>
+      <member refid="classnetwork_1_1_http_request_1_1__prxy_1a831ad26464579ae87f72d6113c5a8a6d" prot="public" virt="non-virtual"><scope>network::HttpRequest::_prxy</scope><name>operator SEL_CallFuncND</name></member>
+      <member refid="classnetwork_1_1_http_request_1_1__prxy_1a77cd2d1b059a4ddc7332f5adbe87cddc" prot="public" virt="non-virtual"><scope>network::HttpRequest::_prxy</scope><name>operator SEL_HttpResponse</name></member>
+      <member refid="classnetwork_1_1_http_request_1_1__prxy_1aac8954b9e734cc5778de83fa2a452b47" prot="public" virt="non-virtual"><scope>network::HttpRequest::_prxy</scope><name>~_prxy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

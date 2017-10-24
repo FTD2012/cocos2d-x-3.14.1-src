@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_slot" kind="struct" language="C++" prot="public">
+    <compoundname>_spSlot</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_slot_1a44e16a7c91d07bc354116e5d5cfbb3bd" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_slot" kindref="compound">spSlot</ref></type>
+        <definition>spSlot _spSlot::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Slot.c" line="36" column="1" bodyfile="cocos/editor-support/spine/Slot.c" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_slot_1a94b7a3d3936f76b8d779d0828e108e05" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float _spSlot::attachmentTime</definition>
+        <argsstring></argsstring>
+        <name>attachmentTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Slot.c" line="37" column="1" bodyfile="cocos/editor-support/spine/Slot.c" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="532">
+        <label>spSkin</label>
+        <link refid="structsp_skin"/>
+      </node>
+      <node id="534">
+        <label>spIkConstraintData</label>
+        <link refid="structsp_ik_constraint_data"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="540">
+        <label>spEventData</label>
+        <link refid="structsp_event_data"/>
+      </node>
+      <node id="528">
+        <label>spBone</label>
+        <link refid="structsp_bone"/>
+        <childnode refid="529" relation="usage">
+          <edgelabel>skeleton</edgelabel>
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="530">
+        <label>spTransformConstraint</label>
+        <link refid="structsp_transform_constraint"/>
+        <childnode refid="531" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="537">
+        <label>spSkeletonData</label>
+        <link refid="structsp_skeleton_data"/>
+        <childnode refid="534" relation="usage">
+          <edgelabel>ikConstraints</edgelabel>
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>transformConstraints</edgelabel>
+        </childnode>
+        <childnode refid="538" relation="usage">
+          <edgelabel>animations</edgelabel>
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>defaultSkin</edgelabel>
+          <edgelabel>skins</edgelabel>
+        </childnode>
+        <childnode refid="526" relation="usage">
+          <edgelabel>slots</edgelabel>
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+        <childnode refid="536" relation="usage">
+          <edgelabel>pathConstraints</edgelabel>
+        </childnode>
+        <childnode refid="540" relation="usage">
+          <edgelabel>events</edgelabel>
+        </childnode>
+      </node>
+      <node id="524">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="525" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="535">
+        <label>spPathConstraint</label>
+        <link refid="structsp_path_constraint"/>
+        <childnode refid="523" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="536" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="523">
+        <label>spSlot</label>
+        <link refid="structsp_slot"/>
+        <childnode refid="524" relation="usage">
+          <edgelabel>attachment</edgelabel>
+        </childnode>
+        <childnode refid="526" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>bone</edgelabel>
+        </childnode>
+      </node>
+      <node id="525">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="539">
+        <label>spTimeline</label>
+        <link refid="structsp_timeline"/>
+      </node>
+      <node id="526">
+        <label>spSlotData</label>
+        <link refid="structsp_slot_data"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>boneData</edgelabel>
+        </childnode>
+      </node>
+      <node id="529">
+        <label>spSkeleton</label>
+        <link refid="structsp_skeleton"/>
+        <childnode refid="530" relation="usage">
+          <edgelabel>transformConstraints</edgelabel>
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>skin</edgelabel>
+        </childnode>
+        <childnode refid="523" relation="usage">
+          <edgelabel>drawOrder</edgelabel>
+          <edgelabel>slots</edgelabel>
+        </childnode>
+        <childnode refid="533" relation="usage">
+          <edgelabel>ikConstraintsSorted</edgelabel>
+          <edgelabel>ikConstraints</edgelabel>
+        </childnode>
+        <childnode refid="535" relation="usage">
+          <edgelabel>pathConstraints</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>root</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+        <childnode refid="537" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="538">
+        <label>spAnimation</label>
+        <link refid="structsp_animation"/>
+        <childnode refid="539" relation="usage">
+          <edgelabel>timelines</edgelabel>
+        </childnode>
+      </node>
+      <node id="527">
+        <label>spBoneData</label>
+        <link refid="structsp_bone_data"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="533">
+        <label>spIkConstraint</label>
+        <link refid="structsp_ik_constraint"/>
+        <childnode refid="534" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="522">
+        <label>_spSlot</label>
+        <link refid="struct__sp_slot"/>
+        <childnode refid="523" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="531">
+        <label>spTransformConstraintData</label>
+        <link refid="structsp_transform_constraint_data"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="536">
+        <label>spPathConstraintData</label>
+        <link refid="structsp_path_constraint_data"/>
+        <childnode refid="526" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/Slot.c" line="35" column="1" bodyfile="cocos/editor-support/spine/Slot.c" bodystart="35" bodyend="38"/>
+    <listofallmembers>
+      <member refid="struct__sp_slot_1a94b7a3d3936f76b8d779d0828e108e05" prot="public" virt="non-virtual"><scope>_spSlot</scope><name>attachmentTime</name></member>
+      <member refid="struct__sp_slot_1a44e16a7c91d07bc354116e5d5cfbb3bd" prot="public" virt="non-virtual"><scope>_spSlot</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

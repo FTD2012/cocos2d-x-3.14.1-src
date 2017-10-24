@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_accelerometer_event" kind="class" language="C++" prot="public">
+    <compoundname>AccelerometerEvent</compoundname>
+    <basecompoundref refid="class_input_event" prot="public" virt="non-virtual">InputEvent</basecompoundref>
+    <includes refid="_input_event_8h" local="no">InputEvent.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_accelerometer_event_1a5d3f102538df5f7793f851719760ff39" prot="private" static="no" mutable="no">
+        <type>cocos2d::Acceleration</type>
+        <definition>cocos2d::Acceleration AccelerometerEvent::m_event</definition>
+        <argsstring></argsstring>
+        <name>m_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/winrt/InputEvent.h" line="71" column="1" bodyfile="cocos/platform/winrt/InputEvent.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_accelerometer_event_1a3a73ec343c195221204bba0658a3cf7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NS_CC_BEGIN AccelerometerEvent::AccelerometerEvent</definition>
+        <argsstring>(const cocos2d::Acceleration &amp;event)</argsstring>
+        <name>AccelerometerEvent</name>
+        <param>
+          <type>const cocos2d::Acceleration &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/winrt/InputEvent.h" line="67" column="1" bodyfile="cocos/platform/winrt/InputEvent.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_accelerometer_event_1aa6e6e4422da9068659413756b473e343" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AccelerometerEvent::execute</definition>
+        <argsstring>()</argsstring>
+        <name>execute</name>
+        <reimplements refid="class_input_event_1a3a5f93ba223b61729bcff6ec41116229">execute</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/winrt/InputEvent.h" line="68" column="1" bodyfile="cocos/platform/winrt/InputEvent.cpp" bodystart="42" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="804">
+        <label>InputEvent</label>
+        <link refid="class_input_event"/>
+      </node>
+      <node id="803">
+        <label>AccelerometerEvent</label>
+        <link refid="class_accelerometer_event"/>
+        <childnode refid="804" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="806">
+        <label>InputEvent</label>
+        <link refid="class_input_event"/>
+      </node>
+      <node id="805">
+        <label>AccelerometerEvent</label>
+        <link refid="class_accelerometer_event"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/platform/winrt/InputEvent.h" line="65" column="1" bodyfile="cocos/platform/winrt/InputEvent.h" bodystart="64" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_accelerometer_event_1a3a73ec343c195221204bba0658a3cf7d" prot="public" virt="non-virtual"><scope>AccelerometerEvent</scope><name>AccelerometerEvent</name></member>
+      <member refid="class_accelerometer_event_1aa6e6e4422da9068659413756b473e343" prot="public" virt="virtual"><scope>AccelerometerEvent</scope><name>execute</name></member>
+      <member refid="class_input_event_1a415e308ed3a4611b8fd2d1486e786117" prot="public" virt="non-virtual"><scope>AccelerometerEvent</scope><name>InputEvent</name></member>
+      <member refid="class_accelerometer_event_1a5d3f102538df5f7793f851719760ff39" prot="private" virt="non-virtual"><scope>AccelerometerEvent</scope><name>m_event</name></member>
+      <member refid="class_input_event_1adcdceb9fe37c69d8e4d8d8afb1613416" prot="public" virt="virtual"><scope>AccelerometerEvent</scope><name>~InputEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

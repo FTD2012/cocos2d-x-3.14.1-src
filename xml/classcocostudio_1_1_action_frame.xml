@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcocostudio_1_1_action_frame" kind="class" language="C++" prot="public">
+    <compoundname>cocostudio::ActionFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ref</basecompoundref>
+    <derivedcompoundref refid="classcocostudio_1_1_action_fade_frame" prot="public" virt="non-virtual">cocostudio::ActionFadeFrame</derivedcompoundref>
+    <derivedcompoundref refid="classcocostudio_1_1_action_move_frame" prot="public" virt="non-virtual">cocostudio::ActionMoveFrame</derivedcompoundref>
+    <derivedcompoundref refid="classcocostudio_1_1_action_rotation_frame" prot="public" virt="non-virtual">cocostudio::ActionRotationFrame</derivedcompoundref>
+    <derivedcompoundref refid="classcocostudio_1_1_action_scale_frame" prot="public" virt="non-virtual">cocostudio::ActionScaleFrame</derivedcompoundref>
+    <derivedcompoundref refid="classcocostudio_1_1_action_tint_frame" prot="public" virt="non-virtual">cocostudio::ActionTintFrame</derivedcompoundref>
+    <includes refid="_c_c_action_frame_8h" local="no">CCActionFrame.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_1aa218ee2b103cf447ede7982f31145b0d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int cocostudio::ActionFrame::_frameType</definition>
+        <argsstring></argsstring>
+        <name>_frameType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="203" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_1a2cd1f0478b31da16b13d3573305d9880" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int cocostudio::ActionFrame::_frameIndex</definition>
+        <argsstring></argsstring>
+        <name>_frameIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="204" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_1a1cf6282b3ba236431ebc55490044192f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionFrame::_fTime</definition>
+        <argsstring></argsstring>
+        <name>_fTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="205" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_1ae873ce5f7b6ba4f18ba8badcc96973b2" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespacecocostudio_1a4894f0116dc75d4c782974d0a9522d99" kindref="member">FrameEaseType</ref></type>
+        <definition>FrameEaseType cocostudio::ActionFrame::_easingType</definition>
+        <argsstring></argsstring>
+        <name>_easingType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="206" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_1a536f223d2b8bc65449c099ab61c79591" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; cocostudio::ActionFrame::_Parameter</definition>
+        <argsstring></argsstring>
+        <name>_Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="207" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a830bed4204d29fc48d9564629c28e8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cocostudio::ActionFrame::ActionFrame</definition>
+        <argsstring>()</argsstring>
+        <name>ActionFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="104" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a33cfe80667ec5c05b75d4cdc5e7b7b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>cocostudio::ActionFrame::~ActionFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="109" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1adbca76015f4ce16ecb2bb0bca49ef712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFrame::setFrameIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>setFrameIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the index of action frame</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of action frame </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="116" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1ac0a9d3c72983fed42f1a8822a0375499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cocostudio::ActionFrame::getFrameIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the index of action frame</para><para><simplesect kind="return"><para>the index of action frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="123" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a9a64130e3c776f083ee959b6e261b78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFrame::setFrameTime</definition>
+        <argsstring>(float fTime)</argsstring>
+        <name>setFrameTime</name>
+        <param>
+          <type>float</type>
+          <declname>fTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the time of action frame</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the time of action frame </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="130" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1aaf531864a6d4eecf2cffecc0999512c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionFrame::getFrameTime</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the time of action frame</para><para><simplesect kind="return"><para>fTime the time of action frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="137" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1ad2086156bd154ae75dc32515fd150314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFrame::setFrameType</definition>
+        <argsstring>(int frameType)</argsstring>
+        <name>setFrameType</name>
+        <param>
+          <type>int</type>
+          <declname>frameType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the type of action frame</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frameType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the type of action frame </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="144" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a6dcd7610871fcbef3ed3806e56cd790a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cocostudio::ActionFrame::getFrameType</definition>
+        <argsstring>()</argsstring>
+        <name>getFrameType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the type of action frame</para><para><simplesect kind="return"><para>the type of action frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="151" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1ac853eabdb94f1f08deb52e09b8aece1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFrame::setEasingType</definition>
+        <argsstring>(int easingType)</argsstring>
+        <name>setEasingType</name>
+        <param>
+          <type>int</type>
+          <declname>easingType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the easing type.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>easingType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the easing type. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="158" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1ac9cbd5d9b6751f4802b83a35941b680f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cocostudio::ActionFrame::getEasingType</definition>
+        <argsstring>()</argsstring>
+        <name>getEasingType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the easing type.</para><para><simplesect kind="return"><para>the easing type. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="165" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a375216a44f6643d5e771299b1236dc51" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>cocos2d::ActionInterval *</type>
+        <definition>ActionInterval * cocostudio::ActionFrame::getAction</definition>
+        <argsstring>(float duration)</argsstring>
+        <name>getAction</name>
+        <reimplementedby refid="classcocostudio_1_1_action_move_frame_1a57f58bf872a13797b7b121c0bb40793e">getAction</reimplementedby>
+        <reimplementedby refid="classcocostudio_1_1_action_scale_frame_1a7835af6973dddcd7714efd7c45c9bc80">getAction</reimplementedby>
+        <reimplementedby refid="classcocostudio_1_1_action_rotation_frame_1af44596d9558e7b904a77b1ca504e74b5">getAction</reimplementedby>
+        <reimplementedby refid="classcocostudio_1_1_action_fade_frame_1a666690711af56eb3dbe6e39c43655f08">getAction</reimplementedby>
+        <reimplementedby refid="classcocostudio_1_1_action_tint_frame_1ad1329f3513d3c40369182872a08d543e">getAction</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the duration time of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="174" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1aad2a9c2314821270f5961416f4d7fb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>cocos2d::ActionInterval *</type>
+        <definition>ActionInterval * cocostudio::ActionFrame::getAction</definition>
+        <argsstring>(float duration, ActionFrame *srcFrame)</argsstring>
+        <name>getAction</name>
+        <reimplementedby refid="classcocostudio_1_1_action_rotation_frame_1adb56d8ed3cc97f590cba9429602ef918">getAction</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type><ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref> *</type>
+          <declname>srcFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the duration time of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the source <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="184" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1afb54df9da9e52bc85488ba6c51b40a28" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionFrame::setEasingParameter</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;parameter)</argsstring>
+        <name>setEasingParameter</name>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> easing parameter.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parameter for frame ease </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="192" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="91" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_1a73e7244a9bebca9977830d861194e41c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>cocos2d::ActionInterval *</type>
+        <definition>ActionInterval * cocostudio::ActionFrame::getEasingAction</definition>
+        <argsstring>(cocos2d::ActionInterval *action)</argsstring>
+        <name>getEasingAction</name>
+        <param>
+          <type>cocos2d::ActionInterval *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the Easing <ref refid="class_action" kindref="compound">Action</ref> of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the duration time of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="201" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="101" bodyend="220"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NA  NA </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1276">
+        <label>cocostudio::ActionScaleFrame</label>
+        <link refid="classcocostudio_1_1_action_scale_frame"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1275">
+        <label>cocostudio::ActionRotationFrame</label>
+        <link refid="classcocostudio_1_1_action_rotation_frame"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1271">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1272">
+        <label>Ref</label>
+      </node>
+      <node id="1274">
+        <label>cocostudio::ActionMoveFrame</label>
+        <link refid="classcocostudio_1_1_action_move_frame"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1273">
+        <label>cocostudio::ActionFadeFrame</label>
+        <link refid="classcocostudio_1_1_action_fade_frame"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>cocostudio::ActionTintFrame</label>
+        <link refid="classcocostudio_1_1_action_tint_frame"/>
+        <childnode refid="1271" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1278">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>Ref</label>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="97" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="96" bodyend="208"/>
+    <listofallmembers>
+      <member refid="classcocostudio_1_1_action_frame_1ae873ce5f7b6ba4f18ba8badcc96973b2" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>_easingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a2cd1f0478b31da16b13d3573305d9880" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>_frameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aa218ee2b103cf447ede7982f31145b0d" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>_frameType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a1cf6282b3ba236431ebc55490044192f" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>_fTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a536f223d2b8bc65449c099ab61c79591" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>_Parameter</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a830bed4204d29fc48d9564629c28e8e6" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>ActionFrame</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a375216a44f6643d5e771299b1236dc51" prot="public" virt="virtual"><scope>cocostudio::ActionFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aad2a9c2314821270f5961416f4d7fb18" prot="public" virt="virtual"><scope>cocostudio::ActionFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a73e7244a9bebca9977830d861194e41c" prot="protected" virt="virtual"><scope>cocostudio::ActionFrame</scope><name>getEasingAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac9cbd5d9b6751f4802b83a35941b680f" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>getEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac0a9d3c72983fed42f1a8822a0375499" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>getFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aaf531864a6d4eecf2cffecc0999512c7" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>getFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a6dcd7610871fcbef3ed3806e56cd790a" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>getFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1afb54df9da9e52bc85488ba6c51b40a28" prot="public" virt="virtual"><scope>cocostudio::ActionFrame</scope><name>setEasingParameter</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac853eabdb94f1f08deb52e09b8aece1d" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>setEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1adbca76015f4ce16ecb2bb0bca49ef712" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>setFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a9a64130e3c776f083ee959b6e261b78e" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>setFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ad2086156bd154ae75dc32515fd150314" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrame</scope><name>setFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a33cfe80667ec5c05b75d4cdc5e7b7b54" prot="public" virt="virtual"><scope>cocostudio::ActionFrame</scope><name>~ActionFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_update" kind="struct" language="C++" prot="public">
+    <compoundname>_spUpdate</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_update_1a597f498e1e64f144c78822294de535a3" prot="public" static="no" mutable="no">
+        <type><ref refid="_skeleton_8c_1a0f316641963c4ea6f27f684542bd4232" kindref="member">_spUpdateType</ref></type>
+        <definition>_spUpdateType _spUpdate::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="43" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_update_1a5cd06769f643f9e1ba1a1e0b674aa5f0" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _spUpdate::object</definition>
+        <argsstring></argsstring>
+        <name>object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="44" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/editor-support/spine/Skeleton.c" line="42" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="42" bodyend="45"/>
+    <listofallmembers>
+      <member refid="struct__sp_update_1a5cd06769f643f9e1ba1a1e0b674aa5f0" prot="public" virt="non-virtual"><scope>_spUpdate</scope><name>object</name></member>
+      <member refid="struct__sp_update_1a597f498e1e64f144c78822294de535a3" prot="public" virt="non-virtual"><scope>_spUpdate</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

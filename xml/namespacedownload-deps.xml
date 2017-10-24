@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacedownload-deps" kind="namespace" language="Python">
+    <compoundname>download-deps</compoundname>
+    <innerclass refid="classdownload-deps_1_1_cocos_zip_installer" prot="public">download-deps::CocosZipInstaller</innerclass>
+    <innerclass refid="classdownload-deps_1_1_unrecognized_format" prot="public">download-deps::UnrecognizedFormat</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacedownload-deps_1a092882a62fe41e3e0f704ccb6e336899" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps._check_python_version</definition>
+        <argsstring>()</argsstring>
+        <name>_check_python_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="277" column="1" bodyfile="download-deps.py" bodystart="277" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacedownload-deps_1a9f493a570dc2e93e7d1c762259dd31bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="287" column="1" bodyfile="download-deps.py" bodystart="287" bodyend="314"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="download-deps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

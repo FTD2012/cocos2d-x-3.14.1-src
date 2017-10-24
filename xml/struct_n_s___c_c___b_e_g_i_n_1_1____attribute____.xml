@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute____" kind="struct" language="C++" prot="public">
+    <compoundname>NS_CC_BEGIN::__attribute__</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a37dae7cd2b41c79ded48631b0b736d94" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="263" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1ae6205bca8ab8ec203e52009efd473c27" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="264" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a82dfc15b665a249b8f06a08827f680be" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1aec6fcb673ff035718c238c8c9d544c47" kindref="member">uint64_t</ref></type>
+        <definition>uint64_t NS_CC_BEGIN::__attribute__::pixelFormat</definition>
+        <argsstring></argsstring>
+        <name>pixelFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="265" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1adc1028257c036e650ba27e6597ed536b" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::colorSpace</definition>
+        <argsstring></argsstring>
+        <name>colorSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="266" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a7004b976dc01d0f3c148a612f936e5b3" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::channelType</definition>
+        <argsstring></argsstring>
+        <name>channelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="267" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a36b96684f17993f97a6f24f9caa1d1cc" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="268" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a587df535f352bd435804e830438b5fd1" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="269" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a0a9bd617c56cc37186f3685c82bca061" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="270" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a18ff1005d3f12e7b8ce6da9b501e1574" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::numberOfSurfaces</definition>
+        <argsstring></argsstring>
+        <name>numberOfSurfaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="271" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1ac906479c4bc574cd6de823e9c98bf4ff" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::numberOfFaces</definition>
+        <argsstring></argsstring>
+        <name>numberOfFaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="272" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a9a96471cf5996421728a7b0db4c2f5d0" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::numberOfMipmaps</definition>
+        <argsstring></argsstring>
+        <name>numberOfMipmaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="273" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1acdaeb77a0815ec8584ac94859e9fcd26" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1a435d1572bf3f880d55459d9805097f62" kindref="member">uint32_t</ref></type>
+        <definition>uint32_t NS_CC_BEGIN::__attribute__::metadataLength</definition>
+        <argsstring></argsstring>
+        <name>metadataLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="274" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/platform/CCImage.cpp" line="262" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="261" bodyend="279"/>
+    <listofallmembers>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a7004b976dc01d0f3c148a612f936e5b3" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>channelType</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1adc1028257c036e650ba27e6597ed536b" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>colorSpace</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a0a9bd617c56cc37186f3685c82bca061" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>depth</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1ae6205bca8ab8ec203e52009efd473c27" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>flags</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a36b96684f17993f97a6f24f9caa1d1cc" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>height</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1acdaeb77a0815ec8584ac94859e9fcd26" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>metadataLength</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1ac906479c4bc574cd6de823e9c98bf4ff" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>numberOfFaces</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a9a96471cf5996421728a7b0db4c2f5d0" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>numberOfMipmaps</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a18ff1005d3f12e7b8ce6da9b501e1574" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>numberOfSurfaces</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a82dfc15b665a249b8f06a08827f680be" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>pixelFormat</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a37dae7cd2b41c79ded48631b0b736d94" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>version</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1____attribute_____1a587df535f352bd435804e830438b5fd1" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::__attribute__</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

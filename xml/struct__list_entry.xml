@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__list_entry" kind="struct" language="C++" prot="public">
+    <compoundname>_listEntry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__list_entry_1a3b2315c239a97de7798badcb0b66203d" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__list_entry" kindref="compound">_listEntry</ref> *</type>
+        <definition>struct _listEntry* _listEntry::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="42" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1afbaca78f6b0462638a5dd8802dbbb028" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__list_entry" kindref="compound">_listEntry</ref> *</type>
+        <definition>struct _listEntry * _listEntry::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="42" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1a214bbd679804f431ea25faf3094da863" prot="public" static="no" mutable="no">
+        <type><ref refid="_c_c_scheduler_8h_1a017ec1e4451e1ff8986f181ff4afaa11" kindref="member">ccSchedulerFunc</ref></type>
+        <definition>ccSchedulerFunc _listEntry::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="43" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1a4aa83a85e0afce6916cef4be1b203371" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _listEntry::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="44" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1aaa7a7fe4fbceba324d107cd6bc9aeae7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _listEntry::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="45" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1a15bf6ec32bb10da5d4599b3c02b5d47b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _listEntry::paused</definition>
+        <argsstring></argsstring>
+        <name>paused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="46" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__list_entry_1a206fea1e0f69ed61fca0c61589c48d04" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _listEntry::markedForDeletion</definition>
+        <argsstring></argsstring>
+        <name>markedForDeletion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="47" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="428">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="428" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/base/CCScheduler.cpp" line="41" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="40" bodyend="48"/>
+    <listofallmembers>
+      <member refid="struct__list_entry_1a214bbd679804f431ea25faf3094da863" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>callback</name></member>
+      <member refid="struct__list_entry_1a206fea1e0f69ed61fca0c61589c48d04" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>markedForDeletion</name></member>
+      <member refid="struct__list_entry_1afbaca78f6b0462638a5dd8802dbbb028" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>next</name></member>
+      <member refid="struct__list_entry_1a15bf6ec32bb10da5d4599b3c02b5d47b" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>paused</name></member>
+      <member refid="struct__list_entry_1a3b2315c239a97de7798badcb0b66203d" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>prev</name></member>
+      <member refid="struct__list_entry_1aaa7a7fe4fbceba324d107cd6bc9aeae7" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>priority</name></member>
+      <member refid="struct__list_entry_1a4aa83a85e0afce6916cef4be1b203371" prot="public" virt="non-virtual"><scope>_listEntry</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcocostudio_1_1_action_frame_easing" kind="class" language="C++" prot="public">
+    <compoundname>cocostudio::ActionFrameEasing</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ref</basecompoundref>
+    <includes refid="_c_c_action_frame_easing_8h" local="no">CCActionFrameEasing.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_easing_1ac32c873cd04198fe53442ae889b3cd2e" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespacecocostudio_1a466f4d686f8aaef61613a19feca6e067" kindref="member">FrameEasingType</ref></type>
+        <definition>FrameEasingType cocostudio::ActionFrameEasing::_type</definition>
+        <argsstring></argsstring>
+        <name>_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="63" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_frame_easing_1ad61e1f08a9f04c4dbc74c68008e500e3" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionFrameEasing::_fValue</definition>
+        <argsstring></argsstring>
+        <name>_fValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="64" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_easing_1a1eb92865c107fddd3b3dffc416be7759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cocostudio::ActionFrameEasing::ActionFrameEasing</definition>
+        <argsstring>()</argsstring>
+        <name>ActionFrameEasing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="66" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_easing_1afcae2f31257553d9fd286ced9e6a1159" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>cocostudio::ActionFrameEasing::~ActionFrameEasing</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionFrameEasing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="67" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_easing_1a11f9997f2cf554e662a9c268535e5880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionFrameEasing::bounceTime</definition>
+        <argsstring>(float t)</argsstring>
+        <name>bounceTime</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="69" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.cpp" bodystart="45" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_frame_easing_1a2181bf2308e1cfc316674253021ea1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionFrameEasing::easeValue</definition>
+        <argsstring>(float t)</argsstring>
+        <name>easeValue</name>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="71" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.cpp" bodystart="63" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NA  NA </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1280">
+        <label>cocostudio::ActionFrameEasing</label>
+        <link refid="classcocostudio_1_1_action_frame_easing"/>
+        <childnode refid="1281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1281">
+        <label>Ref</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1282">
+        <label>cocostudio::ActionFrameEasing</label>
+        <link refid="classcocostudio_1_1_action_frame_easing"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1283">
+        <label>Ref</label>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCActionFrameEasing.h" line="61" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrameEasing.h" bodystart="60" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classcocostudio_1_1_action_frame_easing_1ad61e1f08a9f04c4dbc74c68008e500e3" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrameEasing</scope><name>_fValue</name></member>
+      <member refid="classcocostudio_1_1_action_frame_easing_1ac32c873cd04198fe53442ae889b3cd2e" prot="protected" virt="non-virtual"><scope>cocostudio::ActionFrameEasing</scope><name>_type</name></member>
+      <member refid="classcocostudio_1_1_action_frame_easing_1a1eb92865c107fddd3b3dffc416be7759" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrameEasing</scope><name>ActionFrameEasing</name></member>
+      <member refid="classcocostudio_1_1_action_frame_easing_1a11f9997f2cf554e662a9c268535e5880" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrameEasing</scope><name>bounceTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_easing_1a2181bf2308e1cfc316674253021ea1e2" prot="public" virt="non-virtual"><scope>cocostudio::ActionFrameEasing</scope><name>easeValue</name></member>
+      <member refid="classcocostudio_1_1_action_frame_easing_1afcae2f31257553d9fd286ced9e6a1159" prot="public" virt="virtual"><scope>cocostudio::ActionFrameEasing</scope><name>~ActionFrameEasing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___from_entry" kind="struct" language="C++" prot="public">
+    <compoundname>_FromEntry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___from_entry_1a417ac9e6085da21dfb981644744d849b" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_animation" kindref="compound">spAnimation</ref> *</type>
+        <definition>spAnimation* _FromEntry::animation</definition>
+        <argsstring></argsstring>
+        <name>animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AnimationStateData.c" line="57" column="1" bodyfile="cocos/editor-support/spine/AnimationStateData.c" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___from_entry_1a542b9cf8d8b540685b411e93a8a3e676" prot="public" static="no" mutable="no">
+        <type><ref refid="struct___to_entry" kindref="compound">_ToEntry</ref> *</type>
+        <definition>_ToEntry* _FromEntry::toEntries</definition>
+        <argsstring></argsstring>
+        <name>toEntries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AnimationStateData.c" line="58" column="1" bodyfile="cocos/editor-support/spine/AnimationStateData.c" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___from_entry_1a5770c38ebfe5594374616d1045904526" prot="public" static="no" mutable="no">
+        <type><ref refid="struct___from_entry" kindref="compound">_FromEntry</ref> *</type>
+        <definition>_FromEntry* _FromEntry::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/AnimationStateData.c" line="59" column="1" bodyfile="cocos/editor-support/spine/AnimationStateData.c" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="350">
+        <label>_ToEntry</label>
+        <link refid="struct___to_entry"/>
+        <childnode refid="348" relation="usage">
+          <edgelabel>animation</edgelabel>
+        </childnode>
+        <childnode refid="350" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="349">
+        <label>spTimeline</label>
+        <link refid="structsp_timeline"/>
+      </node>
+      <node id="348">
+        <label>spAnimation</label>
+        <link refid="structsp_animation"/>
+        <childnode refid="349" relation="usage">
+          <edgelabel>timelines</edgelabel>
+        </childnode>
+      </node>
+      <node id="347">
+        <label>_FromEntry</label>
+        <link refid="struct___from_entry"/>
+        <childnode refid="348" relation="usage">
+          <edgelabel>animation</edgelabel>
+        </childnode>
+        <childnode refid="350" relation="usage">
+          <edgelabel>toEntries</edgelabel>
+        </childnode>
+        <childnode refid="347" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/AnimationStateData.c" line="56" column="1" bodyfile="cocos/editor-support/spine/AnimationStateData.c" bodystart="56" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct___from_entry_1a417ac9e6085da21dfb981644744d849b" prot="public" virt="non-virtual"><scope>_FromEntry</scope><name>animation</name></member>
+      <member refid="struct___from_entry_1a5770c38ebfe5594374616d1045904526" prot="public" virt="non-virtual"><scope>_FromEntry</scope><name>next</name></member>
+      <member refid="struct___from_entry_1a542b9cf8d8b540685b411e93a8a3e676" prot="public" virt="non-virtual"><scope>_FromEntry</scope><name>toEntries</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

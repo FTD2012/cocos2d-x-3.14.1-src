@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcocostudio_1_1_action_move_frame" kind="class" language="C++" prot="public">
+    <compoundname>cocostudio::ActionMoveFrame</compoundname>
+    <basecompoundref refid="classcocostudio_1_1_action_frame" prot="public" virt="non-virtual">cocostudio::ActionFrame</basecompoundref>
+    <includes refid="_c_c_action_frame_8h" local="no">CCActionFrame.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcocostudio_1_1_action_move_frame_1a699bbac53b9a31e826a84fba7f206a19" prot="protected" static="no" mutable="no">
+        <type>cocos2d::Vec2</type>
+        <definition>cocos2d::Vec2 cocostudio::ActionMoveFrame::_position</definition>
+        <argsstring></argsstring>
+        <name>_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="251" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_move_frame_1a5fa55f958e6083638c86b9db5a3385f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cocostudio::ActionMoveFrame::ActionMoveFrame</definition>
+        <argsstring>()</argsstring>
+        <name>ActionMoveFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="221" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="223" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_move_frame_1a956695154ea2ba7ec1d81aec8589360f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>cocostudio::ActionMoveFrame::~ActionMoveFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionMoveFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="226" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_move_frame_1ae4f9685c1b3fdd9e6d50d90729013e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionMoveFrame::setPosition</definition>
+        <argsstring>(cocos2d::Vec2 pos)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>cocos2d::Vec2</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the move action position.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>move action position. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="233" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_move_frame_1a29d4eca3655e5c12062b5447ee89fbfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cocos2d::Vec2</type>
+        <definition>Vec2 cocostudio::ActionMoveFrame::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the move action position.</para><para><simplesect kind="return"><para>the move action position. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="240" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_move_frame_1a57f58bf872a13797b7b121c0bb40793e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>cocos2d::ActionInterval *</type>
+        <definition>ActionInterval * cocostudio::ActionMoveFrame::getAction</definition>
+        <argsstring>(float duration)</argsstring>
+        <name>getAction</name>
+        <reimplements refid="classcocostudio_1_1_action_frame_1a375216a44f6643d5e771299b1236dc51">getAction</reimplements>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the duration time of <ref refid="classcocostudio_1_1_action_frame" kindref="compound">ActionFrame</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_action_interval" kindref="compound">ActionInterval</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="249" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.cpp" bodystart="240" bodyend="243"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NA  NA </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1623">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1624" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1624">
+        <label>Ref</label>
+      </node>
+      <node id="1622">
+        <label>cocostudio::ActionMoveFrame</label>
+        <link refid="classcocostudio_1_1_action_move_frame"/>
+        <childnode refid="1623" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1626">
+        <label>cocostudio::ActionFrame</label>
+        <link refid="classcocostudio_1_1_action_frame"/>
+        <childnode refid="1627" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1627">
+        <label>Ref</label>
+      </node>
+      <node id="1625">
+        <label>cocostudio::ActionMoveFrame</label>
+        <link refid="classcocostudio_1_1_action_move_frame"/>
+        <childnode refid="1626" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCActionFrame.h" line="215" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionFrame.h" bodystart="214" bodyend="252"/>
+    <listofallmembers>
+      <member refid="classcocostudio_1_1_action_frame_1ae873ce5f7b6ba4f18ba8badcc96973b2" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_easingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a2cd1f0478b31da16b13d3573305d9880" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_frameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aa218ee2b103cf447ede7982f31145b0d" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_frameType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a1cf6282b3ba236431ebc55490044192f" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_fTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a536f223d2b8bc65449c099ab61c79591" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_Parameter</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1a699bbac53b9a31e826a84fba7f206a19" prot="protected" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>_position</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a830bed4204d29fc48d9564629c28e8e6" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>ActionFrame</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1a5fa55f958e6083638c86b9db5a3385f1" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>ActionMoveFrame</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1a57f58bf872a13797b7b121c0bb40793e" prot="public" virt="virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aad2a9c2314821270f5961416f4d7fb18" prot="public" virt="virtual" ambiguityscope="cocostudio::ActionFrame::"><scope>cocostudio::ActionMoveFrame</scope><name>getAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a73e7244a9bebca9977830d861194e41c" prot="protected" virt="virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getEasingAction</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac9cbd5d9b6751f4802b83a35941b680f" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac0a9d3c72983fed42f1a8822a0375499" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1aaf531864a6d4eecf2cffecc0999512c7" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a6dcd7610871fcbef3ed3806e56cd790a" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1a29d4eca3655e5c12062b5447ee89fbfa" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>getPosition</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1afb54df9da9e52bc85488ba6c51b40a28" prot="public" virt="virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setEasingParameter</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ac853eabdb94f1f08deb52e09b8aece1d" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setEasingType</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1adbca76015f4ce16ecb2bb0bca49ef712" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setFrameIndex</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a9a64130e3c776f083ee959b6e261b78e" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setFrameTime</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1ad2086156bd154ae75dc32515fd150314" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setFrameType</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1ae4f9685c1b3fdd9e6d50d90729013e03" prot="public" virt="non-virtual"><scope>cocostudio::ActionMoveFrame</scope><name>setPosition</name></member>
+      <member refid="classcocostudio_1_1_action_frame_1a33cfe80667ec5c05b75d4cdc5e7b7b54" prot="public" virt="virtual"><scope>cocostudio::ActionMoveFrame</scope><name>~ActionFrame</name></member>
+      <member refid="classcocostudio_1_1_action_move_frame_1a956695154ea2ba7ec1d81aec8589360f" prot="public" virt="virtual"><scope>cocostudio::ActionMoveFrame</scope><name>~ActionMoveFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

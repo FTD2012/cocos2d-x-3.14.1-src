@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_____j_s_plist_delegator" kind="class" language="C++" prot="public">
+    <compoundname>__JSPlistDelegator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SAXDelegator</basecompoundref>
+    <includes refid="cocos2d__specifics_8hpp" local="no">cocos2d_specifics.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_____j_s_plist_delegator_1a1c523e69167a50c723d9326afa6bc426" prot="private" static="no" mutable="no">
+        <type>cocos2d::SAXParser</type>
+        <definition>cocos2d::SAXParser __JSPlistDelegator::_parser</definition>
+        <argsstring></argsstring>
+        <name>_parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="291" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_plist_delegator_1a8dacf1a687e30f21887c7ac52067e404" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string __JSPlistDelegator::_result</definition>
+        <argsstring></argsstring>
+        <name>_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="292" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_plist_delegator_1a5744d3320bf534e96598bc12b2fc5b0f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool __JSPlistDelegator::_isStoringCharacters</definition>
+        <argsstring></argsstring>
+        <name>_isStoringCharacters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="293" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_plist_delegator_1a6b4df99fdf53ebc1b8cdeb3fab21455b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string __JSPlistDelegator::_currentValue</definition>
+        <argsstring></argsstring>
+        <name>_currentValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="294" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a46f8b422947c5f7d3655306dab6c0673" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_____j_s_plist_delegator" kindref="compound">__JSPlistDelegator</ref> *</type>
+        <definition>static __JSPlistDelegator* __JSPlistDelegator::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="270" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="270" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a1acb1eaf4974d9175741109b0cab0a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__JSPlistDelegator::~__JSPlistDelegator</definition>
+        <argsstring>()</argsstring>
+        <name>~__JSPlistDelegator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="278" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4663" bodyend="4665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a9dcdb68188540e1f9181bf9f7018bb67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cocos2d::SAXParser *</type>
+        <definition>cocos2d::SAXParser * __JSPlistDelegator::getParser</definition>
+        <argsstring>()</argsstring>
+        <name>getParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="280" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4646" bodyend="4648"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1ae658b51da74caf9bbf5040337ad31723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string __JSPlistDelegator::parse</definition>
+        <argsstring>(const std::string &amp;path)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="282" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4650" bodyend="4661"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1aea427573001623e57bb7e78b35ab098a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string __JSPlistDelegator::parseText</definition>
+        <argsstring>(const std::string &amp;text)</argsstring>
+        <name>parseText</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="283" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4667" bodyend="4678"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a8903c49ec9313bc67f6dfb3616fc3a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSPlistDelegator::startElement</definition>
+        <argsstring>(void *ctx, const char *name, const char **atts) override</argsstring>
+        <name>startElement</name>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>atts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="286" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4680" bodyend="4697"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a83daa45309dff71164b28a21ec8309af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSPlistDelegator::endElement</definition>
+        <argsstring>(void *ctx, const char *name) override</argsstring>
+        <name>endElement</name>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="287" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4699" bodyend="4721"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_plist_delegator_1a5a485d32228740bd1fd1c23cc52e8713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSPlistDelegator::textHandler</definition>
+        <argsstring>(void *ctx, const char *ch, size_t len) override</argsstring>
+        <name>textHandler</name>
+        <param>
+          <type>void *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ch</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="288" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.cpp" bodystart="4723" bodyend="4730"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>__JSPlistDelegator</label>
+        <link refid="class_____j_s_plist_delegator"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>cocos2d::SAXDelegator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="166">
+        <label>__JSPlistDelegator</label>
+        <link refid="class_____j_s_plist_delegator"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>cocos2d::SAXDelegator</label>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" line="268" column="1" bodyfile="cocos/scripting/js-bindings/manual/cocos2d_specifics.hpp" bodystart="267" bodyend="295"/>
+    <listofallmembers>
+      <member refid="class_____j_s_plist_delegator_1a6b4df99fdf53ebc1b8cdeb3fab21455b" prot="private" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>_currentValue</name></member>
+      <member refid="class_____j_s_plist_delegator_1a5744d3320bf534e96598bc12b2fc5b0f" prot="private" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>_isStoringCharacters</name></member>
+      <member refid="class_____j_s_plist_delegator_1a1c523e69167a50c723d9326afa6bc426" prot="private" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>_parser</name></member>
+      <member refid="class_____j_s_plist_delegator_1a8dacf1a687e30f21887c7ac52067e404" prot="private" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>_result</name></member>
+      <member refid="class_____j_s_plist_delegator_1a83daa45309dff71164b28a21ec8309af" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>endElement</name></member>
+      <member refid="class_____j_s_plist_delegator_1a46f8b422947c5f7d3655306dab6c0673" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>getInstance</name></member>
+      <member refid="class_____j_s_plist_delegator_1a9dcdb68188540e1f9181bf9f7018bb67" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>getParser</name></member>
+      <member refid="class_____j_s_plist_delegator_1ae658b51da74caf9bbf5040337ad31723" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>parse</name></member>
+      <member refid="class_____j_s_plist_delegator_1aea427573001623e57bb7e78b35ab098a" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>parseText</name></member>
+      <member refid="class_____j_s_plist_delegator_1a8903c49ec9313bc67f6dfb3616fc3a91" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>startElement</name></member>
+      <member refid="class_____j_s_plist_delegator_1a5a485d32228740bd1fd1c23cc52e8713" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>textHandler</name></member>
+      <member refid="class_____j_s_plist_delegator_1a1acb1eaf4974d9175741109b0cab0a12" prot="public" virt="non-virtual"><scope>__JSPlistDelegator</scope><name>~__JSPlistDelegator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

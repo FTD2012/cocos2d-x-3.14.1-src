@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___b_m_font_def" kind="struct" language="C++" prot="public">
+    <compoundname>_BMFontDef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="group__label_1ga4be84ef9be4446878fff255b15e9e678" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _BMFontDef::charID</definition>
+        <argsstring></argsstring>
+        <name>charID</name>
+        <briefdescription>
+<para>ID of the character. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="60" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1ga9426c06ddd57097582d48bfb34ef02fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rect" kindref="compound">Rect</ref></type>
+        <definition>Rect _BMFontDef::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+<para>origin and size of the font </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="62" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1gaf961a67faba7abff4c31ef69b32eaed4" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _BMFontDef::xOffset</definition>
+        <argsstring></argsstring>
+        <name>xOffset</name>
+        <briefdescription>
+<para>The X amount the image should be offset when drawing the image (in pixels) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="64" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1gae0d9c0fc84b157abd9133b6bcddab2b7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _BMFontDef::yOffset</definition>
+        <argsstring></argsstring>
+        <name>yOffset</name>
+        <briefdescription>
+<para>The Y amount the image should be offset when drawing the image (in pixels) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="66" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1gaf8a9e2733f5f1fcb8a3631b3886d6703" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _BMFontDef::xAdvance</definition>
+        <argsstring></argsstring>
+        <name>xAdvance</name>
+        <briefdescription>
+<para>The amount to move the current position after drawing the character (in pixels) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="68" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="322">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="323" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="322" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="323">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="323" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="324">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="324" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="321">
+        <label>_BMFontDef</label>
+        <link refid="struct___b_m_font_def"/>
+        <childnode refid="322" relation="usage">
+          <edgelabel>rect</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCFontFNT.cpp" line="58" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="58" bodyend="69"/>
+    <listofallmembers>
+      <member refid="group__label_1ga4be84ef9be4446878fff255b15e9e678" prot="public" virt="non-virtual"><scope>_BMFontDef</scope><name>charID</name></member>
+      <member refid="group__label_1ga9426c06ddd57097582d48bfb34ef02fa" prot="public" virt="non-virtual"><scope>_BMFontDef</scope><name>rect</name></member>
+      <member refid="group__label_1gaf8a9e2733f5f1fcb8a3631b3886d6703" prot="public" virt="non-virtual"><scope>_BMFontDef</scope><name>xAdvance</name></member>
+      <member refid="group__label_1gaf961a67faba7abff4c31ef69b32eaed4" prot="public" virt="non-virtual"><scope>_BMFontDef</scope><name>xOffset</name></member>
+      <member refid="group__label_1gae0d9c0fc84b157abd9133b6bcddab2b7" prot="public" virt="non-virtual"><scope>_BMFontDef</scope><name>yOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

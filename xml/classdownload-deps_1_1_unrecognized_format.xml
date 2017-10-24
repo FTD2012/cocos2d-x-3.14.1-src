@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classdownload-deps_1_1_unrecognized_format" kind="class" language="Python" prot="public">
+    <compoundname>download-deps::UnrecognizedFormat</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdownload-deps_1_1_unrecognized_format_1a24a92ac50a16e1e7beee907ddd3b260b" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>download-deps.UnrecognizedFormat::_prompt</definition>
+        <argsstring></argsstring>
+        <name>_prompt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="57" column="1" bodyfile="download-deps.py" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdownload-deps_1_1_unrecognized_format_1afe5edb7d5ce6a8dd0cc1b57e382798b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.UnrecognizedFormat.__init__</definition>
+        <argsstring>(self, prompt)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>prompt</type>
+          <defname>prompt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="56" column="1" bodyfile="download-deps.py" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classdownload-deps_1_1_unrecognized_format_1a0985aa811368b66b6af9491eccc5d253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def download-deps.UnrecognizedFormat.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="download-deps.py" line="59" column="1" bodyfile="download-deps.py" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="download-deps.py" line="55" column="1" bodyfile="download-deps.py" bodystart="55" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classdownload-deps_1_1_unrecognized_format_1afe5edb7d5ce6a8dd0cc1b57e382798b6" prot="public" virt="non-virtual"><scope>download-deps::UnrecognizedFormat</scope><name>__init__</name></member>
+      <member refid="classdownload-deps_1_1_unrecognized_format_1a0985aa811368b66b6af9491eccc5d253" prot="public" virt="non-virtual"><scope>download-deps::UnrecognizedFormat</scope><name>__str__</name></member>
+      <member refid="classdownload-deps_1_1_unrecognized_format_1a24a92ac50a16e1e7beee907ddd3b260b" prot="private" virt="non-virtual"><scope>download-deps::UnrecognizedFormat</scope><name>_prompt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

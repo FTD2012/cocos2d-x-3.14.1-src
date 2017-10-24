@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="md__c_o_n_t_r_i_b_u_t_i_n_g" kind="page">
+    <compoundname>md_CONTRIBUTING</compoundname>
+    <title>Contributing to cocos2d-x</title>
+    <detaileddescription>
+<para><heading level="2">For general questions</heading>
+</para><para>You can ask general questions by using:</para><para><itemizedlist>
+<listitem><para>Forum (preferred way): <ulink url="http://discuss.cocos2d-x.org/">http://discuss.cocos2d-x.org/</ulink></para></listitem><listitem><para>IRC: <ulink url="https://webchat.freenode.net/">https://webchat.freenode.net/</ulink> (Use the <emphasis>cocos2d</emphasis> or <emphasis>cocos2d-x</emphasis> channels)</para></listitem><listitem><para>Weibo: <ulink url="http://t.sina.com.cn/cocos2dx">http://t.sina.com.cn/cocos2dx</ulink></para></listitem><listitem><para>Twitter: <ulink url="http://www.twitter.com/cocos2dx">http://www.twitter.com/cocos2dx</ulink></para></listitem></itemizedlist>
+</para><para><heading level="2">Reporting bugs</heading>
+</para><para>To report bugs, please use the <ulink url="https://github.com/cocos2d/cocos2d-x/issues">Issue Tracker</ulink></para><para>Steps to report a bug:<itemizedlist>
+<listitem><para>Open the <ulink url="https://github.com/cocos2d/cocos2d-x/issues/new">url</ulink></para></listitem><listitem><para>Add all the needed information to reproduce the bug, the information include<itemizedlist>
+<listitem><para>engine version</para></listitem><listitem><para>steps to reproduce the bug</para></listitem><listitem><para>some pseudocode</para></listitem><listitem><para>resources link if needed</para></listitem></itemizedlist>
+</para></listitem></itemizedlist>
+</para><para><heading level="2">Submitting patches</heading>
+</para><para>If you want to contribute code, please follow these steps:</para><para>(If you are new to git and/or GitHub, you should read <ulink url="http://progit.org/book/">Pro Git</ulink> , especially the section on <ulink url="http://progit.org/book/ch5-2.html#public_small_project">Contributing to a project:Small/Large Public Project</ulink> )</para><para><itemizedlist>
+<listitem><para>Download the latest cocos2d-x develop branch from github:</para></listitem></itemizedlist>
+</para><para><programlisting><codeline><highlight class="normal">$<sp/>git<sp/>clone<sp/>git://github.com/cocos2d/cocos2d-x.git</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cd<sp/>cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>git<sp/>checkout<sp/>v3</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>./download-deps.py</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>git<sp/>submodule<sp/>update<sp/>--init</highlight></codeline>
+</programlisting></para><para><itemizedlist>
+<listitem><para>Apply your changes in the recently downloaded repository</para></listitem><listitem><para>Commit your changes in your own repository</para></listitem><listitem><para>Create a new branch with your patch: <computeroutput>$ git checkout -b my_fix_branch</computeroutput></para></listitem><listitem><para>Push your new branch to your public repository</para></listitem><listitem><para>Send a “pull request” to user “cocos2d”</para></listitem><listitem><para>It must be <emphasis>complete</emphasis>. See the definition below</para></listitem><listitem><para>It must follow the <emphasis>Releases</emphasis> rules. See the definition below</para></listitem></itemizedlist>
+</para><para><heading level="2">Only <emphasis>complete</emphasis> patches will be merged</heading>
+</para><para>The patch must be <emphasis>complete</emphasis>. And by that, we mean:</para><para><itemizedlist>
+<listitem><para>For C++ code follow the https://github.com/cocos2d/cocos2d-x/blob/v3/docs/CODING_STYLE.md &quot;Cocos2d C++ Coding Style&quot;</para></listitem><listitem><para>For Python code follow the <ulink url="https://www.python.org/dev/peps/pep-0008">PEP8 guidelines</ulink></para></listitem><listitem><para>Describe what the patch does</para></listitem><listitem><para>Include test cases if applicable</para></listitem><listitem><para>Include unit tests if applicable</para></listitem><listitem><para>Must be tested in all supported platforms [*]</para></listitem><listitem><para>Must NOT degrade the performance</para></listitem><listitem><para>Must NOT break existing tests cases</para></listitem><listitem><para>Must NOT break the Continuous Integration build</para></listitem><listitem><para>Must NOT break backward compatibility</para></listitem><listitem><para>Must compile WITHOUT warnings</para></listitem><listitem><para>New APIs MUST be <bold>easy to use</bold>, <bold>familiar</bold> to cocos2d-x users</para></listitem><listitem><para>Code MUST be <bold>easy to extend</bold> and <bold>maintain</bold></para></listitem><listitem><para>Must have documentation: C++ APIs must use Doxygen strings, tools must have a <ref refid="_r_e_a_d_m_e_8md" kindref="compound">README.md</ref> file that describe how to use the tool</para></listitem><listitem><para>Must be efficient (fast / low memory needs)</para></listitem><listitem><para>It must not duplicate existing code, unless the new code deprecates the old one</para></listitem><listitem><para>Patches that refactor key components will only be merged in the next major versions.</para></listitem></itemizedlist>
+</para><para>[*]: If you don&apos;t have access to test your code in all the supported platforms, let us know.</para><para><bold>TBD</bold>: Is this applicable for big features ? What is the best way to merge big features ?</para><para><heading level="1">Promoting cocos2d</heading>
+</para><para>Help us promote cocos2d-x by using the cocos2d logo in your game, or by mentioning cocos2d in the credits.</para><para><ulink url="http://www.cocos2d-x.org/wiki/Logo_Resources_of_Cocos2d-x">Logo Resources of Cocos2d-x</ulink> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

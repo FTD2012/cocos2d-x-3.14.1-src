@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_skeleton_json" kind="struct" language="C++" prot="public">
+    <compoundname>_spSkeletonJson</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_skeleton_json_1a23f11521b275231e3efe80840d39d793" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_skeleton_json" kindref="compound">spSkeletonJson</ref></type>
+        <definition>spSkeletonJson _spSkeletonJson::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonJson.c" line="52" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_json_1a258ed379882c3ae9f2907793492037ba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonJson::ownsLoader</definition>
+        <argsstring></argsstring>
+        <name>ownsLoader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonJson.c" line="53" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_json_1ac5b1e6648c1130406681a595e2b7e10a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonJson::linkedMeshCount</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonJson.c" line="55" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_json_1a3cc36c1c003dd33cd4ae0725a88a1b95" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonJson::linkedMeshCapacity</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonJson.c" line="56" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_json_1a978d71fa6880d88757fed0c95f3c3faf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sp_linked_mesh" kindref="compound">_spLinkedMesh</ref> *</type>
+        <definition>_spLinkedMesh* _spSkeletonJson::linkedMeshes</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonJson.c" line="57" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="514">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="510" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="510">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="513">
+        <label>spVertexAttachment</label>
+        <link refid="structsp_vertex_attachment"/>
+        <childnode refid="514" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="509">
+        <label>spSkeletonJson</label>
+        <link refid="structsp_skeleton_json"/>
+        <childnode refid="510" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="511">
+        <label>_spLinkedMesh</label>
+        <link refid="struct__sp_linked_mesh"/>
+        <childnode refid="512" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="512">
+        <label>spMeshAttachment</label>
+        <link refid="structsp_mesh_attachment"/>
+        <childnode refid="513" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+        <childnode refid="512" relation="usage">
+          <edgelabel>parentMesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="508">
+        <label>_spSkeletonJson</label>
+        <link refid="struct__sp_skeleton_json"/>
+        <childnode refid="509" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+        <childnode refid="511" relation="usage">
+          <edgelabel>linkedMeshes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/SkeletonJson.c" line="51" column="1" bodyfile="cocos/editor-support/spine/SkeletonJson.c" bodystart="51" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct__sp_skeleton_json_1a3cc36c1c003dd33cd4ae0725a88a1b95" prot="public" virt="non-virtual"><scope>_spSkeletonJson</scope><name>linkedMeshCapacity</name></member>
+      <member refid="struct__sp_skeleton_json_1ac5b1e6648c1130406681a595e2b7e10a" prot="public" virt="non-virtual"><scope>_spSkeletonJson</scope><name>linkedMeshCount</name></member>
+      <member refid="struct__sp_skeleton_json_1a978d71fa6880d88757fed0c95f3c3faf" prot="public" virt="non-virtual"><scope>_spSkeletonJson</scope><name>linkedMeshes</name></member>
+      <member refid="struct__sp_skeleton_json_1a258ed379882c3ae9f2907793492037ba" prot="public" virt="non-virtual"><scope>_spSkeletonJson</scope><name>ownsLoader</name></member>
+      <member refid="struct__sp_skeleton_json_1a23f11521b275231e3efe80840d39d793" prot="public" virt="non-virtual"><scope>_spSkeletonJson</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

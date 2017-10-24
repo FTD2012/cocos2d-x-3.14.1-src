@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_linked_mesh" kind="struct" language="C++" prot="public">
+    <compoundname>_spLinkedMesh</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_linked_mesh_1a511febb06e6b24d690a9c6eec7b4f7f5" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char * _spLinkedMesh::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="45" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_linked_mesh_1ace7dfd8038178ea79dfa5a79c7929876" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char * _spLinkedMesh::skin</definition>
+        <argsstring></argsstring>
+        <name>skin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="46" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_linked_mesh_1a9a9bbd77397d0c6885563fd7d8526cb6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spLinkedMesh::slotIndex</definition>
+        <argsstring></argsstring>
+        <name>slotIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="47" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_linked_mesh_1a1e01e633459ee8ab9f360e3f040240eb" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_mesh_attachment" kindref="compound">spMeshAttachment</ref> *</type>
+        <definition>spMeshAttachment * _spLinkedMesh::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="48" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="468">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="469" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="469">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="467">
+        <label>spVertexAttachment</label>
+        <link refid="structsp_vertex_attachment"/>
+        <childnode refid="468" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="465">
+        <label>_spLinkedMesh</label>
+        <link refid="struct__sp_linked_mesh"/>
+        <childnode refid="466" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="466">
+        <label>spMeshAttachment</label>
+        <link refid="structsp_mesh_attachment"/>
+        <childnode refid="467" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+        <childnode refid="466" relation="usage">
+          <edgelabel>parentMesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/SkeletonBinary.c" line="44" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="44" bodyend="49"/>
+    <listofallmembers>
+      <member refid="struct__sp_linked_mesh_1a1e01e633459ee8ab9f360e3f040240eb" prot="public" virt="non-virtual"><scope>_spLinkedMesh</scope><name>mesh</name></member>
+      <member refid="struct__sp_linked_mesh_1a511febb06e6b24d690a9c6eec7b4f7f5" prot="public" virt="non-virtual"><scope>_spLinkedMesh</scope><name>parent</name></member>
+      <member refid="struct__sp_linked_mesh_1ace7dfd8038178ea79dfa5a79c7929876" prot="public" virt="non-virtual"><scope>_spLinkedMesh</scope><name>skin</name></member>
+      <member refid="struct__sp_linked_mesh_1a9a9bbd77397d0c6885563fd7d8526cb6" prot="public" virt="non-virtual"><scope>_spLinkedMesh</scope><name>slotIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

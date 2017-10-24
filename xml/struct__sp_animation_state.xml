@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_animation_state" kind="struct" language="C++" prot="public">
+    <compoundname>_spAnimationState</compoundname>
+    <includes refid="extension_8h" local="no">extension.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_animation_state_1a9c040d3d830e3e22b273f772493b3de8" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_animation_state" kindref="compound">spAnimationState</ref></type>
+        <definition>spAnimationState _spAnimationState::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/extension.h" line="144" column="1" bodyfile="cocos/editor-support/spine/extension.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_animation_state_1ac066637f2e415dbf813418863108ea33" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_event" kindref="compound">spEvent</ref> **</type>
+        <definition>spEvent** _spAnimationState::events</definition>
+        <argsstring></argsstring>
+        <name>events</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/extension.h" line="145" column="1" bodyfile="cocos/editor-support/spine/extension.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_animation_state_1aeb6d24af917a46ee51b139efae008455" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_track_entry" kindref="compound">spTrackEntry</ref> *(*</type>
+        <definition>spTrackEntry*(* _spAnimationState::createTrackEntry) (spAnimationState *self)</definition>
+        <argsstring>)(spAnimationState *self)</argsstring>
+        <name>createTrackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/extension.h" line="147" column="1" bodyfile="cocos/editor-support/spine/extension.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_animation_state_1a2b531b9801f2ea3b8678821d56f210c7" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _spAnimationState::disposeTrackEntry) (spTrackEntry *entry)</definition>
+        <argsstring>)(spTrackEntry *entry)</argsstring>
+        <name>disposeTrackEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/extension.h" line="148" column="1" bodyfile="cocos/editor-support/spine/extension.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="455">
+        <label>spSkin</label>
+        <link refid="structsp_skin"/>
+      </node>
+      <node id="452">
+        <label>spIkConstraintData</label>
+        <link refid="structsp_ik_constraint_data"/>
+        <childnode refid="453" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="445">
+        <label>spEventData</label>
+        <link refid="structsp_event_data"/>
+      </node>
+      <node id="446">
+        <label>spTrackEntry</label>
+        <link refid="structsp_track_entry"/>
+        <childnode refid="447" relation="usage">
+          <edgelabel>animation</edgelabel>
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>previous</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="449" relation="usage">
+          <edgelabel>listener</edgelabel>
+          <edgelabel>state</edgelabel>
+        </childnode>
+      </node>
+      <node id="451">
+        <label>spSkeletonData</label>
+        <link refid="structsp_skeleton_data"/>
+        <childnode refid="452" relation="usage">
+          <edgelabel>ikConstraints</edgelabel>
+        </childnode>
+        <childnode refid="454" relation="usage">
+          <edgelabel>transformConstraints</edgelabel>
+        </childnode>
+        <childnode refid="447" relation="usage">
+          <edgelabel>animations</edgelabel>
+        </childnode>
+        <childnode refid="455" relation="usage">
+          <edgelabel>defaultSkin</edgelabel>
+          <edgelabel>skins</edgelabel>
+        </childnode>
+        <childnode refid="456" relation="usage">
+          <edgelabel>slots</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+        <childnode refid="457" relation="usage">
+          <edgelabel>pathConstraints</edgelabel>
+        </childnode>
+        <childnode refid="445" relation="usage">
+          <edgelabel>events</edgelabel>
+        </childnode>
+      </node>
+      <node id="443">
+        <label>_spAnimationState</label>
+        <link refid="struct__sp_animation_state"/>
+        <childnode refid="444" relation="usage">
+          <edgelabel>events</edgelabel>
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>createTrackEntry</edgelabel>
+        </childnode>
+        <childnode refid="449" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="448">
+        <label>spTimeline</label>
+        <link refid="structsp_timeline"/>
+      </node>
+      <node id="450">
+        <label>spAnimationStateData</label>
+        <link refid="structsp_animation_state_data"/>
+        <childnode refid="451" relation="usage">
+          <edgelabel>skeletonData</edgelabel>
+        </childnode>
+      </node>
+      <node id="449">
+        <label>spAnimationState</label>
+        <link refid="structsp_animation_state"/>
+        <childnode refid="446" relation="usage">
+          <edgelabel>tracks</edgelabel>
+        </childnode>
+        <childnode refid="450" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="449" relation="usage">
+          <edgelabel>listener</edgelabel>
+        </childnode>
+      </node>
+      <node id="456">
+        <label>spSlotData</label>
+        <link refid="structsp_slot_data"/>
+        <childnode refid="453" relation="usage">
+          <edgelabel>boneData</edgelabel>
+        </childnode>
+      </node>
+      <node id="447">
+        <label>spAnimation</label>
+        <link refid="structsp_animation"/>
+        <childnode refid="448" relation="usage">
+          <edgelabel>timelines</edgelabel>
+        </childnode>
+      </node>
+      <node id="453">
+        <label>spBoneData</label>
+        <link refid="structsp_bone_data"/>
+        <childnode refid="453" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="444">
+        <label>spEvent</label>
+        <link refid="structsp_event"/>
+        <childnode refid="445" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="454">
+        <label>spTransformConstraintData</label>
+        <link refid="structsp_transform_constraint_data"/>
+        <childnode refid="453" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="457">
+        <label>spPathConstraintData</label>
+        <link refid="structsp_path_constraint_data"/>
+        <childnode refid="456" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/extension.h" line="143" column="1" bodyfile="cocos/editor-support/spine/extension.h" bodystart="143" bodyend="158"/>
+    <listofallmembers>
+      <member refid="struct__sp_animation_state_1aeb6d24af917a46ee51b139efae008455" prot="public" virt="non-virtual"><scope>_spAnimationState</scope><name>createTrackEntry</name></member>
+      <member refid="struct__sp_animation_state_1a2b531b9801f2ea3b8678821d56f210c7" prot="public" virt="non-virtual"><scope>_spAnimationState</scope><name>disposeTrackEntry</name></member>
+      <member refid="struct__sp_animation_state_1ac066637f2e415dbf813418863108ea33" prot="public" virt="non-virtual"><scope>_spAnimationState</scope><name>events</name></member>
+      <member refid="struct__sp_animation_state_1a9c040d3d830e3e22b273f772493b3de8" prot="public" virt="non-virtual"><scope>_spAnimationState</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

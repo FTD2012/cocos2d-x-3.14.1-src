@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__cc_bezier_config" kind="struct" language="C++" prot="public">
+    <compoundname>_ccBezierConfig</compoundname>
+    <includes refid="_c_c_action_interval_8h" local="no">CCActionInterval.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__cc_bezier_config_1a3c51963237c96dbe01af0838f31a528b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_vec2" kindref="compound">Vec2</ref></type>
+        <definition>Vec2 _ccBezierConfig::endPosition</definition>
+        <argsstring></argsstring>
+        <name>endPosition</name>
+        <briefdescription>
+<para>end position of the bezier </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="949" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="949" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__cc_bezier_config_1a44fc431ed2be15f6235aeac2367cb6c6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_vec2" kindref="compound">Vec2</ref></type>
+        <definition>Vec2 _ccBezierConfig::controlPoint_1</definition>
+        <argsstring></argsstring>
+        <name>controlPoint_1</name>
+        <briefdescription>
+<para><ref refid="struct_bezier" kindref="compound">Bezier</ref> control point 1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="951" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="951" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__cc_bezier_config_1a5e16e7e41cd146980a0157d547ade6d9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_vec2" kindref="compound">Vec2</ref></type>
+        <definition>Vec2 _ccBezierConfig::controlPoint_2</definition>
+        <argsstring></argsstring>
+        <name>controlPoint_2</name>
+        <briefdescription>
+<para><ref refid="struct_bezier" kindref="compound">Bezier</ref> control point 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="953" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="953" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="331">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="331" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="330">
+        <label>_ccBezierConfig</label>
+        <link refid="struct__cc_bezier_config"/>
+        <childnode refid="331" relation="usage">
+          <edgelabel>controlPoint_1</edgelabel>
+          <edgelabel>controlPoint_2</edgelabel>
+          <edgelabel>endPosition</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCActionInterval.h" line="947" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="947" bodyend="954"/>
+    <listofallmembers>
+      <member refid="struct__cc_bezier_config_1a44fc431ed2be15f6235aeac2367cb6c6" prot="public" virt="non-virtual"><scope>_ccBezierConfig</scope><name>controlPoint_1</name></member>
+      <member refid="struct__cc_bezier_config_1a5e16e7e41cd146980a0157d547ade6d9" prot="public" virt="non-virtual"><scope>_ccBezierConfig</scope><name>controlPoint_2</name></member>
+      <member refid="struct__cc_bezier_config_1a3c51963237c96dbe01af0838f31a528b" prot="public" virt="non-virtual"><scope>_ccBezierConfig</scope><name>endPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

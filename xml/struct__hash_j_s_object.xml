@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__hash_j_s_object" kind="struct" language="C++" prot="public">
+    <compoundname>_hashJSObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__hash_j_s_object_1a1bf93b858fb0f2e47cd0f0cdbef3a301" prot="public" static="no" mutable="no">
+        <type>JSObject *</type>
+        <definition>JSObject* _hashJSObject::jsObject</definition>
+        <argsstring></argsstring>
+        <name>jsObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" line="36" column="1" bodyfile="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_j_s_object_1a63554d7b80835b7232ea8b953f7e1745" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _hashJSObject::proxy</definition>
+        <argsstring></argsstring>
+        <name>proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" line="37" column="1" bodyfile="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_j_s_object_1a41c4ea1d6b194d0928c579214977f1ba" prot="public" static="no" mutable="no">
+        <type>UT_hash_handle</type>
+        <definition>UT_hash_handle _hashJSObject::hh</definition>
+        <argsstring></argsstring>
+        <name>hh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" line="38" column="1" bodyfile="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" line="35" column="1" bodyfile="cocos/scripting/js-bindings/manual/js_bindings_core.cpp" bodystart="34" bodyend="39"/>
+    <listofallmembers>
+      <member refid="struct__hash_j_s_object_1a41c4ea1d6b194d0928c579214977f1ba" prot="public" virt="non-virtual"><scope>_hashJSObject</scope><name>hh</name></member>
+      <member refid="struct__hash_j_s_object_1a1bf93b858fb0f2e47cd0f0cdbef3a301" prot="public" virt="non-virtual"><scope>_hashJSObject</scope><name>jsObject</name></member>
+      <member refid="struct__hash_j_s_object_1a63554d7b80835b7232ea8b953f7e1745" prot="public" virt="non-virtual"><scope>_hashJSObject</scope><name>proxy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

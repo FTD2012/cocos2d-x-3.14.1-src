@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="issue__template_8md" kind="file" language="Markdown">
+    <compoundname>issue_template.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">-<sp/>cocos2d-x<sp/>version:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>devices<sp/>test<sp/>on:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>developing<sp/>environments</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>NDK<sp/>version:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>Xcode<sp/>version:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>VS<sp/>version:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>-<sp/>browser<sp/>type<sp/>and<sp/>version:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Steps<sp/>to<sp/>Reproduce:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/></highlight></codeline>
+<codeline><highlight class="normal">2.<sp/></highlight></codeline>
+    </programlisting>
+    <location file="issue_template.md"/>
+  </compounddef>
+</doxygen>

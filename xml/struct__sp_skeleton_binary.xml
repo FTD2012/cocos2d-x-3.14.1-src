@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_skeleton_binary" kind="struct" language="C++" prot="public">
+    <compoundname>_spSkeletonBinary</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_skeleton_binary_1a2297163cee69912adeaae725b94b5238" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_skeleton_binary" kindref="compound">spSkeletonBinary</ref></type>
+        <definition>spSkeletonBinary _spSkeletonBinary::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="52" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_binary_1a93c4e8df9367e55bae619d1ffe686910" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonBinary::ownsLoader</definition>
+        <argsstring></argsstring>
+        <name>ownsLoader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="53" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_binary_1aca7ccb834c60979d9c975c19319186e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonBinary::linkedMeshCount</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="55" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_binary_1a8a030766ac370bbe50334c849258691c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeletonBinary::linkedMeshCapacity</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="56" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_binary_1a4ae57b9cb03e81d31816129aa4e6bbbe" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sp_linked_mesh" kindref="compound">_spLinkedMesh</ref> *</type>
+        <definition>_spLinkedMesh* _spSkeletonBinary::linkedMeshes</definition>
+        <argsstring></argsstring>
+        <name>linkedMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonBinary.c" line="57" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="492">
+        <label>_spSkeletonBinary</label>
+        <link refid="struct__sp_skeleton_binary"/>
+        <childnode refid="493" relation="usage">
+          <edgelabel>linkedMeshes</edgelabel>
+        </childnode>
+        <childnode refid="498" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="496">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="497" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="497">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="495">
+        <label>spVertexAttachment</label>
+        <link refid="structsp_vertex_attachment"/>
+        <childnode refid="496" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="498">
+        <label>spSkeletonBinary</label>
+        <link refid="structsp_skeleton_binary"/>
+        <childnode refid="497" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="493">
+        <label>_spLinkedMesh</label>
+        <link refid="struct__sp_linked_mesh"/>
+        <childnode refid="494" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="494">
+        <label>spMeshAttachment</label>
+        <link refid="structsp_mesh_attachment"/>
+        <childnode refid="495" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+        <childnode refid="494" relation="usage">
+          <edgelabel>parentMesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/SkeletonBinary.c" line="51" column="1" bodyfile="cocos/editor-support/spine/SkeletonBinary.c" bodystart="51" bodyend="58"/>
+    <listofallmembers>
+      <member refid="struct__sp_skeleton_binary_1a8a030766ac370bbe50334c849258691c" prot="public" virt="non-virtual"><scope>_spSkeletonBinary</scope><name>linkedMeshCapacity</name></member>
+      <member refid="struct__sp_skeleton_binary_1aca7ccb834c60979d9c975c19319186e0" prot="public" virt="non-virtual"><scope>_spSkeletonBinary</scope><name>linkedMeshCount</name></member>
+      <member refid="struct__sp_skeleton_binary_1a4ae57b9cb03e81d31816129aa4e6bbbe" prot="public" virt="non-virtual"><scope>_spSkeletonBinary</scope><name>linkedMeshes</name></member>
+      <member refid="struct__sp_skeleton_binary_1a93c4e8df9367e55bae619d1ffe686910" prot="public" virt="non-virtual"><scope>_spSkeletonBinary</scope><name>ownsLoader</name></member>
+      <member refid="struct__sp_skeleton_binary_1a2297163cee69912adeaae725b94b5238" prot="public" virt="non-virtual"><scope>_spSkeletonBinary</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x" kind="struct" language="C++" prot="public">
+    <compoundname>_MSDN_DLGTEMPLATEEX</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a851b8873cfb8a222b7b31982e5693cfe" prot="public" static="no" mutable="no">
+        <type>WORD</type>
+        <definition>WORD _MSDN_DLGTEMPLATEEX::dlgVer</definition>
+        <argsstring></argsstring>
+        <name>dlgVer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="134" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1ae23dd594822b4bd469c34f5b0d8c4d31" prot="public" static="no" mutable="no">
+        <type>WORD</type>
+        <definition>WORD _MSDN_DLGTEMPLATEEX::signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="135" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a226039f789b55667249c420729dff08e" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD _MSDN_DLGTEMPLATEEX::helpID</definition>
+        <argsstring></argsstring>
+        <name>helpID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="136" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a014ceddaa5fc5252d78272e86a6ed9eb" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD _MSDN_DLGTEMPLATEEX::exStyle</definition>
+        <argsstring></argsstring>
+        <name>exStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="137" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a345dcafc3daeeab66234432a938d1002" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD _MSDN_DLGTEMPLATEEX::style</definition>
+        <argsstring></argsstring>
+        <name>style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="138" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a5bef48f0bb704e4c6ab9c8c33a834d10" prot="public" static="no" mutable="no">
+        <type>WORD</type>
+        <definition>WORD _MSDN_DLGTEMPLATEEX::cDlgItems</definition>
+        <argsstring></argsstring>
+        <name>cDlgItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="139" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1adc9666451f0e9858827f41eead2b1793" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _MSDN_DLGTEMPLATEEX::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="140" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1abca80e1e6b67d38b2889dd56c6d693fb" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _MSDN_DLGTEMPLATEEX::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="141" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a9f70753830bc59a0799f1f03b20bd4f0" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _MSDN_DLGTEMPLATEEX::cx</definition>
+        <argsstring></argsstring>
+        <name>cx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="142" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a7147bcb227f0e49a97dcf0c8ef627773" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _MSDN_DLGTEMPLATEEX::cy</definition>
+        <argsstring></argsstring>
+        <name>cy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="143" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a77bd085116e4c2823421d42b454f8469" prot="public" static="no" mutable="no">
+        <type>BYTE</type>
+        <definition>BYTE _MSDN_DLGTEMPLATEEX::_rest[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>_rest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="144" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" line="133" column="1" bodyfile="cocos/ui/UIEditBox/UIEditBoxImpl-win32.cpp" bodystart="132" bodyend="145"/>
+    <listofallmembers>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a77bd085116e4c2823421d42b454f8469" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>_rest</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a5bef48f0bb704e4c6ab9c8c33a834d10" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>cDlgItems</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a9f70753830bc59a0799f1f03b20bd4f0" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>cx</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a7147bcb227f0e49a97dcf0c8ef627773" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>cy</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a851b8873cfb8a222b7b31982e5693cfe" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>dlgVer</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a014ceddaa5fc5252d78272e86a6ed9eb" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>exStyle</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a226039f789b55667249c420729dff08e" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>helpID</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1ae23dd594822b4bd469c34f5b0d8c4d31" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>signature</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1a345dcafc3daeeab66234432a938d1002" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>style</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1adc9666451f0e9858827f41eead2b1793" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>x</name></member>
+      <member refid="struct___m_s_d_n___d_l_g_t_e_m_p_l_a_t_e_e_x_1abca80e1e6b67d38b2889dd56c6d693fb" prot="public" virt="non-virtual"><scope>_MSDN_DLGTEMPLATEEX</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

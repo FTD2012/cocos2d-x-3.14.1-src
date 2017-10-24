@@ -1,0 +1,663 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classcocostudio_1_1_action_object" kind="class" language="C++" prot="public">
+    <compoundname>cocostudio::ActionObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Ref</basecompoundref>
+    <includes refid="_c_c_action_object_8h" local="no">CCActionObject.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a7c57ff9cc4c04a3b480286cadf99ee90" prot="protected" static="no" mutable="no">
+        <type>cocos2d::Vector&lt; <ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> * &gt;</type>
+        <definition>cocos2d::Vector&lt;ActionNode*&gt; cocostudio::ActionObject::_actionNodeList</definition>
+        <argsstring></argsstring>
+        <name>_actionNodeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="178" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1afb0fc046e13819651d2f1c06aa612e94" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::ActionObject::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="179" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1abad8ada1caca7a1b6e5116108e42ac24" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::_loop</definition>
+        <argsstring></argsstring>
+        <name>_loop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="180" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a0e76abfff2965138a648db8a7e783c0e" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::_bPause</definition>
+        <argsstring></argsstring>
+        <name>_bPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="181" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a4ded0f66bb701493b17a0886f973adb5" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::_bPlaying</definition>
+        <argsstring></argsstring>
+        <name>_bPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="182" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a868a716e7c95ee25b2604d43bf83df01" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::_fUnitTime</definition>
+        <argsstring></argsstring>
+        <name>_fUnitTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="183" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1ad27f03163aff3c21705c1b1d699878fd" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::_currentTime</definition>
+        <argsstring></argsstring>
+        <name>_currentTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="184" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a617399323ff5282e5c54b2f4d7c4620f" prot="protected" static="no" mutable="no">
+        <type>cocos2d::Scheduler *</type>
+        <definition>cocos2d::Scheduler* cocostudio::ActionObject::_pScheduler</definition>
+        <argsstring></argsstring>
+        <name>_pScheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="185" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1a1b616b47fadd6116475e5aa6069adcdd" prot="protected" static="no" mutable="no">
+        <type>cocos2d::CallFunc *</type>
+        <definition>cocos2d::CallFunc* cocostudio::ActionObject::_CallBack</definition>
+        <argsstring></argsstring>
+        <name>_CallBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="186" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcocostudio_1_1_action_object_1ad17f7f1e7abd67f04057cda0fc1e1406" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::_fTotalTime</definition>
+        <argsstring></argsstring>
+        <name>_fTotalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="187" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a8078d816f95fa33f277ac43f730ff9b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cocostudio::ActionObject::ActionObject</definition>
+        <argsstring>()</argsstring>
+        <name>ActionObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="49" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="37" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a63b4d046cddfefcfe5cbaef99af0b9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>cocostudio::ActionObject::~ActionObject</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default destructor </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="54" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a49c04b9506ebdc6dbb96d01d461140f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::setName</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets name for object</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="61" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a7f0034620aec8f124b81e33c0e6610be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * cocostudio::ActionObject::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets name of object</para><para><simplesect kind="return"><para>name of object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="68" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a188046afbabf20869af3aaef2762e4e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::setLoop</definition>
+        <argsstring>(bool bLoop)</argsstring>
+        <name>setLoop</name>
+        <param>
+          <type>bool</type>
+          <declname>bLoop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets if the action will loop play.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bLoop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>that if the action will loop play </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="75" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a47928c29236770a5df9dcc9a2405a032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::getLoop</definition>
+        <argsstring>()</argsstring>
+        <name>getLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets if the action will loop play.</para><para><simplesect kind="return"><para>that if the action will loop play </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="82" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1acc4551d83f908653f207de243da3dde3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::setUnitTime</definition>
+        <argsstring>(float fTime)</argsstring>
+        <name>setUnitTime</name>
+        <param>
+          <type>float</type>
+          <declname>fTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the time interval of frame.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the time interval of frame </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="89" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a4cf75b80f67a1a170616b39d352f989e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::getUnitTime</definition>
+        <argsstring>()</argsstring>
+        <name>getUnitTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the time interval of frame.</para><para><simplesect kind="return"><para>the time interval of frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="96" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a031f6e35417d37f74d303c816284c11f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::setCurrentTime</definition>
+        <argsstring>(float fTime)</argsstring>
+        <name>setCurrentTime</name>
+        <param>
+          <type>float</type>
+          <declname>fTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the current time of frame.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the current time of frame </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="103" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a3937f4c1b4897d30662266535c1264a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::getCurrentTime</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the current time of frame.</para><para><simplesect kind="return"><para>the current time of frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="110" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a8df3a8c5f7bc60f29e783f44830fab67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::getTotalTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the total time of frame.</para><para><simplesect kind="return"><para>the total time of frame </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="117" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1ab3a5940502a32dbd778990dc1a47389a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return if the action is playing.</para><para><simplesect kind="return"><para>true if the action is playing, false the otherwise </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="124" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1afc5c69af1ec901b81461beb4f0c094cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::play</definition>
+        <argsstring>()</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Play the action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="129" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="215" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a2be572de273340713eb91f0393a336ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::play</definition>
+        <argsstring>(cocos2d::CallFunc *func)</argsstring>
+        <name>play</name>
+        <param>
+          <type>cocos2d::CallFunc *</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Play the action.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_action" kindref="compound">Action</ref> Call Back </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a96d9dcb811d26e9c3ca729f9ec51f18a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pause the action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="141" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1ad9616450d0b1c27499fc2ae17d1259be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stop the action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="146" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="245" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a8ab2a16c12741039440d78629bda657a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::addActionNode</definition>
+        <argsstring>(ActionNode *node)</argsstring>
+        <name>addActionNode</name>
+        <param>
+          <type><ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a <ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> to play the action.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> which will play the action </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="153" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="197" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a2923d174d80fb1a62749b32fdeb9b056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::removeActionNode</definition>
+        <argsstring>(ActionNode *node)</argsstring>
+        <name>removeActionNode</name>
+        <param>
+          <type><ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a <ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> which play the action.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="classcocostudio_1_1_action_node" kindref="compound">ActionNode</ref> which play the action </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="160" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="206" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a58d7a6b9678f6e56aa210a5aaf4bcb5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::updateToFrameByTime</definition>
+        <argsstring>(float fTime)</argsstring>
+        <name>updateToFrameByTime</name>
+        <param>
+          <type>float</type>
+          <declname>fTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="163" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="256" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1aa480973dc173a52d1ba126e4b5858fda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::initWithDictionary</definition>
+        <argsstring>(const rapidjson::Value &amp;dic, cocos2d::Ref *root)</argsstring>
+        <name>initWithDictionary</name>
+        <param>
+          <type>const rapidjson::Value &amp;</type>
+          <declname>dic</declname>
+        </param>
+        <param>
+          <type>cocos2d::Ref *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="166" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="111" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1ab0f89c380631ddd77de76a7179920be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::initWithBinary</definition>
+        <argsstring>(CocoLoader *cocoLoader, stExpCocoNode *pCocoNode, cocos2d::Ref *root)</argsstring>
+        <name>initWithBinary</name>
+        <param>
+          <type><ref refid="classcocostudio_1_1_coco_loader" kindref="compound">CocoLoader</ref> *</type>
+          <declname>cocoLoader</declname>
+        </param>
+        <param>
+          <type><ref refid="structcocostudio_1_1st_exp_coco_node" kindref="compound">stExpCocoNode</ref> *</type>
+          <declname>pCocoNode</declname>
+        </param>
+        <param>
+          <type>cocos2d::Ref *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="168" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="133" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a77106af52d905a519c10d1efbb747c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cocostudio::ActionObject::simulationActionUpdate</definition>
+        <argsstring>(float dt)</argsstring>
+        <name>simulationActionUpdate</name>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="172" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="265" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1ab0aaba1a8cc81d72abf352cdda486e7d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int cocostudio::ActionObject::valueToInt</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>valueToInt</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="174" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a6af1e7548b0b30a236be977f1ddae7c2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool cocostudio::ActionObject::valueToBool</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>valueToBool</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="175" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="183" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classcocostudio_1_1_action_object_1a3c96b029acf09fc0cdd482db479139b3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float cocostudio::ActionObject::valueToFloat</definition>
+        <argsstring>(const std::string &amp;value)</argsstring>
+        <name>valueToFloat</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="176" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.cpp" bodystart="192" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>NA  NA </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1633">
+        <label>Ref</label>
+      </node>
+      <node id="1632">
+        <label>cocostudio::ActionObject</label>
+        <link refid="classcocostudio_1_1_action_object"/>
+        <childnode refid="1633" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1635">
+        <label>Ref</label>
+      </node>
+      <node id="1634">
+        <label>cocostudio::ActionObject</label>
+        <link refid="classcocostudio_1_1_action_object"/>
+        <childnode refid="1635" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/cocostudio/CCActionObject.h" line="43" column="1" bodyfile="cocos/editor-support/cocostudio/CCActionObject.h" bodystart="42" bodyend="188"/>
+    <listofallmembers>
+      <member refid="classcocostudio_1_1_action_object_1a7c57ff9cc4c04a3b480286cadf99ee90" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_actionNodeList</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a0e76abfff2965138a648db8a7e783c0e" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_bPause</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a4ded0f66bb701493b17a0886f973adb5" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_bPlaying</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a1b616b47fadd6116475e5aa6069adcdd" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_CallBack</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ad27f03163aff3c21705c1b1d699878fd" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_currentTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ad17f7f1e7abd67f04057cda0fc1e1406" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_fTotalTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a868a716e7c95ee25b2604d43bf83df01" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_fUnitTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1abad8ada1caca7a1b6e5116108e42ac24" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_loop</name></member>
+      <member refid="classcocostudio_1_1_action_object_1afb0fc046e13819651d2f1c06aa612e94" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_name</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a617399323ff5282e5c54b2f4d7c4620f" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>_pScheduler</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a8078d816f95fa33f277ac43f730ff9b0" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>ActionObject</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a8ab2a16c12741039440d78629bda657a" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>addActionNode</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a3937f4c1b4897d30662266535c1264a0" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>getCurrentTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a47928c29236770a5df9dcc9a2405a032" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>getLoop</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a7f0034620aec8f124b81e33c0e6610be" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>getName</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a8df3a8c5f7bc60f29e783f44830fab67" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>getTotalTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a4cf75b80f67a1a170616b39d352f989e" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>getUnitTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ab0f89c380631ddd77de76a7179920be1" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>initWithBinary</name></member>
+      <member refid="classcocostudio_1_1_action_object_1aa480973dc173a52d1ba126e4b5858fda" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>initWithDictionary</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ab3a5940502a32dbd778990dc1a47389a" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>isPlaying</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a96d9dcb811d26e9c3ca729f9ec51f18a" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>pause</name></member>
+      <member refid="classcocostudio_1_1_action_object_1afc5c69af1ec901b81461beb4f0c094cc" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>play</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a2be572de273340713eb91f0393a336ed" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>play</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a2923d174d80fb1a62749b32fdeb9b056" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>removeActionNode</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a031f6e35417d37f74d303c816284c11f" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>setCurrentTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a188046afbabf20869af3aaef2762e4e2" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>setLoop</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a49c04b9506ebdc6dbb96d01d461140f5" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>setName</name></member>
+      <member refid="classcocostudio_1_1_action_object_1acc4551d83f908653f207de243da3dde3" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>setUnitTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a77106af52d905a519c10d1efbb747c5f" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>simulationActionUpdate</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ad9616450d0b1c27499fc2ae17d1259be" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>stop</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a58d7a6b9678f6e56aa210a5aaf4bcb5f" prot="public" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>updateToFrameByTime</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a6af1e7548b0b30a236be977f1ddae7c2" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>valueToBool</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a3c96b029acf09fc0cdd482db479139b3" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>valueToFloat</name></member>
+      <member refid="classcocostudio_1_1_action_object_1ab0aaba1a8cc81d72abf352cdda486e7d" prot="protected" virt="non-virtual"><scope>cocostudio::ActionObject</scope><name>valueToInt</name></member>
+      <member refid="classcocostudio_1_1_action_object_1a63b4d046cddfefcfe5cbaef99af0b9ff" prot="public" virt="virtual"><scope>cocostudio::ActionObject</scope><name>~ActionObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

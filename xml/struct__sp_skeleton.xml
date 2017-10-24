@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_skeleton" kind="struct" language="C++" prot="public">
+    <compoundname>_spSkeleton</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_skeleton_1a74fec8a5486c0068b043a5106dfcc968" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_skeleton" kindref="compound">spSkeleton</ref></type>
+        <definition>spSkeleton _spSkeleton::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="48" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_1ad7281954bf662db23b397a21c2a4550e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeleton::updateCacheCount</definition>
+        <argsstring></argsstring>
+        <name>updateCacheCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="50" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_1a57b138594da67a0375a80f63b4292425" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _spSkeleton::updateCacheCapacity</definition>
+        <argsstring></argsstring>
+        <name>updateCacheCapacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="51" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skeleton_1a2797a05b532a5a1c6d808c67d033afc9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sp_update" kindref="compound">_spUpdate</ref> *</type>
+        <definition>_spUpdate* _spSkeleton::updateCache</definition>
+        <argsstring></argsstring>
+        <name>updateCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skeleton.c" line="52" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="477">
+        <label>spSkin</label>
+        <link refid="structsp_skin"/>
+      </node>
+      <node id="483">
+        <label>spIkConstraintData</label>
+        <link refid="structsp_ik_constraint_data"/>
+        <childnode refid="475" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="489">
+        <label>spEventData</label>
+        <link refid="structsp_event_data"/>
+      </node>
+      <node id="476">
+        <label>spBone</label>
+        <link refid="structsp_bone"/>
+        <childnode refid="472" relation="usage">
+          <edgelabel>skeleton</edgelabel>
+        </childnode>
+        <childnode refid="475" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="471">
+        <label>_spSkeleton</label>
+        <link refid="struct__sp_skeleton"/>
+        <childnode refid="472" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>updateCache</edgelabel>
+        </childnode>
+      </node>
+      <node id="473">
+        <label>spTransformConstraint</label>
+        <link refid="structsp_transform_constraint"/>
+        <childnode refid="474" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="486">
+        <label>spSkeletonData</label>
+        <link refid="structsp_skeleton_data"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>ikConstraints</edgelabel>
+        </childnode>
+        <childnode refid="474" relation="usage">
+          <edgelabel>transformConstraints</edgelabel>
+        </childnode>
+        <childnode refid="487" relation="usage">
+          <edgelabel>animations</edgelabel>
+        </childnode>
+        <childnode refid="477" relation="usage">
+          <edgelabel>defaultSkin</edgelabel>
+          <edgelabel>skins</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>slots</edgelabel>
+        </childnode>
+        <childnode refid="475" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+        <childnode refid="485" relation="usage">
+          <edgelabel>pathConstraints</edgelabel>
+        </childnode>
+        <childnode refid="489" relation="usage">
+          <edgelabel>events</edgelabel>
+        </childnode>
+      </node>
+      <node id="479">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="480" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="484">
+        <label>spPathConstraint</label>
+        <link refid="structsp_path_constraint"/>
+        <childnode refid="478" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="485" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="478">
+        <label>spSlot</label>
+        <link refid="structsp_slot"/>
+        <childnode refid="479" relation="usage">
+          <edgelabel>attachment</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>bone</edgelabel>
+        </childnode>
+      </node>
+      <node id="480">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="490">
+        <label>_spUpdate</label>
+        <link refid="struct__sp_update"/>
+      </node>
+      <node id="488">
+        <label>spTimeline</label>
+        <link refid="structsp_timeline"/>
+      </node>
+      <node id="481">
+        <label>spSlotData</label>
+        <link refid="structsp_slot_data"/>
+        <childnode refid="475" relation="usage">
+          <edgelabel>boneData</edgelabel>
+        </childnode>
+      </node>
+      <node id="472">
+        <label>spSkeleton</label>
+        <link refid="structsp_skeleton"/>
+        <childnode refid="473" relation="usage">
+          <edgelabel>transformConstraints</edgelabel>
+        </childnode>
+        <childnode refid="477" relation="usage">
+          <edgelabel>skin</edgelabel>
+        </childnode>
+        <childnode refid="478" relation="usage">
+          <edgelabel>drawOrder</edgelabel>
+          <edgelabel>slots</edgelabel>
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>ikConstraintsSorted</edgelabel>
+          <edgelabel>ikConstraints</edgelabel>
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>pathConstraints</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>root</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+        <childnode refid="486" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="487">
+        <label>spAnimation</label>
+        <link refid="structsp_animation"/>
+        <childnode refid="488" relation="usage">
+          <edgelabel>timelines</edgelabel>
+        </childnode>
+      </node>
+      <node id="475">
+        <label>spBoneData</label>
+        <link refid="structsp_bone_data"/>
+        <childnode refid="475" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="482">
+        <label>spIkConstraint</label>
+        <link refid="structsp_ik_constraint"/>
+        <childnode refid="483" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="476" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="474">
+        <label>spTransformConstraintData</label>
+        <link refid="structsp_transform_constraint_data"/>
+        <childnode refid="475" relation="usage">
+          <edgelabel>target</edgelabel>
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+      <node id="485">
+        <label>spPathConstraintData</label>
+        <link refid="structsp_path_constraint_data"/>
+        <childnode refid="481" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="475" relation="usage">
+          <edgelabel>bones</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/Skeleton.c" line="47" column="1" bodyfile="cocos/editor-support/spine/Skeleton.c" bodystart="47" bodyend="53"/>
+    <listofallmembers>
+      <member refid="struct__sp_skeleton_1a74fec8a5486c0068b043a5106dfcc968" prot="public" virt="non-virtual"><scope>_spSkeleton</scope><name>super</name></member>
+      <member refid="struct__sp_skeleton_1a2797a05b532a5a1c6d808c67d033afc9" prot="public" virt="non-virtual"><scope>_spSkeleton</scope><name>updateCache</name></member>
+      <member refid="struct__sp_skeleton_1a57b138594da67a0375a80f63b4292425" prot="public" virt="non-virtual"><scope>_spSkeleton</scope><name>updateCacheCapacity</name></member>
+      <member refid="struct__sp_skeleton_1ad7281954bf662db23b397a21c2a4550e" prot="public" virt="non-virtual"><scope>_spSkeleton</scope><name>updateCacheCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

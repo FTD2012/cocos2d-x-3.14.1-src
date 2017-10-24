@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header" kind="struct" language="C++" prot="public">
+    <compoundname>NS_CC_BEGIN::_PVRTexHeader</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a9daaadbf79a085cbab98110a0a58ad79" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::headerLength</definition>
+        <argsstring></argsstring>
+        <name>headerLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="243" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ab5e96189d432c2ee312f0cc0cfb294dc" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="244" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a5caab454ab608975421dd71b99c6c32c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="245" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a1763a381f52d69e8cc803dfe95ed958c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::numMipmaps</definition>
+        <argsstring></argsstring>
+        <name>numMipmaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="246" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1af015b3171f84a54c7afd83fd69e000c5" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="247" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ae4114a52eec94cac598b5c39d9264a42" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::dataLength</definition>
+        <argsstring></argsstring>
+        <name>dataLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="248" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1aa0097d81b776754d36ab7220f3e89a2c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::bpp</definition>
+        <argsstring></argsstring>
+        <name>bpp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="249" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ad7694bc71101bb4edd72a463acadc585" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::bitmaskRed</definition>
+        <argsstring></argsstring>
+        <name>bitmaskRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="250" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a8b1146372e4ab8e9ad783ae82eae0b1c" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::bitmaskGreen</definition>
+        <argsstring></argsstring>
+        <name>bitmaskGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="251" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ace6c8280e083a2c60fe38353858b4806" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::bitmaskBlue</definition>
+        <argsstring></argsstring>
+        <name>bitmaskBlue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="252" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a09180e682e303fd42b6e3df65db8a8c3" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::bitmaskAlpha</definition>
+        <argsstring></argsstring>
+        <name>bitmaskAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="253" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a6d12488b5b5af4a0a787641857c81547" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::pvrTag</definition>
+        <argsstring></argsstring>
+        <name>pvrTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="254" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1aa133dbc36994f38dc15e27ed0e06b9fc" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int NS_CC_BEGIN::_PVRTexHeader::numSurfs</definition>
+        <argsstring></argsstring>
+        <name>numSurfs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/platform/CCImage.cpp" line="255" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/platform/CCImage.cpp" line="242" column="1" bodyfile="cocos/platform/CCImage.cpp" bodystart="241" bodyend="256"/>
+    <listofallmembers>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a09180e682e303fd42b6e3df65db8a8c3" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>bitmaskAlpha</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ace6c8280e083a2c60fe38353858b4806" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>bitmaskBlue</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a8b1146372e4ab8e9ad783ae82eae0b1c" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>bitmaskGreen</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ad7694bc71101bb4edd72a463acadc585" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>bitmaskRed</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1aa0097d81b776754d36ab7220f3e89a2c" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>bpp</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ae4114a52eec94cac598b5c39d9264a42" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>dataLength</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1af015b3171f84a54c7afd83fd69e000c5" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>flags</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a9daaadbf79a085cbab98110a0a58ad79" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>headerLength</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1ab5e96189d432c2ee312f0cc0cfb294dc" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>height</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a1763a381f52d69e8cc803dfe95ed958c" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>numMipmaps</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1aa133dbc36994f38dc15e27ed0e06b9fc" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>numSurfs</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a6d12488b5b5af4a0a787641857c81547" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>pvrTag</name></member>
+      <member refid="struct_n_s___c_c___b_e_g_i_n_1_1___p_v_r_tex_header_1a5caab454ab608975421dd71b99c6c32c" prot="public" virt="non-virtual"><scope>NS_CC_BEGIN::_PVRTexHeader</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

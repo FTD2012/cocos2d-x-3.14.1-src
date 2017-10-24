@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">&lt;img<sp/>src=&quot;http://www.cocos2d-x.org/attachments/801/cocos2dx_portrait.png&quot;<sp/>width=200&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal">=========</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>|iOS|Mac|Linux|Win32|Android|Win8.1-Universal|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>----|----|-----<sp/>|<sp/>---|----|------|---|</highlight></codeline>
+<codeline><highlight class="normal">|v3|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=ios)](http://45.56.80.45:8080/job/daily-build-v3/node=ios)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=mac)](http://45.56.80.45:8080/job/daily-build-v3/node=mac)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=linux)](http://45.56.80.45:8080/job/daily-build-v3/node=linux)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=win32_bak)](http://45.56.80.45:8080/job/daily-build-v3/node=win32_bak)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=android)](http://45.56.80.45:8080/job/daily-build-v3/node=android)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v3/node=windows-universal_bak)](http://45.56.80.45:8080/job/daily-build-v3/node=windows-universal_bak)|</highlight></codeline>
+<codeline><highlight class="normal">|v4|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=ios)](http://45.56.80.45:8080/job/daily-build-v4/node=ios)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=mac)](http://45.56.80.45:8080/job/daily-build-v4/node=mac)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=linux)](http://45.56.80.45:8080/job/daily-build-v4/node=linux)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=win32_bak)](http://45.56.80.45:8080/job/daily-build-v4/node=win32_bak)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=android)](http://45.56.80.45:8080/job/daily-build-v4/node=android)|[![Build<sp/>Status](http://45.56.80.45:8080/buildStatus/icon?job=daily-build-v4/node=windows-universal_bak)](http://45.56.80.45:8080/job/daily-build-v4/node=windows-universal_bak)|</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[cocos2d-x][1]<sp/>is<sp/>a<sp/>multi-platform<sp/>framework<sp/>for<sp/>building<sp/>2d<sp/>games,<sp/>interactive<sp/>books,<sp/>demos<sp/>and<sp/>other<sp/>graphical<sp/>applications.</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>based<sp/>on<sp/>[cocos2d-iphone][2],<sp/>but<sp/>instead<sp/>of<sp/>using<sp/>Objective-C,<sp/>it<sp/>uses<sp/>C++.</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>works<sp/>on<sp/>iOS,<sp/>Android,<sp/>Tizen,<sp/>Windows<sp/>Phone<sp/>and<sp/>Store<sp/>Apps,<sp/>OS<sp/>X,<sp/>Windows,<sp/>Linux<sp/>and<sp/>Web<sp/>platforms.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Cocos2d-x<sp/>Framework<sp/>Architecture**:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](docs/framework_architecture.jpg<sp/>&quot;&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cocos2d-x<sp/>is:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Fast</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Free</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Easy<sp/>to<sp/>use</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Community<sp/>supported</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Git<sp/>user<sp/>attention</highlight></codeline>
+<codeline><highlight class="normal">-----------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Clone<sp/>the<sp/>repo<sp/>from<sp/>GitHub.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$<sp/>git<sp/>clone<sp/>https://github.com/cocos2d/cocos2d-x.git</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">2.<sp/>After<sp/>cloning<sp/>the<sp/>repo,<sp/>please<sp/>execute<sp/>`download-deps.py`<sp/>to<sp/>download<sp/>and<sp/>install<sp/>dependencies.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$<sp/>cd<sp/>cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cocos2d-x<sp/>$<sp/>python<sp/>download-deps.py</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">3.<sp/>After<sp/>running<sp/>`download-deps.py`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cocos2d-x<sp/>$<sp/>git<sp/>submodule<sp/>update<sp/>--init</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Download<sp/>stable<sp/>versions</highlight></codeline>
+<codeline><highlight class="normal">-----------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>[Cocos2d-x<sp/>stable<sp/>versions](http://www.cocos2d-x.org/download)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Cocos2d-JS<sp/>Lite<sp/>version](http://www.cocos2d-x.org/filecenter/jsbuilder)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">How<sp/>to<sp/>start<sp/>a<sp/>new<sp/>game</highlight></codeline>
+<codeline><highlight class="normal">-----------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Download<sp/>the<sp/>code<sp/>from<sp/>[cocos2d<sp/>download<sp/>site][4]</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Run<sp/>`setup.py`</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Run<sp/>the<sp/>`cocos`<sp/>script</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Example:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cd<sp/>cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>./setup.py</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>source<sp/>FILE_TO_SAVE_SYSTEM_VARIABLE</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>new<sp/>MyGame<sp/>-p<sp/>com.your_company.mygame<sp/>-l<sp/>cpp<sp/>-d<sp/>NEW_PROJECTS_DIR</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cd<sp/>NEW_PROJECTS_DIR/MyGame</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>also<sp/>create<sp/>a<sp/>JS<sp/>project<sp/>or<sp/>Lua<sp/>project<sp/>with<sp/>`-l<sp/>js`<sp/>or<sp/>`-l<sp/>lua`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>a<sp/>new<sp/>project<sp/>for<sp/>Android<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>android<sp/>-j<sp/>4</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>a<sp/>new<sp/>project<sp/>for<sp/>iOS<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>ios</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>a<sp/>new<sp/>project<sp/>for<sp/>OSX<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>mac</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>a<sp/>new<sp/>project<sp/>for<sp/>Tizen<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>cocos<sp/>command<sp/>line<sp/>tools<sp/>doesn&apos;t<sp/>support<sp/>Tizen<sp/>yet,<sp/>you<sp/>have<sp/>to<sp/>use<sp/>Tizen<sp/>IDE<sp/>to<sp/>do<sp/>the<sp/>build.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Please<sp/>refer<sp/>to<sp/>this<sp/>[guide](http://cocos2d-x.org/docs/installation/Tizen/index.html<sp/>).</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>a<sp/>new<sp/>project<sp/>for<sp/>Linux<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>never<sp/>run<sp/>cocos2d-x<sp/>on<sp/>Linux,<sp/>you<sp/>need<sp/>to<sp/>install<sp/>all<sp/>dependencies<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">script<sp/>in<sp/>**cocos2d/build/install-deps-linux.sh**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cd<sp/>cocos2d-x/build</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>./install-deps-linux.sh</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Then</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cd<sp/>NEW_PROJECTS_DIR/MyGame</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>linux</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>bin/MyGame</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>new<sp/>project<sp/>for<sp/>win32<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>win32</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>new<sp/>project<sp/>for<sp/>Windows<sp/>8.1/10.0<sp/>and<sp/>Windows<sp/>Phone<sp/>8.1/10.0<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>new<sp/>MyGame<sp/>-p<sp/>com.your_company.mygame<sp/>-l<sp/>cpp<sp/>-d<sp/>projects</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Visual<sp/>Studio<sp/>2013<sp/>Update<sp/>4<sp/>or<sp/>later<sp/>is<sp/>required<sp/>for<sp/>Windows<sp/>8.1<sp/>Universal<sp/>Apps</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Visual<sp/>Studio<sp/>2015<sp/>(Release<sp/>version)<sp/>and<sp/>Windows<sp/>10.0<sp/>(Release<sp/>version)<sp/>are<sp/>required<sp/>for<sp/>Windows<sp/>10.0<sp/>Universal<sp/>Windows<sp/>Platform<sp/>(UWP)<sp/>Apps.<sp/>RC<sp/>versions<sp/>of<sp/>Visual<sp/>Studio<sp/>and<sp/>Windows<sp/>10<sp/>are<sp/>no<sp/>longer<sp/>supported.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Starting<sp/>with<sp/>Cocos2d-x<sp/>v3.3,<sp/>you<sp/>can<sp/>create<sp/>Windows<sp/>8.1<sp/>Universal<sp/>Apps<sp/>(Windows<sp/>Store<sp/>and<sp/>Windows<sp/>Phone<sp/>8.1).</highlight></codeline>
+<codeline><highlight class="normal">Starting<sp/>with<sp/>Cocos2d-x<sp/>v3.8<sp/>you<sp/>can<sp/>create<sp/>Windows<sp/>10.0<sp/>UWP<sp/>Apps<sp/>(Windows<sp/>Store<sp/>and<sp/>Windows<sp/>Phone<sp/>10.0).</highlight></codeline>
+<codeline><highlight class="normal">Starting<sp/>with<sp/>Cocos2d-x<sp/>v3.6<sp/>there<sp/>will<sp/>no<sp/>longer<sp/>be<sp/>support<sp/>for<sp/>Windows<sp/>Phone<sp/>8.0.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>more<sp/>info<sp/>on<sp/>how<sp/>to<sp/>install<sp/>and<sp/>create<sp/>games<sp/>on<sp/>Windows<sp/>RT<sp/>(Windows<sp/>and<sp/>Windows<sp/>Phone<sp/>8.1)<sp/>at<sp/>http://msopentech.github.io/cocos2d-x/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>and<sp/>run<sp/>new<sp/>project<sp/>for<sp/>web<sp/>###</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Only<sp/>JS<sp/>project<sp/>can<sp/>be<sp/>published<sp/>to<sp/>web<sp/>platforms,<sp/>so<sp/>you<sp/>will<sp/>need<sp/>to<sp/>create<sp/>a<sp/>JS<sp/>project<sp/>first:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>new<sp/>-l<sp/>js<sp/>WebGame</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Then<sp/>you<sp/>can<sp/>run<sp/>your<sp/>game<sp/>in<sp/>a<sp/>web<sp/>browser:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>web</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Or<sp/>you<sp/>can<sp/>publish<sp/>your<sp/>game<sp/>to<sp/>`publish/html5/`<sp/>folder:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>$<sp/>cocos<sp/>run<sp/>-p<sp/>web<sp/>-m<sp/>release<sp/>[--advanced]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Documentations<sp/>and<sp/>samples</highlight></codeline>
+<codeline><highlight class="normal">-------------</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[All<sp/>Docs<sp/>in<sp/>a<sp/>single<sp/>place!](http://cocos2d-x.org/docs/)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Online<sp/>API<sp/>Reference](http://cocos2d-x.org/docs/api-ref/index.html)<sp/>_Note<sp/>that<sp/>Cocos2d-x,<sp/>Cocos2d-JS<sp/>and<sp/>Cocos<sp/>Creator<sp/>have<sp/>different<sp/>API<sp/>set_</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Programmers<sp/>Guide](http://cocos2d-x.org/docs/programmers-guide/2/index.html)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Latest<sp/>Release<sp/>Note](https://github.com/cocos2d/cocos2d-x/blob/v3/docs/RELEASE_NOTES.md)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Changelog](https://github.com/cocos2d/cocos2d-x/blob/v3/CHANGELOG)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Cocos2d<sp/>sample<sp/>games](https://github.com/cocos2d/cocos2d-x-samples)<sp/>_More<sp/>samples<sp/>will<sp/>be<sp/>added<sp/>in<sp/>v3.8_</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Main<sp/>features</highlight></codeline>
+<codeline><highlight class="normal">-------------</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Scene<sp/>management<sp/>(workflow)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Transitions<sp/>between<sp/>scenes</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Sprites<sp/>and<sp/>Sprite<sp/>Sheets</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Effects:<sp/>Lens,<sp/>Ripple,<sp/>Waves,<sp/>Liquid,<sp/>etc.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Actions<sp/>(behaviours):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Transformation<sp/>Actions:<sp/>Move,<sp/>Rotate,<sp/>Scale,<sp/>Fade,<sp/>Tint,<sp/>etc.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Composable<sp/>actions:<sp/>Sequence,<sp/>Spawn,<sp/>Repeat,<sp/>Reverse</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Ease<sp/>Actions:<sp/>Exp,<sp/>Sin,<sp/>Cubic,<sp/>Elastic,<sp/>etc.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Misc<sp/>actions:<sp/>CallFunc,<sp/>OrbitCamera,<sp/>Follow,<sp/>Tween</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Basic<sp/>menus<sp/>and<sp/>buttons</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Integrated<sp/>with<sp/>physics<sp/>engines:<sp/>[Box2d][5]<sp/>and<sp/>[Chipmunk][6]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Particle<sp/>system</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Skeleton<sp/>Animations:<sp/>[Spine][7]<sp/>and<sp/>Armature<sp/>support</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Fonts:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Fast<sp/>font<sp/>rendering<sp/>using<sp/>Fixed<sp/>and<sp/>Variable<sp/>width<sp/>fonts</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>*<sp/>Support<sp/>for<sp/>.ttf<sp/>fonts</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Tile<sp/>Map<sp/>support:<sp/>Orthogonal,<sp/>Isometric<sp/>and<sp/>Hexagonal</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Parallax<sp/>scrolling</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Motion<sp/>Streak</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Render<sp/>To<sp/>Texture</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Touch/Accelerometer<sp/>on<sp/>mobile<sp/>devices</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Touch/Mouse/Keyboard<sp/>on<sp/>desktop</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Sound<sp/>Engine<sp/>support<sp/>(CocosDenshion<sp/>library)<sp/>based<sp/>on<sp/>OpenAL</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Integrated<sp/>Slow<sp/>motion/Fast<sp/>forward</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Fast<sp/>and<sp/>compressed<sp/>textures:<sp/>PVR<sp/>compressed<sp/>and<sp/>uncompressed<sp/>textures,<sp/>ETC1<sp/>compressed<sp/>textures,<sp/>and<sp/>more</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Resolution<sp/>Independent</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Language:<sp/>C++,<sp/>with<sp/>Lua<sp/>and<sp/>JavaScript<sp/>bindings</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Open<sp/>Source<sp/>Commercial<sp/>Friendly(MIT):<sp/>Compatible<sp/>with<sp/>open<sp/>and<sp/>closed<sp/>source<sp/>projects</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>OpenGL<sp/>ES<sp/>2.0<sp/>(mobile)<sp/>/<sp/>OpenGL<sp/>2.1<sp/>(desktop)<sp/>based</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Build<sp/>Requirements</highlight></codeline>
+<codeline><highlight class="normal">------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Mac<sp/>OS<sp/>X<sp/>10.7+,<sp/>Xcode<sp/>7+</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>or<sp/>Ubuntu<sp/>12.10+,<sp/>CMake<sp/>2.6+</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>or<sp/>Windows<sp/>7+,<sp/>VS<sp/>2013+</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Python<sp/>2.7.5</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>NDK<sp/>r11+<sp/>is<sp/>required<sp/>to<sp/>build<sp/>Android<sp/>games</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Tizen<sp/>SDK<sp/>2.3+<sp/>is<sp/>required<sp/>to<sp/>build<sp/>Tizen<sp/>games</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Windows<sp/>Phone/Store<sp/>8.1<sp/>VS<sp/>2013<sp/>Update<sp/>4+<sp/>or<sp/>VS<sp/>2015</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Windows<sp/>Phone/Store<sp/>10.0<sp/>VS<sp/>2015</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>JRE<sp/>or<sp/>JDK<sp/>1.6+<sp/>is<sp/>required<sp/>for<sp/>web<sp/>publishing</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Runtime<sp/>Requirements</highlight></codeline>
+<codeline><highlight class="normal">--------------------</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>iOS<sp/>7.0+<sp/>for<sp/>iPhone<sp/>/<sp/>iPad<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Android<sp/>2.3.3+<sp/>for<sp/>Android<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Tizen<sp/>2.3+<sp/>or<sp/>2.4+<sp/>for<sp/>Tizen<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Windows<sp/>8.1<sp/>or<sp/>Windows<sp/>10.0<sp/>for<sp/>Windows<sp/>Phone/Store<sp/>8.1<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Windows<sp/>10.0<sp/>for<sp/>Windows<sp/>Phone/Store<sp/>10.0<sp/><sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>OS<sp/>X<sp/>v10.9+<sp/>for<sp/>Mac<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Windows<sp/>7+<sp/>for<sp/>Win<sp/>games</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>Modern<sp/>browsers<sp/>and<sp/>IE<sp/>9+<sp/>for<sp/>web<sp/>games</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Running<sp/>Tests</highlight></codeline>
+<codeline><highlight class="normal">--------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Select<sp/>the<sp/>test<sp/>you<sp/>want<sp/>from<sp/>Xcode<sp/>Scheme<sp/>chooser.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Cocos<sp/>Console</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Enter<sp/>cpp<sp/>test<sp/>folder</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>tests/cpp-tests</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Or<sp/>enter<sp/>js<sp/>test<sp/>folder</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>tests/js-tests</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Or<sp/>enter<sp/>lua<sp/>test<sp/>folder</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>tests/lua-tests</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Compile<sp/>or<sp/>run<sp/>test<sp/>case</highlight></codeline>
+<codeline><highlight class="normal">cocos<sp/>compile<sp/>-p<sp/>ios|mac|android|win32|win8_1|metro|web<sp/>-m<sp/>debug|release</highlight></codeline>
+<codeline><highlight class="normal">cocos<sp/>run<sp/>-p<sp/>ios|mac|android|win32|win8_1|metro|web<sp/>-m<sp/>debug|release</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>OS<sp/>X<sp/>/<sp/>iOS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cd<sp/>cocos2d-x/build</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>open<sp/>cocos2d_tests.xcodeproj</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Linux</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cd<sp/>cocos2d-x/build</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>./install-deps-linux.sh</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cmake<sp/>..</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>make</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Run<sp/>Samples</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>bin/cpp-empty-test/cpp-empty-test</highlight></codeline>
+<codeline><highlight class="normal">or</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>bin/lua-empty-test/lua-empty-test</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>You<sp/>may<sp/>meet<sp/>building<sp/>errors<sp/>when<sp/>building<sp/>libGLFW.so.<sp/>It<sp/>is<sp/>because<sp/>libGL.so<sp/>directs<sp/>to<sp/>an<sp/>error<sp/>target,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>you<sp/>should<sp/>make<sp/>it<sp/>to<sp/>direct<sp/>to<sp/>a<sp/>correct<sp/>one.<sp/>`install-deps-linux.sh`<sp/>only<sp/>has<sp/>to<sp/>be<sp/>run<sp/>once.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Windows</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open<sp/>the<sp/>`cocos2d-x/build/cocos2d-win32.sln`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Windows<sp/>8.1<sp/>Universal<sp/>Apps<sp/>(Phone<sp/>and<sp/>Store)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open<sp/>the<sp/>`cocos2d-x/build/cocos2d-win8.1-universal.sln`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Windows<sp/>10.0<sp/>Universal<sp/>Windows<sp/>Platform<sp/>(UWP)<sp/>Apps<sp/>(Phone<sp/>and<sp/>Store)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open<sp/>the<sp/>`cocos2d-x/build/cocos2d-win10.sln`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Android</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cd<sp/>cocos2d-x/build</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>python<sp/>./android-build.py<sp/>cpp-empty-test<sp/>-p<sp/>10</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>adb<sp/>install<sp/>../tests/cpp-empty-test/proj.android/bin/CppEmptyTest-debug.apk</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Then<sp/>click<sp/>item<sp/>on<sp/>Android<sp/>device<sp/>to<sp/>run<sp/>tests.<sp/>Available<sp/>value<sp/>of<sp/>`-p`<sp/>is<sp/>the<sp/>API<sp/>level,<sp/>cocos2d-x<sp/>supports<sp/>from<sp/>level<sp/>10.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>For<sp/>Tizen</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Please<sp/>refer<sp/>to<sp/>this<sp/>[guide](http://cocos2d-x.org/docs/installation/Tizen/index.html<sp/>).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Learning<sp/>Resources</highlight></codeline>
+<codeline><highlight class="normal">--------------------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>[Programmers<sp/>Guide](http://cocos2d-x.org/docs/programmers-guide/2/index.html)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Sonar<sp/>Systems<sp/>Videos](https://www.youtube.com/user/sonarsystemslimited/search?query=cocos2d-x)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Android<sp/>Fundamentals](https://developer.android.com/guide/components/fundamentals.html)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Make<sp/>School<sp/>Tutorials](https://www.makeschool.com/tutorials/)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Games<sp/>From<sp/>Scratch](http://www.gamefromscratch.com/page/Cocos2d-x-CPP-Game-Programming-Tutorial-Series.aspx)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Cocos2d<sp/>sample<sp/>games](https://github.com/cocos2d/cocos2d-x-samples)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Spreading<sp/>the<sp/>word!</highlight></codeline>
+<codeline><highlight class="normal">--------------------------------</highlight></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>help<sp/>us<sp/>spread<sp/>the<sp/>word<sp/>about<sp/>cocos2d-x!<sp/>We<sp/>would<sp/>surely<sp/>appreciate<sp/>it!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>Talk<sp/>about<sp/>us<sp/>on<sp/>Facebook!<sp/>Our<sp/>[Facebook<sp/>Page](https://www.facebook.com/cocos2dx/)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Tweet,<sp/>Tweet!<sp/>Our<sp/>[Twitter](https://twitter.com/cocos2dx)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Read<sp/>our<sp/>[Blog](http://blog.cocos2d-x.org/)<sp/>and<sp/>promote<sp/>it<sp/>on<sp/>your<sp/>social<sp/>media.</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Become<sp/>a<sp/>[Regional<sp/>Coordinator](http://discuss.cocos2d-x.org/t/we-need-regional-coordinators/24104)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">See<sp/>what<sp/>we<sp/>are<sp/>planning!</highlight></codeline>
+<codeline><highlight class="normal">--------------------------------</highlight></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>see<sp/>exactly<sp/>what<sp/>we<sp/>are<sp/>planning<sp/>to<sp/>do<sp/>with<sp/>the<sp/>Cocos<sp/>family<sp/>of<sp/>products.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>[Cocos2d-x<sp/>roadmap](https://trello.com/b/Np6obnuE/cocos2d-x-roadmap)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Where<sp/>to<sp/>get<sp/>help</highlight></codeline>
+<codeline><highlight class="normal">--------------------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*<sp/>[Forums](http://discuss.cocos2d-x.org)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Bug<sp/>Tracker](https://github.com/cocos2d/cocos2d-x/issues)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>IRC.<sp/>We<sp/>are<sp/>in<sp/>[Freenode](https://webchat.freenode.net/)<sp/>in<sp/>the<sp/>_#cocos2d_<sp/>channel</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>`cpp-tests`<sp/>project.<sp/>This<sp/>project<sp/>is<sp/>our<sp/>basis<sp/>for<sp/>testing.<sp/>Use<sp/>this<sp/>project<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">learn<sp/>how<sp/>we<sp/>implement<sp/>the<sp/>functionality<sp/>of<sp/>the<sp/>engine.<sp/>This<sp/>project<sp/>is<sp/>located<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">__cocos2d-x_root/build.__</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[API<sp/>Reference](http://cocos2d-x.org/docs/api-ref/index.html).</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Latest<sp/>Release<sp/>Note](https://github.com/cocos2d/cocos2d-x/blob/v3/docs/RELEASE_NOTES.md)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>[Changelog](https://github.com/cocos2d/cocos2d-x/blob/v3/CHANGELOG)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Contributing<sp/>to<sp/>the<sp/>Project</highlight></codeline>
+<codeline><highlight class="normal">--------------------------------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Cocos2d-x<sp/>is<sp/>licensed<sp/>under<sp/>the<sp/>[MIT<sp/>License](https://opensource.org/licenses/MIT).<sp/>We<sp/>welcome<sp/>participation!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Did<sp/>you<sp/>find<sp/>a<sp/>bug?<sp/>Do<sp/>you<sp/>have<sp/>feature<sp/>request?<sp/>Do<sp/>you<sp/>want<sp/>to<sp/>merge<sp/>a<sp/>feature?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/>*<sp/>[contributing<sp/>to<sp/>cocos2d-x][8]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Contact<sp/>us</highlight></codeline>
+<codeline><highlight class="normal">----------</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Forum:<sp/>[http://discuss.cocos2d-x.org][9]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Twitter:<sp/>[http://www.twitter.com/cocos2dx][10]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>Weibo:<sp/>[http://t.sina.com.cn/cocos2dx][11]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/>*<sp/>IRC:<sp/>[https://webchat.freenode.net/][12]<sp/>(#cocos2d<sp/>and<sp/>#cocos2d-x<sp/>channels)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[1]:<sp/>http://www.cocos2d-x.org<sp/>&quot;cocos2d-x&quot;</highlight></codeline>
+<codeline><highlight class="normal">[2]:<sp/>http://www.cocos2d-iphone.org<sp/>&quot;cocos2d<sp/>for<sp/>iPhone&quot;</highlight></codeline>
+<codeline><highlight class="normal">[3]:<sp/>http://www.cocos2d-x.org/projects/cocos2d-x/wiki/Download</highlight></codeline>
+<codeline><highlight class="normal">[4]:<sp/>http://www.cocos2d-x.org/download/version#Cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal">[5]:<sp/>http://www.box2d.org<sp/>&quot;Box2D&quot;</highlight></codeline>
+<codeline><highlight class="normal">[6]:<sp/>http://www.chipmunk-physics.net<sp/>&quot;Chipmunk2D&quot;</highlight></codeline>
+<codeline><highlight class="normal">[7]:<sp/>http://esotericsoftware.com/<sp/>&quot;http://esotericsoftware.com/&quot;</highlight></codeline>
+<codeline><highlight class="normal">[8]:<sp/>https://github.com/cocos2d/cocos2d-x/blob/v3/CONTRIBUTING.md</highlight></codeline>
+<codeline><highlight class="normal">[9]:<sp/>http://discuss.cocos2d-x.org<sp/>&quot;http://discuss.cocos2d-x.org&quot;</highlight></codeline>
+<codeline><highlight class="normal">[10]:<sp/>http://www.twitter.com/cocos2dx<sp/>&quot;http://www.twitter.com/cocos2dx&quot;</highlight></codeline>
+<codeline><highlight class="normal">[11]:<sp/>http://t.sina.com.cn/cocos2dx<sp/>&quot;http://t.sina.com.cn/cocos2dx&quot;</highlight></codeline>
+<codeline><highlight class="normal">[12]:<sp/>https://webchat.freenode.net/<sp/>&quot;https://webchat.freenode.net/&quot;</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

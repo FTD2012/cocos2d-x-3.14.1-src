@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___b_m_font_padding" kind="struct" language="C++" prot="public">
+    <compoundname>_BMFontPadding</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="group__label_1ga8129887cd2f3f177100cd4fedf20e347" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _BMFontPadding::left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+<para>padding left </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="77" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1gad673e6ff522f10836afba0745f3c4ee8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _BMFontPadding::top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+<para>padding top </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="79" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1gac83f97e64d8fa8a835a17c44d93f9f62" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _BMFontPadding::right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+<para>padding right </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="81" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__label_1ga41ee44807cde2134c0ff73208dccf6e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _BMFontPadding::bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <briefdescription>
+<para>padding bottom </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCFontFNT.cpp" line="83" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/2d/CCFontFNT.cpp" line="75" column="1" bodyfile="cocos/2d/CCFontFNT.cpp" bodystart="75" bodyend="84"/>
+    <listofallmembers>
+      <member refid="group__label_1ga41ee44807cde2134c0ff73208dccf6e7" prot="public" virt="non-virtual"><scope>_BMFontPadding</scope><name>bottom</name></member>
+      <member refid="group__label_1ga8129887cd2f3f177100cd4fedf20e347" prot="public" virt="non-virtual"><scope>_BMFontPadding</scope><name>left</name></member>
+      <member refid="group__label_1gac83f97e64d8fa8a835a17c44d93f9f62" prot="public" virt="non-virtual"><scope>_BMFontPadding</scope><name>right</name></member>
+      <member refid="group__label_1gad673e6ff522f10836afba0745f3c4ee8" prot="public" virt="non-virtual"><scope>_BMFontPadding</scope><name>top</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

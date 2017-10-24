@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="md_issue_template" kind="page">
+    <compoundname>md_issue_template</compoundname>
+    <title>issue_template</title>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>cocos2d-x version:</para></listitem><listitem><para>devices test on:</para></listitem><listitem><para>developing environments<itemizedlist>
+<listitem><para>NDK version:</para></listitem><listitem><para>Xcode version:</para></listitem><listitem><para>VS version:</para></listitem><listitem><para>browser type and version:</para></listitem></itemizedlist>
+</para></listitem></itemizedlist>
+</para><para>Steps to Reproduce:</para><para><orderedlist>
+<listitem></listitem><listitem></listitem></orderedlist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

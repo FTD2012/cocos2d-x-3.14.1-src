@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structspine_1_1___track_entry_listeners" kind="struct" language="C++" prot="public">
+    <compoundname>spine::_TrackEntryListeners</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structspine_1_1___track_entry_listeners_1ab2aee0d8701c5da3df872667a726f0f3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacespine_1a7e4762ccc238fa994114a2cf19e1ea17" kindref="member">StartListener</ref></type>
+        <definition>StartListener spine::_TrackEntryListeners::startListener</definition>
+        <argsstring></argsstring>
+        <name>startListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonAnimation.cpp" line="53" column="1" bodyfile="cocos/editor-support/spine/SkeletonAnimation.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structspine_1_1___track_entry_listeners_1a14ea9cc93604f5f78b0226d83344abe4" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacespine_1af6f4425120d70ed986bf2de50a759910" kindref="member">EndListener</ref></type>
+        <definition>EndListener spine::_TrackEntryListeners::endListener</definition>
+        <argsstring></argsstring>
+        <name>endListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonAnimation.cpp" line="54" column="1" bodyfile="cocos/editor-support/spine/SkeletonAnimation.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structspine_1_1___track_entry_listeners_1a57c9483637d62cc3a96319b89b282da6" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacespine_1a7d071190d965051af9db93ff9061bba5" kindref="member">CompleteListener</ref></type>
+        <definition>CompleteListener spine::_TrackEntryListeners::completeListener</definition>
+        <argsstring></argsstring>
+        <name>completeListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonAnimation.cpp" line="55" column="1" bodyfile="cocos/editor-support/spine/SkeletonAnimation.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structspine_1_1___track_entry_listeners_1ae088d4942e652c00ab524cbb3c6bfb4e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacespine_1a033f17f4a55fc2e5127fa3e570e1b8d2" kindref="member">EventListener</ref></type>
+        <definition>EventListener spine::_TrackEntryListeners::eventListener</definition>
+        <argsstring></argsstring>
+        <name>eventListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/SkeletonAnimation.cpp" line="56" column="1" bodyfile="cocos/editor-support/spine/SkeletonAnimation.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/editor-support/spine/SkeletonAnimation.cpp" line="52" column="1" bodyfile="cocos/editor-support/spine/SkeletonAnimation.cpp" bodystart="52" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structspine_1_1___track_entry_listeners_1a57c9483637d62cc3a96319b89b282da6" prot="public" virt="non-virtual"><scope>spine::_TrackEntryListeners</scope><name>completeListener</name></member>
+      <member refid="structspine_1_1___track_entry_listeners_1a14ea9cc93604f5f78b0226d83344abe4" prot="public" virt="non-virtual"><scope>spine::_TrackEntryListeners</scope><name>endListener</name></member>
+      <member refid="structspine_1_1___track_entry_listeners_1ae088d4942e652c00ab524cbb3c6bfb4e" prot="public" virt="non-virtual"><scope>spine::_TrackEntryListeners</scope><name>eventListener</name></member>
+      <member refid="structspine_1_1___track_entry_listeners_1ab2aee0d8701c5da3df872667a726f0f3" prot="public" virt="non-virtual"><scope>spine::_TrackEntryListeners</scope><name>startListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

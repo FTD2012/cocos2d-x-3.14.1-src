@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classsetup_1_1_set_env_var" kind="class" language="Python" prot="public">
+    <compoundname>setup::SetEnvVar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1ae4c00cb1b2f587eed300296b197ba53d" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int setup.SetEnvVar::RESULT_UPDATE_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RESULT_UPDATE_FAILED</name>
+        <initializer>=  -2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="79" column="1" bodyfile="setup.py" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1ad00f1ffea099aaa65af230503700685a" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int setup.SetEnvVar::RESULT_ADD_FAILED</definition>
+        <argsstring></argsstring>
+        <name>RESULT_ADD_FAILED</name>
+        <initializer>=  -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="80" column="1" bodyfile="setup.py" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a598d3261ebece123a61c7a111e3c7a06" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int setup.SetEnvVar::RESULT_DO_NOTHING</definition>
+        <argsstring></argsstring>
+        <name>RESULT_DO_NOTHING</name>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="81" column="1" bodyfile="setup.py" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a23f1c6d50ac7cd52e3a9467e958aaa36" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int setup.SetEnvVar::RESULT_UPDATED</definition>
+        <argsstring></argsstring>
+        <name>RESULT_UPDATED</name>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="82" column="1" bodyfile="setup.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a9c6c4cecc08c95792ce4fc2234f0f4f3" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int setup.SetEnvVar::RESULT_ADDED</definition>
+        <argsstring></argsstring>
+        <name>RESULT_ADDED</name>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="83" column="1" bodyfile="setup.py" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a5cde2d8507fffae1349666ee4e4f7ce4" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list setup.SetEnvVar::MAC_CHECK_FILES</definition>
+        <argsstring></argsstring>
+        <name>MAC_CHECK_FILES</name>
+        <initializer>=  [&apos;.bash_profile&apos;, &apos;.bash_login&apos;, &apos;.profile&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="85" column="1" bodyfile="setup.py" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a5363da33b3bf37959ee75f77fa09b20f" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list setup.SetEnvVar::LINUX_CHECK_FILES</definition>
+        <argsstring></argsstring>
+        <name>LINUX_CHECK_FILES</name>
+        <initializer>=  [&apos;.bashrc&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="86" column="1" bodyfile="setup.py" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a44113e8b27f51e9df6377bf47ab47695" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list setup.SetEnvVar::ZSH_CHECK_FILES</definition>
+        <argsstring></argsstring>
+        <name>ZSH_CHECK_FILES</name>
+        <initializer>=  [&apos;.zshrc&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="87" column="1" bodyfile="setup.py" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a1435bf5e8a3c730038cca79010792de9" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string setup.SetEnvVar::RE_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>RE_FORMAT</name>
+        <initializer>=  r&apos;^export[ \t]+%s=(.+)&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="88" column="1" bodyfile="setup.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a5d652e8269e3b9f90601b4f85f2948f6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.SetEnvVar::need_backup</definition>
+        <argsstring></argsstring>
+        <name>need_backup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="91" column="1" bodyfile="setup.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a8de64ee7b344e7fd4dfe0a2649845d45" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.SetEnvVar::backup_file</definition>
+        <argsstring></argsstring>
+        <name>backup_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="92" column="1" bodyfile="setup.py" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1a5ccdda7cbf9d1119d22a4338f745b401" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.SetEnvVar::current_absolute_path</definition>
+        <argsstring></argsstring>
+        <name>current_absolute_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="93" column="1" bodyfile="setup.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsetup_1_1_set_env_var_1ab2d40b378cff475ed4a621164bb82e05" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>setup.SetEnvVar::file_used_for_setup</definition>
+        <argsstring></argsstring>
+        <name>file_used_for_setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="95" column="1" bodyfile="setup.py" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1af7b40a33e1cc6627edf84731a0f62f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="90" column="1" bodyfile="setup.py" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a4ed6a487efb2ee472a60a6710c014041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.remove_dir_from_win_path</definition>
+        <argsstring>(self, remove_dir)</argsstring>
+        <name>remove_dir_from_win_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>remove_dir</type>
+          <defname>remove_dir</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="396" column="1" bodyfile="setup.py" bodystart="396" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a9877e920c28c6d390734104774a0c57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_windows_path</definition>
+        <argsstring>(self, add_dir)</argsstring>
+        <name>set_windows_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>add_dir</type>
+          <defname>add_dir</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="425" column="1" bodyfile="setup.py" bodystart="425" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1ab9ede3343fb1537fb3abc39869c3421e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_console_root</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_console_root</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="466" column="1" bodyfile="setup.py" bodystart="466" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1acffc4e275c81042789d5d22c24e6f97c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_cocos_x_root</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_cocos_x_root</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="489" column="1" bodyfile="setup.py" bodystart="489" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a4201e1350ea66c54de0740d8d6262f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_templates_root</definition>
+        <argsstring>(self)</argsstring>
+        <name>set_templates_root</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="510" column="1" bodyfile="setup.py" bodystart="510" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a822fb518d021d490078b20367a786f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_variable</definition>
+        <argsstring>(self, var_name, value)</argsstring>
+        <name>set_variable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="632" column="1" bodyfile="setup.py" bodystart="632" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a2c61de89ef8b06440e83367a88b241ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar.set_environment_variables</definition>
+        <argsstring>(self, ndk_root, android_sdk_root, ant_root, quiet)</argsstring>
+        <name>set_environment_variables</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ndk_root</type>
+          <defname>ndk_root</defname>
+        </param>
+        <param>
+          <type>android_sdk_root</type>
+          <defname>android_sdk_root</defname>
+        </param>
+        <param>
+          <type>ant_root</type>
+          <defname>ant_root</defname>
+        </param>
+        <param>
+          <type>quiet</type>
+          <defname>quiet</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="683" column="1" bodyfile="setup.py" bodystart="683" bodyend="715"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a379f4b3f976d440ff88e196ac73451ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._isWindows</definition>
+        <argsstring>(self)</argsstring>
+        <name>_isWindows</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="97" column="1" bodyfile="setup.py" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1aaed6d4ff8f728c1bd15b66f6e0800bd4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._isLinux</definition>
+        <argsstring>(self)</argsstring>
+        <name>_isLinux</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="100" column="1" bodyfile="setup.py" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a7531c025642d67d51092dc0d7d296a48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._is_mac</definition>
+        <argsstring>(self)</argsstring>
+        <name>_is_mac</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="103" column="1" bodyfile="setup.py" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1acedb03baf889e36ae100c467ce386472" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._is_zsh</definition>
+        <argsstring>(self)</argsstring>
+        <name>_is_zsh</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="106" column="1" bodyfile="setup.py" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a72c4806f6bf70344d047d6e76c40985d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_unix_file_list</definition>
+        <argsstring>(self)</argsstring>
+        <name>_get_unix_file_list</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="113" column="1" bodyfile="setup.py" bodystart="113" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1abe884581bcfb7e3c215b2cbf25a8f1ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_filepath_for_setup</definition>
+        <argsstring>(self)</argsstring>
+        <name>_get_filepath_for_setup</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="125" column="1" bodyfile="setup.py" bodystart="125" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1abb6a784e4f2710c6fca12288f4ac1a46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._set_environment_variable_win32</definition>
+        <argsstring>(self, key, value)</argsstring>
+        <name>_set_environment_variable_win32</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>key</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="148" column="1" bodyfile="setup.py" bodystart="148" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a4557e35b524cbe5b28849d57d52bbdb6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._gen_backup_file</definition>
+        <argsstring>(self)</argsstring>
+        <name>_gen_backup_file</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="168" column="1" bodyfile="setup.py" bodystart="168" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a12e6bd7efdb5958c67676066b0511776" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._set_environment_variable_unix</definition>
+        <argsstring>(self, key, value)</argsstring>
+        <name>_set_environment_variable_unix</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>key</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="181" column="1" bodyfile="setup.py" bodystart="181" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1adbb8d7c966246c56368e39fce77df887" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._set_environment_variable</definition>
+        <argsstring>(self, key, value)</argsstring>
+        <name>_set_environment_variable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>key</type>
+          <defname>key</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="199" column="1" bodyfile="setup.py" bodystart="199" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1abdaad577a5494b30b58e6e47a075d41b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._search_unix_variable</definition>
+        <argsstring>(self, var_name, file_name)</argsstring>
+        <name>_search_unix_variable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <param>
+          <type>file_name</type>
+          <defname>file_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="215" column="1" bodyfile="setup.py" bodystart="215" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1aaaf44462b261fcca6b292091e3e65c1e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._find_environment_variable</definition>
+        <argsstring>(self, var)</argsstring>
+        <name>_find_environment_variable</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var</type>
+          <defname>var</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="231" column="1" bodyfile="setup.py" bodystart="231" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a5c0e2e9662a430167f19d8b201d5249f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_input_value</definition>
+        <argsstring>(self, var_name)</argsstring>
+        <name>_get_input_value</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="270" column="1" bodyfile="setup.py" bodystart="270" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1af1923d2b92723a8aae1bfadf5a5f8ef9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._check_valid</definition>
+        <argsstring>(self, var_name, value)</argsstring>
+        <name>_check_valid</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="338" column="1" bodyfile="setup.py" bodystart="338" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a7594e66430b6e0f217358ee81e6c2098" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._is_ndk_root_valid</definition>
+        <argsstring>(self, ndk_root)</argsstring>
+        <name>_is_ndk_root_valid</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ndk_root</type>
+          <defname>ndk_root</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="355" column="1" bodyfile="setup.py" bodystart="355" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a96034b1bd5a7e8670177678ac7e2f5f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._is_android_sdk_root_valid</definition>
+        <argsstring>(self, android_sdk_root)</argsstring>
+        <name>_is_android_sdk_root_valid</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>android_sdk_root</type>
+          <defname>android_sdk_root</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="369" column="1" bodyfile="setup.py" bodystart="369" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a72d5e3e5600e95f99e680deb1f48ca3e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._is_ant_root_valid</definition>
+        <argsstring>(self, ant_root)</argsstring>
+        <name>_is_ant_root_valid</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>ant_root</type>
+          <defname>ant_root</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="383" column="1" bodyfile="setup.py" bodystart="383" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a70d98acb7aa6a1308e56be3af910c7ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._force_update_unix_env</definition>
+        <argsstring>(self, var_name, value)</argsstring>
+        <name>_force_update_unix_env</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="532" column="1" bodyfile="setup.py" bodystart="532" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a9676be81a13822853c163504cbeff65b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._force_update_env</definition>
+        <argsstring>(self, var_name, value)</argsstring>
+        <name>_force_update_env</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <param>
+          <type>value</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="581" column="1" bodyfile="setup.py" bodystart="581" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1afc2062187098da368a5cf0e0a3b91e8e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_ant_path</definition>
+        <argsstring>(self)</argsstring>
+        <name>_get_ant_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="594" column="1" bodyfile="setup.py" bodystart="594" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a2907c0c1b53b55b04c4581b2734dea91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_androidsdk_path</definition>
+        <argsstring>(self)</argsstring>
+        <name>_get_androidsdk_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="597" column="1" bodyfile="setup.py" bodystart="597" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1afe0b911484ca086e5044123034f3c96a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_ndkbuild_path</definition>
+        <argsstring>(self)</argsstring>
+        <name>_get_ndkbuild_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="600" column="1" bodyfile="setup.py" bodystart="600" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1a6038bb43c0625b306f6ba494850fc4e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._get_sdkpath_for_cmd</definition>
+        <argsstring>(self, cmd, has_bin_folder=True)</argsstring>
+        <name>_get_sdkpath_for_cmd</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>cmd</type>
+          <defname>cmd</defname>
+        </param>
+        <param>
+          <type>has_bin_folder</type>
+          <defname>has_bin_folder</defname>
+          <defval><ref refid="namespacesetup_1aa674efd691c4c89877c6c692d877936d" kindref="member">True</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="603" column="1" bodyfile="setup.py" bodystart="603" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classsetup_1_1_set_env_var_1ae5ca5dc51be1f16645b02cc12a2ea4b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def setup.SetEnvVar._find_value_from_sys</definition>
+        <argsstring>(self, var_name)</argsstring>
+        <name>_find_value_from_sys</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>var_name</type>
+          <defname>var_name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="setup.py" line="622" column="1" bodyfile="setup.py" bodystart="622" bodyend="631"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>setup.SetEnvVar</label>
+        <link refid="classsetup_1_1_set_env_var"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>setup.SetEnvVar</label>
+        <link refid="classsetup_1_1_set_env_var"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="setup.py" line="77" column="1" bodyfile="setup.py" bodystart="77" bodyend="716"/>
+    <listofallmembers>
+      <member refid="classsetup_1_1_set_env_var_1af7b40a33e1cc6627edf84731a0f62f04" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>__init__</name></member>
+      <member refid="classsetup_1_1_set_env_var_1af1923d2b92723a8aae1bfadf5a5f8ef9" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_check_valid</name></member>
+      <member refid="classsetup_1_1_set_env_var_1aaaf44462b261fcca6b292091e3e65c1e" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_find_environment_variable</name></member>
+      <member refid="classsetup_1_1_set_env_var_1ae5ca5dc51be1f16645b02cc12a2ea4b7" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_find_value_from_sys</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a9676be81a13822853c163504cbeff65b" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_force_update_env</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a70d98acb7aa6a1308e56be3af910c7ab" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_force_update_unix_env</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a4557e35b524cbe5b28849d57d52bbdb6" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_gen_backup_file</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a2907c0c1b53b55b04c4581b2734dea91" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_androidsdk_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1afc2062187098da368a5cf0e0a3b91e8e" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_ant_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1abe884581bcfb7e3c215b2cbf25a8f1ca" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_filepath_for_setup</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a5c0e2e9662a430167f19d8b201d5249f" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_input_value</name></member>
+      <member refid="classsetup_1_1_set_env_var_1afe0b911484ca086e5044123034f3c96a" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_ndkbuild_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a6038bb43c0625b306f6ba494850fc4e4" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_sdkpath_for_cmd</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a72c4806f6bf70344d047d6e76c40985d" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_get_unix_file_list</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a96034b1bd5a7e8670177678ac7e2f5f9" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_is_android_sdk_root_valid</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a72d5e3e5600e95f99e680deb1f48ca3e" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_is_ant_root_valid</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a7531c025642d67d51092dc0d7d296a48" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_is_mac</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a7594e66430b6e0f217358ee81e6c2098" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_is_ndk_root_valid</name></member>
+      <member refid="classsetup_1_1_set_env_var_1acedb03baf889e36ae100c467ce386472" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_is_zsh</name></member>
+      <member refid="classsetup_1_1_set_env_var_1aaed6d4ff8f728c1bd15b66f6e0800bd4" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_isLinux</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a379f4b3f976d440ff88e196ac73451ec" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_isWindows</name></member>
+      <member refid="classsetup_1_1_set_env_var_1abdaad577a5494b30b58e6e47a075d41b" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_search_unix_variable</name></member>
+      <member refid="classsetup_1_1_set_env_var_1adbb8d7c966246c56368e39fce77df887" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_set_environment_variable</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a12e6bd7efdb5958c67676066b0511776" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_set_environment_variable_unix</name></member>
+      <member refid="classsetup_1_1_set_env_var_1abb6a784e4f2710c6fca12288f4ac1a46" prot="private" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>_set_environment_variable_win32</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a8de64ee7b344e7fd4dfe0a2649845d45" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>backup_file</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a5ccdda7cbf9d1119d22a4338f745b401" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>current_absolute_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1ab2d40b378cff475ed4a621164bb82e05" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>file_used_for_setup</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a5363da33b3bf37959ee75f77fa09b20f" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>LINUX_CHECK_FILES</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a5cde2d8507fffae1349666ee4e4f7ce4" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>MAC_CHECK_FILES</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a5d652e8269e3b9f90601b4f85f2948f6" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>need_backup</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a1435bf5e8a3c730038cca79010792de9" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RE_FORMAT</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a4ed6a487efb2ee472a60a6710c014041" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>remove_dir_from_win_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1ad00f1ffea099aaa65af230503700685a" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RESULT_ADD_FAILED</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a9c6c4cecc08c95792ce4fc2234f0f4f3" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RESULT_ADDED</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a598d3261ebece123a61c7a111e3c7a06" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RESULT_DO_NOTHING</name></member>
+      <member refid="classsetup_1_1_set_env_var_1ae4c00cb1b2f587eed300296b197ba53d" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RESULT_UPDATE_FAILED</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a23f1c6d50ac7cd52e3a9467e958aaa36" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>RESULT_UPDATED</name></member>
+      <member refid="classsetup_1_1_set_env_var_1acffc4e275c81042789d5d22c24e6f97c" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_cocos_x_root</name></member>
+      <member refid="classsetup_1_1_set_env_var_1ab9ede3343fb1537fb3abc39869c3421e" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_console_root</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a2c61de89ef8b06440e83367a88b241ec" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_environment_variables</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a4201e1350ea66c54de0740d8d6262f58" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_templates_root</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a822fb518d021d490078b20367a786f50" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_variable</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a9877e920c28c6d390734104774a0c57d" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>set_windows_path</name></member>
+      <member refid="classsetup_1_1_set_env_var_1a44113e8b27f51e9df6377bf47ab47695" prot="public" virt="non-virtual"><scope>setup::SetEnvVar</scope><name>ZSH_CHECK_FILES</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_c_o_n_t_r_i_b_u_t_i_n_g_8md" kind="file" language="Markdown">
+    <compoundname>CONTRIBUTING.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Contributing<sp/>to<sp/>cocos2d-x</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>For<sp/>general<sp/>questions</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>ask<sp/>general<sp/>questions<sp/>by<sp/>using:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Forum<sp/>(preferred<sp/>way):<sp/>http://discuss.cocos2d-x.org/</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>IRC:<sp/>https://webchat.freenode.net/<sp/>(Use<sp/>the<sp/>*cocos2d*<sp/>or<sp/>*cocos2d-x*<sp/>channels)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Weibo:<sp/>http://t.sina.com.cn/cocos2dx</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Twitter:<sp/>http://www.twitter.com/cocos2dx</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Reporting<sp/>bugs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">To<sp/>report<sp/>bugs,<sp/>please<sp/>use<sp/>the<sp/>[Issue<sp/>Tracker](https://github.com/cocos2d/cocos2d-x/issues)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Steps<sp/>to<sp/>report<sp/>a<sp/>bug:</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Open<sp/>the<sp/>[url](https://github.com/cocos2d/cocos2d-x/issues/new)</highlight></codeline>
+<codeline><highlight class="normal">*<sp/>Add<sp/>all<sp/>the<sp/>needed<sp/>information<sp/>to<sp/>reproduce<sp/>the<sp/>bug,<sp/>the<sp/>information<sp/>include</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>*<sp/>engine<sp/>version</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>*<sp/>steps<sp/>to<sp/>reproduce<sp/>the<sp/>bug</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>*<sp/>some<sp/>pseudocode</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>*<sp/>resources<sp/>link<sp/>if<sp/>needed</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Submitting<sp/>patches</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>want<sp/>to<sp/>contribute<sp/>code,<sp/>please<sp/>follow<sp/>these<sp/>steps:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">(If<sp/>you<sp/>are<sp/>new<sp/>to<sp/>git<sp/>and/or<sp/>GitHub,<sp/>you<sp/>should<sp/>read<sp/>[Pro<sp/>Git](http://progit.org/book/)<sp/>,<sp/>especially<sp/>the<sp/>section<sp/>on<sp/>[Contributing<sp/>to<sp/>a<sp/>project:Small/Large<sp/>Public<sp/>Project](http://progit.org/book/ch5-2.html#public_small_project)<sp/>)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Download<sp/>the<sp/>latest<sp/>cocos2d-x<sp/>develop<sp/>branch<sp/>from<sp/>github:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>git<sp/>clone<sp/>git://github.com/cocos2d/cocos2d-x.git</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>cd<sp/>cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>git<sp/>checkout<sp/>v3</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>./download-deps.py</highlight></codeline>
+<codeline><highlight class="normal">$<sp/>git<sp/>submodule<sp/>update<sp/>--init</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Apply<sp/>your<sp/>changes<sp/>in<sp/>the<sp/>recently<sp/>downloaded<sp/>repository</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Commit<sp/>your<sp/>changes<sp/>in<sp/>your<sp/>own<sp/>repository</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Create<sp/>a<sp/>new<sp/>branch<sp/>with<sp/>your<sp/>patch:<sp/>`$<sp/>git<sp/>checkout<sp/>-b<sp/>my_fix_branch`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Push<sp/>your<sp/>new<sp/>branch<sp/>to<sp/>your<sp/>public<sp/>repository</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Send<sp/>a<sp/>“pull<sp/>request”<sp/>to<sp/>user<sp/>“cocos2d”</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>It<sp/>must<sp/>be<sp/>_complete_.<sp/>See<sp/>the<sp/>definition<sp/>below</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>It<sp/>must<sp/>follow<sp/>the<sp/>_Releases_<sp/>rules.<sp/>See<sp/>the<sp/>definition<sp/>below</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Only<sp/>_complete_<sp/>patches<sp/>will<sp/>be<sp/>merged</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>patch<sp/>must<sp/>be<sp/>_complete_.<sp/>And<sp/>by<sp/>that,<sp/>we<sp/>mean:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>For<sp/>C++<sp/>code<sp/>follow<sp/>the<sp/>[Cocos2d<sp/>C++<sp/>Coding<sp/>Style][1]</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>For<sp/>Python<sp/>code<sp/>follow<sp/>the<sp/>[PEP8<sp/>guidelines][3]</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Describe<sp/>what<sp/>the<sp/>patch<sp/>does</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Include<sp/>test<sp/>cases<sp/>if<sp/>applicable</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Include<sp/>unit<sp/>tests<sp/>if<sp/>applicable</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>be<sp/>tested<sp/>in<sp/>all<sp/>supported<sp/>platforms<sp/>[*]</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>NOT<sp/>degrade<sp/>the<sp/>performance</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>NOT<sp/>break<sp/>existing<sp/>tests<sp/>cases</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>NOT<sp/>break<sp/>the<sp/>Continuous<sp/>Integration<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>NOT<sp/>break<sp/>backward<sp/>compatibility</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>compile<sp/>WITHOUT<sp/>warnings</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>New<sp/>APIs<sp/>MUST<sp/>be<sp/>**easy<sp/>to<sp/>use**,<sp/>**familiar**<sp/>to<sp/>cocos2d-x<sp/>users</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Code<sp/>MUST<sp/>be<sp/>**easy<sp/>to<sp/>extend**<sp/>and<sp/>**maintain**</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>have<sp/>documentation:<sp/>C++<sp/>APIs<sp/>must<sp/>use<sp/>Doxygen<sp/>strings,<sp/>tools<sp/>must<sp/>have<sp/>a<sp/>README.md<sp/>file<sp/>that<sp/>describe<sp/>how<sp/>to<sp/>use<sp/>the<sp/>tool</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Must<sp/>be<sp/>efficient<sp/>(fast<sp/>/<sp/>low<sp/>memory<sp/>needs)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>It<sp/>must<sp/>not<sp/>duplicate<sp/>existing<sp/>code,<sp/>unless<sp/>the<sp/>new<sp/>code<sp/>deprecates<sp/>the<sp/>old<sp/>one</highlight></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>Patches<sp/>that<sp/>refactor<sp/>key<sp/>components<sp/>will<sp/>only<sp/>be<sp/>merged<sp/>in<sp/>the<sp/>next<sp/>major<sp/>versions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[*]:<sp/>If<sp/>you<sp/>don&apos;t<sp/>have<sp/>access<sp/>to<sp/>test<sp/>your<sp/>code<sp/>in<sp/>all<sp/>the<sp/>supported<sp/>platforms,<sp/>let<sp/>us<sp/>know.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">__TBD__:<sp/>Is<sp/>this<sp/>applicable<sp/>for<sp/>big<sp/>features<sp/>?<sp/>What<sp/>is<sp/>the<sp/>best<sp/>way<sp/>to<sp/>merge<sp/>big<sp/>features<sp/>?</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>Promoting<sp/>cocos2d</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Help<sp/>us<sp/>promote<sp/>cocos2d-x<sp/>by<sp/>using<sp/>the<sp/>cocos2d<sp/>logo<sp/>in<sp/>your<sp/>game,<sp/>or<sp/>by<sp/>mentioning<sp/>cocos2d<sp/>in<sp/>the<sp/>credits.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Logo<sp/>Resources<sp/>of<sp/>Cocos2d-x][2]</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[1]:<sp/>https://github.com/cocos2d/cocos2d-x/blob/v3/docs/CODING_STYLE.md</highlight></codeline>
+<codeline><highlight class="normal">[2]:<sp/>http://www.cocos2d-x.org/wiki/Logo_Resources_of_Cocos2d-x</highlight></codeline>
+<codeline><highlight class="normal">[3]:<sp/>https://www.python.org/dev/peps/pep-0008</highlight></codeline>
+    </programlisting>
+    <location file="CONTRIBUTING.md"/>
+  </compounddef>
+</doxygen>

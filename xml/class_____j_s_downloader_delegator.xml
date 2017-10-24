@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_____j_s_downloader_delegator" kind="class" language="C++" prot="public">
+    <compoundname>__JSDownloaderDelegator</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Ref</basecompoundref>
+    <includes refid="jsb__cocos2dx__extension__manual_8h" local="no">jsb_cocos2dx_extension_manual.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_____j_s_downloader_delegator_1accd9443cc96d17b9d2c30af5a149b2b6" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classcocos2d_1_1network_1_1_downloader" kindref="compound">cocos2d::network::Downloader</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;cocos2d::network::Downloader&gt; __JSDownloaderDelegator::_downloader</definition>
+        <argsstring></argsstring>
+        <name>_downloader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="49" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_downloader_delegator_1a2f8e267c047d54c4bfc757e48bd7e5e5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string __JSDownloaderDelegator::_url</definition>
+        <argsstring></argsstring>
+        <name>_url</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="50" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_downloader_delegator_1a4db04e5962ca7afca5f5621cd38e4161" prot="private" static="no" mutable="no">
+        <type>JSContext *</type>
+        <definition>JSContext* __JSDownloaderDelegator::_cx</definition>
+        <argsstring></argsstring>
+        <name>_cx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="51" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_downloader_delegator_1ae643932a82b90708410c9010a3dab492" prot="private" static="no" mutable="no">
+        <type>JS::Heap&lt; JSObject * &gt;</type>
+        <definition>JS::Heap&lt;JSObject*&gt; __JSDownloaderDelegator::_jsCallback</definition>
+        <argsstring></argsstring>
+        <name>_jsCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="52" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_____j_s_downloader_delegator_1ab89baae0fdefba6e6e82edada1dba720" prot="private" static="no" mutable="no">
+        <type>JS::Heap&lt; JSObject * &gt;</type>
+        <definition>JS::Heap&lt;JSObject*&gt; __JSDownloaderDelegator::_obj</definition>
+        <argsstring></argsstring>
+        <name>_obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="53" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1abce99a00e4b64d87bac3a7b9a5fdb925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSDownloaderDelegator::downloadAsync</definition>
+        <argsstring>()</argsstring>
+        <name>downloadAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="35" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="923" bodyend="928"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1a437ca3853c464eed6d4fff60c2370d31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSDownloaderDelegator::download</definition>
+        <argsstring>()</argsstring>
+        <name>download</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="36" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="917" bodyend="921"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1a3eee52334c8cab9a2fe42fa0fb072531" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_____j_s_downloader_delegator" kindref="compound">__JSDownloaderDelegator</ref> *</type>
+        <definition>__JSDownloaderDelegator * __JSDownloaderDelegator::create</definition>
+        <argsstring>(JSContext *cx, JS::HandleObject obj, const std::string &amp;url, JS::HandleObject callback)</argsstring>
+        <name>create</name>
+        <param>
+          <type>JSContext *</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>JS::HandleObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>JS::HandleObject</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="38" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="862" bodyend="867"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1af23021e75423332b77b20e7797231386" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__JSDownloaderDelegator::__JSDownloaderDelegator</definition>
+        <argsstring>(JSContext *cx, JS::HandleObject obj, const std::string &amp;url, JS::HandleObject callback)</argsstring>
+        <name>__JSDownloaderDelegator</name>
+        <param>
+          <type>JSContext *</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>JS::HandleObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>JS::HandleObject</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="41" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="826" bodyend="843"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1ab4611d79e8d2ba964118583f3d28cd53" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__JSDownloaderDelegator::~__JSDownloaderDelegator</definition>
+        <argsstring>()</argsstring>
+        <name>~__JSDownloaderDelegator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="42" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="845" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1a263c6dd2c13e5217edd7ffc39435d7fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSDownloaderDelegator::startDownload</definition>
+        <argsstring>()</argsstring>
+        <name>startDownload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="44" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="869" bodyend="915"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1ad9284195ddf2911d4b10d7ba4bc112c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSDownloaderDelegator::onSuccess</definition>
+        <argsstring>(cocos2d::Texture2D *tex)</argsstring>
+        <name>onSuccess</name>
+        <param>
+          <type>cocos2d::Texture2D *</type>
+          <declname>tex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="47" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="947" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____j_s_downloader_delegator_1a632cc2f5bbc326ed09ca3ef5a0788257" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __JSDownloaderDelegator::onError</definition>
+        <argsstring>()</argsstring>
+        <name>onError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="48" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.cpp" bodystart="930" bodyend="945"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="160">
+        <label>__JSDownloaderDelegator</label>
+        <link refid="class_____j_s_downloader_delegator"/>
+        <childnode refid="161" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Ref</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="162">
+        <label>__JSDownloaderDelegator</label>
+        <link refid="class_____j_s_downloader_delegator"/>
+        <childnode refid="163" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>Ref</label>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" line="33" column="1" bodyfile="cocos/scripting/js-bindings/manual/extension/jsb_cocos2dx_extension_manual.h" bodystart="32" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_____j_s_downloader_delegator_1af23021e75423332b77b20e7797231386" prot="protected" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>__JSDownloaderDelegator</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a4db04e5962ca7afca5f5621cd38e4161" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>_cx</name></member>
+      <member refid="class_____j_s_downloader_delegator_1accd9443cc96d17b9d2c30af5a149b2b6" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>_downloader</name></member>
+      <member refid="class_____j_s_downloader_delegator_1ae643932a82b90708410c9010a3dab492" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>_jsCallback</name></member>
+      <member refid="class_____j_s_downloader_delegator_1ab89baae0fdefba6e6e82edada1dba720" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>_obj</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a2f8e267c047d54c4bfc757e48bd7e5e5" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>_url</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a3eee52334c8cab9a2fe42fa0fb072531" prot="public" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>create</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a437ca3853c464eed6d4fff60c2370d31" prot="public" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>download</name></member>
+      <member refid="class_____j_s_downloader_delegator_1abce99a00e4b64d87bac3a7b9a5fdb925" prot="public" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>downloadAsync</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a632cc2f5bbc326ed09ca3ef5a0788257" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>onError</name></member>
+      <member refid="class_____j_s_downloader_delegator_1ad9284195ddf2911d4b10d7ba4bc112c1" prot="private" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>onSuccess</name></member>
+      <member refid="class_____j_s_downloader_delegator_1a263c6dd2c13e5217edd7ffc39435d7fd" prot="protected" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>startDownload</name></member>
+      <member refid="class_____j_s_downloader_delegator_1ab4611d79e8d2ba964118583f3d28cd53" prot="protected" virt="non-virtual"><scope>__JSDownloaderDelegator</scope><name>~__JSDownloaderDelegator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

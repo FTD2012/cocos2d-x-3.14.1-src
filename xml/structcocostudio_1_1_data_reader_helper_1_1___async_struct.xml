@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structcocostudio_1_1_data_reader_helper_1_1___async_struct" kind="struct" language="C++" prot="protected">
+    <compoundname>cocostudio::DataReaderHelper::_AsyncStruct</compoundname>
+    <includes refid="_c_c_data_reader_helper_8h" local="no">CCDataReaderHelper.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a175d1a1b1e197ec5d87ce73a62bad34f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_AsyncStruct::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="67" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a23b30620b58933850727a17382e9f079" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_AsyncStruct::fileContent</definition>
+        <argsstring></argsstring>
+        <name>fileContent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="68" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ae8100158c7ae92bfd8d4e7ff49fe3823" prot="public" static="no" mutable="no">
+        <type><ref refid="classcocostudio_1_1_data_reader_helper_1a12cedd16ce0c4a93d58915e649f3ea57" kindref="member">ConfigType</ref></type>
+        <definition>ConfigType cocostudio::DataReaderHelper::_AsyncStruct::configType</definition>
+        <argsstring></argsstring>
+        <name>configType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="69" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a6bd3f43d56d915d798f2b1c6bf71fd41" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_AsyncStruct::baseFilePath</definition>
+        <argsstring></argsstring>
+        <name>baseFilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="70" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ac834181459ac1b04187569ec3aa300c9" prot="public" static="no" mutable="no">
+        <type>cocos2d::Ref *</type>
+        <definition>cocos2d::Ref* cocostudio::DataReaderHelper::_AsyncStruct::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="71" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a80484d93663e766e4da56ac39f59eb07" prot="public" static="no" mutable="no">
+        <type><ref refid="group__base_1gaf362983c7356c901e3efefc9aff49f55" kindref="member">cocos2d::SEL_SCHEDULE</ref></type>
+        <definition>cocos2d::SEL_SCHEDULE cocostudio::DataReaderHelper::_AsyncStruct::selector</definition>
+        <argsstring></argsstring>
+        <name>selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="72" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1afccb6f1a9a8805a3c5346f397b6b8b3f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool cocostudio::DataReaderHelper::_AsyncStruct::autoLoadSpriteFile</definition>
+        <argsstring></argsstring>
+        <name>autoLoadSpriteFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="73" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ad55785418ebcf15d0948e22f53565802" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_AsyncStruct::imagePath</definition>
+        <argsstring></argsstring>
+        <name>imagePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="75" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a08892e5d5aa4d67c4485cd5fae58f4b9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string cocostudio::DataReaderHelper::_AsyncStruct::plistPath</definition>
+        <argsstring></argsstring>
+        <name>plistPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="76" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/editor-support/cocostudio/CCDataReaderHelper.h" line="66" column="1" bodyfile="cocos/editor-support/cocostudio/CCDataReaderHelper.h" bodystart="65" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1afccb6f1a9a8805a3c5346f397b6b8b3f" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>autoLoadSpriteFile</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a6bd3f43d56d915d798f2b1c6bf71fd41" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>baseFilePath</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ae8100158c7ae92bfd8d4e7ff49fe3823" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>configType</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a23b30620b58933850727a17382e9f079" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>fileContent</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a175d1a1b1e197ec5d87ce73a62bad34f" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>filename</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ad55785418ebcf15d0948e22f53565802" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>imagePath</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a08892e5d5aa4d67c4485cd5fae58f4b9" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>plistPath</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1a80484d93663e766e4da56ac39f59eb07" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>selector</name></member>
+      <member refid="structcocostudio_1_1_data_reader_helper_1_1___async_struct_1ac834181459ac1b04187569ec3aa300c9" prot="public" virt="non-virtual"><scope>cocostudio::DataReaderHelper::_AsyncStruct</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__source_info" kind="struct" language="C++" prot="public">
+    <compoundname>_sourceInfo</compoundname>
+    <includes refid="ios_2_cocos_denshion_8h" local="no">CocosDenshion.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__source_info_1a22f8eac8d5bdaf3f588680221397c387" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sourceInfo::usable</definition>
+        <argsstring></argsstring>
+        <name>usable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="142" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_info_1a23e87c0ede21db9523ed5e8464556ea8" prot="public" static="no" mutable="no">
+        <type>ALuint</type>
+        <definition>ALuint _sourceInfo::sourceId</definition>
+        <argsstring></argsstring>
+        <name>sourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="143" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__source_info_1a377ad6280a2b4a01f996118324431259" prot="public" static="no" mutable="no">
+        <type>ALuint</type>
+        <definition>ALuint _sourceInfo::attachedBufferId</definition>
+        <argsstring></argsstring>
+        <name>attachedBufferId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="144" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/audio/ios/CocosDenshion.h" line="141" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="141" bodyend="145"/>
+    <listofallmembers>
+      <member refid="struct__source_info_1a377ad6280a2b4a01f996118324431259" prot="public" virt="non-virtual"><scope>_sourceInfo</scope><name>attachedBufferId</name></member>
+      <member refid="struct__source_info_1a23e87c0ede21db9523ed5e8464556ea8" prot="public" virt="non-virtual"><scope>_sourceInfo</scope><name>sourceId</name></member>
+      <member refid="struct__source_info_1a22f8eac8d5bdaf3f588680221397c387" prot="public" virt="non-virtual"><scope>_sourceInfo</scope><name>usable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_action_float" kind="class" language="C++" prot="public">
+    <compoundname>ActionFloat</compoundname>
+    <basecompoundref refid="class_action_interval" prot="public" virt="non-virtual">ActionInterval</basecompoundref>
+    <includes refid="_c_c_action_interval_8h" local="no">CCActionInterval.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_action_float_1a47a1fbc750167a8f9d754c62a62eaafa" prot="public" static="no">
+        <type>std::function&lt; void(float value)&gt;</type>
+        <definition>typedef std::function&lt;void(float value)&gt; ActionFloat::ActionFloatCallback</definition>
+        <argsstring></argsstring>
+        <name>ActionFloatCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Callback function used to report back result </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1638" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1638" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_action_float_1a69a1eb7f0a71f6d48f6a6d0aa9f3bacd" prot="public" static="no" mutable="no">
+        <type><ref refid="cc_config_8h_1a25ef1314f97c35a2ed3d029b0ead6da0" kindref="member">CC_CONSTRUCTOR_ACCESS</ref></type>
+        <definition>CC_CONSTRUCTOR_ACCESS ActionFloat::__pad0__</definition>
+        <argsstring></argsstring>
+        <name>__pad0__</name>
+        <bitfield> ActionFloat() {}</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1660" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1661" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_action_float_1a74dc11ef5d83e17bacb7f66e83c4bc67" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ActionFloat::_from</definition>
+        <argsstring></argsstring>
+        <name>_from</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1668" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_float_1aa51bb6165abec281793023f1f65c2560" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ActionFloat::_to</definition>
+        <argsstring></argsstring>
+        <name>_to</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1670" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_float_1a75bde7a49ce7fed2b84aba76978eb85c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ActionFloat::_delta</definition>
+        <argsstring></argsstring>
+        <name>_delta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1672" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_float_1a439c7a524de5004f88a9d57c0df15274" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_action_float_1a47a1fbc750167a8f9d754c62a62eaafa" kindref="member">ActionFloatCallback</ref></type>
+        <definition>ActionFloatCallback ActionFloat::_callback</definition>
+        <argsstring></argsstring>
+        <name>_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1675" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1675" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_action_float_1abadc4e7961437c430ce61d9c69d3b720" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_action_float" kindref="compound">ActionFloat</ref> *</type>
+        <definition>ActionFloat * ActionFloat::create</definition>
+        <argsstring>(float duration, float from, float to, ActionFloatCallback callback)</argsstring>
+        <name>create</name>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type><ref refid="class_action_float_1a47a1fbc750167a8f9d754c62a62eaafa" kindref="member">ActionFloatCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates FloatAction with specified duration, from value, to value and callback to report back results <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to start from </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>to</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value to be at the end of the action </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to report back result</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An autoreleased <ref refid="class_action_float" kindref="compound">ActionFloat</ref> object </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1650" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2798" bodyend="2809"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_float_1a898675a5b5c372d44abec94d55632ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ActionFloat::startWithTarget</definition>
+        <argsstring>(Node *target) override</argsstring>
+        <name>startWithTarget</name>
+        <reimplements refid="class_action_interval_1ad3d91186b2c3108488ddbbdbbd982484">startWithTarget</reimplements>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overridden <ref refid="class_action_interval" kindref="compound">ActionInterval</ref> methods </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1655" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2828" bodyend="2832"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_float_1a0b6b333b5524a617f3088b2c1893b55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ActionFloat::update</definition>
+        <argsstring>(float delta) override</argsstring>
+        <name>update</name>
+        <reimplements refid="class_action_1a937e646e63915e33ad05ba149bfcf239">update</reimplements>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called once per frame. time a value between 0 and 1.</para><para>For example:<itemizedlist>
+<listitem><para>0 Means that the action just started.</para></listitem><listitem><para>0.5 Means that the action is in the middle.</para></listitem><listitem><para>1 Means that the action is over.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A value between 0 and 1. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1656" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2834" bodyend="2843"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_float_1ace1ae89fd53f2e0e195edcae89601032" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_action_float" kindref="compound">ActionFloat</ref> *</type>
+        <definition>ActionFloat * ActionFloat::reverse</definition>
+        <argsstring>() const override</argsstring>
+        <name>reverse</name>
+        <reimplements refid="class_action_interval_1a9f9ac7164036a0bc261a72f62a2b2da7">reverse</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a new action that performs the exact reverse of the action.</para><para><simplesect kind="return"><para>A new action that performs the exact reverse of the action.  NA </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1657" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2845" bodyend="2848"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_float_1aedf782fede49194ec2a70dfa06a18599" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_action_float" kindref="compound">ActionFloat</ref> *</type>
+        <definition>ActionFloat * ActionFloat::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <reimplements refid="class_action_interval_1abc93ce0c2f54a90eb216a7803f25f44a">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a clone of action.</para><para><simplesect kind="return"><para>A clone action. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1658" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2823" bodyend="2826"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_float_1a6c0a3db57cc0da0336a0c480d25f34d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ActionFloat::~ActionFloat</definition>
+        <argsstring>()</argsstring>
+        <name>~ActionFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1662" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1662" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_float_1a395728bb0c8e68d896d36c8f713bb20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ActionFloat::initWithDuration</definition>
+        <argsstring>(float duration, float from, float to, ActionFloatCallback callback)</argsstring>
+        <name>initWithDuration</name>
+        <param>
+          <type>float</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type><ref refid="class_action_float_1a47a1fbc750167a8f9d754c62a62eaafa" kindref="member">ActionFloatCallback</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1664" column="1" bodyfile="cocos/2d/CCActionInterval.cpp" bodystart="2811" bodyend="2821"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_action_float_1a22133df53529bfefbd5583f8d2600a25" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ActionFloat::CC_DISALLOW_COPY_AND_ASSIGN</definition>
+        <argsstring>(ActionFloat)</argsstring>
+        <name>CC_DISALLOW_COPY_AND_ASSIGN</name>
+        <param>
+          <type><ref refid="class_action_float" kindref="compound">ActionFloat</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCActionInterval.h" line="1677" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_action" kindref="compound">Action</ref> used to animate any value in range [from,to] over specified time interval. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1197">
+        <label>FiniteTimeAction</label>
+        <link refid="class_finite_time_action"/>
+        <childnode refid="1198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="1199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1195">
+        <label>ActionFloat</label>
+        <link refid="class_action_float"/>
+        <childnode refid="1196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1199">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="1200">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="1196">
+        <label>ActionInterval</label>
+        <link refid="class_action_interval"/>
+        <childnode refid="1197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1236">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="1229" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1237" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1209" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="1203">
+        <label>FiniteTimeAction</label>
+        <link refid="class_finite_time_action"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1259">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1210" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1223">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="1223" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1204">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1206" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="1233">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="1234" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="1253">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="1253" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1266">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="1249">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="1215" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="1263">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="1234">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="1235" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="1234" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1224">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="1215" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="1256">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="1207" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1216" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="1257" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="1223" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="1255" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="1258" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="1259" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="1260" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="1247">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="1221" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1237">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1250">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="1228">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="1229" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="1236" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="1238" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="1215" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="1219" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="1220" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="1226" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="1255">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="1207" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="1239" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="1235">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="1235" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="1216" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="1227" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>ActionFloat</label>
+        <link refid="class_action_float"/>
+        <childnode refid="1202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="1240" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="1261" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="1211">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1212" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="1213" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1208" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1210" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1235" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1242" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1246" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="1269" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="1251" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1223" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="1270" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="1213" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="1205" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="1264">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="1246">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="1246" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1249" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="1231" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1229">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1229" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="1231" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="1211" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="1239" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="1232">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1262">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="1234" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="1263" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="1264" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="1216" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="1217" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="1218" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="1251">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1252" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="1253" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="1254" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="1268">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1222">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="1230">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="1222" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1210" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1227" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="1228" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="1223" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1239" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1257">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="1218">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="1218" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="1219" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="1225">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="1225" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="1204" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="1266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="1221" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="1254">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="1202">
+        <label>ActionInterval</label>
+        <link refid="class_action_interval"/>
+        <childnode refid="1203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1267">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="1211" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="1233" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="1231" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="1221">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="1222" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1210" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="1223" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="1224" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="1225" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1214" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="1207" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="1208" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="1242" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="1251" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="1255" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="1262" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="1265" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="1258" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="1267" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="1268" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="1269">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="1269" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="1207" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1245" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1246" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="1247" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="1225" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="1248" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="1270">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="1243">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="1244" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1261">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="1216" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="1258">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="1205" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCActionInterval.h" line="1633" column="1" bodyfile="cocos/2d/CCActionInterval.h" bodystart="1632" bodyend="1678"/>
+    <listofallmembers>
+      <member refid="class_action_float_1a69a1eb7f0a71f6d48f6a6d0aa9f3bacd" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>__pad0__</name></member>
+      <member refid="class_action_float_1a439c7a524de5004f88a9d57c0df15274" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_callback</name></member>
+      <member refid="class_action_float_1a75bde7a49ce7fed2b84aba76978eb85c" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_delta</name></member>
+      <member refid="class_action_interval_1a302a0213670acf65516e78d1ba9db9ba" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_elapsed</name></member>
+      <member refid="class_action_interval_1a1fb2ef4f5ebddb344a019829254db7b5" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_firstTick</name></member>
+      <member refid="class_action_1afb213a69b3e48d43cbb6c28af6e5fbc1" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_flags</name></member>
+      <member refid="class_action_float_1a74dc11ef5d83e17bacb7f66e83c4bc67" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_from</name></member>
+      <member refid="class_action_1a0fdafea8c39af1be2acd2bedc62ca01f" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_originalTarget</name></member>
+      <member refid="class_ref_1ab05a4c4ef09ecbaffc7c7c7f57d34bf6" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_referenceCount</name></member>
+      <member refid="class_action_1a7e04eca811f3f728862300b3e248d7c0" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_tag</name></member>
+      <member refid="class_action_1a3cf6593d3926baeefcd8197318680038" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_target</name></member>
+      <member refid="class_action_float_1aa51bb6165abec281793023f1f65c2560" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>_to</name></member>
+      <member refid="class_action_float_1a47a1fbc750167a8f9d754c62a62eaafa" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>ActionFloatCallback</name></member>
+      <member refid="class_ref_1a065f6972ebb82de3e2143cbf10a7ac2d" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>autorelease</name></member>
+      <member refid="class_action_float_1a22133df53529bfefbd5583f8d2600a25" prot="private" virt="non-virtual"><scope>ActionFloat</scope><name>CC_DISALLOW_COPY_AND_ASSIGN</name></member>
+      <member refid="class_action_float_1aedf782fede49194ec2a70dfa06a18599" prot="public" virt="virtual"><scope>ActionFloat</scope><name>clone</name></member>
+      <member refid="class_clonable_1a5fd8dad9fd4321a1372423892e16dad8" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>copy</name></member>
+      <member refid="class_action_float_1abadc4e7961437c430ce61d9c69d3b720" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>create</name></member>
+      <member refid="class_action_1ab593241dbcf25a8ac9160d6eb9d1c247" prot="public" virt="virtual"><scope>ActionFloat</scope><name>description</name></member>
+      <member refid="class_action_interval_1a376d54a39aef69cb640879c5ce1d589d" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getAmplitudeRate</name></member>
+      <member refid="class_finite_time_action_1aaa74e388b42ead7cfb7ed9013f6f9aea" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getDuration</name></member>
+      <member refid="class_action_interval_1acc73648af87e0c9c7c64daf266448bdb" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getElapsed</name></member>
+      <member refid="class_action_1aabe5706c0cc66d461b14558728dccf01" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getFlags</name></member>
+      <member refid="class_action_1a50cdb52f323c6756ec300e4d0f86596a" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getOriginalTarget</name></member>
+      <member refid="class_ref_1a27b894ccc4c74b0c52f3fa2993f04ba0" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getReferenceCount</name></member>
+      <member refid="class_action_1a1f090a477cab2dbc8175385c66b91c31" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getTag</name></member>
+      <member refid="class_action_1a696d1ef82807cc18207ba93d59d6ca16" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>getTarget</name></member>
+      <member refid="class_action_float_1a395728bb0c8e68d896d36c8f713bb20f" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>initWithDuration</name></member>
+      <member refid="class_action_1a095470578a5d879bfe6f777414ce5831" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>INVALID_TAG</name></member>
+      <member refid="class_action_interval_1a466ff6a3a5f95e47d4d01bfa4775290d" prot="public" virt="virtual"><scope>ActionFloat</scope><name>isDone</name></member>
+      <member refid="class_ref_1ab9cf238c39cc7fc6ffde82c8d94c465e" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>Ref</name></member>
+      <member refid="class_ref_1a6c8528cd8731765688943496c2eb3907" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>release</name></member>
+      <member refid="class_ref_1a7d182cae1be1e80a9884cacd6ff9cb01" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>retain</name></member>
+      <member refid="class_action_float_1ace1ae89fd53f2e0e195edcae89601032" prot="public" virt="virtual"><scope>ActionFloat</scope><name>reverse</name></member>
+      <member refid="class_action_interval_1a507f9c2b4e2e06f9a093a91502dd69a2" prot="protected" virt="non-virtual"><scope>ActionFloat</scope><name>sendUpdateEventToScript</name></member>
+      <member refid="class_action_interval_1a08c4d7dd0e8e3fb5e6b6684c6e1d86df" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setAmplitudeRate</name></member>
+      <member refid="class_finite_time_action_1a58c2f166e94dd5b39f8a4b566adf1281" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setDuration</name></member>
+      <member refid="class_action_1a848b0f80143acd07c814735463a8e920" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setFlags</name></member>
+      <member refid="class_action_1aa58699929e174e97a057b51e83fcc1f3" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setOriginalTarget</name></member>
+      <member refid="class_action_1ac23487f50607b5acef33c1aa7dd9468e" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setTag</name></member>
+      <member refid="class_action_1abd61e00e97d9604126cf149112b877de" prot="public" virt="non-virtual"><scope>ActionFloat</scope><name>setTarget</name></member>
+      <member refid="class_action_float_1a898675a5b5c372d44abec94d55632ae0" prot="public" virt="virtual"><scope>ActionFloat</scope><name>startWithTarget</name></member>
+      <member refid="class_action_interval_1a9a520f0c4bd2d5b92e7f355bccd6f5cf" prot="public" virt="virtual"><scope>ActionFloat</scope><name>step</name></member>
+      <member refid="class_action_1a968267fa7a1dcc46a2976249a712d3c8" prot="public" virt="virtual"><scope>ActionFloat</scope><name>stop</name></member>
+      <member refid="class_action_float_1a0b6b333b5524a617f3088b2c1893b55c" prot="public" virt="virtual"><scope>ActionFloat</scope><name>update</name></member>
+      <member refid="class_action_1acdb06775d157339256a8ecd55749226c" prot="public" virt="virtual"><scope>ActionFloat</scope><name>~Action</name></member>
+      <member refid="class_action_float_1a6c0a3db57cc0da0336a0c480d25f34d1" prot="public" virt="virtual"><scope>ActionFloat</scope><name>~ActionFloat</name></member>
+      <member refid="class_clonable_1a2b9c911b4a49b532da3dea9951cf5fac" prot="public" virt="virtual"><scope>ActionFloat</scope><name>~Clonable</name></member>
+      <member refid="class_ref_1a1c3c3986014151251b39041e2556d2e3" prot="public" virt="virtual"><scope>ActionFloat</scope><name>~Ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__buffer_info" kind="struct" language="C++" prot="public">
+    <compoundname>_bufferInfo</compoundname>
+    <includes refid="ios_2_cocos_denshion_8h" local="no">CocosDenshion.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__buffer_info_1ada9a4b0d226243291982b16fd0aa4320" prot="public" static="no" mutable="no">
+        <type>ALuint</type>
+        <definition>ALuint _bufferInfo::bufferId</definition>
+        <argsstring></argsstring>
+        <name>bufferId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="133" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__buffer_info_1a7ec9ded79929d9a8d532e8847cffe18e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _bufferInfo::bufferState</definition>
+        <argsstring></argsstring>
+        <name>bufferState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="134" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__buffer_info_1a214908997f344969d4306b8184dec586" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void * _bufferInfo::bufferData</definition>
+        <argsstring></argsstring>
+        <name>bufferData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="135" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__buffer_info_1ac74dea7e65809ec13a1d8fa2981bdffe" prot="public" static="no" mutable="no">
+        <type>ALenum</type>
+        <definition>ALenum _bufferInfo::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="136" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__buffer_info_1a0ab48cabebb4e040758bbd751e2eaf1c" prot="public" static="no" mutable="no">
+        <type>ALsizei</type>
+        <definition>ALsizei _bufferInfo::sizeInBytes</definition>
+        <argsstring></argsstring>
+        <name>sizeInBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="137" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__buffer_info_1add13810b4e5f1cde5ae260bcc427e9a6" prot="public" static="no" mutable="no">
+        <type>ALsizei</type>
+        <definition>ALsizei _bufferInfo::frequencyInHertz</definition>
+        <argsstring></argsstring>
+        <name>frequencyInHertz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/ios/CocosDenshion.h" line="138" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/audio/ios/CocosDenshion.h" line="132" column="1" bodyfile="cocos/audio/ios/CocosDenshion.h" bodystart="132" bodyend="139"/>
+    <listofallmembers>
+      <member refid="struct__buffer_info_1a214908997f344969d4306b8184dec586" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>bufferData</name></member>
+      <member refid="struct__buffer_info_1ada9a4b0d226243291982b16fd0aa4320" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>bufferId</name></member>
+      <member refid="struct__buffer_info_1a7ec9ded79929d9a8d532e8847cffe18e" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>bufferState</name></member>
+      <member refid="struct__buffer_info_1ac74dea7e65809ec13a1d8fa2981bdffe" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>format</name></member>
+      <member refid="struct__buffer_info_1add13810b4e5f1cde5ae260bcc427e9a6" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>frequencyInHertz</name></member>
+      <member refid="struct__buffer_info_1a0ab48cabebb4e040758bbd751e2eaf1c" prot="public" virt="non-virtual"><scope>_bufferInfo</scope><name>sizeInBytes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

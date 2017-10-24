@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_texture2_d_1_1___tex_params" kind="struct" language="C++" prot="public">
+    <compoundname>Texture2D::_TexParams</compoundname>
+    <includes refid="_c_c_texture2_d_8h" local="no">CCTexture2D.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_texture2_d_1_1___tex_params_1a924cb7994f3fc3e0e64c9943068a2bae" prot="public" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Texture2D::_TexParams::minFilter</definition>
+        <argsstring></argsstring>
+        <name>minFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/renderer/CCTexture2D.h" line="149" column="1" bodyfile="cocos/renderer/CCTexture2D.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_texture2_d_1_1___tex_params_1a454c0682f95f1cbf623ce23a247ea89a" prot="public" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Texture2D::_TexParams::magFilter</definition>
+        <argsstring></argsstring>
+        <name>magFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/renderer/CCTexture2D.h" line="150" column="1" bodyfile="cocos/renderer/CCTexture2D.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_texture2_d_1_1___tex_params_1a1fa2ecfba78c6de463f840747b2a10f7" prot="public" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Texture2D::_TexParams::wrapS</definition>
+        <argsstring></argsstring>
+        <name>wrapS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/renderer/CCTexture2D.h" line="151" column="1" bodyfile="cocos/renderer/CCTexture2D.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_texture2_d_1_1___tex_params_1ab2dc3f28173584db3da8a92e8c99a390" prot="public" static="no" mutable="no">
+        <type>GLuint</type>
+        <definition>GLuint Texture2D::_TexParams::wrapT</definition>
+        <argsstring></argsstring>
+        <name>wrapT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/renderer/CCTexture2D.h" line="152" column="1" bodyfile="cocos/renderer/CCTexture2D.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Extension to set the Min / Mag filter </para>    </detaileddescription>
+    <location file="cocos/renderer/CCTexture2D.h" line="148" column="1" bodyfile="cocos/renderer/CCTexture2D.h" bodystart="148" bodyend="153"/>
+    <listofallmembers>
+      <member refid="struct_texture2_d_1_1___tex_params_1a454c0682f95f1cbf623ce23a247ea89a" prot="public" virt="non-virtual"><scope>Texture2D::_TexParams</scope><name>magFilter</name></member>
+      <member refid="struct_texture2_d_1_1___tex_params_1a924cb7994f3fc3e0e64c9943068a2bae" prot="public" virt="non-virtual"><scope>Texture2D::_TexParams</scope><name>minFilter</name></member>
+      <member refid="struct_texture2_d_1_1___tex_params_1a1fa2ecfba78c6de463f840747b2a10f7" prot="public" virt="non-virtual"><scope>Texture2D::_TexParams</scope><name>wrapS</name></member>
+      <member refid="struct_texture2_d_1_1___tex_params_1ab2dc3f28173584db3da8a92e8c99a390" prot="public" virt="non-virtual"><scope>Texture2D::_TexParams</scope><name>wrapT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

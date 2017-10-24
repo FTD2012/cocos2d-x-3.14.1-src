@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_a_a_b_b" kind="class" language="C++" prot="public">
+    <compoundname>AABB</compoundname>
+    <includes refid="_c_c_a_a_b_b_8h" local="no">CCAABB.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_a_b_b_1a9148dc0078db0b1a619f68d61b1d7dde" prot="public" static="no" mutable="no">
+        <type><ref refid="class_vec3" kindref="compound">Vec3</ref></type>
+        <definition>Vec3 AABB::_min</definition>
+        <argsstring></argsstring>
+        <name>_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="123" column="1" bodyfile="cocos/3d/CCAABB.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_a_b_b_1a21eb3f053498f0420f93da8d647e76fc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_vec3" kindref="compound">Vec3</ref></type>
+        <definition>Vec3 AABB::_max</definition>
+        <argsstring></argsstring>
+        <name>_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="124" column="1" bodyfile="cocos/3d/CCAABB.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_a_b_b_1a948c874a4c6bc1ef7b84eef5e806f9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>NS_CC_BEGIN AABB::AABB</definition>
+        <argsstring>()</argsstring>
+        <name>AABB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor.  new </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="49" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a752c7688271964a668be954aaadb7faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AABB::AABB</definition>
+        <argsstring>(const Vec3 &amp;min, const Vec3 &amp;max)</argsstring>
+        <name>AABB</name>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> &amp;</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor.  new </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="55" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a16fef3ef57ae606861e19171622e1c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AABB::AABB</definition>
+        <argsstring>(const AABB &amp;box)</argsstring>
+        <name>AABB</name>
+        <param>
+          <type>const <ref refid="class_a_a_b_b" kindref="compound">AABB</ref> &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="60" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a43ae5dd7957d00b97b8d567476826762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_vec3" kindref="compound">Vec3</ref></type>
+        <definition>Vec3 AABB::getCenter</definition>
+        <argsstring>()</argsstring>
+        <name>getCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the center point of the bounding box. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="65" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1adda7549e43f3a86134d0a90d21ba6251" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::getCorners</definition>
+        <argsstring>(Vec3 *dst) const</argsstring>
+        <name>getCorners</name>
+        <param>
+          <type><ref refid="class_vec3" kindref="compound">Vec3</ref> *</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="79" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="54" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1abc1e3b1f4eccf3f2e3c7683a92b8bda3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AABB::intersects</definition>
+        <argsstring>(const AABB &amp;aabb) const</argsstring>
+        <name>intersects</name>
+        <param>
+          <type>const <ref refid="class_a_a_b_b" kindref="compound">AABB</ref> &amp;</type>
+          <declname>aabb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether this bounding box intersects the specified bounding object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="84" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a5ff6408910dc4efafc325458a44a7835" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AABB::containPoint</definition>
+        <argsstring>(const Vec3 &amp;point) const</argsstring>
+        <name>containPoint</name>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> &amp;</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check whether the point is in. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="89" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="86" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1ad629f50f834164e7a4d451268798db5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::merge</definition>
+        <argsstring>(const AABB &amp;box)</argsstring>
+        <name>merge</name>
+        <param>
+          <type>const <ref refid="class_a_a_b_b" kindref="compound">AABB</ref> &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this bounding box to the smallest bounding box that contains both this bounding object and the specified bounding box. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="95" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="97" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1affb444abca90805ba57c528e9ccf3197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::set</definition>
+        <argsstring>(const Vec3 &amp;min, const Vec3 &amp;max)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> &amp;</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets this bounding box to the specified values. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="100" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a5cbdbeaef02a2a748105c940c49bba74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset min and max value.If you invoke this method, <ref refid="class_a_a_b_b_1a477f106679bcd7dd24c3836bb242e542" kindref="member">isEmpty()</ref> shall return true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="105" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a477f106679bcd7dd24c3836bb242e542" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AABB::isEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check the <ref refid="class_a_a_b_b" kindref="compound">AABB</ref> object is empty(reset). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="110" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a08f4e4ad7a09b30f79ab80a0c6056ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::updateMinMax</definition>
+        <argsstring>(const Vec3 *point, ssize_t num)</argsstring>
+        <name>updateMinMax</name>
+        <param>
+          <type>const <ref refid="class_vec3" kindref="compound">Vec3</ref> *</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="_c_c_std_c-win32_8h_1a894c4d58faeee7675b9e7e8244de1386" kindref="member">ssize_t</ref></type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>update the _min and _max from the given point. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="115" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="127" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_a_b_b_1a452039f8d83a813398c23e1d47787038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AABB::transform</definition>
+        <argsstring>(const Mat4 &amp;mat)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>const <ref refid="class_mat4" kindref="compound">Mat4</ref> &amp;</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Transforms the bounding box by the given transformation matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/3d/CCAABB.h" line="120" column="1" bodyfile="cocos/3d/CCAABB.cpp" bodystart="157" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Axis Aligned Bounding Box (<ref refid="class_a_a_b_b" kindref="compound">AABB</ref>), usually calculate some rough but fast collision detection. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="559">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="559" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="558">
+        <label>AABB</label>
+        <link refid="class_a_a_b_b"/>
+        <childnode refid="559" relation="usage">
+          <edgelabel>_min</edgelabel>
+          <edgelabel>_max</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/3d/CCAABB.h" line="42" column="1" bodyfile="cocos/3d/CCAABB.h" bodystart="41" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_a_a_b_b_1a21eb3f053498f0420f93da8d647e76fc" prot="public" virt="non-virtual"><scope>AABB</scope><name>_max</name></member>
+      <member refid="class_a_a_b_b_1a9148dc0078db0b1a619f68d61b1d7dde" prot="public" virt="non-virtual"><scope>AABB</scope><name>_min</name></member>
+      <member refid="class_a_a_b_b_1a948c874a4c6bc1ef7b84eef5e806f9e3" prot="public" virt="non-virtual"><scope>AABB</scope><name>AABB</name></member>
+      <member refid="class_a_a_b_b_1a752c7688271964a668be954aaadb7faa" prot="public" virt="non-virtual"><scope>AABB</scope><name>AABB</name></member>
+      <member refid="class_a_a_b_b_1a16fef3ef57ae606861e19171622e1c14" prot="public" virt="non-virtual"><scope>AABB</scope><name>AABB</name></member>
+      <member refid="class_a_a_b_b_1a5ff6408910dc4efafc325458a44a7835" prot="public" virt="non-virtual"><scope>AABB</scope><name>containPoint</name></member>
+      <member refid="class_a_a_b_b_1a43ae5dd7957d00b97b8d567476826762" prot="public" virt="non-virtual"><scope>AABB</scope><name>getCenter</name></member>
+      <member refid="class_a_a_b_b_1adda7549e43f3a86134d0a90d21ba6251" prot="public" virt="non-virtual"><scope>AABB</scope><name>getCorners</name></member>
+      <member refid="class_a_a_b_b_1abc1e3b1f4eccf3f2e3c7683a92b8bda3" prot="public" virt="non-virtual"><scope>AABB</scope><name>intersects</name></member>
+      <member refid="class_a_a_b_b_1a477f106679bcd7dd24c3836bb242e542" prot="public" virt="non-virtual"><scope>AABB</scope><name>isEmpty</name></member>
+      <member refid="class_a_a_b_b_1ad629f50f834164e7a4d451268798db5a" prot="public" virt="non-virtual"><scope>AABB</scope><name>merge</name></member>
+      <member refid="class_a_a_b_b_1a5cbdbeaef02a2a748105c940c49bba74" prot="public" virt="non-virtual"><scope>AABB</scope><name>reset</name></member>
+      <member refid="class_a_a_b_b_1affb444abca90805ba57c528e9ccf3197" prot="public" virt="non-virtual"><scope>AABB</scope><name>set</name></member>
+      <member refid="class_a_a_b_b_1a452039f8d83a813398c23e1d47787038" prot="public" virt="non-virtual"><scope>AABB</scope><name>transform</name></member>
+      <member refid="class_a_a_b_b_1a08f4e4ad7a09b30f79ab80a0c6056ede" prot="public" virt="non-virtual"><scope>AABB</scope><name>updateMinMax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

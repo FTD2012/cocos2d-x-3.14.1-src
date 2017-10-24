@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__sp_skin" kind="struct" language="C++" prot="public">
+    <compoundname>_spSkin</compoundname>
+    <includes refid="_skin_8h" local="no">Skin.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sp_skin_1a03d3dba51373c7e4a42ec7f996f57f92" prot="public" static="no" mutable="no">
+        <type><ref refid="structsp_skin" kindref="compound">spSkin</ref></type>
+        <definition>spSkin _spSkin::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skin.h" line="63" column="1" bodyfile="cocos/editor-support/spine/Skin.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sp_skin_1ad89e05cf9d3b975c97967d8460ffde27" prot="public" static="no" mutable="no">
+        <type><ref refid="struct___entry" kindref="compound">_Entry</ref> *</type>
+        <definition>_Entry* _spSkin::entries</definition>
+        <argsstring></argsstring>
+        <name>entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/editor-support/spine/Skin.h" line="64" column="1" bodyfile="cocos/editor-support/spine/Skin.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="520">
+        <label>spSkin</label>
+        <link refid="structsp_skin"/>
+      </node>
+      <node id="518">
+        <label>spAttachment</label>
+        <link refid="structsp_attachment"/>
+        <childnode refid="519" relation="usage">
+          <edgelabel>attachmentLoader</edgelabel>
+        </childnode>
+      </node>
+      <node id="516">
+        <label>_spSkin</label>
+        <link refid="struct__sp_skin"/>
+        <childnode refid="517" relation="usage">
+          <edgelabel>entries</edgelabel>
+        </childnode>
+        <childnode refid="520" relation="usage">
+          <edgelabel>super</edgelabel>
+        </childnode>
+      </node>
+      <node id="519">
+        <label>spAttachmentLoader</label>
+        <link refid="structsp_attachment_loader"/>
+      </node>
+      <node id="517">
+        <label>_Entry</label>
+        <link refid="struct___entry"/>
+        <childnode refid="517" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="518" relation="usage">
+          <edgelabel>attachment</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/editor-support/spine/Skin.h" line="62" column="1" bodyfile="cocos/editor-support/spine/Skin.h" bodystart="62" bodyend="65"/>
+    <listofallmembers>
+      <member refid="struct__sp_skin_1ad89e05cf9d3b975c97967d8460ffde27" prot="public" virt="non-virtual"><scope>_spSkin</scope><name>entries</name></member>
+      <member refid="struct__sp_skin_1a03d3dba51373c7e4a42ec7f996f57f92" prot="public" virt="non-virtual"><scope>_spSkin</scope><name>super</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

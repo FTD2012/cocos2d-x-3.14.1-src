@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct____attribute____" kind="struct" language="C++" prot="public">
+    <compoundname>__attribute__</compoundname>
+    <includes refid="private_8h" local="no">private.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct____attribute_____1a3fff7cf8f49623ce524b97e1ed63424a" prot="public" static="no" mutable="no">
+        <type><ref refid="stdint_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref></type>
+        <definition>uint8_t __attribute__::c[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/audio/android/audio_utils/private/private.h" line="31" column="1" bodyfile="cocos/audio/android/audio_utils/private/private.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/audio/android/audio_utils/private/private.h" line="31" column="1" bodyfile="cocos/audio/android/audio_utils/private/private.h" bodystart="31" bodyend="31"/>
+    <listofallmembers>
+      <member refid="struct____attribute_____1a3fff7cf8f49623ce524b97e1ed63424a" prot="public" virt="non-virtual"><scope>__attribute__</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

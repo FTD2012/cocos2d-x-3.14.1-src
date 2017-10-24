@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__hash_update_entry" kind="struct" language="C++" prot="public">
+    <compoundname>_hashUpdateEntry</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__hash_update_entry_1a2458362fa5e02fd614fdbb0ee298ecb9" prot="public" static="no" mutable="no">
+        <type><ref refid="_c_c_scheduler_8cpp_1aad5babd55cc56b13f0a2c66ebb58fff6" kindref="member">tListEntry</ref> **</type>
+        <definition>tListEntry** _hashUpdateEntry::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="52" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_update_entry_1a10d768b6279682ca73cfde8702788a6a" prot="public" static="no" mutable="no">
+        <type><ref refid="_c_c_scheduler_8cpp_1aad5babd55cc56b13f0a2c66ebb58fff6" kindref="member">tListEntry</ref> *</type>
+        <definition>tListEntry* _hashUpdateEntry::entry</definition>
+        <argsstring></argsstring>
+        <name>entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="53" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_update_entry_1a91bdef3a9051bde030f4dc48bf96f4b4" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _hashUpdateEntry::target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="54" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_update_entry_1a08dfe18687f9e952691351fa88cf57cb" prot="public" static="no" mutable="no">
+        <type><ref refid="_c_c_scheduler_8h_1a017ec1e4451e1ff8986f181ff4afaa11" kindref="member">ccSchedulerFunc</ref></type>
+        <definition>ccSchedulerFunc _hashUpdateEntry::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="55" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__hash_update_entry_1aa81fb210b05621f4aaa098a44a156e49" prot="public" static="no" mutable="no">
+        <type>UT_hash_handle</type>
+        <definition>UT_hash_handle _hashUpdateEntry::hh</definition>
+        <argsstring></argsstring>
+        <name>hh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCScheduler.cpp" line="56" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/base/CCScheduler.cpp" line="51" column="1" bodyfile="cocos/base/CCScheduler.cpp" bodystart="50" bodyend="57"/>
+    <listofallmembers>
+      <member refid="struct__hash_update_entry_1a08dfe18687f9e952691351fa88cf57cb" prot="public" virt="non-virtual"><scope>_hashUpdateEntry</scope><name>callback</name></member>
+      <member refid="struct__hash_update_entry_1a10d768b6279682ca73cfde8702788a6a" prot="public" virt="non-virtual"><scope>_hashUpdateEntry</scope><name>entry</name></member>
+      <member refid="struct__hash_update_entry_1aa81fb210b05621f4aaa098a44a156e49" prot="public" virt="non-virtual"><scope>_hashUpdateEntry</scope><name>hh</name></member>
+      <member refid="struct__hash_update_entry_1a2458362fa5e02fd614fdbb0ee298ecb9" prot="public" virt="non-virtual"><scope>_hashUpdateEntry</scope><name>list</name></member>
+      <member refid="struct__hash_update_entry_1a91bdef3a9051bde030f4dc48bf96f4b4" prot="public" virt="non-virtual"><scope>_hashUpdateEntry</scope><name>target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

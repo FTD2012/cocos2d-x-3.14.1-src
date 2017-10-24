@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_controller_1_1__key_status" kind="struct" language="C++" prot="public">
+    <compoundname>Controller::_keyStatus</compoundname>
+    <includes refid="_c_c_controller_8h" local="no">CCController.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_controller_1_1__key_status_1a151e4bba01318304be4d87dce2a64ee6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Controller::_keyStatus::isPressed</definition>
+        <argsstring></argsstring>
+        <name>isPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A Boolean value that indicates whether the key is considered pressed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCController.h" line="102" column="1" bodyfile="cocos/base/CCController.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_controller_1_1__key_status_1aeb73cddb2cdf68bbee943c8678b2ddb7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Controller::_keyStatus::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The value of key.This value is used in conjunction with the isPressed parameter. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCController.h" line="104" column="1" bodyfile="cocos/base/CCController.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_controller_1_1__key_status_1a4e9261093859c4819567b67f9687acc4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Controller::_keyStatus::isAnalog</definition>
+        <argsstring></argsstring>
+        <name>isAnalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A Boolean value that indicates whether the value of key is analog. If isAnalog is true, the key value might be a float from -1 to 1. If isAnalog is false, the key value would be contain one number: 0 or 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/base/CCController.h" line="109" column="1" bodyfile="cocos/base/CCController.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="cocos/base/CCController.h" line="100" column="1" bodyfile="cocos/base/CCController.h" bodystart="99" bodyend="110"/>
+    <listofallmembers>
+      <member refid="struct_controller_1_1__key_status_1a4e9261093859c4819567b67f9687acc4" prot="public" virt="non-virtual"><scope>Controller::_keyStatus</scope><name>isAnalog</name></member>
+      <member refid="struct_controller_1_1__key_status_1a151e4bba01318304be4d87dce2a64ee6" prot="public" virt="non-virtual"><scope>Controller::_keyStatus</scope><name>isPressed</name></member>
+      <member refid="struct_controller_1_1__key_status_1aeb73cddb2cdf68bbee943c8678b2ddb7" prot="public" virt="non-virtual"><scope>Controller::_keyStatus</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

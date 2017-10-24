@@ -1,0 +1,2126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="cocos2d_8h" kind="file" language="C++">
+    <compoundname>cocos2d.h</compoundname>
+    <includes local="yes">base/ccConfig.h</includes>
+    <includes local="yes">base/CCAsyncTaskPool.h</includes>
+    <includes local="yes">platform/CCPlatformMacros.h</includes>
+    <includes local="yes">base/CCDirector.h</includes>
+    <includes local="no">stack</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">chrono</includes>
+    <includes local="yes">base/CCRef.h</includes>
+    <includes local="yes">base/CCVector.h</includes>
+    <includes local="yes">base/ccMacros.h</includes>
+    <includes local="yes">base/CCConsole.h</includes>
+    <includes local="yes">platform/CCStdC.h</includes>
+    <includes local="yes">platform/CCPlatformConfig.h</includes>
+    <includes local="yes">platform/mac/CCStdC-mac.h</includes>
+    <includes local="no">float.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdarg.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">sys/time.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="yes">base/ccRandom.h</includes>
+    <includes local="no">random</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="yes">2d/CCScene.h</includes>
+    <includes local="no">string</includes>
+    <includes local="yes">2d/CCNode.h</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="yes">base/CCProtocols.h</includes>
+    <includes local="yes">base/CCScriptSupport.h</includes>
+    <includes local="yes">platform/CCCommon.h</includes>
+    <includes local="yes">base/CCTouch.h</includes>
+    <includes local="yes">math/CCGeometry.h</includes>
+    <includes local="yes">math/CCMath.h</includes>
+    <includes local="yes">math/Vec2.h</includes>
+    <includes local="no">cmath</includes>
+    <includes local="yes">math/CCMathBase.h</includes>
+    <includes local="no">memory</includes>
+    <includes local="yes">math/Vec2.inl</includes>
+    <includes local="yes">math/Vec3.h</includes>
+    <includes local="yes">math/Vec3.inl</includes>
+    <includes local="yes">math/Mat4.h</includes>
+    <includes local="yes">math/Vec4.h</includes>
+    <includes local="yes">math/Vec4.inl</includes>
+    <includes local="yes">math/Mat4.inl</includes>
+    <includes local="yes">math/Quaternion.h</includes>
+    <includes local="yes">math/Quaternion.inl</includes>
+    <includes local="yes">base/CCEventTouch.h</includes>
+    <includes local="yes">base/CCEvent.h</includes>
+    <includes local="yes">base/CCEventKeyboard.h</includes>
+    <includes local="no">map</includes>
+    <includes local="no">list</includes>
+    <includes local="yes">math/CCAffineTransform.h</includes>
+    <includes local="yes">2d/CCComponentContainer.h</includes>
+    <includes local="yes">2d/CCComponent.h</includes>
+    <includes local="yes">physics/CCPhysicsBody.h</includes>
+    <includes local="yes">physics/CCPhysicsShape.h</includes>
+    <includes local="yes">platform/CCGL.h</includes>
+    <includes local="yes">platform/CCGLView.h</includes>
+    <includes local="yes">base/ccTypes.h</includes>
+    <includes local="no">windows.h</includes>
+    <includes local="yes">base/CCScheduler.h</includes>
+    <includes local="no">mutex</includes>
+    <includes local="no">set</includes>
+    <includes local="yes">base/uthash.h</includes>
+    <includes local="no">queue</includes>
+    <includes local="no">condition_variable</includes>
+    <includes local="no">future</includes>
+    <includes local="no">stdexcept</includes>
+    <includes local="yes">base/CCAutoreleasePool.h</includes>
+    <includes local="yes">base/CCConfiguration.h</includes>
+    <includes local="yes">base/CCValue.h</includes>
+    <includes local="no">unordered_map</includes>
+    <includes local="yes">3d/CCAnimate3D.h</includes>
+    <includes local="yes">3d/CCAnimation3D.h</includes>
+    <includes local="yes">3d/CCAnimationCurve.h</includes>
+    <includes local="yes">3d/CCAnimationCurve.inl</includes>
+    <includes local="yes">3d/CCBundle3DData.h</includes>
+    <includes local="yes">3d/CCAABB.h</includes>
+    <includes local="yes">2d/CCActionInterval.h</includes>
+    <includes local="yes">2d/CCAction.h</includes>
+    <includes local="yes">2d/CCAnimation.h</includes>
+    <includes local="yes">2d/CCSpriteFrame.h</includes>
+    <includes local="yes">2d/CCAutoPolygon.h</includes>
+    <includes local="yes">platform/CCImage.h</includes>
+    <includes local="yes">renderer/CCTrianglesCommand.h</includes>
+    <includes local="yes">renderer/CCRenderCommand.h</includes>
+    <includes local="yes">renderer/CCGLProgramState.h</includes>
+    <includes local="yes">base/CCData.h</includes>
+    <includes local="yes">base/CCIMEDelegate.h</includes>
+    <includes local="yes">base/CCIMEDispatcher.h</includes>
+    <includes local="yes">base/CCMap.h</includes>
+    <includes local="yes">base/CCNS.h</includes>
+    <includes local="yes">base/CCProfiling.h</includes>
+    <includes local="yes">base/CCProperties.h</includes>
+    <includes local="yes">renderer/CCTexture2D.h</includes>
+    <includes local="yes">base/CCRefPtr.h</includes>
+    <includes local="yes">base/CCUserDefault.h</includes>
+    <includes local="yes">base/ZipUtils.h</includes>
+    <includes local="yes">base/base64.h</includes>
+    <includes local="yes">base/ccUTF8.h</includes>
+    <includes local="no">sstream</includes>
+    <includes local="yes">platform/android/jni/JniHelper.h</includes>
+    <includes local="no">jni.h</includes>
+    <includes local="yes">base/ccUtils.h</includes>
+    <includes local="yes">base/CCEventAcceleration.h</includes>
+    <includes local="yes">base/CCEventCustom.h</includes>
+    <includes local="yes">base/CCEventDispatcher.h</includes>
+    <includes local="yes">base/CCEventListener.h</includes>
+    <includes local="yes">base/CCEventFocus.h</includes>
+    <includes local="yes">base/CCEventListenerAcceleration.h</includes>
+    <includes local="yes">base/CCEventListenerCustom.h</includes>
+    <includes local="yes">base/CCEventListenerFocus.h</includes>
+    <includes local="yes">base/CCEventListenerKeyboard.h</includes>
+    <includes local="yes">base/CCEventListenerMouse.h</includes>
+    <includes local="yes">base/CCEventMouse.h</includes>
+    <includes local="yes">base/CCEventListenerTouch.h</includes>
+    <includes local="yes">base/CCEventType.h</includes>
+    <includes local="yes">math/CCVertex.h</includes>
+    <includes local="yes">math/MathUtil.h</includes>
+    <includes local="yes">2d/CCActionCamera.h</includes>
+    <includes local="yes">2d/CCActionCatmullRom.h</includes>
+    <includes local="yes">2d/CCActionEase.h</includes>
+    <includes local="yes">2d/CCTweenFunction.h</includes>
+    <includes local="yes">2d/CCActionGrid.h</includes>
+    <includes local="yes">2d/CCActionInstant.h</includes>
+    <includes local="yes">2d/CCActionGrid3D.h</includes>
+    <includes local="yes">2d/CCActionManager.h</includes>
+    <includes local="yes">2d/CCActionPageTurn3D.h</includes>
+    <includes local="yes">2d/CCActionProgressTimer.h</includes>
+    <includes local="yes">2d/CCActionTiledGrid.h</includes>
+    <includes local="yes">2d/CCActionTween.h</includes>
+    <includes local="yes">2d/CCAtlasNode.h</includes>
+    <includes local="yes">renderer/CCQuadCommand.h</includes>
+    <includes local="yes">2d/CCClippingNode.h</includes>
+    <includes local="yes">renderer/CCGroupCommand.h</includes>
+    <includes local="yes">renderer/CCCustomCommand.h</includes>
+    <includes local="yes">2d/CCClippingRectangleNode.h</includes>
+    <includes local="yes">2d/CCDrawNode.h</includes>
+    <includes local="yes">2d/CCDrawingPrimitives.h</includes>
+    <includes local="yes">2d/CCFontFNT.h</includes>
+    <includes local="yes">2d/CCLabel.h</includes>
+    <includes local="yes">2d/CCFontAtlas.h</includes>
+    <includes local="yes">2d/CCLabelAtlas.h</includes>
+    <includes local="yes">2d/CCLabelBMFont.h</includes>
+    <includes local="yes">2d/CCLabelTTF.h</includes>
+    <includes local="yes">2d/CCLayer.h</includes>
+    <includes local="yes">2d/CCMenu.h</includes>
+    <includes local="yes">2d/CCMenuItem.h</includes>
+    <includes local="yes">2d/CCMotionStreak.h</includes>
+    <includes local="yes">2d/CCNodeGrid.h</includes>
+    <includes local="yes">2d/CCParticleBatchNode.h</includes>
+    <includes local="yes">renderer/CCBatchCommand.h</includes>
+    <includes local="yes">2d/CCParticleExamples.h</includes>
+    <includes local="yes">2d/CCParticleSystemQuad.h</includes>
+    <includes local="yes">2d/CCParticleSystem.h</includes>
+    <includes local="yes">2d/CCProgressTimer.h</includes>
+    <includes local="yes">2d/CCProtectedNode.h</includes>
+    <includes local="yes">2d/CCRenderTexture.h</includes>
+    <includes local="yes">2d/CCSprite.h</includes>
+    <includes local="yes">renderer/CCTextureAtlas.h</includes>
+    <includes local="yes">2d/CCTransition.h</includes>
+    <includes local="yes">2d/CCTransitionPageTurn.h</includes>
+    <includes local="yes">2d/CCTransitionProgress.h</includes>
+    <includes local="yes">2d/CCCamera.h</includes>
+    <includes local="yes">3d/CCFrustum.h</includes>
+    <includes local="yes">3d/CCOBB.h</includes>
+    <includes local="yes">3d/CCPlane.h</includes>
+    <includes local="yes">renderer/CCFrameBuffer.h</includes>
+    <includes local="yes">2d/CCCameraBackgroundBrush.h</includes>
+    <includes local="yes">2d/CCGrabber.h</includes>
+    <includes local="yes">2d/CCGrid.h</includes>
+    <includes local="yes">2d/CCLight.h</includes>
+    <includes local="yes">renderer/CCGLProgram.h</includes>
+    <includes local="yes">renderer/CCGLProgramCache.h</includes>
+    <includes local="yes">renderer/CCMaterial.h</includes>
+    <includes local="yes">renderer/CCRenderState.h</includes>
+    <includes local="yes">renderer/CCTechnique.h</includes>
+    <includes local="yes">renderer/CCPass.h</includes>
+    <includes local="yes">renderer/CCPrimitive.h</includes>
+    <includes local="yes">renderer/CCVertexIndexData.h</includes>
+    <includes local="yes">renderer/CCPrimitiveCommand.h</includes>
+    <includes local="yes">renderer/CCRenderCommandPool.h</includes>
+    <includes local="yes">renderer/CCRenderer.h</includes>
+    <includes local="yes">renderer/CCTextureCube.h</includes>
+    <includes local="yes">renderer/CCTextureCache.h</includes>
+    <includes local="yes">renderer/CCVertexAttribBinding.h</includes>
+    <includes local="yes">renderer/CCVertexIndexBuffer.h</includes>
+    <includes local="yes">renderer/ccGLStateCache.h</includes>
+    <includes local="yes">renderer/ccShaders.h</includes>
+    <includes local="yes">physics/CCPhysicsContact.h</includes>
+    <includes local="yes">physics/CCPhysicsJoint.h</includes>
+    <includes local="yes">physics/CCPhysicsWorld.h</includes>
+    <includes local="yes">platform/CCDevice.h</includes>
+    <includes local="yes">platform/CCFileUtils.h</includes>
+    <includes local="no">type_traits</includes>
+    <includes local="yes">platform/CCSAXParser.h</includes>
+    <includes local="yes">platform/CCThread.h</includes>
+    <includes local="yes">platform/ios/CCApplication-ios.h</includes>
+    <includes local="yes">platform/CCApplicationProtocol.h</includes>
+    <includes local="yes">platform/ios/CCGLViewImpl-ios.h</includes>
+    <includes local="yes">platform/ios/CCGL-ios.h</includes>
+    <includes local="no">OpenGLES/ES2/gl.h</includes>
+    <includes local="no">OpenGLES/ES2/glext.h</includes>
+    <includes local="yes">platform/ios/CCStdC-ios.h</includes>
+    <includes local="yes">platform/android/CCApplication-android.h</includes>
+    <includes local="yes">platform/android/CCGLViewImpl-android.h</includes>
+    <includes local="yes">platform/android/CCGL-android.h</includes>
+    <includes local="no">GLES2/gl2platform.h</includes>
+    <includes local="no">GLES2/gl2.h</includes>
+    <includes local="no">GLES2/gl2ext.h</includes>
+    <includes local="yes">platform/android/CCStdC-android.h</includes>
+    <includes local="no">cassert</includes>
+    <includes local="yes">platform/android/CCEnhanceAPI-android.h</includes>
+    <includes local="yes">platform/blackberry/CCApplication.h</includes>
+    <includes local="yes">platform/blackberry/CCGLViewImpl.h</includes>
+    <includes local="yes">platform/blackberry/CCGL.h</includes>
+    <includes local="yes">platform/blackberry/CCStdC.h</includes>
+    <includes local="yes">platform/win32/CCApplication-win32.h</includes>
+    <includes local="yes">platform/desktop/CCGLViewImpl-desktop.h</includes>
+    <includes local="yes">glfw3.h</includes>
+    <includes local="yes">glfw3native.h</includes>
+    <includes local="yes">platform/win32/CCGL-win32.h</includes>
+    <includes local="yes">GL/glew.h</includes>
+    <includes local="yes">platform/win32/CCStdC-win32.h</includes>
+    <includes local="no">BaseTsd.h</includes>
+    <includes local="yes">platform/win32/compat/stdint.h</includes>
+    <includes local="no">limits.h</includes>
+    <includes local="no">wchar.h</includes>
+    <includes local="no">Windows.h</includes>
+    <includes local="no">WinSock2.h</includes>
+    <includes local="yes">platform/mac/CCApplication-mac.h</includes>
+    <includes local="yes">platform/mac/CCGL-mac.h</includes>
+    <includes local="no">OpenGL/gl.h</includes>
+    <includes local="no">OpenGL/glu.h</includes>
+    <includes local="no">OpenGL/glext.h</includes>
+    <includes local="yes">platform/linux/CCApplication-linux.h</includes>
+    <includes local="yes">platform/linux/CCGL-linux.h</includes>
+    <includes local="yes">platform/linux/CCStdC-linux.h</includes>
+    <includes local="yes">platform/winrt/CCApplication.h</includes>
+    <includes local="yes">platform/winrt/InputEvent.h</includes>
+    <includes local="yes">platform/winrt/InputEventTypes.h</includes>
+    <includes local="no">agile.h</includes>
+    <includes local="yes">platform/winrt/CCGLViewImpl-winrt.h</includes>
+    <includes local="yes">platform/winrt/CCStdC.h</includes>
+    <includes local="yes">platform/winrt/Keyboard-winrt.h</includes>
+    <includes local="no">concurrent_queue.h</includes>
+    <includes local="no">wrl/client.h</includes>
+    <includes local="yes">platform/winrt/CCGL.h</includes>
+    <includes local="yes">EGL/egl.h</includes>
+    <includes local="yes">EGL/eglext.h</includes>
+    <includes local="yes">EGL/eglplatform.h</includes>
+    <includes local="yes">GLES3/gl3.h</includes>
+    <includes local="yes">platform/tizen/CCApplication-tizen.h</includes>
+    <includes local="no">Elementary.h</includes>
+    <includes local="yes">platform/tizen/CCGLViewImpl-tizen.h</includes>
+    <includes local="yes">platform/tizen/CCGL-tizen.h</includes>
+    <includes local="no">Elementary_GL_Helpers.h</includes>
+    <includes local="yes">platform/tizen/CCStdC-tizen.h</includes>
+    <includes local="yes">2d/CCAnimationCache.h</includes>
+    <includes local="yes">2d/CCSpriteBatchNode.h</includes>
+    <includes local="yes">2d/CCSpriteFrameCache.h</includes>
+    <includes local="yes">2d/CCTextFieldTTF.h</includes>
+    <includes local="yes">2d/CCParallaxNode.h</includes>
+    <includes local="yes">2d/CCTMXLayer.h</includes>
+    <includes local="yes">2d/CCTMXXMLParser.h</includes>
+    <includes local="yes">base/ccCArray.h</includes>
+    <includes local="yes">2d/CCTMXObjectGroup.h</includes>
+    <includes local="yes">2d/CCTMXTiledMap.h</includes>
+    <includes local="yes">2d/CCTileMapAtlas.h</includes>
+    <includes local="yes">2d/CCFastTMXLayer.h</includes>
+    <includes local="yes">2d/CCFastTMXTiledMap.h</includes>
+    <includes local="yes">3d/CCAttachNode.h</includes>
+    <includes local="yes">3d/CCBillBoard.h</includes>
+    <includes local="yes">3d/CCMesh.h</includes>
+    <includes local="yes">renderer/CCMeshCommand.h</includes>
+    <includes local="yes">3d/CCMeshSkin.h</includes>
+    <includes local="yes">3d/CCMotionStreak3D.h</includes>
+    <includes local="yes">3d/CCMeshVertexIndexData.h</includes>
+    <includes local="yes">3d/CCRay.h</includes>
+    <includes local="yes">3d/CCSkeleton3D.h</includes>
+    <includes local="yes">3d/CCSkybox.h</includes>
+    <includes local="yes">3d/CCSprite3D.h</includes>
+    <includes local="yes">3d/CCSprite3DMaterial.h</includes>
+    <includes local="yes">3d/CCTerrain.h</includes>
+    <includes local="yes">vr/CCVRGenericRenderer.h</includes>
+    <includes local="yes">vr/CCVRProtocol.h</includes>
+    <includes local="yes">deprecated/CCDeprecated.h</includes>
+    <incdepgraph>
+      <node id="65">
+        <label>list</label>
+      </node>
+      <node id="145">
+        <label>2d/CCActionTween.h</label>
+      </node>
+      <node id="228">
+        <label>platform/blackberry/CCApplication.h</label>
+      </node>
+      <node id="78">
+        <label>base/uthash.h</label>
+      </node>
+      <node id="60">
+        <label>math/Quaternion.inl</label>
+      </node>
+      <node id="214">
+        <label>platform/ios/CCGLViewImpl-ios.h</label>
+      </node>
+      <node id="280">
+        <label>base/ccCArray.h</label>
+      </node>
+      <node id="26">
+        <label>stdarg.h</label>
+      </node>
+      <node id="274">
+        <label>2d/CCSpriteBatchNode.h</label>
+      </node>
+      <node id="19">
+        <label>base/CCConsole.h</label>
+      </node>
+      <node id="296">
+        <label>3d/CCSprite3D.h</label>
+      </node>
+      <node id="36">
+        <label>functional</label>
+      </node>
+      <node id="116">
+        <label>platform/android/jni/JniHelper.h</label>
+      </node>
+      <node id="79">
+        <label>queue</label>
+      </node>
+      <node id="264">
+        <label>EGL/eglext.h</label>
+      </node>
+      <node id="245">
+        <label>platform/mac/CCApplication-mac.h</label>
+      </node>
+      <node id="148">
+        <label>2d/CCClippingNode.h</label>
+      </node>
+      <node id="269">
+        <label>platform/tizen/CCGLViewImpl-tizen.h</label>
+      </node>
+      <node id="250">
+        <label>platform/linux/CCApplication-linux.h</label>
+      </node>
+      <node id="16">
+        <label>base/CCRef.h</label>
+      </node>
+      <node id="134">
+        <label>2d/CCActionCamera.h</label>
+      </node>
+      <node id="186">
+        <label>2d/CCLight.h</label>
+      </node>
+      <node id="104">
+        <label>base/CCIMEDispatcher.h</label>
+      </node>
+      <node id="55">
+        <label>math/Mat4.h</label>
+      </node>
+      <node id="292">
+        <label>3d/CCMeshVertexIndexData.h</label>
+      </node>
+      <node id="54">
+        <label>math/Vec3.inl</label>
+      </node>
+      <node id="183">
+        <label>2d/CCCameraBackgroundBrush.h</label>
+      </node>
+      <node id="74">
+        <label>windows.h</label>
+      </node>
+      <node id="95">
+        <label>2d/CCAnimation.h</label>
+      </node>
+      <node id="23">
+        <label>float.h</label>
+      </node>
+      <node id="170">
+        <label>2d/CCProgressTimer.h</label>
+      </node>
+      <node id="59">
+        <label>math/Quaternion.h</label>
+      </node>
+      <node id="108">
+        <label>base/CCProperties.h</label>
+      </node>
+      <node id="140">
+        <label>2d/CCActionGrid3D.h</label>
+      </node>
+      <node id="52">
+        <label>math/Vec2.inl</label>
+      </node>
+      <node id="128">
+        <label>base/CCEventListenerMouse.h</label>
+      </node>
+      <node id="41">
+        <label>cstdint</label>
+      </node>
+      <node id="98">
+        <label>platform/CCImage.h</label>
+      </node>
+      <node id="268">
+        <label>Elementary.h</label>
+      </node>
+      <node id="133">
+        <label>math/MathUtil.h</label>
+      </node>
+      <node id="120">
+        <label>base/CCEventCustom.h</label>
+      </node>
+      <node id="38">
+        <label>2d/CCScene.h</label>
+      </node>
+      <node id="139">
+        <label>2d/CCActionInstant.h</label>
+      </node>
+      <node id="253">
+        <label>platform/winrt/CCApplication.h</label>
+      </node>
+      <node id="32">
+        <label>base/ccRandom.h</label>
+      </node>
+      <node id="159">
+        <label>2d/CCLabelTTF.h</label>
+      </node>
+      <node id="285">
+        <label>2d/CCFastTMXTiledMap.h</label>
+      </node>
+      <node id="212">
+        <label>platform/ios/CCApplication-ios.h</label>
+      </node>
+      <node id="217">
+        <label>OpenGLES/ES2/glext.h</label>
+      </node>
+      <node id="208">
+        <label>platform/CCFileUtils.h</label>
+      </node>
+      <node id="124">
+        <label>base/CCEventListenerAcceleration.h</label>
+      </node>
+      <node id="196">
+        <label>renderer/CCRenderCommandPool.h</label>
+      </node>
+      <node id="31">
+        <label>stdint.h</label>
+      </node>
+      <node id="28">
+        <label>stdlib.h</label>
+      </node>
+      <node id="67">
+        <label>2d/CCComponentContainer.h</label>
+      </node>
+      <node id="224">
+        <label>GLES2/gl2ext.h</label>
+      </node>
+      <node id="211">
+        <label>platform/CCThread.h</label>
+      </node>
+      <node id="251">
+        <label>platform/linux/CCGL-linux.h</label>
+      </node>
+      <node id="252">
+        <label>platform/linux/CCStdC-linux.h</label>
+      </node>
+      <node id="258">
+        <label>platform/winrt/CCStdC.h</label>
+      </node>
+      <node id="243">
+        <label>Windows.h</label>
+      </node>
+      <node id="165">
+        <label>2d/CCParticleBatchNode.h</label>
+      </node>
+      <node id="289">
+        <label>renderer/CCMeshCommand.h</label>
+      </node>
+      <node id="57">
+        <label>math/Vec4.inl</label>
+      </node>
+      <node id="48">
+        <label>math/Vec2.h</label>
+      </node>
+      <node id="204">
+        <label>physics/CCPhysicsContact.h</label>
+      </node>
+      <node id="49">
+        <label>cmath</label>
+      </node>
+      <node id="226">
+        <label>cassert</label>
+      </node>
+      <node id="152">
+        <label>2d/CCDrawNode.h</label>
+      </node>
+      <node id="82">
+        <label>stdexcept</label>
+      </node>
+      <node id="96">
+        <label>2d/CCSpriteFrame.h</label>
+      </node>
+      <node id="257">
+        <label>platform/winrt/CCGLViewImpl-winrt.h</label>
+      </node>
+      <node id="210">
+        <label>platform/CCSAXParser.h</label>
+      </node>
+      <node id="39">
+        <label>string</label>
+      </node>
+      <node id="237">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="160">
+        <label>2d/CCLayer.h</label>
+      </node>
+      <node id="284">
+        <label>2d/CCFastTMXLayer.h</label>
+      </node>
+      <node id="256">
+        <label>agile.h</label>
+      </node>
+      <node id="301">
+        <label>deprecated/CCDeprecated.h</label>
+      </node>
+      <node id="247">
+        <label>OpenGL/gl.h</label>
+      </node>
+      <node id="164">
+        <label>2d/CCNodeGrid.h</label>
+      </node>
+      <node id="240">
+        <label>platform/win32/compat/stdint.h</label>
+      </node>
+      <node id="195">
+        <label>renderer/CCPrimitiveCommand.h</label>
+      </node>
+      <node id="106">
+        <label>base/CCNS.h</label>
+      </node>
+      <node id="42">
+        <label>base/CCProtocols.h</label>
+      </node>
+      <node id="200">
+        <label>renderer/CCVertexAttribBinding.h</label>
+      </node>
+      <node id="153">
+        <label>2d/CCDrawingPrimitives.h</label>
+      </node>
+      <node id="230">
+        <label>platform/blackberry/CCGL.h</label>
+      </node>
+      <node id="64">
+        <label>map</label>
+      </node>
+      <node id="141">
+        <label>2d/CCActionManager.h</label>
+      </node>
+      <node id="172">
+        <label>2d/CCRenderTexture.h</label>
+      </node>
+      <node id="66">
+        <label>math/CCAffineTransform.h</label>
+      </node>
+      <node id="146">
+        <label>2d/CCAtlasNode.h</label>
+      </node>
+      <node id="101">
+        <label>renderer/CCGLProgramState.h</label>
+      </node>
+      <node id="270">
+        <label>platform/tizen/CCGL-tizen.h</label>
+      </node>
+      <node id="11">
+        <label>platform/CCPlatformMacros.h</label>
+      </node>
+      <node id="119">
+        <label>base/CCEventAcceleration.h</label>
+      </node>
+      <node id="166">
+        <label>renderer/CCBatchCommand.h</label>
+      </node>
+      <node id="231">
+        <label>platform/blackberry/CCStdC.h</label>
+      </node>
+      <node id="63">
+        <label>base/CCEventKeyboard.h</label>
+      </node>
+      <node id="20">
+        <label>platform/CCStdC.h</label>
+      </node>
+      <node id="271">
+        <label>Elementary_GL_Helpers.h</label>
+      </node>
+      <node id="219">
+        <label>platform/android/CCApplication-android.h</label>
+      </node>
+      <node id="233">
+        <label>platform/desktop/CCGLViewImpl-desktop.h</label>
+      </node>
+      <node id="102">
+        <label>base/CCData.h</label>
+      </node>
+      <node id="10">
+        <label>base/CCAsyncTaskPool.h</label>
+      </node>
+      <node id="46">
+        <label>math/CCGeometry.h</label>
+      </node>
+      <node id="267">
+        <label>platform/tizen/CCApplication-tizen.h</label>
+      </node>
+      <node id="218">
+        <label>platform/ios/CCStdC-ios.h</label>
+      </node>
+      <node id="155">
+        <label>2d/CCLabel.h</label>
+      </node>
+      <node id="50">
+        <label>math/CCMathBase.h</label>
+      </node>
+      <node id="249">
+        <label>OpenGL/glext.h</label>
+      </node>
+      <node id="85">
+        <label>base/CCValue.h</label>
+      </node>
+      <node id="113">
+        <label>base/base64.h</label>
+      </node>
+      <node id="84">
+        <label>base/CCConfiguration.h</label>
+      </node>
+      <node id="241">
+        <label>limits.h</label>
+      </node>
+      <node id="174">
+        <label>renderer/CCTextureAtlas.h</label>
+      </node>
+      <node id="169">
+        <label>2d/CCParticleSystem.h</label>
+      </node>
+      <node id="190">
+        <label>renderer/CCRenderState.h</label>
+      </node>
+      <node id="191">
+        <label>renderer/CCTechnique.h</label>
+      </node>
+      <node id="298">
+        <label>3d/CCTerrain.h</label>
+      </node>
+      <node id="61">
+        <label>base/CCEventTouch.h</label>
+      </node>
+      <node id="287">
+        <label>3d/CCBillBoard.h</label>
+      </node>
+      <node id="175">
+        <label>2d/CCTransition.h</label>
+      </node>
+      <node id="187">
+        <label>renderer/CCGLProgram.h</label>
+      </node>
+      <node id="123">
+        <label>base/CCEventFocus.h</label>
+      </node>
+      <node id="44">
+        <label>platform/CCCommon.h</label>
+      </node>
+      <node id="53">
+        <label>math/Vec3.h</label>
+      </node>
+      <node id="277">
+        <label>2d/CCParallaxNode.h</label>
+      </node>
+      <node id="227">
+        <label>platform/android/CCEnhanceAPI-android.h</label>
+      </node>
+      <node id="43">
+        <label>base/CCScriptSupport.h</label>
+      </node>
+      <node id="294">
+        <label>3d/CCSkeleton3D.h</label>
+      </node>
+      <node id="188">
+        <label>renderer/CCGLProgramCache.h</label>
+      </node>
+      <node id="33">
+        <label>random</label>
+      </node>
+      <node id="91">
+        <label>3d/CCBundle3DData.h</label>
+      </node>
+      <node id="290">
+        <label>3d/CCMeshSkin.h</label>
+      </node>
+      <node id="80">
+        <label>condition_variable</label>
+      </node>
+      <node id="9">
+        <label>base/ccConfig.h</label>
+      </node>
+      <node id="238">
+        <label>platform/win32/CCStdC-win32.h</label>
+      </node>
+      <node id="154">
+        <label>2d/CCFontFNT.h</label>
+      </node>
+      <node id="242">
+        <label>wchar.h</label>
+      </node>
+      <node id="87">
+        <label>3d/CCAnimate3D.h</label>
+      </node>
+      <node id="162">
+        <label>2d/CCMenuItem.h</label>
+      </node>
+      <node id="278">
+        <label>2d/CCTMXLayer.h</label>
+      </node>
+      <node id="201">
+        <label>renderer/CCVertexIndexBuffer.h</label>
+      </node>
+      <node id="295">
+        <label>3d/CCSkybox.h</label>
+      </node>
+      <node id="283">
+        <label>2d/CCTileMapAtlas.h</label>
+      </node>
+      <node id="83">
+        <label>base/CCAutoreleasePool.h</label>
+      </node>
+      <node id="72">
+        <label>platform/CCGLView.h</label>
+      </node>
+      <node id="25">
+        <label>string.h</label>
+      </node>
+      <node id="68">
+        <label>2d/CCComponent.h</label>
+      </node>
+      <node id="282">
+        <label>2d/CCTMXTiledMap.h</label>
+      </node>
+      <node id="110">
+        <label>base/CCRefPtr.h</label>
+      </node>
+      <node id="81">
+        <label>future</label>
+      </node>
+      <node id="291">
+        <label>3d/CCMotionStreak3D.h</label>
+      </node>
+      <node id="143">
+        <label>2d/CCActionProgressTimer.h</label>
+      </node>
+      <node id="248">
+        <label>OpenGL/glu.h</label>
+      </node>
+      <node id="194">
+        <label>renderer/CCVertexIndexData.h</label>
+      </node>
+      <node id="178">
+        <label>2d/CCCamera.h</label>
+      </node>
+      <node id="105">
+        <label>base/CCMap.h</label>
+      </node>
+      <node id="266">
+        <label>GLES3/gl3.h</label>
+      </node>
+      <node id="255">
+        <label>platform/winrt/InputEventTypes.h</label>
+      </node>
+      <node id="262">
+        <label>platform/winrt/CCGL.h</label>
+      </node>
+      <node id="236">
+        <label>platform/win32/CCGL-win32.h</label>
+      </node>
+      <node id="279">
+        <label>2d/CCTMXXMLParser.h</label>
+      </node>
+      <node id="239">
+        <label>BaseTsd.h</label>
+      </node>
+      <node id="244">
+        <label>WinSock2.h</label>
+      </node>
+      <node id="168">
+        <label>2d/CCParticleSystemQuad.h</label>
+      </node>
+      <node id="35">
+        <label>vector</label>
+      </node>
+      <node id="13">
+        <label>stack</label>
+      </node>
+      <node id="171">
+        <label>2d/CCProtectedNode.h</label>
+      </node>
+      <node id="93">
+        <label>2d/CCActionInterval.h</label>
+      </node>
+      <node id="45">
+        <label>base/CCTouch.h</label>
+      </node>
+      <node id="193">
+        <label>renderer/CCPrimitive.h</label>
+      </node>
+      <node id="199">
+        <label>renderer/CCTextureCache.h</label>
+      </node>
+      <node id="94">
+        <label>2d/CCAction.h</label>
+      </node>
+      <node id="89">
+        <label>3d/CCAnimationCurve.h</label>
+      </node>
+      <node id="21">
+        <label>platform/CCPlatformConfig.h</label>
+      </node>
+      <node id="12">
+        <label>base/CCDirector.h</label>
+      </node>
+      <node id="297">
+        <label>3d/CCSprite3DMaterial.h</label>
+      </node>
+      <node id="213">
+        <label>platform/CCApplicationProtocol.h</label>
+      </node>
+      <node id="286">
+        <label>3d/CCAttachNode.h</label>
+      </node>
+      <node id="90">
+        <label>3d/CCAnimationCurve.inl</label>
+      </node>
+      <node id="132">
+        <label>math/CCVertex.h</label>
+      </node>
+      <node id="215">
+        <label>platform/ios/CCGL-ios.h</label>
+      </node>
+      <node id="115">
+        <label>sstream</label>
+      </node>
+      <node id="69">
+        <label>physics/CCPhysicsBody.h</label>
+      </node>
+      <node id="197">
+        <label>renderer/CCRenderer.h</label>
+      </node>
+      <node id="181">
+        <label>3d/CCPlane.h</label>
+      </node>
+      <node id="121">
+        <label>base/CCEventDispatcher.h</label>
+      </node>
+      <node id="221">
+        <label>platform/android/CCGL-android.h</label>
+      </node>
+      <node id="103">
+        <label>base/CCIMEDelegate.h</label>
+      </node>
+      <node id="112">
+        <label>base/ZipUtils.h</label>
+      </node>
+      <node id="203">
+        <label>renderer/ccShaders.h</label>
+      </node>
+      <node id="131">
+        <label>base/CCEventType.h</label>
+      </node>
+      <node id="114">
+        <label>base/ccUTF8.h</label>
+      </node>
+      <node id="70">
+        <label>physics/CCPhysicsShape.h</label>
+      </node>
+      <node id="293">
+        <label>3d/CCRay.h</label>
+      </node>
+      <node id="111">
+        <label>base/CCUserDefault.h</label>
+      </node>
+      <node id="261">
+        <label>wrl/client.h</label>
+      </node>
+      <node id="29">
+        <label>time.h</label>
+      </node>
+      <node id="176">
+        <label>2d/CCTransitionPageTurn.h</label>
+      </node>
+      <node id="56">
+        <label>math/Vec4.h</label>
+      </node>
+      <node id="24">
+        <label>math.h</label>
+      </node>
+      <node id="127">
+        <label>base/CCEventListenerKeyboard.h</label>
+      </node>
+      <node id="206">
+        <label>physics/CCPhysicsWorld.h</label>
+      </node>
+      <node id="156">
+        <label>2d/CCFontAtlas.h</label>
+      </node>
+      <node id="107">
+        <label>base/CCProfiling.h</label>
+      </node>
+      <node id="260">
+        <label>concurrent_queue.h</label>
+      </node>
+      <node id="288">
+        <label>3d/CCMesh.h</label>
+      </node>
+      <node id="34">
+        <label>cstdlib</label>
+      </node>
+      <node id="8">
+        <label>cocos2d.h</label>
+        <link refid="cocos2d_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+        <childnode refid="120" relation="include">
+        </childnode>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+      <node id="299">
+        <label>vr/CCVRGenericRenderer.h</label>
+      </node>
+      <node id="272">
+        <label>platform/tizen/CCStdC-tizen.h</label>
+      </node>
+      <node id="254">
+        <label>platform/winrt/InputEvent.h</label>
+      </node>
+      <node id="30">
+        <label>sys/time.h</label>
+      </node>
+      <node id="189">
+        <label>renderer/CCMaterial.h</label>
+      </node>
+      <node id="223">
+        <label>GLES2/gl2.h</label>
+      </node>
+      <node id="158">
+        <label>2d/CCLabelBMFont.h</label>
+      </node>
+      <node id="62">
+        <label>base/CCEvent.h</label>
+      </node>
+      <node id="130">
+        <label>base/CCEventListenerTouch.h</label>
+      </node>
+      <node id="118">
+        <label>base/ccUtils.h</label>
+      </node>
+      <node id="167">
+        <label>2d/CCParticleExamples.h</label>
+      </node>
+      <node id="125">
+        <label>base/CCEventListenerCustom.h</label>
+      </node>
+      <node id="198">
+        <label>renderer/CCTextureCube.h</label>
+      </node>
+      <node id="259">
+        <label>platform/winrt/Keyboard-winrt.h</label>
+      </node>
+      <node id="86">
+        <label>unordered_map</label>
+      </node>
+      <node id="300">
+        <label>vr/CCVRProtocol.h</label>
+      </node>
+      <node id="150">
+        <label>renderer/CCCustomCommand.h</label>
+      </node>
+      <node id="126">
+        <label>base/CCEventListenerFocus.h</label>
+      </node>
+      <node id="180">
+        <label>3d/CCOBB.h</label>
+      </node>
+      <node id="192">
+        <label>renderer/CCPass.h</label>
+      </node>
+      <node id="17">
+        <label>base/CCVector.h</label>
+      </node>
+      <node id="161">
+        <label>2d/CCMenu.h</label>
+      </node>
+      <node id="40">
+        <label>2d/CCNode.h</label>
+      </node>
+      <node id="18">
+        <label>base/ccMacros.h</label>
+      </node>
+      <node id="235">
+        <label>glfw3native.h</label>
+      </node>
+      <node id="273">
+        <label>2d/CCAnimationCache.h</label>
+      </node>
+      <node id="182">
+        <label>renderer/CCFrameBuffer.h</label>
+      </node>
+      <node id="229">
+        <label>platform/blackberry/CCGLViewImpl.h</label>
+      </node>
+      <node id="22">
+        <label>platform/mac/CCStdC-mac.h</label>
+      </node>
+      <node id="147">
+        <label>renderer/CCQuadCommand.h</label>
+      </node>
+      <node id="225">
+        <label>platform/android/CCStdC-android.h</label>
+      </node>
+      <node id="265">
+        <label>EGL/eglplatform.h</label>
+      </node>
+      <node id="157">
+        <label>2d/CCLabelAtlas.h</label>
+      </node>
+      <node id="76">
+        <label>mutex</label>
+      </node>
+      <node id="202">
+        <label>renderer/ccGLStateCache.h</label>
+      </node>
+      <node id="144">
+        <label>2d/CCActionTiledGrid.h</label>
+      </node>
+      <node id="15">
+        <label>chrono</label>
+      </node>
+      <node id="205">
+        <label>physics/CCPhysicsJoint.h</label>
+      </node>
+      <node id="220">
+        <label>platform/android/CCGLViewImpl-android.h</label>
+      </node>
+      <node id="109">
+        <label>renderer/CCTexture2D.h</label>
+      </node>
+      <node id="135">
+        <label>2d/CCActionCatmullRom.h</label>
+      </node>
+      <node id="177">
+        <label>2d/CCTransitionProgress.h</label>
+      </node>
+      <node id="136">
+        <label>2d/CCActionEase.h</label>
+      </node>
+      <node id="14">
+        <label>thread</label>
+      </node>
+      <node id="151">
+        <label>2d/CCClippingRectangleNode.h</label>
+      </node>
+      <node id="97">
+        <label>2d/CCAutoPolygon.h</label>
+      </node>
+      <node id="281">
+        <label>2d/CCTMXObjectGroup.h</label>
+      </node>
+      <node id="47">
+        <label>math/CCMath.h</label>
+      </node>
+      <node id="138">
+        <label>2d/CCActionGrid.h</label>
+      </node>
+      <node id="117">
+        <label>jni.h</label>
+      </node>
+      <node id="92">
+        <label>3d/CCAABB.h</label>
+      </node>
+      <node id="149">
+        <label>renderer/CCGroupCommand.h</label>
+      </node>
+      <node id="75">
+        <label>base/CCScheduler.h</label>
+      </node>
+      <node id="275">
+        <label>2d/CCSpriteFrameCache.h</label>
+      </node>
+      <node id="276">
+        <label>2d/CCTextFieldTTF.h</label>
+      </node>
+      <node id="209">
+        <label>type_traits</label>
+      </node>
+      <node id="77">
+        <label>set</label>
+      </node>
+      <node id="129">
+        <label>base/CCEventMouse.h</label>
+      </node>
+      <node id="246">
+        <label>platform/mac/CCGL-mac.h</label>
+      </node>
+      <node id="58">
+        <label>math/Mat4.inl</label>
+      </node>
+      <node id="263">
+        <label>EGL/egl.h</label>
+      </node>
+      <node id="99">
+        <label>renderer/CCTrianglesCommand.h</label>
+      </node>
+      <node id="173">
+        <label>2d/CCSprite.h</label>
+      </node>
+      <node id="37">
+        <label>algorithm</label>
+      </node>
+      <node id="234">
+        <label>glfw3.h</label>
+      </node>
+      <node id="163">
+        <label>2d/CCMotionStreak.h</label>
+      </node>
+      <node id="142">
+        <label>2d/CCActionPageTurn3D.h</label>
+      </node>
+      <node id="185">
+        <label>2d/CCGrid.h</label>
+      </node>
+      <node id="222">
+        <label>GLES2/gl2platform.h</label>
+      </node>
+      <node id="216">
+        <label>OpenGLES/ES2/gl.h</label>
+      </node>
+      <node id="71">
+        <label>platform/CCGL.h</label>
+      </node>
+      <node id="27">
+        <label>stdio.h</label>
+      </node>
+      <node id="122">
+        <label>base/CCEventListener.h</label>
+      </node>
+      <node id="137">
+        <label>2d/CCTweenFunction.h</label>
+      </node>
+      <node id="179">
+        <label>3d/CCFrustum.h</label>
+      </node>
+      <node id="100">
+        <label>renderer/CCRenderCommand.h</label>
+      </node>
+      <node id="88">
+        <label>3d/CCAnimation3D.h</label>
+      </node>
+      <node id="51">
+        <label>memory</label>
+      </node>
+      <node id="184">
+        <label>2d/CCGrabber.h</label>
+      </node>
+      <node id="232">
+        <label>platform/win32/CCApplication-win32.h</label>
+      </node>
+      <node id="207">
+        <label>platform/CCDevice.h</label>
+      </node>
+      <node id="73">
+        <label>base/ccTypes.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="cocos2d_8h_1a4e9281d25e8101dabe1f211345788ec0" prot="public" static="no">
+        <name>COCOS2D_VERSION</name>
+        <initializer>0x00031401</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos2d.h" line="33" column="9" bodyfile="cocos2d.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cocos2d_8h_1a33aa5727df78ae7412772348d405b0ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CC_DLL const char *</type>
+        <definition>CC_DLL const char* cocos2dVersion</definition>
+        <argsstring>()</argsstring>
+        <name>cocos2dVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos2d.h" line="317" column="1" bodyfile="cocos2d.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">Copyright<sp/>(c)<sp/>2008-2010<sp/>Ricardo<sp/>Quesada</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">Copyright<sp/>(c)<sp/>2010-2012<sp/>cocos2d-x.org</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">Copyright<sp/>(c)<sp/>2011<sp/><sp/><sp/><sp/><sp/><sp/>Zynga<sp/>Inc.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">Copyright<sp/>(c)<sp/>2013-2016<sp/>Chukong<sp/>Technologies<sp/>Inc.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment">http://www.cocos2d-x.org</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment">Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>obtaining<sp/>a<sp/>copy</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">of<sp/>this<sp/>software<sp/>and<sp/>associated<sp/>documentation<sp/>files<sp/>(the<sp/>&quot;Software&quot;),<sp/>to<sp/>deal</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">in<sp/>the<sp/>Software<sp/>without<sp/>restriction,<sp/>including<sp/>without<sp/>limitation<sp/>the<sp/>rights</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">to<sp/>use,<sp/>copy,<sp/>modify,<sp/>merge,<sp/>publish,<sp/>distribute,<sp/>sublicense,<sp/>and/or<sp/>sell</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">copies<sp/>of<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>permit<sp/>persons<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">furnished<sp/>to<sp/>do<sp/>so,<sp/>subject<sp/>to<sp/>the<sp/>following<sp/>conditions:</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment">The<sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>this<sp/>permission<sp/>notice<sp/>shall<sp/>be<sp/>included<sp/>in</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">all<sp/>copies<sp/>or<sp/>substantial<sp/>portions<sp/>of<sp/>the<sp/>Software.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment">THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>AND<sp/>NONINFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">AUTHORS<sp/>OR<sp/>COPYRIGHT<sp/>HOLDERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>CLAIM,<sp/>DAMAGES<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">LIABILITY,<sp/>WHETHER<sp/>IN<sp/>AN<sp/>ACTION<sp/>OF<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,<sp/>ARISING<sp/>FROM,</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER<sp/>DEALINGS<sp/>IN</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">THE<sp/>SOFTWARE.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__COCOS2D_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__COCOS2D_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>0x00<sp/>HI<sp/>ME<sp/>LO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>00<sp/><sp/><sp/>03<sp/>08<sp/>00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="cocos2d_8h_1a4e9281d25e8101dabe1f211345788ec0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COCOS2D_VERSION<sp/>0x00031401</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>all<sp/>cocos2d<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccConfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>base</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCAsyncTaskPool.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCAutoreleasePool.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCConfiguration.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCConsole.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCDirector.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCIMEDelegate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCIMEDispatcher.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCMap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCNS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCProfiling.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCProperties.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCRef.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCRefPtr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCScheduler.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCUserDefault.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCValue.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCVector.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ZipUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/base64.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccConfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccTypes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccUTF8.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/ccUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>EventDispatcher</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventAcceleration.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventCustom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventDispatcher.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventFocus.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventKeyboard.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerAcceleration.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerCustom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerFocus.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerKeyboard.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerMouse.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventListenerTouch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventMouse.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventTouch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCEventType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>math</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/CCAffineTransform.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/CCGeometry.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/CCVertex.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/Mat4.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/MathUtil.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/Quaternion.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/Vec2.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/Vec3.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;math/Vec4.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="comment">//<sp/>actions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCAction.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionCamera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionCatmullRom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionEase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionGrid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionGrid3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionInstant.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionInterval.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionPageTurn3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionProgressTimer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionTiledGrid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCActionTween.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTweenFunction.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2d<sp/>nodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCAtlasNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCClippingNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCClippingRectangleNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCDrawNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCDrawingPrimitives.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCFontFNT.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLabel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLabelAtlas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLabelBMFont.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLabelTTF.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCMenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCMenuItem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCMotionStreak.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCNodeGrid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCParticleBatchNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCParticleExamples.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCParticleSystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCParticleSystemQuad.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCProgressTimer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCProtectedNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCRenderTexture.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCScene.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTransition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTransitionPageTurn.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTransitionProgress.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>2d<sp/>utils</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCCamera.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCCameraBackgroundBrush.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCGrabber.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCGrid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCLight.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCProtocols.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">//<sp/>renderer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCCustomCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCGLProgram.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCGLProgramCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCGLProgramState.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCGroupCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCMaterial.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCPass.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCPrimitive.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCPrimitiveCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCQuadCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCRenderCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCRenderCommandPool.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCRenderState.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCRenderer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTechnique.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTexture2D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTextureCube.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTextureCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTrianglesCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCVertexAttribBinding.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCVertexIndexBuffer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCVertexIndexData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCFrameBuffer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/ccGLStateCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/ccShaders.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">//<sp/>physics</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;physics/CCPhysicsBody.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;physics/CCPhysicsContact.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;physics/CCPhysicsJoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;physics/CCPhysicsShape.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;physics/CCPhysicsWorld.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>platform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCCommon.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCDevice.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCFileUtils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCImage.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCPlatformConfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCPlatformMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCSAXParser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;platform/CCThread.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_IOS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/ios/CCApplication-ios.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/ios/CCGLViewImpl-ios.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/ios/CCGL-ios.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/ios/CCStdC-ios.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_IOS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_ANDROID)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/android/CCApplication-android.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/android/CCGLViewImpl-android.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/android/CCGL-android.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/android/CCStdC-android.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">//Enhance<sp/>modification<sp/>begin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/android/CCEnhanceAPI-android.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">//Enhance<sp/>modification<sp/>end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_ANDROID</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_BLACKBERRY)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/blackberry/CCApplication.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/blackberry/CCGLViewImpl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/blackberry/CCGL.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/blackberry/CCStdC.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_BLACKBERRY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_WIN32)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/win32/CCApplication-win32.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/desktop/CCGLViewImpl-desktop.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/win32/CCGL-win32.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/win32/CCStdC-win32.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_MAC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/desktop/CCGLViewImpl-desktop.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/mac/CCApplication-mac.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/mac/CCGL-mac.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/mac/CCStdC-mac.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_LINUX)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/linux/CCApplication-linux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/desktop/CCGLViewImpl-desktop.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/linux/CCGL-linux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/linux/CCStdC-linux.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_LINUX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_WINRT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/winrt/CCApplication.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/winrt/CCGLViewImpl-winrt.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/winrt/CCGL.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/winrt/CCStdC.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_WINRT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CC_TARGET_PLATFORM<sp/>==<sp/>CC_PLATFORM_TIZEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/tizen/CCApplication-tizen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/tizen/CCGLViewImpl-tizen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/tizen/CCGL-tizen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#include<sp/>&quot;platform/tizen/CCStdC-tizen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="comment">//<sp/>script_support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;base/CCScriptSupport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sprite_nodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCAnimation.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCAnimationCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCSprite.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCAutoPolygon.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCSpriteBatchNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCSpriteFrame.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCSpriteFrameCache.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//<sp/>text_input_node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTextFieldTTF.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">//<sp/>textures</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;renderer/CCTextureAtlas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment">//<sp/>tilemap_parallax_nodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCParallaxNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTMXLayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTMXObjectGroup.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTMXTiledMap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTMXXMLParser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCTileMapAtlas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCFastTMXLayer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCFastTMXTiledMap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="comment">//<sp/>component</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;2d/CCComponentContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="comment">//3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCAABB.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCAnimate3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCAnimation3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCAttachNode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCBillBoard.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCFrustum.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCMesh.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCMeshSkin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCMotionStreak3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCMeshVertexIndexData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCOBB.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCPlane.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCRay.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCSkeleton3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCSkybox.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCSprite3D.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCSprite3DMaterial.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;3d/CCTerrain.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight><highlight class="comment">//<sp/>vr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;vr/CCVRGenericRenderer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Deprecated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>deprecated<sp/>features<sp/>are<sp/>include<sp/>inside<sp/>deprecated/CCDeprecated.h.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>is<sp/>recommended<sp/>that<sp/>you<sp/>just<sp/>include<sp/>what<sp/>is<sp/>needed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight><highlight class="comment">//<sp/>eg.<sp/>#include<sp/>&quot;deprecated/CCString.h&quot;<sp/>if<sp/>you<sp/>only<sp/>need<sp/>cocos2d::__String.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;deprecated/CCDeprecated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal">NS_CC_BEGIN</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal">CC_DLL<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="cocos2d_8h_1a33aa5727df78ae7412772348d405b0ed" kindref="member">cocos2dVersion</ref>();</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal">NS_CC_END</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__COCOS2D_H__</highlight></codeline>
+    </programlisting>
+    <location file="cocos2d.h"/>
+  </compounddef>
+</doxygen>

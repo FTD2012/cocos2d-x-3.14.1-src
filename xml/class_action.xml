@@ -1,0 +1,2348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_action" kind="class" language="C++" prot="public">
+    <compoundname>Action</compoundname>
+    <basecompoundref refid="class_ref" prot="public" virt="non-virtual">Ref</basecompoundref>
+    <basecompoundref refid="class_clonable" prot="public" virt="non-virtual">Clonable</basecompoundref>
+    <derivedcompoundref refid="class_finite_time_action" prot="public" virt="non-virtual">FiniteTimeAction</derivedcompoundref>
+    <derivedcompoundref refid="class_follow" prot="public" virt="non-virtual">Follow</derivedcompoundref>
+    <derivedcompoundref refid="class_speed" prot="public" virt="non-virtual">Speed</derivedcompoundref>
+    <includes refid="_c_c_action_8h" local="no">CCAction.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_action_1a095470578a5d879bfe6f777414ce5831" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Action::INVALID_TAG</definition>
+        <argsstring></argsstring>
+        <name>INVALID_TAG</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default tag used for all the actions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="55" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_action_1a710baac1dbe39ac34dc7f3461d4a8c39" prot="public" static="no" mutable="no">
+        <type><ref refid="cc_config_8h_1a25ef1314f97c35a2ed3d029b0ead6da0" kindref="member">CC_CONSTRUCTOR_ACCESS</ref></type>
+        <definition>CC_CONSTRUCTOR_ACCESS Action::__pad0__</definition>
+        <argsstring></argsstring>
+        <name>__pad0__</name>
+        <bitfield> Action()</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="163" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_action_1a0fdafea8c39af1be2acd2bedc62ca01f" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Action::_originalTarget</definition>
+        <argsstring></argsstring>
+        <name>_originalTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="168" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_1a3cf6593d3926baeefcd8197318680038" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Action::_target</definition>
+        <argsstring></argsstring>
+        <name>_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The &quot;target&quot;. The target will be set with the &apos;startWithTarget&apos; method. When the &apos;stop&apos; method is called, target will be set to nil. The target is &apos;assigned&apos;, it is not &apos;retained&apos;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="175" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_1a7e04eca811f3f728862300b3e248d7c0" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Action::_tag</definition>
+        <argsstring></argsstring>
+        <name>_tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The action tag. An identifier of the action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="177" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_action_1afb213a69b3e48d43cbb6c28af6e5fbc1" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Action::_flags</definition>
+        <argsstring></argsstring>
+        <name>_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The action flag field. To categorize action into certain groups. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="179" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_1ab593241dbcf25a8ac9160d6eb9d1c247" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Action::description</definition>
+        <argsstring>() const</argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NA  NA </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="60" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a6a047ad6b3bd200b0f86c7bb519b31ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+        <definition>virtual Action* Action::clone</definition>
+        <argsstring>() const</argsstring>
+        <name>clone</name>
+        <reimplements refid="class_clonable_1a36b05a0fa605f4f269e5884bde7f9e0c">clone</reimplements>
+        <reimplementedby refid="class_extra_action_1a758a349952071ad00b74ddf34cfa9b2a">clone</reimplementedby>
+        <reimplementedby refid="class_action_instant_1adb76fc6f006098109e8256210cbd8cc0">clone</reimplementedby>
+        <reimplementedby refid="class_shaky_tiles3_d_1ad83d154be5494000eb8fcfe657e503ff">clone</reimplementedby>
+        <reimplementedby refid="class_progress_to_1a55a418dbd387fca470d425df87291b0b">clone</reimplementedby>
+        <reimplementedby refid="class_grid_action_1a081a9340e9289cf2dcbb6bde121d4f24">clone</reimplementedby>
+        <reimplementedby refid="class_page_turn3_d_1a98aa1300a97553c4f4185d974021bdc4">clone</reimplementedby>
+        <reimplementedby refid="class_action_camera_1a316b7994753b978c45dbe150d6a711e5">clone</reimplementedby>
+        <reimplementedby refid="class_waves3_d_1ab41b6156741e145fbd6c3626bc16ec25">clone</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1a13868382e90e2760717cf8f91f697bc0">clone</reimplementedby>
+        <reimplementedby refid="class_show_1a0832b6fc1f6fcabc9284f0707d95881d">clone</reimplementedby>
+        <reimplementedby refid="class_action_tween_1aff915e251fce5eaac6c44871407c62e4">clone</reimplementedby>
+        <reimplementedby refid="class_progress_from_to_1a0ac214f0a34b42f2d6c303a37e7026db">clone</reimplementedby>
+        <reimplementedby refid="class_shattered_tiles3_d_1ae5b679ec020c8c3158c7b5c377d95c2f">clone</reimplementedby>
+        <reimplementedby refid="class_action_interval_1abc93ce0c2f54a90eb216a7803f25f44a">clone</reimplementedby>
+        <reimplementedby refid="class_flip_x3_d_1a3c8f037e07f76fbccb63a960c763a947">clone</reimplementedby>
+        <reimplementedby refid="class_hide_1a93ed7a1853923c544ac4e1039e65e8a8">clone</reimplementedby>
+        <reimplementedby refid="class_grid3_d_action_1a01d5b2d60654ef66d6551ac2190ed14c">clone</reimplementedby>
+        <reimplementedby refid="class_orbit_camera_1aed66da45d80c719cf06f603875b89ed4">clone</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_1a028a3801fc36418cf59018c457b8a102">clone</reimplementedby>
+        <reimplementedby refid="class_toggle_visibility_1a6a9b7e14c73ee877b9f4b29af4f7f5aa">clone</reimplementedby>
+        <reimplementedby refid="class_shuffle_tiles_1aedd65e1a5cad0797a3d7cf30366e7de8">clone</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_out_1a484d36a99d2847cfa4f273d5ec73c209">clone</reimplementedby>
+        <reimplementedby refid="class_flip_y3_d_1a797e0c0669bd83473d66dc8d77d49daa">clone</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_out_1a04bfa04ce8c396bdd5d058cfc771b9cb">clone</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_1a140c6fd97ab8a7d381fe5eebca3c4719">clone</reimplementedby>
+        <reimplementedby refid="class_sequence_1ad6a4cd778ab275e08dfd945efd5a736f">clone</reimplementedby>
+        <reimplementedby refid="class_remove_self_1abfb9c51cb63ea17adfdfc32dbe734984">clone</reimplementedby>
+        <reimplementedby refid="class_ease_sine_out_1ae364e7d3ac055bea87dc624642709fd6">clone</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_out_1a78a36c0d403d763d2d1c6a03a56a283c">clone</reimplementedby>
+        <reimplementedby refid="class_tiled_grid3_d_action_1a689fd377cc0abae91db7def106529b53">clone</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_1a36d193006cd57d915b764a7fc52d2768">clone</reimplementedby>
+        <reimplementedby refid="class_finite_time_action_1a44813fca4fdf22f367a4657147dd150b">clone</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_to_1aed2a776edc3e26b2ba7524230edf42de">clone</reimplementedby>
+        <reimplementedby refid="class_flip_x_1aa610da08d03c31d45ceceb5bb0795719">clone</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_out_1ae0c5aff0f2e8c7fcfad0d8385e1e2ec1">clone</reimplementedby>
+        <reimplementedby refid="class_lens3_d_1a7b97fe4349267d8a3a7404e8bc19aa33">clone</reimplementedby>
+        <reimplementedby refid="class_fade_out_t_r_tiles_1af7a6bf6cfa4ef6cccae911b026e49b48">clone</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_out_1acc12db9c905d8d49b135e084a9beef5e">clone</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_1a2f409b8e89fc64d521a6268ff701045d">clone</reimplementedby>
+        <reimplementedby refid="class_accel_deccel_amplitude_1af2ced484fb1b0116de6ed8f787247805">clone</reimplementedby>
+        <reimplementedby refid="class_repeat_1a758165a1dbeecf9ae2a9027da17bd115">clone</reimplementedby>
+        <reimplementedby refid="class_fade_out_b_l_tiles_1a09ddf5d56bdc979d963430286d50792b">clone</reimplementedby>
+        <reimplementedby refid="class_ease_back_out_1a76c84f18730150e2705b95f9678ad8c7">clone</reimplementedby>
+        <reimplementedby refid="class_flip_y_1a03fd09bf5754b23d7396d46bb4f594b2">clone</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_out_1a30f30de6135349f2454843428d7777e3">clone</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_by_1a35b00381b2823644533fd485817b147e">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_1a2e61f6edb0accd7573d55784d1ca508a">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_out_1a9621d836369fbaafdc3fda28846fe191">clone</reimplementedby>
+        <reimplementedby refid="class_fade_out_up_tiles_1aa408cee44da1d5e8ebb41063d58a0de9">clone</reimplementedby>
+        <reimplementedby refid="class_speed_1a3c7ac785094cbc7bc3a5428e6464c9bc">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_out_1a0cb4186dee46962ef6e801288c199a53">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_1a8b5a6564a7eb7284fc165aeb2b465986">clone</reimplementedby>
+        <reimplementedby refid="class_accel_amplitude_1aadcd81e8ae9f9d3e32541995b75eca51">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_out_1a0d29354269fc9a975fe64ff915bced49">clone</reimplementedby>
+        <reimplementedby refid="class_place_1acd8513fc561c66d883d39703b6d5b0d9">clone</reimplementedby>
+        <reimplementedby refid="class_catmull_rom_to_1ac06c19763c7b07903f19178f94694541">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_out_1a5f29576edb9028cb7c4461eea1030085">clone</reimplementedby>
+        <reimplementedby refid="class_fade_out_down_tiles_1a4a35c11502bbb834d6d4137cb03d2843">clone</reimplementedby>
+        <reimplementedby refid="class_ripple3_d_1a704ef078cca9cde6c85acbcd8e11cc4e">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_1a181a8206b5d3bd9aedf4c8ba88087c6c">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_out_1aa64dfcfe97d7f5b6684f7fd1ad252492">clone</reimplementedby>
+        <reimplementedby refid="class_repeat_forever_1a6aff66deb28868b17fff43abebff2643">clone</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_out_1a526fb6329aaea716cd6af4ea53d2cc01">clone</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_1a5660f86732520e32f34649644ac716e6">clone</reimplementedby>
+        <reimplementedby refid="class_catmull_rom_by_1a972f2e516b44eaa141ae270f575024e5">clone</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_out_1af7b506b72c223ae7ed2268dad54e5416">clone</reimplementedby>
+        <reimplementedby refid="class_deccel_amplitude_1a74b49064db52ceacf01ff30369251ef3">clone</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_out_1a552bd0eca0772b24c6ff2624072f65c3">clone</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_1a710f732cc78c6ef8d4697d4bd0021b3e">clone</reimplementedby>
+        <reimplementedby refid="class_turn_off_tiles_1a8387f89056e2ec088e64d49d1701b2dc">clone</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_out_1a477348e29bfcbe3bfd4766398aaefed8">clone</reimplementedby>
+        <reimplementedby refid="class_shaky3_d_1a419f771e52c23750ac4eab5808b76b1b">clone</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_out_1a763cbeffe3a66602e1524b5ec68341ad">clone</reimplementedby>
+        <reimplementedby refid="class_follow_1a52db9888349a5ae3c601a55c42586a65">clone</reimplementedby>
+        <reimplementedby refid="class_call_func_1a87c2d0fecf4d8ae9d4b58a28e594daf0">clone</reimplementedby>
+        <reimplementedby refid="class_stop_grid_1a3ab7a499f088f1ef4ce41a4131761bbf">clone</reimplementedby>
+        <reimplementedby refid="class_ease_in_1ac2db345fad4b62fa8485e6d40121a83c">clone</reimplementedby>
+        <reimplementedby refid="class_ease_out_1aaa3ddcdc100a3378279054d596e87178">clone</reimplementedby>
+        <reimplementedby refid="class_spawn_1a1c7481d301d5144cf1609296274d0f9d">clone</reimplementedby>
+        <reimplementedby refid="class_reuse_grid_1ac673b0ea0d616453756f40c4d04943ca">clone</reimplementedby>
+        <reimplementedby refid="class_ease_in_out_1a5bee2d31db0c1fefd2656c8eedd5831e">clone</reimplementedby>
+        <reimplementedby refid="class_waves_tiles3_d_1a950db06f66d1b1c3b5bdfe053db5bffb">clone</reimplementedby>
+        <reimplementedby refid="class_liquid_1ae1ca20f6c336cad86c748c547d1b4420">clone</reimplementedby>
+        <reimplementedby refid="class_call_func_n_1a0284c35f23aa8b68bc921eb044b6dd54">clone</reimplementedby>
+        <reimplementedby refid="class_rotate_to_1aa9e32e5c6c1975c40e55a7f29a11a082">clone</reimplementedby>
+        <reimplementedby refid="class_____c_c_call_func_n_d_1a0b1d35734a49b6c12144e4b025fe84eb">clone</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_1af0095a2934fe5ba057205638349c132f">clone</reimplementedby>
+        <reimplementedby refid="class_jump_tiles3_d_1a65989f533d25fd290a6997f63d14072a">clone</reimplementedby>
+        <reimplementedby refid="class_waves_1a4d92fc4a2d0d52f24310b4b9df4ae547">clone</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_out_1a1f1e56422100f620e725ec11c595e1f2">clone</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_out_1a3b008e59719729110c7965170788c0b4">clone</reimplementedby>
+        <reimplementedby refid="class_____c_c_call_func_o_1ae01d43dd90e3052c278e1431097c2b2e">clone</reimplementedby>
+        <reimplementedby refid="class_split_rows_1ad03535f13689bc0d79030170ce12f5ba">clone</reimplementedby>
+        <reimplementedby refid="class_rotate_by_1a357bd8a66b4d47a8be520d49a35e5a29">clone</reimplementedby>
+        <reimplementedby refid="class_split_cols_1a97e5eee11d109590c63b1c542a90f01e">clone</reimplementedby>
+        <reimplementedby refid="class_twirl_1a49ec654e932aa851844dac90fa0cc65c">clone</reimplementedby>
+        <reimplementedby refid="class_move_by_1a56e7a18b9eb4a9c106bac223103f937f">clone</reimplementedby>
+        <reimplementedby refid="class_move_to_1a0b5517ba663ab08cd69a51ba72b8e14c">clone</reimplementedby>
+        <reimplementedby refid="class_skew_to_1a9d7fb4b11a50457b43453cfdd5753231">clone</reimplementedby>
+        <reimplementedby refid="class_skew_by_1ae18e543aa3c28c8365543ae751530aff">clone</reimplementedby>
+        <reimplementedby refid="class_resize_to_1a187ae9350810bc93ec2407b29103ac8c">clone</reimplementedby>
+        <reimplementedby refid="class_resize_by_1a77547588c32d16183c06c175963475fc">clone</reimplementedby>
+        <reimplementedby refid="class_jump_by_1aea740cb701f25c7648c8eb24f71f6ba3">clone</reimplementedby>
+        <reimplementedby refid="class_jump_to_1a1ec85fd4b3d2190aee432923aea136c2">clone</reimplementedby>
+        <reimplementedby refid="class_bezier_by_1a38e476c4def21766d8592a864813dcfe">clone</reimplementedby>
+        <reimplementedby refid="class_bezier_to_1ace522cd65d274c3f0a77c7925a2f12d5">clone</reimplementedby>
+        <reimplementedby refid="class_scale_to_1a02707ca35819eabf4cc14909fec9a348">clone</reimplementedby>
+        <reimplementedby refid="class_scale_by_1a70d07c840c1ad6582695497afe970446">clone</reimplementedby>
+        <reimplementedby refid="class_blink_1a01f5110523a8984f73a447cac74f1121">clone</reimplementedby>
+        <reimplementedby refid="class_fade_to_1a662485a4513a6e717db8df6c6065c284">clone</reimplementedby>
+        <reimplementedby refid="class_fade_in_1ab6e6999c3e68cc9157acabd0a7db06d5">clone</reimplementedby>
+        <reimplementedby refid="class_fade_out_1af06dabca5e73a8ed67560c2540bbbb1f">clone</reimplementedby>
+        <reimplementedby refid="class_tint_to_1ad34183f5018f8066b096017bbcfefd02">clone</reimplementedby>
+        <reimplementedby refid="class_tint_by_1a01fb266a5a274c34fae1678860b31034">clone</reimplementedby>
+        <reimplementedby refid="class_delay_time_1a8dd10172bc899410a2dc0e9e48a73706">clone</reimplementedby>
+        <reimplementedby refid="class_reverse_time_1a5bbbb233eb04b5392365ef294260e5db">clone</reimplementedby>
+        <reimplementedby refid="class_animate_1a1c234e715c559e4482d7f955cf3f3e2d">clone</reimplementedby>
+        <reimplementedby refid="class_targeted_action_1ad94083c7a370faebf4ca01499c6ebf6a">clone</reimplementedby>
+        <reimplementedby refid="class_action_float_1aedf782fede49194ec2a70dfa06a18599">clone</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a clone of action.</para><para><simplesect kind="return"><para>A clone action. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="66" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a2f06b574c4f066a3f11854a77c456227" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_action" kindref="compound">Action</ref> *</type>
+        <definition>virtual Action* Action::reverse</definition>
+        <argsstring>() const</argsstring>
+        <name>reverse</name>
+        <reimplementedby refid="class_extra_action_1ac249af1bbc5f965c52e04a254ef84246">reverse</reimplementedby>
+        <reimplementedby refid="class_action_instant_1aeb1870802c509e1f4111c863a28e9262">reverse</reimplementedby>
+        <reimplementedby refid="class_progress_to_1af09c310239f700015d1875bdaf6dc8ae">reverse</reimplementedby>
+        <reimplementedby refid="class_grid_action_1a30591fa53babcd92fb490762fe55b3f7">reverse</reimplementedby>
+        <reimplementedby refid="class_action_camera_1aeac79c93c92de723838a30e59fb011a9">reverse</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1aa8acc0668132f57fee370bfdbea308cb">reverse</reimplementedby>
+        <reimplementedby refid="class_show_1a986a611688bc5f0252bb565682f52571">reverse</reimplementedby>
+        <reimplementedby refid="class_action_interval_1a9f9ac7164036a0bc261a72f62a2b2da7">reverse</reimplementedby>
+        <reimplementedby refid="class_action_tween_1af33247b6dd16a802630413ae0e03e3a1">reverse</reimplementedby>
+        <reimplementedby refid="class_progress_from_to_1a328d31cfce627f6d086ce9a8329d7be3">reverse</reimplementedby>
+        <reimplementedby refid="class_hide_1add2d09abe89637c2e68e4196384a6dd9">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_1aed789ba9f06994ce25edbba5d6de5178">reverse</reimplementedby>
+        <reimplementedby refid="class_toggle_visibility_1a4904108887e11c98fd1d536bb76b2d35">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_out_1a99fbc2a18b0b61cfbb2a17414eb9119f">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_out_1a0e2d25698ac0fb35d317e1144bd21bff">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_1a1de9aa9234921476d8cbfa1a3f555c29">reverse</reimplementedby>
+        <reimplementedby refid="class_sequence_1ad637da9eb81e01e9b6535c23220f9221">reverse</reimplementedby>
+        <reimplementedby refid="class_remove_self_1a687363c6f0d38c4be9b797b76a505648">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_sine_out_1a7fb6a1800ff40fa9cc4fc1ccf90f2540">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_out_1ab2145766805fee9e427df782fb51abac">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_1a6b94ac1d756e99d2ce718a313b13aac5">reverse</reimplementedby>
+        <reimplementedby refid="class_finite_time_action_1a886bbdd2dc82167fe6ffae664c22dacc">reverse</reimplementedby>
+        <reimplementedby refid="class_flip_x_1af626c89fa9e3c2881fe52a48eecef17d">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_out_1a95486d1fc1cfd11bf11ced6a83f40a82">reverse</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_to_1aecb2ad46af2d58995820c9dfc1f6459f">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_out_1a330ae625877f664392cd6a3943e5508f">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_1a79ac3292fef1c39370c668b99372b256">reverse</reimplementedby>
+        <reimplementedby refid="class_accel_deccel_amplitude_1afd103ab39995dc66fe03853e7c937c45">reverse</reimplementedby>
+        <reimplementedby refid="class_repeat_1ac20df5514656526699db17946a51279a">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_back_out_1acf37a76a71da70fd233dd28934332316">reverse</reimplementedby>
+        <reimplementedby refid="class_flip_y_1a41c7c49f5a9cac8f174ce8eb79eb4d0d">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_out_1a2510e077f1b9081a74e912f19f78f293">reverse</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_by_1ac5084ddc681589404f2a26d52815344b">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_1aa0199944cb3c508c718c6a1692dad435">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_out_1a20fe5e60c634967c648e6654d04e2436">reverse</reimplementedby>
+        <reimplementedby refid="class_speed_1a6662f73e93a1275be4655be85021f531">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_out_1a67b904bbd361c133768596a50ec66260">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_1ad04b463e50fed29fbffc1b602aa9b85f">reverse</reimplementedby>
+        <reimplementedby refid="class_place_1aea55a3981ebe1aa3ad8fd4cd7bf26337">reverse</reimplementedby>
+        <reimplementedby refid="class_accel_amplitude_1a9264913ab0a54485fd26f7110fdd0921">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_out_1adad613bcf251b57e18462d59090b899a">reverse</reimplementedby>
+        <reimplementedby refid="class_catmull_rom_to_1ac3a4e10bb0ce746fc0dc76d804482bc3">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_out_1afbbadb006f3f338849db2fe5404d24aa">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_1a97be8b3b51bc6d82ca97c8795aa7a921">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_out_1a56ad1588f784fcf1cf7f95b5d4bbc4aa">reverse</reimplementedby>
+        <reimplementedby refid="class_repeat_forever_1a83185ebb621d7dd7363b3b315170665e">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_out_1a9b9803e54f5ac7411a954748a8b0f55a">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_1ad5f13cbdee45d8a3f87a4baf81342f3e">reverse</reimplementedby>
+        <reimplementedby refid="class_catmull_rom_by_1a2f027f2c6627f98ffcc75a64ff6b0cd0">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_out_1abd23206dcfde2aa66d8ea5f3c9a91e67">reverse</reimplementedby>
+        <reimplementedby refid="class_deccel_amplitude_1a57d1d15a1bfb1a397a78f21ae6d54d92">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_out_1a5087f8d13cf4e8c23b8a4d92c2cbc939">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_1aae0cee0cf330d8675d0c6e3b5d97c4f7">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_out_1a8cb78a131c8c08510b1962fd88a02a3e">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_out_1add0e493d912fe79e89a45f0a372edad4">reverse</reimplementedby>
+        <reimplementedby refid="class_follow_1a1b9dd57b4347bcaf927f2f4e3cf4db65">reverse</reimplementedby>
+        <reimplementedby refid="class_call_func_1a5c39f0a5cc14916897280a4a37cc7125">reverse</reimplementedby>
+        <reimplementedby refid="class_stop_grid_1a02dcf952035340874d9b8a207e0c4da9">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_in_1acf4863ca25bc52f1c86569e33d929071">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_out_1a56c0bc534bc5a38fce3875627372e91e">reverse</reimplementedby>
+        <reimplementedby refid="class_spawn_1a1000d2ebd49581fd3a9bb7adc74a1492">reverse</reimplementedby>
+        <reimplementedby refid="class_reuse_grid_1ac5ec66174df4786da1005acbcb9b62a8">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_in_out_1a19110058efdc83d5cd54d0818c82e60a">reverse</reimplementedby>
+        <reimplementedby refid="class_rotate_to_1aa33593a0fb9f174ed68ebcf15432a005">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_1ae29b6a632f6721e3b43786df80b86cc1">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_out_1a3da4544ffa360bd28296d2e120b2fdc9">reverse</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_out_1a63e511aabde2bb342e23dfb653768c20">reverse</reimplementedby>
+        <reimplementedby refid="class_rotate_by_1a3aab93d46d83679a5ce4b51a9a554031">reverse</reimplementedby>
+        <reimplementedby refid="class_move_by_1a3a29609f88b72d383c31e122693185f7">reverse</reimplementedby>
+        <reimplementedby refid="class_move_to_1afb568e581e69aad40f815e48eb13cb54">reverse</reimplementedby>
+        <reimplementedby refid="class_skew_to_1a4e35b4a1e7572f0c74c8d7684f02f3fd">reverse</reimplementedby>
+        <reimplementedby refid="class_skew_by_1ab7828c1588809a605fac2cba100f148d">reverse</reimplementedby>
+        <reimplementedby refid="class_resize_by_1aa804fa79624555d14540db0b4de35919">reverse</reimplementedby>
+        <reimplementedby refid="class_jump_by_1a009830002b7a51e9e630baa0b227d279">reverse</reimplementedby>
+        <reimplementedby refid="class_jump_to_1adc71d1883b687ba53a86a5a42c20faa4">reverse</reimplementedby>
+        <reimplementedby refid="class_bezier_by_1a6b767fe2cddd49ad43cc2724684e3810">reverse</reimplementedby>
+        <reimplementedby refid="class_bezier_to_1a18d090decbea9839a379121a012063f6">reverse</reimplementedby>
+        <reimplementedby refid="class_scale_to_1a511d41e9e8a8b2ad3a751bb455912c03">reverse</reimplementedby>
+        <reimplementedby refid="class_scale_by_1a67a91333721ef688c63e20871e4d982b">reverse</reimplementedby>
+        <reimplementedby refid="class_blink_1a4e2631e42f7ef86f0fc5097e87f352c5">reverse</reimplementedby>
+        <reimplementedby refid="class_fade_to_1a40e463b17c90aa34c3ffe0c3dc016742">reverse</reimplementedby>
+        <reimplementedby refid="class_fade_in_1a3c6c2fb763c9c394d37d2d699c482c3a">reverse</reimplementedby>
+        <reimplementedby refid="class_fade_out_1aefa1585ac126946418ca92cb74b8a130">reverse</reimplementedby>
+        <reimplementedby refid="class_tint_to_1a9d85d4b6352bafc35a4c876fa712ae23">reverse</reimplementedby>
+        <reimplementedby refid="class_tint_by_1a674e95cda92174cc3f564385b925b1aa">reverse</reimplementedby>
+        <reimplementedby refid="class_delay_time_1a83764e1720652642ff03088f0a311c95">reverse</reimplementedby>
+        <reimplementedby refid="class_reverse_time_1a191b205600fcebbc7b0a5101bcef9a7d">reverse</reimplementedby>
+        <reimplementedby refid="class_animate_1a30f0bdbce81651636bae3ad34b5b64b8">reverse</reimplementedby>
+        <reimplementedby refid="class_targeted_action_1a58dc5d2de3cecda888ae57c299cc6c1c">reverse</reimplementedby>
+        <reimplementedby refid="class_action_float_1ace1ae89fd53f2e0e195edcae89601032">reverse</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a new action that performs the exact reverse of the action.</para><para><simplesect kind="return"><para>A new action that performs the exact reverse of the action.  NA </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="77" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a9b5dd627540a85f89f3e82acd46b7772" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Action::isDone</definition>
+        <argsstring>() const</argsstring>
+        <name>isDone</name>
+        <reimplementedby refid="class_action_instant_1a7fbc64336f2ac770d3ef9d653ae25b27">isDone</reimplementedby>
+        <reimplementedby refid="class_action_interval_1a466ff6a3a5f95e47d4d01bfa4775290d">isDone</reimplementedby>
+        <reimplementedby refid="class_repeat_1a01f8323eda5c46d6f103e8f8c5027f30">isDone</reimplementedby>
+        <reimplementedby refid="class_speed_1a6c357c4da932b6793c4626975546cb28">isDone</reimplementedby>
+        <reimplementedby refid="class_repeat_forever_1a373f8961c015a1afa61c293ce787382c">isDone</reimplementedby>
+        <reimplementedby refid="class_follow_1a7b551b92d3313e4fe3aadbed45283911">isDone</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if the action has finished.</para><para><simplesect kind="return"><para>Is true if the action has finished. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="87" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a5457090e4a035c6283777c893a9a681b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Action::startWithTarget</definition>
+        <argsstring>(Node *target)</argsstring>
+        <name>startWithTarget</name>
+        <reimplementedby refid="class_action_ease_1a04976f42219b97e850043ab9cd182918">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_progress_to_1a9533f1dab48b9243b170f463b8498f07">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_action_camera_1ab523607be45f90017decf4c5e493c733">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_grid_action_1a33e2c1bc95bbcf6b16428097b4fd4b61">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1a0c04fb9d432a3fd7811235c492a4969f">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_action_tween_1ae530a9f86b98f8d4a336c4b0774311aa">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_action_interval_1ad3d91186b2c3108488ddbbdbbd982484">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_progress_from_to_1a27405d1d6988dc13852ff8a1c1fd6b2f">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_orbit_camera_1ac9e4f661d400a95bf06da3ebb2ad4483">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_shuffle_tiles_1aa5b245843f208ba8300d6eb302937163">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_sequence_1a8da6e287023489db0c5abe888b905697">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_to_1ab1e28aab8fe748bd90cc370efc52bef5">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_accel_deccel_amplitude_1a1ceadaa1a00e4d4c360b0154fa7687ef">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_repeat_1a9581525d20c31f12cb94015183ffa220">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_by_1aaf4bff6ebce3d2ccf6dfaa71678d4462">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_speed_1aba4c99e1a403b7966e03a05110c2647f">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_accel_amplitude_1ae8d088ea86d2ade5282f10a785d1e0a8">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_repeat_forever_1acdaeb5aec3a6cd6c0f3347c80634d02d">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_deccel_amplitude_1a130c290651e4e5809bfc4f670825e30d">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_turn_off_tiles_1ac06cc826e738b0fe0df40fe554a00d45">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_stop_grid_1ac08e33d5e58962f6b9e1048c10c5ea44">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_spawn_1a12784be2d96c07bacacdb92f53c02c70">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_reuse_grid_1abf42c6057c8691102243dddcce1d749f">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_rotate_to_1a6d31ab7382b1d028b533d89dd1ca1980">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_split_rows_1a46357d39bbf4e251086b42e4ad9ba9a1">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_rotate_by_1aaad515a54f706e1b5a9e6f17beb2371a">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_split_cols_1a6378035983a5b7f31ea3f3e2638a750c">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_move_by_1ab83e2fe86e82757fa11cb734a4971a5f">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_move_to_1af9f86e7c5d391fe494cf6a597b839b13">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_skew_to_1a43613e8ef08aead6e3dab8d27dda7c0e">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_skew_by_1a8f9601dbf00d1a79972bcef59201bd32">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_resize_to_1a7fb76b25f5dbf258bdafaa615f13a05b">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_resize_by_1ad13f3b670bd86ef939ce97460baeb8bd">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_jump_by_1a3b05635b8834c6269b249dc1247854e9">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_jump_to_1abb2372358d593932355300cb89a79f96">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_bezier_by_1a3a68011f000b7f0ad58668b3ec0f7494">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_bezier_to_1ad45e47e3da2159e77c5b82fa1b6b2b1a">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_scale_to_1a2591cf6fc3d966d7799bac46acce04d7">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_scale_by_1a1212167a4e86b3a8087e72602698d50e">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_blink_1a29dde0a5d1edba675cd5a9e60cfa2de7">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_fade_to_1a7846758ff3760d099ca70c279c52bde0">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_fade_in_1a3a1c5c7aa1b80845aceeeb06ed059fad">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_fade_out_1a41e8895429e5942e43b3a60c117e0a2b">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_tint_to_1a1ef6a2ccefbb95cf2234a6671b73609c">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_tint_by_1a7fd302e5928e7ffbfe6f42cffc931990">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_reverse_time_1a5872b14aa6f27a0f76bc5542da183b53">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_animate_1ad9c0defb552a4bd8bfbc4d9dad96c59b">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_targeted_action_1a4e8be95b436457dd7b297f02ca5bf842">startWithTarget</reimplementedby>
+        <reimplementedby refid="class_action_float_1a898675a5b5c372d44abec94d55632ae0">startWithTarget</reimplementedby>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called before the action start. It will also set the target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="93" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a968267fa7a1dcc46a2976249a712d3c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Action::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <reimplementedby refid="class_action_ease_1a1a12083389f0bec7b1de3ef2c832597a">stop</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1a9d27a950ce7942a73a392936951fc263">stop</reimplementedby>
+        <reimplementedby refid="class_sequence_1a14332cc490ebbbb1c372eff0dc4cd025">stop</reimplementedby>
+        <reimplementedby refid="class_repeat_1ae7d7d020a49dbbe3ee160fe22db02ad2">stop</reimplementedby>
+        <reimplementedby refid="class_speed_1afc0df0c91cfcb119182fec7ccf470f45">stop</reimplementedby>
+        <reimplementedby refid="class_follow_1a2cd8dbd76066ecb517c6d5bdca032d6c">stop</reimplementedby>
+        <reimplementedby refid="class_spawn_1ab743d2f0b325be11b8939162d9d8984c">stop</reimplementedby>
+        <reimplementedby refid="class_blink_1ac2299db1e757e2911e35ee9c88fc477c">stop</reimplementedby>
+        <reimplementedby refid="class_reverse_time_1af59bd73c03add3be189a371f5f338b72">stop</reimplementedby>
+        <reimplementedby refid="class_animate_1a546b7b7817303ad58f57c6c97d64c4ed">stop</reimplementedby>
+        <reimplementedby refid="class_targeted_action_1a688769917c245a9f885bbe49a73e37fa">stop</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called after the action has finished. It will set the &apos;target&apos; to nil. IMPORTANT: You should never call &quot;Action::stop()&quot; manually. Instead, use: &quot;target-&gt;stopAction(action);&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="99" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a9a64ee9e8e977672748f70893ebaff66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Action::step</definition>
+        <argsstring>(float dt)</argsstring>
+        <name>step</name>
+        <reimplementedby refid="class_extra_action_1a7e15c6b27f49d1057bf81bd0527f041b">step</reimplementedby>
+        <reimplementedby refid="class_action_instant_1ab6c8b1bb612803681a2727a1d5d7b5df">step</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1a0bd0e3f67af5be334ef07255a711c476">step</reimplementedby>
+        <reimplementedby refid="class_action_interval_1a9a520f0c4bd2d5b92e7f355bccd6f5cf">step</reimplementedby>
+        <reimplementedby refid="class_speed_1a971cac28a44053f2011871529dac49a1">step</reimplementedby>
+        <reimplementedby refid="class_repeat_forever_1ab54150411685995a17a2b68d561e8d9c">step</reimplementedby>
+        <reimplementedby refid="class_follow_1a0f027ac080c352070a653d1dbb8f761d">step</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called every frame with it&apos;s delta time, dt in seconds. DON&apos;T override unless you know what you are doing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>In seconds. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="105" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a937e646e63915e33ad05ba149bfcf239" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Action::update</definition>
+        <argsstring>(float time)</argsstring>
+        <name>update</name>
+        <reimplementedby refid="class_extra_action_1a65059820b110dbea5b63cd7ac6278434">update</reimplementedby>
+        <reimplementedby refid="class_shaky_tiles3_d_1ac500b90b3a13015c8319799950e4de44">update</reimplementedby>
+        <reimplementedby refid="class_progress_to_1afce4ccb876eb502a7c1fa7521cb06099">update</reimplementedby>
+        <reimplementedby refid="class_action_ease_1a77679f09c02cf75fb54776470c339fc5">update</reimplementedby>
+        <reimplementedby refid="class_page_turn3_d_1afe5bcf11756795416fc882a3b0be1c66">update</reimplementedby>
+        <reimplementedby refid="class_action_instant_1a59875bf08cd1f58c0c8c6693ac540ade">update</reimplementedby>
+        <reimplementedby refid="class_waves3_d_1ab57395f1108bb8a86bf722ebbab2cdd1">update</reimplementedby>
+        <reimplementedby refid="class_show_1a81b501eda1e567344ad4ecf695b1be86">update</reimplementedby>
+        <reimplementedby refid="class_animate3_d_1a03bc0bc8212147a742f059fc93361910">update</reimplementedby>
+        <reimplementedby refid="class_action_tween_1a57ff5b74c67554251c0294192d56d744">update</reimplementedby>
+        <reimplementedby refid="class_shattered_tiles3_d_1a57e1d5d09bc2dce9a76828ccf50c1a09">update</reimplementedby>
+        <reimplementedby refid="class_progress_from_to_1aebb245e96342caf698903ebd33ff9421">update</reimplementedby>
+        <reimplementedby refid="class_hide_1a108b8127537cc5da94f63444e3fb23f3">update</reimplementedby>
+        <reimplementedby refid="class_flip_x3_d_1a6f3b43c2a5cf49ed00a373bf54cd97e9">update</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_1abc674dd0975bb25dd079583546516602">update</reimplementedby>
+        <reimplementedby refid="class_orbit_camera_1af3b5763c1f141127cdb131f1f232d67d">update</reimplementedby>
+        <reimplementedby refid="class_toggle_visibility_1a7a00173aaded366259698c37ebbb2ca0">update</reimplementedby>
+        <reimplementedby refid="class_shuffle_tiles_1a045829c657840301dc75208581fb5d94">update</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_out_1acbd15c86c12116c3482640a3f8f83d5f">update</reimplementedby>
+        <reimplementedby refid="class_flip_y3_d_1ad3c0474d05070c8defea64cc4d47d8b6">update</reimplementedby>
+        <reimplementedby refid="class_ease_exponential_in_out_1a856f7d0224d0ae8055b4a91a1538ce73">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_1aa409768eb74f38a9c8c7346f9c5243e1">update</reimplementedby>
+        <reimplementedby refid="class_remove_self_1a362b4453b4b247e9b4b7e51fc1bd7c44">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_out_1ab22bfc099303b7e48a1f8c308a930e66">update</reimplementedby>
+        <reimplementedby refid="class_sequence_1a336d205df83e1a4ff0ab4ecbc8cf56e3">update</reimplementedby>
+        <reimplementedby refid="class_ease_sine_in_out_1a6c5c73d3e2bfeb21315b2d9798cf562f">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_1a3b912af264515d06f8671179b17ae729">update</reimplementedby>
+        <reimplementedby refid="class_flip_x_1ac83f96bee0cebd14b4d06813bd259047">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_out_1a044e81fb5f2c10b4064891a9bfdae231">update</reimplementedby>
+        <reimplementedby refid="class_fade_out_t_r_tiles_1a29c5392c4e1dee18689599e6a3d31671">update</reimplementedby>
+        <reimplementedby refid="class_lens3_d_1a927eb7e63d32fd9f2f8db744524d380f">update</reimplementedby>
+        <reimplementedby refid="class_cardinal_spline_to_1ae59f479c5041896e373bdcc8af9cdd30">update</reimplementedby>
+        <reimplementedby refid="class_ease_bounce_in_out_1abd929d5112158561a9d793a46cc51fc1">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_1a6c053160bd8e0c98f23b1dd3acbc527c">update</reimplementedby>
+        <reimplementedby refid="class_accel_deccel_amplitude_1abc44a9707cdbf2356e8321d49f651df1">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_out_1a458a06e1b120e51c52a4687ced84f757">update</reimplementedby>
+        <reimplementedby refid="class_repeat_1afc3c9f93a8dae8689f177a250309518f">update</reimplementedby>
+        <reimplementedby refid="class_flip_y_1a75442be63f171b641a1f98165e915439">update</reimplementedby>
+        <reimplementedby refid="class_ease_back_in_out_1ae26d3104da166cedfd16ea1915069a4a">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_1ac773c27eef9d3d90ae1021d75ad25301">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_out_1afa53b3044fab72ac2ad29a6c2a4b2a24">update</reimplementedby>
+        <reimplementedby refid="class_ease_quadratic_action_in_out_1ac72e1da241d156a748cf02d5cb8e72c1">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_1a82026b58ce9a4eee9165380de2dd80dc">update</reimplementedby>
+        <reimplementedby refid="class_accel_amplitude_1adfd14b34a7bf24c50f9090aa187bb603">update</reimplementedby>
+        <reimplementedby refid="class_place_1ac1096e69dd514a74920ae060ab1b671f">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_out_1a00d0cdbad4cb7d38c9655780f2034a97">update</reimplementedby>
+        <reimplementedby refid="class_ease_quartic_action_in_out_1a331f286f05a385660f6bff75d5665178">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_1a168f914597d873e6071d39118f2cf9f5">update</reimplementedby>
+        <reimplementedby refid="class_ripple3_d_1a99d5d92c7394aa596fbba3008096d72f">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_out_1ab78421446d94c0d0ded5329ed9a3716d">update</reimplementedby>
+        <reimplementedby refid="class_ease_quintic_action_in_out_1ada59f8dcd6ba1daeaa1fb9d5b1087521">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_1a8d48762a47eb738ca2b8fb644182e91b">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_out_1a48e4c603a5dd0eb56f289dd2ffd8d26b">update</reimplementedby>
+        <reimplementedby refid="class_deccel_amplitude_1a723e93602a70792b77435283425d0403">update</reimplementedby>
+        <reimplementedby refid="class_ease_circle_action_in_out_1a6a9cb49f30bc664ab65a067ce48b506e">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_1a245bc3028244567a11dbe02bc2e11a10">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_out_1a2bebf38d7167886e1ae4643b92e05d72">update</reimplementedby>
+        <reimplementedby refid="class_turn_off_tiles_1a7388045e189c5831c6ebc4616f7ad752">update</reimplementedby>
+        <reimplementedby refid="class_shaky3_d_1a5ae962a35331b8d658e078b8a5a578d8">update</reimplementedby>
+        <reimplementedby refid="class_ease_cubic_action_in_out_1a533edabe94657e779ad4e4c6d6d1782f">update</reimplementedby>
+        <reimplementedby refid="class_call_func_1a935c2f87c96d2a5b9e78b1ca875e9d7a">update</reimplementedby>
+        <reimplementedby refid="class_ease_in_1a9a03c0c893472d723d2d905e5fd39856">update</reimplementedby>
+        <reimplementedby refid="class_ease_out_1a1fe43c782ff47f143ab5db00f7c76aea">update</reimplementedby>
+        <reimplementedby refid="class_spawn_1a31d8a91378f9ebe0c639fa63a999c34e">update</reimplementedby>
+        <reimplementedby refid="class_ease_in_out_1ac0e5f3d973cdc7b7d83cc73774ae0321">update</reimplementedby>
+        <reimplementedby refid="class_waves_tiles3_d_1a02aeb1343fa7e6fd530c35f805d49665">update</reimplementedby>
+        <reimplementedby refid="class_liquid_1af8fb9abd724ae6ea4ff9db4b07421c61">update</reimplementedby>
+        <reimplementedby refid="class_rotate_to_1a2373d42f88a808956eacc7c50c1121c1">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_1acd62b61c4f4013bd98dcd991fbe9e276">update</reimplementedby>
+        <reimplementedby refid="class_jump_tiles3_d_1a88323f8656870818d0d517392ce70e52">update</reimplementedby>
+        <reimplementedby refid="class_waves_1aa08ec978ee072d46a94068504cc997e8">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_out_1a37dea32a0e909747540cc5625cd7893a">update</reimplementedby>
+        <reimplementedby refid="class_ease_elastic_in_out_1adb67d3b3eec6b3b8fd2b7a22ed72c4f8">update</reimplementedby>
+        <reimplementedby refid="class_split_rows_1a38725e447edc1ccae1e0b9333192b346">update</reimplementedby>
+        <reimplementedby refid="class_rotate_by_1ab893a1ea5e91e7d506c63d08322ce218">update</reimplementedby>
+        <reimplementedby refid="class_split_cols_1afa102b8f74e40bb4484a7470ff64fbef">update</reimplementedby>
+        <reimplementedby refid="class_twirl_1a5f8f817299b42802d69bf94be42bc858">update</reimplementedby>
+        <reimplementedby refid="class_move_by_1afabf897627fba061a80ab8121840347e">update</reimplementedby>
+        <reimplementedby refid="class_skew_to_1ae307437cb6dee495f55dd350ccccd1c4">update</reimplementedby>
+        <reimplementedby refid="class_resize_to_1a081502ef533e7de8e4c53e8e0e7a1412">update</reimplementedby>
+        <reimplementedby refid="class_resize_by_1aa04b69df4e3c06baba3141932dbd0d2e">update</reimplementedby>
+        <reimplementedby refid="class_jump_by_1a9c3f6254cee8c998018b3ffb94c3cede">update</reimplementedby>
+        <reimplementedby refid="class_bezier_by_1a99520417807192413ef4a3eca76682b8">update</reimplementedby>
+        <reimplementedby refid="class_scale_to_1ac3678e85987891e4cc2e9d612569541c">update</reimplementedby>
+        <reimplementedby refid="class_blink_1a20ce5c25af940fe152d600a20b183f84">update</reimplementedby>
+        <reimplementedby refid="class_fade_to_1a1ce1e954d444943c1ec9923f14b3c599">update</reimplementedby>
+        <reimplementedby refid="class_tint_to_1a09ec73412f7343b89a0a86ca560a1383">update</reimplementedby>
+        <reimplementedby refid="class_tint_by_1af8e773a8164eed5d22d3ff801d5f6569">update</reimplementedby>
+        <reimplementedby refid="class_delay_time_1a95c80d348c1803a2cb832a3d0e246c5e">update</reimplementedby>
+        <reimplementedby refid="class_reverse_time_1a7a321c5c5d148b4e9d718ba67c974297">update</reimplementedby>
+        <reimplementedby refid="class_animate_1ae86fbd3249e9272b1d35d7256d6bcfd6">update</reimplementedby>
+        <reimplementedby refid="class_targeted_action_1a031468e095f1c4693a5e265664f7c337">update</reimplementedby>
+        <reimplementedby refid="class_action_float_1a0b6b333b5524a617f3088b2c1893b55c">update</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called once per frame. time a value between 0 and 1.</para><para>For example:<itemizedlist>
+<listitem><para>0 Means that the action just started.</para></listitem><listitem><para>0.5 Means that the action is in the middle.</para></listitem><listitem><para>1 Means that the action is over.</para></listitem></itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A value between 0 and 1. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="117" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a696d1ef82807cc18207ba93d59d6ca16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Action::getTarget</definition>
+        <argsstring>() const</argsstring>
+        <name>getTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return certain target.</para><para><simplesect kind="return"><para>A certain target. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="122" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1abd61e00e97d9604126cf149112b877de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Action::setTarget</definition>
+        <argsstring>(Node *target)</argsstring>
+        <name>setTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The action will modify the target properties.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A certain target. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="127" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a50cdb52f323c6756ec300e4d0f86596a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+        <definition>Node* Action::getOriginalTarget</definition>
+        <argsstring>() const</argsstring>
+        <name>getOriginalTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return a original Target.</para><para><simplesect kind="return"><para>A original Target. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="132" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1aa58699929e174e97a057b51e83fcc1f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Action::setOriginalTarget</definition>
+        <argsstring>(Node *originalTarget)</argsstring>
+        <name>setOriginalTarget</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref> *</type>
+          <declname>originalTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the original target, since target can be nil. Is the target that were used to run the action. Unless you are doing something complex, like <ref refid="class_action_manager" kindref="compound">ActionManager</ref>, you should NOT call this method. The target is &apos;assigned&apos;, it is not &apos;retained&apos;. <simplesect kind="since"><para>v0.8.2</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>originalTarget</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Is &apos;assigned&apos;, it is not &apos;retained&apos;. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="141" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a1f090a477cab2dbc8175385c66b91c31" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Action::getTag</definition>
+        <argsstring>() const</argsstring>
+        <name>getTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a tag that is used to identify the action easily.</para><para><simplesect kind="return"><para>A tag. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="146" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1ac23487f50607b5acef33c1aa7dd9468e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Action::setTag</definition>
+        <argsstring>(int tag)</argsstring>
+        <name>setTag</name>
+        <param>
+          <type>int</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the tag that is used to identify the action easily.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Used to identify the action easily. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="151" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1aabe5706c0cc66d461b14558728dccf01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int Action::getFlags</definition>
+        <argsstring>() const</argsstring>
+        <name>getFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a flag field that is used to group the actions easily.</para><para><simplesect kind="return"><para>A tag. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="156" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1a848b0f80143acd07c814735463a8e920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Action::setFlags</definition>
+        <argsstring>(unsigned int flags)</argsstring>
+        <name>setFlags</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the flag field that is used to group the actions easily.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Used to group the actions easily. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="161" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_1acdb06775d157339256a8ecd55749226c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Action::~Action</definition>
+        <argsstring>()</argsstring>
+        <name>~Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="165" column="1" bodyfile="cocos/2d/CCAction.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_action_1acb35dc9100d21840f6795492673dfd7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Action::CC_DISALLOW_COPY_AND_ASSIGN</definition>
+        <argsstring>(Action)</argsstring>
+        <name>CC_DISALLOW_COPY_AND_ASSIGN</name>
+        <param>
+          <type><ref refid="class_action" kindref="compound">Action</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCAction.h" line="185" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for <ref refid="class_action" kindref="compound">Action</ref> objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="930">
+        <label>ExtraAction</label>
+        <link refid="class_extra_action"/>
+        <childnode refid="810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="902">
+        <label>ShatteredTiles3D</label>
+        <link refid="class_shattered_tiles3_d"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>EaseQuadraticActionInOut</label>
+        <link refid="class_ease_quadratic_action_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="888">
+        <label>Liquid</label>
+        <link refid="class_liquid"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="923">
+        <label>Sequence</label>
+        <link refid="class_sequence"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>Shaky3D</label>
+        <link refid="class_shaky3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="929">
+        <label>TintTo</label>
+        <link refid="class_tint_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="810">
+        <label>FiniteTimeAction</label>
+        <link refid="class_finite_time_action"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="916">
+        <label>ResizeBy</label>
+        <link refid="class_resize_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>EaseSineOut</label>
+        <link refid="class_ease_sine_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="821">
+        <label>ReuseGrid</label>
+        <link refid="class_reuse_grid"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="869">
+        <label>Animate</label>
+        <link refid="class_animate"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+        <childnode refid="809" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>EaseQuarticActionInOut</label>
+        <link refid="class_ease_quartic_action_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="862">
+        <label>EaseInOut</label>
+        <link refid="class_ease_in_out"/>
+        <childnode refid="860" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>FadeOutTRTiles</label>
+        <link refid="class_fade_out_t_r_tiles"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="834">
+        <label>EaseBounce</label>
+        <link refid="class_ease_bounce"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>FadeOut</label>
+        <link refid="class_fade_out"/>
+        <childnode refid="880" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="912">
+        <label>ProgressFromTo</label>
+        <link refid="class_progress_from_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>Animate3D</label>
+        <link refid="class_animate3_d"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="909">
+        <label>JumpTo</label>
+        <link refid="class_jump_to"/>
+        <childnode refid="908" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="878">
+        <label>DeccelAmplitude</label>
+        <link refid="class_deccel_amplitude"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>OrbitCamera</label>
+        <link refid="class_orbit_camera"/>
+        <childnode refid="828" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>BezierTo</label>
+        <link refid="class_bezier_to"/>
+        <childnode refid="871" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="874">
+        <label>CardinalSplineTo</label>
+        <link refid="class_cardinal_spline_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>EaseQuadraticActionIn</label>
+        <link refid="class_ease_quadratic_action_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="858">
+        <label>EaseQuinticActionInOut</label>
+        <link refid="class_ease_quintic_action_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="885">
+        <label>FlipX3D</label>
+        <link refid="class_flip_x3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="893">
+        <label>Waves</label>
+        <link refid="class_waves"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>AccelDeccelAmplitude</label>
+        <link refid="class_accel_deccel_amplitude"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="822">
+        <label>Show</label>
+        <link refid="class_show"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="904">
+        <label>SplitCols</label>
+        <link refid="class_split_cols"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="877">
+        <label>CatmullRomTo</label>
+        <link refid="class_catmull_rom_to"/>
+        <childnode refid="874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>Spawn</label>
+        <link refid="class_spawn"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="842">
+        <label>EaseCubicActionInOut</label>
+        <link refid="class_ease_cubic_action_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>CallFunc</label>
+        <link refid="class_call_func"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>EaseQuinticActionOut</label>
+        <link refid="class_ease_quintic_action_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="903">
+        <label>ShuffleTiles</label>
+        <link refid="class_shuffle_tiles"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="889">
+        <label>PageTurn3D</label>
+        <link refid="class_page_turn3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="905">
+        <label>SplitRows</label>
+        <link refid="class_split_rows"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="918">
+        <label>ReverseTime</label>
+        <link refid="class_reverse_time"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>ActionEase</label>
+        <link refid="class_action_ease"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="845">
+        <label>EaseElasticIn</label>
+        <link refid="class_ease_elastic_in"/>
+        <childnode refid="844" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="914">
+        <label>Repeat</label>
+        <link refid="class_repeat"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="899">
+        <label>FadeOutDownTiles</label>
+        <link refid="class_fade_out_down_tiles"/>
+        <childnode refid="898" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="922">
+        <label>ScaleBy</label>
+        <link refid="class_scale_by"/>
+        <childnode refid="921" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="837">
+        <label>EaseBounceOut</label>
+        <link refid="class_ease_bounce_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="884">
+        <label>Grid3DAction</label>
+        <link refid="class_grid3_d_action"/>
+        <childnode refid="883" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="864">
+        <label>EaseSineIn</label>
+        <link refid="class_ease_sine_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>ActionFloat</label>
+        <link refid="class_action_float"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="848">
+        <label>EaseExponentialIn</label>
+        <link refid="class_ease_exponential_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>EaseIn</label>
+        <link refid="class_ease_in"/>
+        <childnode refid="860" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>EaseQuarticActionIn</label>
+        <link refid="class_ease_quartic_action_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>EaseCircleActionInOut</label>
+        <link refid="class_ease_circle_action_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="886">
+        <label>FlipY3D</label>
+        <link refid="class_flip_y3_d"/>
+        <childnode refid="885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="875">
+        <label>CardinalSplineBy</label>
+        <link refid="class_cardinal_spline_by"/>
+        <childnode refid="874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="847">
+        <label>EaseElasticOut</label>
+        <link refid="class_ease_elastic_out"/>
+        <childnode refid="844" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>EaseBackOut</label>
+        <link refid="class_ease_back_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="907">
+        <label>WavesTiles3D</label>
+        <link refid="class_waves_tiles3_d"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="895">
+        <label>TiledGrid3DAction</label>
+        <link refid="class_tiled_grid3_d_action"/>
+        <childnode refid="883" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="850">
+        <label>EaseExponentialOut</label>
+        <link refid="class_ease_exponential_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>EaseBounceInOut</label>
+        <link refid="class_ease_bounce_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="840">
+        <label>EaseCircleActionOut</label>
+        <link refid="class_ease_circle_action_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="816">
+        <label>FlipX</label>
+        <link refid="class_flip_x"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="817">
+        <label>FlipY</label>
+        <link refid="class_flip_y"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="900">
+        <label>JumpTiles3D</label>
+        <link refid="class_jump_tiles3_d"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="820">
+        <label>RemoveSelf</label>
+        <link refid="class_remove_self"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="892">
+        <label>Twirl</label>
+        <link refid="class_twirl"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>ActionInstant</label>
+        <link refid="class_action_instant"/>
+        <childnode refid="810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="856">
+        <label>EaseQuarticActionOut</label>
+        <link refid="class_ease_quartic_action_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>CallFuncN</label>
+        <link refid="class_call_func_n"/>
+        <childnode refid="812" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="913">
+        <label>ProgressTo</label>
+        <link refid="class_progress_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>MoveBy</label>
+        <link refid="class_move_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>EaseCubicActionOut</label>
+        <link refid="class_ease_cubic_action_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="853">
+        <label>EaseQuadraticActionOut</label>
+        <link refid="class_ease_quadratic_action_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="828">
+        <label>ActionCamera</label>
+        <link refid="class_action_camera"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>StopGrid</label>
+        <link refid="class_stop_grid"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="818">
+        <label>Hide</label>
+        <link refid="class_hide"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="906">
+        <label>TurnOffTiles</label>
+        <link refid="class_turn_off_tiles"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>Lens3D</label>
+        <link refid="class_lens3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="921">
+        <label>ScaleTo</label>
+        <link refid="class_scale_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="849">
+        <label>EaseExponentialInOut</label>
+        <link refid="class_ease_exponential_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="925">
+        <label>SkewBy</label>
+        <link refid="class_skew_by"/>
+        <childnode refid="924" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="927">
+        <label>TargetedAction</label>
+        <link refid="class_targeted_action"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="873">
+        <label>Blink</label>
+        <link refid="class_blink"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="920">
+        <label>RotateTo</label>
+        <link refid="class_rotate_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>EaseCircleActionIn</label>
+        <link refid="class_ease_circle_action_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>EaseCubicActionIn</label>
+        <link refid="class_ease_cubic_action_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="881">
+        <label>FadeIn</label>
+        <link refid="class_fade_in"/>
+        <childnode refid="880" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="865">
+        <label>EaseSineInOut</label>
+        <link refid="class_ease_sine_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>EaseElasticInOut</label>
+        <link refid="class_ease_elastic_in_out"/>
+        <childnode refid="844" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="831">
+        <label>EaseBackIn</label>
+        <link refid="class_ease_back_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>__CCCallFuncND</label>
+        <link refid="class_____c_c_call_func_n_d"/>
+        <childnode refid="812" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="928">
+        <label>TintBy</label>
+        <link refid="class_tint_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>AccelAmplitude</label>
+        <link refid="class_accel_amplitude"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="819">
+        <label>Place</label>
+        <link refid="class_place"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>ActionInterval</label>
+        <link refid="class_action_interval"/>
+        <childnode refid="810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="879">
+        <label>DelayTime</label>
+        <link refid="class_delay_time"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="915">
+        <label>RepeatForever</label>
+        <link refid="class_repeat_forever"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="863">
+        <label>EaseOut</label>
+        <link refid="class_ease_out"/>
+        <childnode refid="860" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="917">
+        <label>ResizeTo</label>
+        <link refid="class_resize_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="897">
+        <label>FadeOutBLTiles</label>
+        <link refid="class_fade_out_b_l_tiles"/>
+        <childnode refid="896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="894">
+        <label>Waves3D</label>
+        <link refid="class_waves3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="911">
+        <label>MoveTo</label>
+        <link refid="class_move_to"/>
+        <childnode refid="910" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="890">
+        <label>Ripple3D</label>
+        <link refid="class_ripple3_d"/>
+        <childnode refid="884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="883">
+        <label>GridAction</label>
+        <link refid="class_grid_action"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>EaseBackInOut</label>
+        <link refid="class_ease_back_in_out"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="898">
+        <label>FadeOutUpTiles</label>
+        <link refid="class_fade_out_up_tiles"/>
+        <childnode refid="896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="908">
+        <label>JumpBy</label>
+        <link refid="class_jump_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>EaseBounceIn</label>
+        <link refid="class_ease_bounce_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>__CCCallFuncO</label>
+        <link refid="class_____c_c_call_func_o"/>
+        <childnode refid="812" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="901">
+        <label>ShakyTiles3D</label>
+        <link refid="class_shaky_tiles3_d"/>
+        <childnode refid="895" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="919">
+        <label>RotateBy</label>
+        <link refid="class_rotate_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>BezierBy</label>
+        <link refid="class_bezier_by"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="860">
+        <label>EaseRateAction</label>
+        <link refid="class_ease_rate_action"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="880">
+        <label>FadeTo</label>
+        <link refid="class_fade_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="824">
+        <label>ToggleVisibility</label>
+        <link refid="class_toggle_visibility"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="931">
+        <label>Follow</label>
+        <link refid="class_follow"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>EaseQuinticActionIn</label>
+        <link refid="class_ease_quintic_action_in"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="924">
+        <label>SkewTo</label>
+        <link refid="class_skew_to"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="932">
+        <label>Speed</label>
+        <link refid="class_speed"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="876">
+        <label>CatmullRomBy</label>
+        <link refid="class_catmull_rom_by"/>
+        <childnode refid="875" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="844">
+        <label>EaseElastic</label>
+        <link refid="class_ease_elastic"/>
+        <childnode refid="830" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>ActionTween</label>
+        <link refid="class_action_tween"/>
+        <childnode refid="825" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="965">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+        <childnode refid="966" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="937">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="938" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="988">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="939" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="952">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="952" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="933">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="935" relation="public-inheritance">
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="981">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="962">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="963" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="982">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="982" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="967">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="995">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="978">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="944" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="992">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="963">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="964" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="963" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="953">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="944" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="969">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="946">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="985">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="936" relation="public-inheritance">
+        </childnode>
+        <childnode refid="945" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="986" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="985" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="952" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="984" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="988" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="989" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="976">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="950" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="966">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="979">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="957">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="958" relation="public-inheritance">
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="967" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="943">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="944" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="948" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="949" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="955" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="970" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="941">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="984">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="936" relation="public-inheritance">
+        </childnode>
+        <childnode refid="985" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="974">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="964">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="964" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="945">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="945" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="968">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="969" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="990" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="940">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="941" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="942" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="936">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="937" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="939" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="971" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="975" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="998" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="980" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="952" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="942" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="934" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="970">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="971">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="934">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="993">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="975">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="975" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="977">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="978" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="958" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="939">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="940" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="961">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="961" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="991">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="963" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="992" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="993" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="944">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="945" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="946" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="947" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="980">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="981" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="982" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="983" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="997">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="951">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="959">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="951" relation="public-inheritance">
+        </childnode>
+        <childnode refid="939" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="956" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="952" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="986">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="947">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="947" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="948">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="948" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="935">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="954">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="954" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="938">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="936" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="933" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="994">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="995" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="949">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="950" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="983">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="996">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="960">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="940" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="962" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="950">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="951" relation="public-inheritance">
+        </childnode>
+        <childnode refid="939" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="952" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="954" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="942">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+        <childnode refid="943" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="936" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="937" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="971" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="972" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="980" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="984" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="991" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="994" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="996" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="997" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="998">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="998" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="973">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="936" relation="public-inheritance">
+        </childnode>
+        <childnode refid="974" relation="public-inheritance">
+        </childnode>
+        <childnode refid="975" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="976" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="954" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="977" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="999">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="972">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="973" relation="public-inheritance">
+        </childnode>
+        <childnode refid="979" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="990">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="945" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="987">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="934" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCAction.h" line="52" column="1" bodyfile="cocos/2d/CCAction.h" bodystart="51" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_action_1a710baac1dbe39ac34dc7f3461d4a8c39" prot="public" virt="non-virtual"><scope>Action</scope><name>__pad0__</name></member>
+      <member refid="class_action_1afb213a69b3e48d43cbb6c28af6e5fbc1" prot="protected" virt="non-virtual"><scope>Action</scope><name>_flags</name></member>
+      <member refid="class_action_1a0fdafea8c39af1be2acd2bedc62ca01f" prot="protected" virt="non-virtual"><scope>Action</scope><name>_originalTarget</name></member>
+      <member refid="class_ref_1ab05a4c4ef09ecbaffc7c7c7f57d34bf6" prot="protected" virt="non-virtual"><scope>Action</scope><name>_referenceCount</name></member>
+      <member refid="class_action_1a7e04eca811f3f728862300b3e248d7c0" prot="protected" virt="non-virtual"><scope>Action</scope><name>_tag</name></member>
+      <member refid="class_action_1a3cf6593d3926baeefcd8197318680038" prot="protected" virt="non-virtual"><scope>Action</scope><name>_target</name></member>
+      <member refid="class_ref_1a065f6972ebb82de3e2143cbf10a7ac2d" prot="public" virt="non-virtual"><scope>Action</scope><name>autorelease</name></member>
+      <member refid="class_action_1acb35dc9100d21840f6795492673dfd7d" prot="private" virt="non-virtual"><scope>Action</scope><name>CC_DISALLOW_COPY_AND_ASSIGN</name></member>
+      <member refid="class_action_1a6a047ad6b3bd200b0f86c7bb519b31ea" prot="public" virt="virtual"><scope>Action</scope><name>clone</name></member>
+      <member refid="class_clonable_1a5fd8dad9fd4321a1372423892e16dad8" prot="public" virt="non-virtual"><scope>Action</scope><name>copy</name></member>
+      <member refid="class_action_1ab593241dbcf25a8ac9160d6eb9d1c247" prot="public" virt="virtual"><scope>Action</scope><name>description</name></member>
+      <member refid="class_action_1aabe5706c0cc66d461b14558728dccf01" prot="public" virt="non-virtual"><scope>Action</scope><name>getFlags</name></member>
+      <member refid="class_action_1a50cdb52f323c6756ec300e4d0f86596a" prot="public" virt="non-virtual"><scope>Action</scope><name>getOriginalTarget</name></member>
+      <member refid="class_ref_1a27b894ccc4c74b0c52f3fa2993f04ba0" prot="public" virt="non-virtual"><scope>Action</scope><name>getReferenceCount</name></member>
+      <member refid="class_action_1a1f090a477cab2dbc8175385c66b91c31" prot="public" virt="non-virtual"><scope>Action</scope><name>getTag</name></member>
+      <member refid="class_action_1a696d1ef82807cc18207ba93d59d6ca16" prot="public" virt="non-virtual"><scope>Action</scope><name>getTarget</name></member>
+      <member refid="class_action_1a095470578a5d879bfe6f777414ce5831" prot="public" virt="non-virtual"><scope>Action</scope><name>INVALID_TAG</name></member>
+      <member refid="class_action_1a9b5dd627540a85f89f3e82acd46b7772" prot="public" virt="virtual"><scope>Action</scope><name>isDone</name></member>
+      <member refid="class_ref_1ab9cf238c39cc7fc6ffde82c8d94c465e" prot="protected" virt="non-virtual"><scope>Action</scope><name>Ref</name></member>
+      <member refid="class_ref_1a6c8528cd8731765688943496c2eb3907" prot="public" virt="non-virtual"><scope>Action</scope><name>release</name></member>
+      <member refid="class_ref_1a7d182cae1be1e80a9884cacd6ff9cb01" prot="public" virt="non-virtual"><scope>Action</scope><name>retain</name></member>
+      <member refid="class_action_1a2f06b574c4f066a3f11854a77c456227" prot="public" virt="virtual"><scope>Action</scope><name>reverse</name></member>
+      <member refid="class_action_1a848b0f80143acd07c814735463a8e920" prot="public" virt="non-virtual"><scope>Action</scope><name>setFlags</name></member>
+      <member refid="class_action_1aa58699929e174e97a057b51e83fcc1f3" prot="public" virt="non-virtual"><scope>Action</scope><name>setOriginalTarget</name></member>
+      <member refid="class_action_1ac23487f50607b5acef33c1aa7dd9468e" prot="public" virt="non-virtual"><scope>Action</scope><name>setTag</name></member>
+      <member refid="class_action_1abd61e00e97d9604126cf149112b877de" prot="public" virt="non-virtual"><scope>Action</scope><name>setTarget</name></member>
+      <member refid="class_action_1a5457090e4a035c6283777c893a9a681b" prot="public" virt="virtual"><scope>Action</scope><name>startWithTarget</name></member>
+      <member refid="class_action_1a9a64ee9e8e977672748f70893ebaff66" prot="public" virt="virtual"><scope>Action</scope><name>step</name></member>
+      <member refid="class_action_1a968267fa7a1dcc46a2976249a712d3c8" prot="public" virt="virtual"><scope>Action</scope><name>stop</name></member>
+      <member refid="class_action_1a937e646e63915e33ad05ba149bfcf239" prot="public" virt="virtual"><scope>Action</scope><name>update</name></member>
+      <member refid="class_action_1acdb06775d157339256a8ecd55749226c" prot="public" virt="virtual"><scope>Action</scope><name>~Action</name></member>
+      <member refid="class_clonable_1a2b9c911b4a49b532da3dea9951cf5fac" prot="public" virt="virtual"><scope>Action</scope><name>~Clonable</name></member>
+      <member refid="class_ref_1a1c3c3986014151251b39041e2556d2e3" prot="public" virt="virtual"><scope>Action</scope><name>~Ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

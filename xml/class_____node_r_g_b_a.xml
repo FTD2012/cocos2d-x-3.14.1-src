@@ -1,0 +1,1444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_____node_r_g_b_a" kind="class" language="C++" prot="public">
+    <compoundname>__NodeRGBA</compoundname>
+    <basecompoundref refid="class_node" prot="public" virt="non-virtual">Node</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">__RGBAProtocol</basecompoundref>
+    <includes refid="_c_c_node_8h" local="no">CCNode.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_____node_r_g_b_a_1a205293d39d3aa89e9cb3c32dc281dffd" prot="public" static="no" mutable="no">
+        <type><ref refid="cc_config_8h_1a25ef1314f97c35a2ed3d029b0ead6da0" kindref="member">CC_CONSTRUCTOR_ACCESS</ref></type>
+        <definition>CC_CONSTRUCTOR_ACCESS __NodeRGBA::__pad0__</definition>
+        <argsstring></argsstring>
+        <name>__pad0__</name>
+        <bitfield> __NodeRGBA()</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2070" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2071" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a48a5a78aea7c307ccfbe8c10e053b7c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>GLubyte</type>
+        <definition>virtual GLubyte __NodeRGBA::getOpacity</definition>
+        <argsstring>() const override</argsstring>
+        <name>getOpacity</name>
+        <reimplements refid="class_node_1ab999cce3763ea09e74014245c770ea97">getOpacity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the node&apos;s opacity. <simplesect kind="return"><para>A GLubyte value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2053" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2053" bodyend="2053"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1adbf1aa17734836db2096f2901d81d304" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>GLubyte</type>
+        <definition>virtual GLubyte __NodeRGBA::getDisplayedOpacity</definition>
+        <argsstring>() const override</argsstring>
+        <name>getDisplayedOpacity</name>
+        <reimplements refid="class_node_1ac4f9c61560c8862ebdaecbf79bf8a1b6">getDisplayedOpacity</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the node&apos;s display opacity. The difference between opacity and displayedOpacity is: The displayedOpacity is what&apos;s the final rendering opacity of node. <simplesect kind="return"><para>A GLubyte value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2054" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2054" bodyend="2054"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1aa0ac4f9dca25f519f175e668ba4f3306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::setOpacity</definition>
+        <argsstring>(GLubyte opacity) override</argsstring>
+        <name>setOpacity</name>
+        <reimplements refid="class_node_1ae41a9db63bfa3d466ee7c9d79c35352d">setOpacity</reimplements>
+        <param>
+          <type>GLubyte</type>
+          <declname>opacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change node opacity. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>opacity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A GLubyte opacity value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2055" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2055" bodyend="2055"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a428c41148bb3d1fe27d7eac80bb6df59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::updateDisplayedOpacity</definition>
+        <argsstring>(GLubyte parentOpacity) override</argsstring>
+        <name>updateDisplayedOpacity</name>
+        <reimplements refid="class_node_1a3a0122884e7e1ce310b8b68abfbb245b">updateDisplayedOpacity</reimplements>
+        <param>
+          <type>GLubyte</type>
+          <declname>parentOpacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update the displayed opacity of node with it&apos;s parent opacity; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentOpacity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The opacity of parent node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2056" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2056" bodyend="2056"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a421ef9c26c9860deb23184727d573415" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool __NodeRGBA::isCascadeOpacityEnabled</definition>
+        <argsstring>() const override</argsstring>
+        <name>isCascadeOpacityEnabled</name>
+        <reimplements refid="class_node_1a79f5da3b20b08356467db7ce95cf9f54">isCascadeOpacityEnabled</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether cascadeOpacity is enabled or not. <simplesect kind="return"><para>A boolean value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2057" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2057" bodyend="2057"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a10fe85e705700fbe2bd28da1a17eda68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::setCascadeOpacityEnabled</definition>
+        <argsstring>(bool cascadeOpacityEnabled) override</argsstring>
+        <name>setCascadeOpacityEnabled</name>
+        <reimplements refid="class_node_1a56b08f1d19bb0345f6fb40d9a3e3b4a4">setCascadeOpacityEnabled</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>cascadeOpacityEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change node&apos;s cascadeOpacity property. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cascadeOpacityEnabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True to enable cascadeOpacity, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2058" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2058" bodyend="2058"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a730149ff787a7a86d78a5c0d0aecddda" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="struct_color3_b" kindref="compound">Color3B</ref> &amp;</type>
+        <definition>virtual const Color3B&amp; __NodeRGBA::getColor</definition>
+        <argsstring>(void) const override</argsstring>
+        <name>getColor</name>
+        <reimplements refid="class_node_1a06721d272f5a59e02e355d95be25bb99">getColor</reimplements>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query node&apos;s color value. <simplesect kind="return"><para>A <ref refid="struct_color3_b" kindref="compound">Color3B</ref> color value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2060" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2060" bodyend="2060"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1ae17a9077b86673cb75f799cb4f6c8a1d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="struct_color3_b" kindref="compound">Color3B</ref> &amp;</type>
+        <definition>virtual const Color3B&amp; __NodeRGBA::getDisplayedColor</definition>
+        <argsstring>() const override</argsstring>
+        <name>getDisplayedColor</name>
+        <reimplements refid="class_node_1a899760bbad414bfbe9fb51473e99c3eb">getDisplayedColor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query node&apos;s displayed color. <simplesect kind="return"><para>A <ref refid="struct_color3_b" kindref="compound">Color3B</ref> color value. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2061" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2061" bodyend="2061"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1adaec184f0ee740557ffddaece7ece996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::setColor</definition>
+        <argsstring>(const Color3B &amp;color) override</argsstring>
+        <name>setColor</name>
+        <reimplements refid="class_node_1af45037de5b13602263b1ce51b50cafdd">setColor</reimplements>
+        <param>
+          <type>const <ref refid="struct_color3_b" kindref="compound">Color3B</ref> &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change the color of node. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="struct_color3_b" kindref="compound">Color3B</ref> color value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2062" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2062" bodyend="2062"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a7b792b469020beebcd515a2eacba90f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::updateDisplayedColor</definition>
+        <argsstring>(const Color3B &amp;parentColor) override</argsstring>
+        <name>updateDisplayedColor</name>
+        <reimplements refid="class_node_1ac733bae7b9590f8da746cbc3d1337a2f">updateDisplayedColor</reimplements>
+        <param>
+          <type>const <ref refid="struct_color3_b" kindref="compound">Color3B</ref> &amp;</type>
+          <declname>parentColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Update node&apos;s displayed color with its parent color. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parentColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="struct_color3_b" kindref="compound">Color3B</ref> color value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2063" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2063" bodyend="2063"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a24f2ae00f1994d6601ce8e1f089dafe1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool __NodeRGBA::isCascadeColorEnabled</definition>
+        <argsstring>() const override</argsstring>
+        <name>isCascadeColorEnabled</name>
+        <reimplements refid="class_node_1abf874f1b388e773ca80732b1134508be">isCascadeColorEnabled</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Query whether cascadeColor is enabled or not. <simplesect kind="return"><para>Whether cascadeColor is enabled or not. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2064" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2064" bodyend="2064"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a07c6d23e55cc2ba21115d2b93ef25bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::setCascadeColorEnabled</definition>
+        <argsstring>(bool cascadeColorEnabled) override</argsstring>
+        <name>setCascadeColorEnabled</name>
+        <reimplements refid="class_node_1a4e7f2dde1e3a7d56880f59f1480955e7">setCascadeColorEnabled</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>cascadeColorEnabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If you want node&apos;s color affect the children node&apos;s color, then set it to true. Otherwise, set it to false. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cascadeColorEnabled</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A boolean value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2065" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2065" bodyend="2065"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a2baa7449894e58c0bc78e749058b9c0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void __NodeRGBA::setOpacityModifyRGB</definition>
+        <argsstring>(bool bValue) override</argsstring>
+        <name>setOpacityModifyRGB</name>
+        <reimplements refid="class_node_1a978c5435ab23f76e9efdf0f7e9e288e5">setOpacityModifyRGB</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If you want the opacity affect the color property, then set to true. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A boolean value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2067" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2067" bodyend="2067"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a60d28606b0a253ad511df43a868fa08c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool __NodeRGBA::isOpacityModifyRGB</definition>
+        <argsstring>() const override</argsstring>
+        <name>isOpacityModifyRGB</name>
+        <reimplements refid="class_node_1ae6ce32d2088e2bb3426608334f1091c5">isOpacityModifyRGB</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If node opacity will modify the RGB color value, then you should override this method and return true. <simplesect kind="return"><para>A boolean value, true indicates that opacity will modify color; false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2068" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2068" bodyend="2068"/>
+      </memberdef>
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a0caccee11896f2d1ff093c30e140d44c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual __NodeRGBA::~__NodeRGBA</definition>
+        <argsstring>()</argsstring>
+        <name>~__NodeRGBA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2072" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2072" bodyend="2072"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_____node_r_g_b_a_1a521e5b5230535a3d261965dda67d8872" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__NodeRGBA::CC_DISALLOW_COPY_AND_ASSIGN</definition>
+        <argsstring>(__NodeRGBA)</argsstring>
+        <name>CC_DISALLOW_COPY_AND_ASSIGN</name>
+        <param>
+          <type><ref refid="class_____node_r_g_b_a" kindref="compound">__NodeRGBA</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="cocos/2d/CCNode.h" line="2075" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_____node_r_g_b_a" kindref="compound">__NodeRGBA</ref> is a subclass of <ref refid="class_node" kindref="compound">Node</ref> that implements the RGBAProtocol protocol. </para>    </briefdescription>
+    <detaileddescription>
+<para>All features from <ref refid="class_node" kindref="compound">Node</ref> are valid, plus the following new features:<itemizedlist>
+<listitem><para>opacity</para></listitem><listitem><para>RGB colors</para></listitem></itemizedlist>
+</para><para>Opacity/Color propagates into children that conform to the RGBAProtocol if cascadeOpacity/cascadeColor is enabled. <simplesect kind="since"><para>v2.1  NA </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="248">
+        <label>__RGBAProtocol</label>
+      </node>
+      <node id="246">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="245">
+        <label>__NodeRGBA</label>
+        <link refid="class_____node_r_g_b_a"/>
+        <childnode refid="246" relation="public-inheritance">
+        </childnode>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="282">
+        <label>Technique</label>
+        <link refid="class_technique"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>_passes</edgelabel>
+        </childnode>
+      </node>
+      <node id="252">
+        <label>ActionManager</label>
+        <link refid="class_action_manager"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="253" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_targets</edgelabel>
+        </childnode>
+      </node>
+      <node id="305">
+        <label>CameraBackgroundBrush</label>
+        <link refid="class_camera_background_brush"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>Mat4</label>
+        <link refid="class_mat4"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>IDENTITY</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="254">
+        <label>Action</label>
+        <link refid="class_action"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_target</edgelabel>
+          <edgelabel>_originalTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="317">
+        <label>__RGBAProtocol</label>
+      </node>
+      <node id="298">
+        <label>_hashSelectorEntry</label>
+        <link refid="struct__hash_selector_entry"/>
+      </node>
+      <node id="279">
+        <label>Texture2D::NinePatchInfo</label>
+        <childnode refid="280" relation="usage">
+          <edgelabel>capInsetSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="299">
+        <label>_listEntry</label>
+        <link refid="struct__list_entry"/>
+        <childnode refid="299" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="284">
+        <label>Vector&lt; Technique *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="312">
+        <label>Event</label>
+        <link refid="class_event"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>V3F_C4B_T2F_Quad</label>
+        <link refid="struct_v3_f___c4_b___t2_f___quad"/>
+        <childnode refid="261" relation="usage">
+          <edgelabel>tl</edgelabel>
+          <edgelabel>bl</edgelabel>
+          <edgelabel>tr</edgelabel>
+          <edgelabel>br</edgelabel>
+        </childnode>
+      </node>
+      <node id="309">
+        <label>VRIRenderer</label>
+        <link refid="class_v_r_i_renderer"/>
+      </node>
+      <node id="280">
+        <label>Rect</label>
+        <link refid="class_rect"/>
+        <childnode refid="281" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="270">
+        <label>TrianglesCommand::Triangles</label>
+        <link refid="struct_triangles_command_1_1_triangles"/>
+        <childnode refid="261" relation="usage">
+          <edgelabel>verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="286">
+        <label>EventListener</label>
+        <link refid="class_event_listener"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+      </node>
+      <node id="263">
+        <label>Tex2F</label>
+        <link refid="struct_tex2_f"/>
+      </node>
+      <node id="302">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>_up</edgelabel>
+        </childnode>
+        <childnode refid="303" relation="usage">
+          <edgelabel>_defaultViewport</edgelabel>
+          <edgelabel>_viewport</edgelabel>
+        </childnode>
+        <childnode refid="302" relation="usage">
+          <edgelabel>_visitingCamera</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_viewProjection</edgelabel>
+          <edgelabel>_projection</edgelabel>
+          <edgelabel>_viewInv</edgelabel>
+          <edgelabel>_view</edgelabel>
+        </childnode>
+        <childnode refid="301" relation="usage">
+          <edgelabel>_scene</edgelabel>
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>_fbo</edgelabel>
+        </childnode>
+        <childnode refid="305" relation="usage">
+          <edgelabel>_clearBrush</edgelabel>
+        </childnode>
+        <childnode refid="306" relation="usage">
+          <edgelabel>_frustum</edgelabel>
+        </childnode>
+      </node>
+      <node id="293">
+        <label>QuadCommand</label>
+        <link refid="class_quad_command"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="283">
+        <label>Vector&lt; Pass *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="296">
+        <label>LabelProtocol</label>
+      </node>
+      <node id="274">
+        <label>Material</label>
+        <link refid="class_material"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+        <childnode refid="282" relation="usage">
+          <edgelabel>_currentTechnique</edgelabel>
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>_techniques</edgelabel>
+        </childnode>
+      </node>
+      <node id="260">
+        <label>Renderer</label>
+        <link refid="class_renderer"/>
+        <childnode refid="261" relation="usage">
+          <edgelabel>_verts</edgelabel>
+        </childnode>
+        <childnode refid="265" relation="usage">
+          <edgelabel>_clearColor</edgelabel>
+        </childnode>
+        <childnode refid="266" relation="usage">
+          <edgelabel>_triBatchesToDraw</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>_lastBatchedMeshCommand</edgelabel>
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>_groupCommandManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="258">
+        <label>GLProgram::UniformFlags</label>
+        <link refid="struct_g_l_program_1_1_uniform_flags"/>
+      </node>
+      <node id="301">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="302" relation="usage">
+          <edgelabel>_defaultCamera</edgelabel>
+        </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>_event</edgelabel>
+        </childnode>
+      </node>
+      <node id="291">
+        <label>TextureProtocol</label>
+      </node>
+      <node id="281">
+        <label>Vec2</label>
+        <link refid="class_vec2"/>
+        <childnode refid="281" relation="usage">
+          <edgelabel>ANCHOR_MIDDLE_TOP</edgelabel>
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ANCHOR_TOP_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE</edgelabel>
+          <edgelabel>ANCHOR_BOTTOM_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_LEFT</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_RIGHT</edgelabel>
+          <edgelabel>ANCHOR_MIDDLE_BOTTOM</edgelabel>
+          <edgelabel>ANCHOR_TOP_LEFT</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="262">
+        <label>Vec3</label>
+        <link refid="class_vec3"/>
+        <childnode refid="262" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="273">
+        <label>Vec4</label>
+        <link refid="class_vec4"/>
+        <childnode refid="273" relation="usage">
+          <edgelabel>ONE</edgelabel>
+          <edgelabel>ZERO</edgelabel>
+          <edgelabel>UNIT_W</edgelabel>
+          <edgelabel>UNIT_X</edgelabel>
+          <edgelabel>UNIT_Y</edgelabel>
+          <edgelabel>UNIT_Z</edgelabel>
+        </childnode>
+      </node>
+      <node id="285">
+        <label>EventListenerCustom</label>
+        <link refid="class_event_listener_custom"/>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>Frustum</label>
+        <link refid="class_frustum"/>
+        <childnode refid="307" relation="usage">
+          <edgelabel>_plane</edgelabel>
+        </childnode>
+      </node>
+      <node id="257">
+        <label>GLProgram</label>
+        <link refid="class_g_l_program"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="usage">
+          <edgelabel>_flags</edgelabel>
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+      </node>
+      <node id="250">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="281" relation="usage">
+          <edgelabel>_normalizedPosition</edgelabel>
+          <edgelabel>_position</edgelabel>
+          <edgelabel>_anchorPointInPoints</edgelabel>
+          <edgelabel>_anchorPoint</edgelabel>
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>_realColor</edgelabel>
+          <edgelabel>_displayedColor</edgelabel>
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>_rotationQuat</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_inverse</edgelabel>
+          <edgelabel>_additionalTransform</edgelabel>
+          <edgelabel>_modelViewTransform</edgelabel>
+          <edgelabel>_transform</edgelabel>
+        </childnode>
+        <childnode refid="316" relation="usage">
+          <edgelabel>_children</edgelabel>
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>_director</edgelabel>
+        </childnode>
+        <childnode refid="251" relation="usage">
+          <edgelabel>_userObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="287">
+        <label>GroupCommandManager</label>
+        <link refid="class_group_command_manager"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>EventDispatcher</label>
+        <link refid="class_event_dispatcher"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>Ref</label>
+        <link refid="class_ref"/>
+      </node>
+      <node id="249">
+        <label>__NodeRGBA</label>
+        <link refid="class_____node_r_g_b_a"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>GLContextAttrs</label>
+        <link refid="struct_g_l_context_attrs"/>
+      </node>
+      <node id="292">
+        <label>Color3B</label>
+        <link refid="struct_color3_b"/>
+        <childnode refid="292" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="294">
+        <label>TextureAtlas</label>
+        <link refid="class_texture_atlas"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="295" relation="usage">
+          <edgelabel>_quads</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="275">
+        <label>RenderState</label>
+        <link refid="class_render_state"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="275" relation="usage">
+          <edgelabel>_parent</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>_state</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>_texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>GLProgramState</label>
+        <link refid="class_g_l_program_state"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_nodeBinding</edgelabel>
+        </childnode>
+        <childnode refid="257" relation="usage">
+          <edgelabel>_glprogram</edgelabel>
+        </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>_backToForegroundlistener</edgelabel>
+        </childnode>
+      </node>
+      <node id="278">
+        <label>Size</label>
+        <link refid="class_size"/>
+        <childnode refid="278" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="308">
+        <label>GLView</label>
+        <link refid="class_g_l_view"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>_designResolutionSize</edgelabel>
+          <edgelabel>_screenSize</edgelabel>
+        </childnode>
+        <childnode refid="280" relation="usage">
+          <edgelabel>_viewPortRect</edgelabel>
+        </childnode>
+        <childnode refid="309" relation="usage">
+          <edgelabel>_vrImpl</edgelabel>
+        </childnode>
+        <childnode refid="310" relation="usage">
+          <edgelabel>_glContextAttrs</edgelabel>
+        </childnode>
+      </node>
+      <node id="261">
+        <label>V3F_C4B_T2F</label>
+        <link refid="struct_v3_f___c4_b___t2_f"/>
+        <childnode refid="262" relation="usage">
+          <edgelabel>vertices</edgelabel>
+        </childnode>
+        <childnode refid="263" relation="usage">
+          <edgelabel>texCoords</edgelabel>
+        </childnode>
+        <childnode refid="264" relation="usage">
+          <edgelabel>colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="297">
+        <label>Scheduler</label>
+        <link refid="class_scheduler"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="298" relation="usage">
+          <edgelabel>_currentTarget</edgelabel>
+          <edgelabel>_hashForTimers</edgelabel>
+        </childnode>
+        <childnode refid="299" relation="usage">
+          <edgelabel>_updates0List</edgelabel>
+          <edgelabel>_updatesPosList</edgelabel>
+          <edgelabel>_updatesNegList</edgelabel>
+        </childnode>
+        <childnode refid="300" relation="usage">
+          <edgelabel>_hashForUpdates</edgelabel>
+        </childnode>
+      </node>
+      <node id="314">
+        <label>Vector&lt; Scene *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="268">
+        <label>RenderCommand</label>
+        <link refid="class_render_command"/>
+      </node>
+      <node id="276">
+        <label>RenderState::StateBlock</label>
+        <link refid="class_render_state_1_1_state_block"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>_defaultState</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>MeshCommand</label>
+        <link refid="class_mesh_command"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>_displayColor</edgelabel>
+          <edgelabel>_matrixPalette</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>_material</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="285" relation="usage">
+          <edgelabel>_rendererRecreatedListener</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>_stateBlock</edgelabel>
+        </childnode>
+      </node>
+      <node id="303">
+        <label>experimental::Viewport</label>
+        <link refid="structexperimental_1_1_viewport"/>
+      </node>
+      <node id="264">
+        <label>Color4B</label>
+        <link refid="struct_color4_b"/>
+        <childnode refid="264" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="265">
+        <label>Color4F</label>
+        <link refid="struct_color4_f"/>
+        <childnode refid="265" relation="usage">
+          <edgelabel>GRAY</edgelabel>
+          <edgelabel>MAGENTA</edgelabel>
+          <edgelabel>YELLOW</edgelabel>
+          <edgelabel>WHITE</edgelabel>
+          <edgelabel>BLUE</edgelabel>
+          <edgelabel>BLACK</edgelabel>
+          <edgelabel>RED</edgelabel>
+          <edgelabel>ORANGE</edgelabel>
+          <edgelabel>GREEN</edgelabel>
+        </childnode>
+      </node>
+      <node id="255">
+        <label>Clonable</label>
+        <link refid="class_clonable"/>
+      </node>
+      <node id="271">
+        <label>BlendFunc</label>
+        <link refid="struct_blend_func"/>
+        <childnode refid="271" relation="usage">
+          <edgelabel>ALPHA_NON_PREMULTIPLIED</edgelabel>
+          <edgelabel>DISABLE</edgelabel>
+          <edgelabel>ADDITIVE</edgelabel>
+          <edgelabel>ALPHA_PREMULTIPLIED</edgelabel>
+        </childnode>
+      </node>
+      <node id="253">
+        <label>_hashElement</label>
+        <link refid="struct__hash_element"/>
+        <childnode refid="250" relation="usage">
+          <edgelabel>target</edgelabel>
+        </childnode>
+        <childnode refid="254" relation="usage">
+          <edgelabel>currentAction</edgelabel>
+        </childnode>
+      </node>
+      <node id="311">
+        <label>EventCustom</label>
+        <link refid="class_event_custom"/>
+        <childnode refid="312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>Renderer::TriBatchToDraw</label>
+        <link refid="struct_renderer_1_1_tri_batch_to_draw"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>cmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="300">
+        <label>_hashUpdateEntry</label>
+        <link refid="struct__hash_update_entry"/>
+      </node>
+      <node id="313">
+        <label>TextureCache</label>
+        <link refid="class_texture_cache"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>Texture2D</label>
+        <link refid="class_texture2_d"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>_contentSize</edgelabel>
+        </childnode>
+        <childnode refid="257" relation="usage">
+          <edgelabel>_shaderProgram</edgelabel>
+        </childnode>
+        <childnode refid="279" relation="usage">
+          <edgelabel>_ninePatchInfo</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>_alphaTexture</edgelabel>
+        </childnode>
+      </node>
+      <node id="267">
+        <label>TrianglesCommand</label>
+        <link refid="class_triangles_command"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="256" relation="usage">
+          <edgelabel>_glProgramState</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>_mv</edgelabel>
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>_triangles</edgelabel>
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>_blendType</edgelabel>
+        </childnode>
+      </node>
+      <node id="259">
+        <label>Director</label>
+        <link refid="class_director"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="260" relation="usage">
+          <edgelabel>_renderer</edgelabel>
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>_notificationNode</edgelabel>
+        </childnode>
+        <childnode refid="252" relation="usage">
+          <edgelabel>_actionManager</edgelabel>
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>_winSizeInPoints</edgelabel>
+        </childnode>
+        <childnode refid="288" relation="usage">
+          <edgelabel>_eventDispatcher</edgelabel>
+        </childnode>
+        <childnode refid="289" relation="usage">
+          <edgelabel>_drawnBatchesLabel</edgelabel>
+          <edgelabel>_FPSLabel</edgelabel>
+          <edgelabel>_drawnVerticesLabel</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>_scheduler</edgelabel>
+        </childnode>
+        <childnode refid="301" relation="usage">
+          <edgelabel>_nextScene</edgelabel>
+          <edgelabel>_runningScene</edgelabel>
+        </childnode>
+        <childnode refid="308" relation="usage">
+          <edgelabel>_openGLView</edgelabel>
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>_eventResetDirector</edgelabel>
+          <edgelabel>_eventAfterUpdate</edgelabel>
+          <edgelabel>_eventAfterVisit</edgelabel>
+          <edgelabel>_eventBeforeUpdate</edgelabel>
+          <edgelabel>_eventAfterDraw</edgelabel>
+          <edgelabel>_eventProjectionChanged</edgelabel>
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>_defaultFBO</edgelabel>
+        </childnode>
+        <childnode refid="313" relation="usage">
+          <edgelabel>_textureCache</edgelabel>
+        </childnode>
+        <childnode refid="314" relation="usage">
+          <edgelabel>_scenesStack</edgelabel>
+        </childnode>
+      </node>
+      <node id="315">
+        <label>Quaternion</label>
+        <link refid="class_quaternion"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>ZERO</edgelabel>
+        </childnode>
+      </node>
+      <node id="290">
+        <label>AtlasNode</label>
+        <link refid="class_atlas_node"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="292" relation="usage">
+          <edgelabel>_colorUnmodified</edgelabel>
+        </childnode>
+        <childnode refid="293" relation="usage">
+          <edgelabel>_quadCommand</edgelabel>
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>_blendFunc</edgelabel>
+        </childnode>
+        <childnode refid="294" relation="usage">
+          <edgelabel>_textureAtlas</edgelabel>
+        </childnode>
+      </node>
+      <node id="316">
+        <label>Vector&lt; Node *&gt;</label>
+        <link refid="class_vector"/>
+      </node>
+      <node id="289">
+        <label>LabelAtlas</label>
+        <link refid="class_label_atlas"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>Plane</label>
+        <link refid="class_plane"/>
+        <childnode refid="262" relation="usage">
+          <edgelabel>_normal</edgelabel>
+        </childnode>
+      </node>
+      <node id="304">
+        <label>experimental::FrameBuffer</label>
+        <link refid="classexperimental_1_1_frame_buffer"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="cocos/2d/CCNode.h" line="2050" column="1" bodyfile="cocos/2d/CCNode.h" bodystart="2049" bodyend="2076"/>
+    <listofallmembers>
+      <member refid="class_____node_r_g_b_a_1a205293d39d3aa89e9cb3c32dc281dffd" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>__pad0__</name></member>
+      <member refid="class_node_1a03c4c9372a4c6c1a254aa630e2a02910" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_actionManager</name></member>
+      <member refid="class_node_1a0f42907a1d97049c6ee5e962b5648845" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_additionalTransform</name></member>
+      <member refid="class_node_1a55fac06291e49b4bec15a14032b9e6a5" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_additionalTransformDirty</name></member>
+      <member refid="class_node_1a366d7e4a0b945e889aef0f28b537c33b" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_anchorPoint</name></member>
+      <member refid="class_node_1a1285aa9f824bf09f78751354c220402c" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_anchorPointInPoints</name></member>
+      <member refid="class_node_1ad031cdf7519c89ff16e8f5891a79710c" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_cameraMask</name></member>
+      <member refid="class_node_1a2e154f9f1e136347363e2fdd05a14664" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_cascadeColorEnabled</name></member>
+      <member refid="class_node_1aa793e94b08d5d5ad565ddd63057bf9e7" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_cascadeOpacityEnabled</name></member>
+      <member refid="class_node_1a331c64c24a0aab50168e40db143db0f7" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_children</name></member>
+      <member refid="class_node_1ace74844839da51d2da03dfbe77c405fd" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_componentContainer</name></member>
+      <member refid="class_node_1add0e905f7ab31c19cc5667ceb1411932" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_contentSize</name></member>
+      <member refid="class_node_1a11f08d72282e6d4c0fae24e0cab56042" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_contentSizeDirty</name></member>
+      <member refid="class_node_1a00150355240c96adbb227d859d274c8a" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_director</name></member>
+      <member refid="class_node_1ac70a6642e280ea92d89ea31154b5148e" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_displayedColor</name></member>
+      <member refid="class_node_1a669e03f00645d5bcb839db8deaa4d85a" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_displayedOpacity</name></member>
+      <member refid="class_node_1aac0f3148c5d07a1cf4a47b1c92e8fa3f" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_eventDispatcher</name></member>
+      <member refid="class_node_1ada8c37d773103afb51bd5ca06bdb42b2" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_globalZOrder</name></member>
+      <member refid="class_node_1a975e708567f76fee577d3a6dbb0653b6" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_glProgramState</name></member>
+      <member refid="class_node_1a3634113fb2c6c57021375ae27cff2984" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_hashOfName</name></member>
+      <member refid="class_node_1aef122b1552bec154a2a8923641b4e0f2" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_ignoreAnchorPointForPosition</name></member>
+      <member refid="class_node_1a9481aec57ff12d607c8526c16d0b19b7" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_inverse</name></member>
+      <member refid="class_node_1a44a4a23138837fc8be24e1ba1044b6e7" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_inverseDirty</name></member>
+      <member refid="class_node_1aec1c7e6bc6a34a3364c9c741428622ff" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_isTransitionFinished</name></member>
+      <member refid="class_node_1acd2322ede4846f7dec8e8202587985a9" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_localZOrder</name></member>
+      <member refid="class_node_1a4140ffa6469a9940e8fdf5e8170ebba7" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_localZOrderAndArrival</name></member>
+      <member refid="class_node_1a5a9eff249dd6cb82abd433f5cc54da6c" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_modelViewTransform</name></member>
+      <member refid="class_node_1a7fb92ed8ca02f47ffa4dfe83500b7fd0" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_name</name></member>
+      <member refid="class_node_1a0cb5a92303d79bc8a9147c46f363ef28" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_normalizedPosition</name></member>
+      <member refid="class_node_1a01b14cb27650511f74aed00fde0de0e0" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_normalizedPositionDirty</name></member>
+      <member refid="class_node_1a7ba9d1b512d385db79e0c5a9376b5dbb" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_onEnterCallback</name></member>
+      <member refid="class_node_1ac4d2fe601342affeefedf2b98bbab264" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_onEnterTransitionDidFinishCallback</name></member>
+      <member refid="class_node_1ad2ffdd103e93410cf42b518cae7a2861" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_onExitCallback</name></member>
+      <member refid="class_node_1a7e64ef6a6740358674557501f71baaaa" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_onExitTransitionDidStartCallback</name></member>
+      <member refid="class_node_1a4609e1daa55bd61615102d7ca6e439d6" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_parent</name></member>
+      <member refid="class_node_1a3b3dff369c98537eeeab4c0bcbf3a69f" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_position</name></member>
+      <member refid="class_node_1a362654a7f9a70f2ccaf68934d3000fa5" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_positionZ</name></member>
+      <member refid="class_node_1ac937ea0e801b0643b73da4c7149ec75d" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_realColor</name></member>
+      <member refid="class_node_1a8ee88e0376dada82903f9d76b4416e37" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_realOpacity</name></member>
+      <member refid="class_ref_1ab05a4c4ef09ecbaffc7c7c7f57d34bf6" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_referenceCount</name></member>
+      <member refid="class_node_1a1246c0fc5cf2f9afcc82a4af90a143ba" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_reorderChildDirty</name></member>
+      <member refid="class_node_1a63558967572c6ac2fd197b15e7015c9b" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_rotationQuat</name></member>
+      <member refid="class_node_1adfee8eadd0d490ec504b93e7a20056fc" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_rotationX</name></member>
+      <member refid="class_node_1a196ed90f49ad52ebc93a3c7aaa36d209" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_rotationY</name></member>
+      <member refid="class_node_1aa32f8a9a49a41f2869cb9be336651dee" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_rotationZ_X</name></member>
+      <member refid="class_node_1a56f697d7ec4bb08eb2608a1441918c64" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_rotationZ_Y</name></member>
+      <member refid="class_node_1aa26daeae52daea23a70c899c5361fff2" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_running</name></member>
+      <member refid="class_node_1ad297aabd4789b5bdb3ddff6034691edb" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_scaleX</name></member>
+      <member refid="class_node_1a7996e5290ee0cf1e4ba4e427144c4832" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_scaleY</name></member>
+      <member refid="class_node_1a52f8067ae8bab452356194c68c680af0" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_scaleZ</name></member>
+      <member refid="class_node_1ab98d9888948f8c26a2c7c9425d184798" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_scheduler</name></member>
+      <member refid="class_node_1a9228657d144a272e8ac471c5a9b9e0dc" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>_setLocalZOrder</name></member>
+      <member refid="class_node_1a4725c588669f1af7240553cb1d433bdf" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_skewX</name></member>
+      <member refid="class_node_1afcc29d1e7bbb1914c2ff15b176399466" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_skewY</name></member>
+      <member refid="class_node_1a7d50f1ccf5904957fb7134c81bcbe0a9" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_tag</name></member>
+      <member refid="class_node_1a5a6686337fb93c284391bce7441e46db" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_transform</name></member>
+      <member refid="class_node_1afc05b246884e68da5bade2d3914d0f89" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_transformDirty</name></member>
+      <member refid="class_node_1a0af6bdab7557f0e7df90d74d7c217997" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_transformUpdated</name></member>
+      <member refid="class_node_1ab1049db7a56c7ab1c2694f07fe1574e8" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_userData</name></member>
+      <member refid="class_node_1acaad5f1788b0b8139961cdabfcd3bc05" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_userObject</name></member>
+      <member refid="class_node_1ad9fde0edd4afa1ad63ab47ffd05b8f4f" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_usingNormalizedPosition</name></member>
+      <member refid="class_node_1a39fcead06157af8c4e6d4ca59596e52c" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>_visible</name></member>
+      <member refid="class_node_1a132699398b350e83b548a5645e69beb0" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>addChild</name></member>
+      <member refid="class_node_1ad0005bbb94623abd997ce7c3116e6212" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>addChild</name></member>
+      <member refid="class_node_1ac29dab4b296e96c5072545cf9bd94b90" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>addChild</name></member>
+      <member refid="class_node_1abed32867e81e7902c8155dca7d347a18" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>addChild</name></member>
+      <member refid="class_node_1af5f2b77fdfde809abc13432ce526e706" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>addComponent</name></member>
+      <member refid="class_ref_1a065f6972ebb82de3e2143cbf10a7ac2d" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>autorelease</name></member>
+      <member refid="class_node_1a7744d16609dfc7609e889129b8672afb" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>boundingBox</name></member>
+      <member refid="class_____node_r_g_b_a_1a521e5b5230535a3d261965dda67d8872" prot="private" virt="non-virtual"><scope>__NodeRGBA</scope><name>CC_DISALLOW_COPY_AND_ASSIGN</name></member>
+      <member refid="class_node_1a6aeb29ea076a2a5cf6fc40ec7b4348ca" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>childrenAlloc</name></member>
+      <member refid="class_node_1aa2de84c6cdeec9cd647d236c30ee0567" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>cleanup</name></member>
+      <member refid="class_node_1ae7bffc192b6e9b24871108d472a0e85a" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertToNodeSpace</name></member>
+      <member refid="class_node_1a9c7e573a38882cc0727c5f8f65cd9187" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertToNodeSpaceAR</name></member>
+      <member refid="class_node_1a6ff92b98917dbaea150b90b578a84fca" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertTouchToNodeSpace</name></member>
+      <member refid="class_node_1af9a987bf0d6590367c254e78426773af" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertTouchToNodeSpaceAR</name></member>
+      <member refid="class_node_1a5714faff2a8e1c11d0c1063bbebb7e8e" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertToWindowSpace</name></member>
+      <member refid="class_node_1a9da42e3d980d42aa9508a9de1b51040b" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertToWorldSpace</name></member>
+      <member refid="class_node_1a84c532f970a06aec83dc881e70526b8e" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>convertToWorldSpaceAR</name></member>
+      <member refid="class_node_1aa9a92a1756b585d707a42c3fd1b274d4" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>create</name></member>
+      <member refid="class_node_1a28508e2bfd951d040c84f26bc5ca8a15" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>detachChild</name></member>
+      <member refid="class_node_1a81e70cde53de8a61e9843e7ca9f245f1" prot="protected" virt="virtual"><scope>__NodeRGBA</scope><name>disableCascadeColor</name></member>
+      <member refid="class_node_1a0ebd230a088bf8617f176d8ba5d5d342" prot="protected" virt="virtual"><scope>__NodeRGBA</scope><name>disableCascadeOpacity</name></member>
+      <member refid="class_node_1abc25589657cd89b6790ee1df8db05e48" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>doEnumerate</name></member>
+      <member refid="class_node_1ab02e31227d3de70ff6b1b58ebf25d39a" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>doEnumerateRecursive</name></member>
+      <member refid="class_node_1abcf85087a15901deb7c6c1231634c8ab" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>draw</name></member>
+      <member refid="class_node_1a0ee9c2703e4e4fd4ac75cae4593ef78f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>draw</name></member>
+      <member refid="class_node_1a299f2d93d1f4a900b92c7b836b95bc5c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>enumerateChildren</name></member>
+      <member refid="class_node_1a0cead2b023f0e3be8ff8e12f7939b17aa688e334ed4329f7f10c7631a16d63c6e" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>FLAGS_CONTENT_SIZE_DIRTY</name></member>
+      <member refid="class_node_1a0cead2b023f0e3be8ff8e12f7939b17aacf0dc7d4d6da01e01067bbad799896c2" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>FLAGS_DIRTY_MASK</name></member>
+      <member refid="class_node_1a0cead2b023f0e3be8ff8e12f7939b17aa3b16ddf232c8df729561b81a368a5488" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>FLAGS_RENDER_AS_3D</name></member>
+      <member refid="class_node_1a0cead2b023f0e3be8ff8e12f7939b17aac8e0dbd622e9ebefe5c36af14c3b4d7a" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>FLAGS_TRANSFORM_DIRTY</name></member>
+      <member refid="class_node_1ad26f8b3ec382080393b96921e3a38ad8" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getActionByTag</name></member>
+      <member refid="class_node_1a4e089841bc08a8753c65b7bb4f96aac5" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getActionManager</name></member>
+      <member refid="class_node_1a5f453eebf3bf1a7a46ef4369f40ee8f1" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getActionManager</name></member>
+      <member refid="class_node_1a391027410f7f45889938090feb631cba" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getAnchorPoint</name></member>
+      <member refid="class_node_1a288b900788ed2db5eddb9d84751a3602" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getAnchorPointInPoints</name></member>
+      <member refid="class_node_1a7b3849315467fdb992b273fbd3b3fc66" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getBoundingBox</name></member>
+      <member refid="class_node_1a1c849d2d0bd878a4e3dd1a52ab90fee8" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getCameraMask</name></member>
+      <member refid="class_node_1ac2f84f995c7d6581787abaa3b09c4518" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getChildByName</name></member>
+      <member refid="class_node_1abbd6d0f2c3d65db94ea75d16402f83a2" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getChildByName</name></member>
+      <member refid="class_node_1a8eebd018aa7ebebb674d1649e1a79cac" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getChildByTag</name></member>
+      <member refid="class_node_1a093e82df91d1c2df7d55e5b1b319012b" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getChildByTag</name></member>
+      <member refid="class_node_1a25943a94b19e37929b18f93647b58153" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getChildren</name></member>
+      <member refid="class_node_1aedc8104d257021771119ffeb4c171bb3" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getChildren</name></member>
+      <member refid="class_node_1abe0559adacadcb3a367c8cf7ba65730e" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getChildrenCount</name></member>
+      <member refid="class_____node_r_g_b_a_1a730149ff787a7a86d78a5c0d0aecddda" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getColor</name></member>
+      <member refid="class_node_1a149c99ff0cb7285f5e51d331672adbb9" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getComponent</name></member>
+      <member refid="class_node_1a3828836a62dbf0862ecaa99a72babc13" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getContentSize</name></member>
+      <member refid="class_node_1a41710375a0d92a4ee54c39fe123b5912" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getDescription</name></member>
+      <member refid="class_____node_r_g_b_a_1ae17a9077b86673cb75f799cb4f6c8a1d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getDisplayedColor</name></member>
+      <member refid="class_____node_r_g_b_a_1adbf1aa17734836db2096f2901d81d304" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getDisplayedOpacity</name></member>
+      <member refid="class_node_1ae6ba7b287241f031b271d7d680f070f3" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getEventDispatcher</name></member>
+      <member refid="class_node_1afa5a7920169dbe5f21a59029bb04c166" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getGlobalZOrder</name></member>
+      <member refid="class_node_1aae25dd359a8ddb28d552b14269b69ab5" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getGLProgram</name></member>
+      <member refid="class_node_1a769007fbb26e8b6ef46096100b57bd20" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getGLProgramState</name></member>
+      <member refid="class_node_1a4817ce95fa64827e8a58645e5b5854ae" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getGLServerState</name></member>
+      <member refid="class_node_1a9a9c743ae124b0c1a2d6f0a28a1f06dd" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getLocalZOrder</name></member>
+      <member refid="class_node_1a2ddaa1e6fdada0bec680128d9e732162" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getName</name></member>
+      <member refid="class_node_1a1230b4d08c4705599d6600415d27c10b" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToParentAffineTransform</name></member>
+      <member refid="class_node_1a72a4d15c717622a50adb468ccc7fad2f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToParentAffineTransform</name></member>
+      <member refid="class_node_1a7235b4a4d449fb7e01459c5c3b24d1eb" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToParentTransform</name></member>
+      <member refid="class_node_1a0cc9a3bec00628f37f4742378bdcfcca" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToParentTransform</name></member>
+      <member refid="class_node_1a480466dcf72739dab9d56e0caf8d0f80" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToWorldAffineTransform</name></member>
+      <member refid="class_node_1a1e46065101d0d5dba32262067d85bf23" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNodeToWorldTransform</name></member>
+      <member refid="class_node_1a468e84257f42e045c3ffcb68aaa363f1" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getNormalizedPosition</name></member>
+      <member refid="class_node_1a576446fef9c35a1a06535eb8949df2f3" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getNumberOfRunningActions</name></member>
+      <member refid="class_node_1a79f360d4398f3748527a281513364d94" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getNumberOfRunningActionsByTag</name></member>
+      <member refid="class_node_1ad7b097bc5f33406aa84f0b31cabc8c91" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getOnEnterCallback</name></member>
+      <member refid="class_node_1af905ed9ea4b7884fdb9be2b8b2fbcf53" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getonEnterTransitionDidFinishCallback</name></member>
+      <member refid="class_node_1ab0b4c33e5b8ef5770d0f4d8ed410e596" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getOnExitCallback</name></member>
+      <member refid="class_node_1a306d572d520d31dd83ed3eedd2b78d4e" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getonExitTransitionDidStartCallback</name></member>
+      <member refid="class_____node_r_g_b_a_1a48a5a78aea7c307ccfbe8c10e053b7c8" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getOpacity</name></member>
+      <member refid="class_node_1af4c8a4ae726c6dd984db05c89454652d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getParent</name></member>
+      <member refid="class_node_1a76fd4c36007f3da331591de601dfa377" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getParent</name></member>
+      <member refid="class_node_1a48ce099e686a648c4ffd96bde8f65293" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getParentToNodeAffineTransform</name></member>
+      <member refid="class_node_1a12aae4242a85aa5acfc03c97a018b621" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getParentToNodeTransform</name></member>
+      <member refid="class_node_1a1c78c6feace91b27b6cbb12ee16e8eb0" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPosition</name></member>
+      <member refid="class_node_1a216f30e9a2dda896b2ffff1885b33a98" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPosition</name></member>
+      <member refid="class_node_1a8617dd2eb9af75a66ebaff0d3c99285e" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPosition3D</name></member>
+      <member refid="class_node_1ae9d2fb3ed00ccc33d22c1f903622950f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPositionNormalized</name></member>
+      <member refid="class_node_1ad4b27cd8bc98960789fbd2b574666a25" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPositionX</name></member>
+      <member refid="class_node_1ae2ab411fb5477789b7b96477b18c0f83" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPositionY</name></member>
+      <member refid="class_node_1a0c6023aabdeeff9cf981ad81e6aaed9c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getPositionZ</name></member>
+      <member refid="class_ref_1a27b894ccc4c74b0c52f3fa2993f04ba0" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getReferenceCount</name></member>
+      <member refid="class_node_1aca7139bc3ea6705d41bb65a4fb7ddb6c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotation</name></member>
+      <member refid="class_node_1aeabcf9427f303b0adf32bb7513706e2c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotation3D</name></member>
+      <member refid="class_node_1ad5beb5903cd9dc3258b513e742d1a0d0" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotationQuat</name></member>
+      <member refid="class_node_1a2e23faa37bc1d55b7c4b6cba94a62fce" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotationSkewX</name></member>
+      <member refid="class_node_1a6cad8b8118f9530baa3f26659cc1f406" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotationSkewY</name></member>
+      <member refid="class_node_1aac0fe1e486b4d0bbbc7e2a4203865285" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotationX</name></member>
+      <member refid="class_node_1aee61900edf93cad256bd250f69e02065" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getRotationY</name></member>
+      <member refid="class_node_1ac9926440d4edab1020d348a2b950307c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScale</name></member>
+      <member refid="class_node_1a27040ef8ab59ccf42b87d6ddc8d794e6" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScaleX</name></member>
+      <member refid="class_node_1ab87661ab8940512baf2e7639ea55ff87" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScaleY</name></member>
+      <member refid="class_node_1a0b55ddbe04d126953e1db8606d9a9ecd" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScaleZ</name></member>
+      <member refid="class_node_1a5a61a356773de436f80e55228ea01b66" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScene</name></member>
+      <member refid="class_node_1a5d438ab0f04dfa3af9a72ae608478264" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScheduler</name></member>
+      <member refid="class_node_1a57abd1306ae11bd89f2c38bf7e6a4082" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getScheduler</name></member>
+      <member refid="class_node_1aadcd8c8074ec87881efbc5cf9e8f9efe" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>getShaderProgram</name></member>
+      <member refid="class_node_1adb23628a9cef9c16cfcfd955a51ac8bd" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getSkewX</name></member>
+      <member refid="class_node_1a260877f2b51c284555fc272c7ba28f46" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getSkewY</name></member>
+      <member refid="class_node_1a9f18b6db8146f2660e8761bb9557d1fe" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getTag</name></member>
+      <member refid="class_node_1afeacb9cc8c8730d3ee8359ef42d5318d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getUserData</name></member>
+      <member refid="class_node_1a8f7eb64c4811677bc4ea83562981caf6" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getUserData</name></member>
+      <member refid="class_node_1a246218e1f2be9fc931be00c9c42a7817" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getUserObject</name></member>
+      <member refid="class_node_1a6bc05a48edd6e805bbe970fd62a4a48d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getUserObject</name></member>
+      <member refid="class_node_1af9e0714dcf9b018f0bfddc4e1d48257b" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getVertexZ</name></member>
+      <member refid="class_node_1ac7a7fd5d3162ec1b256bed6f9cba1f48" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getWorldToNodeAffineTransform</name></member>
+      <member refid="class_node_1ab41da5111de6d98710d0497e35063989" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getWorldToNodeTransform</name></member>
+      <member refid="class_node_1a8637477bb812d66559eb8ca6b6f5c854" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>getZOrder</name></member>
+      <member refid="class_node_1af57b28e27b22e7473e902771db3581e4" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>ignoreAnchorPointForPosition</name></member>
+      <member refid="class_node_1a6293815ad5f410cf3e1378fcb98b2ff7" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>init</name></member>
+      <member refid="class_node_1aeb54cf6025e99d8ac7f86c4549781fff" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>insertChild</name></member>
+      <member refid="class_node_1a6305db0b88b8e1495a6a3b9c8246a8b5" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>INVALID_TAG</name></member>
+      <member refid="class_____node_r_g_b_a_1a24f2ae00f1994d6601ce8e1f089dafe1" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isCascadeColorEnabled</name></member>
+      <member refid="class_____node_r_g_b_a_1a421ef9c26c9860deb23184727d573415" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isCascadeOpacityEnabled</name></member>
+      <member refid="class_node_1a1997a39d72ed74207a8ff7b5fe921be9" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isIgnoreAnchorPointForPosition</name></member>
+      <member refid="class_____node_r_g_b_a_1a60d28606b0a253ad511df43a868fa08c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isOpacityModifyRGB</name></member>
+      <member refid="class_node_1aebd879ffa85ad31896051073e1d7a6d8" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isRunning</name></member>
+      <member refid="class_node_1ab9a193072ebab587d1932d8af52050e0" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>isScheduled</name></member>
+      <member refid="class_node_1a335b7157808d2c0a38b4de04382749f5" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>isScheduled</name></member>
+      <member refid="class_node_1accff189524c62c6cb446cc19e3a79ab4" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>isVisible</name></member>
+      <member refid="class_node_1ac777c670caf6e0369cc07bd6ffd26292" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>isVisitableByVisitingCamera</name></member>
+      <member refid="class_node_1ab242ac36f0e26f5ef1f89e4a5fa4f02c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>nodeToParentTransform</name></member>
+      <member refid="class_node_1a26eeb65a02646d8bbe366c9885893a75" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>nodeToWorldTransform</name></member>
+      <member refid="class_node_1a7724086be31eda53304e6c9715f6fd21" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>numberOfRunningActions</name></member>
+      <member refid="class_node_1a7f51764c4afd5018a052b9ef71c03374" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>onEnter</name></member>
+      <member refid="class_node_1afef4b2a863042a9ea456e952cf26991d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>onEnterTransitionDidFinish</name></member>
+      <member refid="class_node_1ac83de835ea315e3179d4293acd8903ac" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>onExit</name></member>
+      <member refid="class_node_1a11686054c0d2edd292a53aa9702aaece" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>onExitTransitionDidStart</name></member>
+      <member refid="class_node_1af309d9c24935db52112193619f3cd790" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>parentToNodeTransform</name></member>
+      <member refid="class_node_1a1076a4b9c753597c2c719c27d629d855" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>pause</name></member>
+      <member refid="class_node_1abda89d75f7614e3b7c3d17788a61813b" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>pauseSchedulerAndActions</name></member>
+      <member refid="class_node_1adafbbfd4c342d5b49900279af703fd6a" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>processParentFlags</name></member>
+      <member refid="class_ref_1ab9cf238c39cc7fc6ffde82c8d94c465e" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>Ref</name></member>
+      <member refid="class_ref_1a6c8528cd8731765688943496c2eb3907" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>release</name></member>
+      <member refid="class_node_1a0f6ef5518d2e5dd5be405e98b37ace4a" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeAllChildren</name></member>
+      <member refid="class_node_1aca66e2b385c3dbf1a6f55627c4a13192" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeAllChildrenWithCleanup</name></member>
+      <member refid="class_node_1a6c5d3cf6a590df570cac7ddbfe85c9d3" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeAllComponents</name></member>
+      <member refid="class_node_1a872d4a7d389b26b0c6ad7ed99c8b1b65" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeChild</name></member>
+      <member refid="class_node_1a91086b878367386bd070789f2ea7c8a8" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeChildByName</name></member>
+      <member refid="class_node_1ae2e53ef64e2252d07304429889278864" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeChildByTag</name></member>
+      <member refid="class_node_1acce5160468bfd35be6804b8cf7a88142" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeComponent</name></member>
+      <member refid="class_node_1a857bce3dc69f84d4746fbbb8ab2ea720" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeComponent</name></member>
+      <member refid="class_node_1a26f717b3bf15017bae1a070a121b0289" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeFromParent</name></member>
+      <member refid="class_node_1ad0ee70d65cb9675b64dc447d821a91e5" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>removeFromParentAndCleanup</name></member>
+      <member refid="class_node_1a5c9bc72e7f53c1e7f0ef6bc87c07a08f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>reorderChild</name></member>
+      <member refid="class_node_1a7db2011610576bcba564fcf1f47c2e64" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>resume</name></member>
+      <member refid="class_node_1add0904e6d8d94df6c5dddc26c230cf4c" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>resumeSchedulerAndActions</name></member>
+      <member refid="class_ref_1a7d182cae1be1e80a9884cacd6ff9cb01" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>retain</name></member>
+      <member refid="class_node_1a07b8c313d5c753c5dbabbe68c77f3128" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>runAction</name></member>
+      <member refid="class_node_1a314d593dc7ee77979617979fa619e942" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>s_globalOrderOfArrival</name></member>
+      <member refid="class_node_1a5957efe46bfe7f83f9adb5b737f7ce11" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1a7cf87e23665a003982321d5e4fc98c11" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1a9f0944b744eb47a227780375597ba997" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1a30934785a4592d0704ce952e47f69664" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1ac48adc693c721c34a98357c088f2d97a" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1ac771b98b6729cc3845fd95cc74c3ae41" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>schedule</name></member>
+      <member refid="class_node_1a85353a5e8ae9f374001fa9f89ccc9adb" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>scheduleOnce</name></member>
+      <member refid="class_node_1a733ed19d0f4bbffcab1536b43ce8407d" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>scheduleOnce</name></member>
+      <member refid="class_node_1a8ff9ae5e15fe4d737da30f2b05f84c1c" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>scheduleUpdate</name></member>
+      <member refid="class_node_1aa86137d5229cb83acf5cee129a83b818" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>scheduleUpdateWithPriority</name></member>
+      <member refid="class_node_1a0fc543c82cc9b139cfb57f65eb770fb0" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>scheduleUpdateWithPriorityLua</name></member>
+      <member refid="class_node_1a2807ac202214bee721a75c098da54bc6" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setActionManager</name></member>
+      <member refid="class_node_1a7375e0112b9bf3e5ace5afb32a5cd044" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setAdditionalTransform</name></member>
+      <member refid="class_node_1a1f377b57a7924d17caa0d012306feb09" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setAdditionalTransform</name></member>
+      <member refid="class_node_1ab7758edc645887a1f811ef9d680df64a" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setAdditionalTransform</name></member>
+      <member refid="class_node_1a4dd45cb48a51df7c257675f527e3f277" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setAnchorPoint</name></member>
+      <member refid="class_node_1a0403546687b2cb6fc211fb461e33ba4d" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setCameraMask</name></member>
+      <member refid="class_____node_r_g_b_a_1a07c6d23e55cc2ba21115d2b93ef25bcd" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setCascadeColorEnabled</name></member>
+      <member refid="class_____node_r_g_b_a_1a10fe85e705700fbe2bd28da1a17eda68" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setCascadeOpacityEnabled</name></member>
+      <member refid="class_____node_r_g_b_a_1adaec184f0ee740557ffddaece7ece996" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setColor</name></member>
+      <member refid="class_node_1ade113d7fc9244f58ac98a4712da49818" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setContentSize</name></member>
+      <member refid="class_node_1add71c94aeabd15707311742797d21bb3" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setEventDispatcher</name></member>
+      <member refid="class_node_1a32a5b9cb9a408d04008c4935a4776566" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setGlobalZOrder</name></member>
+      <member refid="class_node_1a16ac830f1b38ae931da062c0833b2db0" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setGLProgram</name></member>
+      <member refid="class_node_1a2bc2428b82243033d8ed849cf9f99ed5" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setGLProgramState</name></member>
+      <member refid="class_node_1a5eb3c79871dc219ae8345fc72c7a00de" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setGLServerState</name></member>
+      <member refid="class_node_1a75e8f6a6a46358d6faf8683e720d47b5" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setIgnoreAnchorPointForPosition</name></member>
+      <member refid="class_node_1aee4e616c2d55b722226aae1e68b4946f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setLocalZOrder</name></member>
+      <member refid="class_node_1a519730c66b26e65c6539a908e6905edc" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setName</name></member>
+      <member refid="class_node_1a36afac09102cefcdf692f20358add455" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setNodeToParentTransform</name></member>
+      <member refid="class_node_1ab3b4779b7bb240c9a6467142a360685c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setNormalizedPosition</name></member>
+      <member refid="class_node_1a69c42f72323ef791d720b9083f480cb4" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setOnEnterCallback</name></member>
+      <member refid="class_node_1aad666c48b3a6952c3c4b6c4c1eb446ad" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setonEnterTransitionDidFinishCallback</name></member>
+      <member refid="class_node_1a82e2254c47969bfa81be037230738367" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setOnExitCallback</name></member>
+      <member refid="class_node_1aca0270c92c148c57b0605aae8298e356" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setonExitTransitionDidStartCallback</name></member>
+      <member refid="class_____node_r_g_b_a_1aa0ac4f9dca25f519f175e668ba4f3306" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setOpacity</name></member>
+      <member refid="class_____node_r_g_b_a_1a2baa7449894e58c0bc78e749058b9c0e" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setOpacityModifyRGB</name></member>
+      <member refid="class_node_1ab5f0786bcb59591c528efb0b776797fc" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setParent</name></member>
+      <member refid="class_node_1a8ffbf25763ef5f15eeae7227779505bc" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPosition</name></member>
+      <member refid="class_node_1aaa8545c103ef1b35e5076dbedab93af5" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPosition</name></member>
+      <member refid="class_node_1aa9eee02836d359b1469cf8a1484b485f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPosition3D</name></member>
+      <member refid="class_node_1a4014e9c3840ed79bf9e5b5193e1f1a4b" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPositionNormalized</name></member>
+      <member refid="class_node_1ae1dfc73d6122a95778d5d9db3d1fd913" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPositionX</name></member>
+      <member refid="class_node_1a5c97d36655f0daa71a5f6c715d2b0470" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPositionY</name></member>
+      <member refid="class_node_1aaea9bcbb6e5972122c590b930b5a90b9" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setPositionZ</name></member>
+      <member refid="class_node_1a62dda439f77712f0d9b405ce887df676" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotation</name></member>
+      <member refid="class_node_1a2ce988bebd6c8b804d8bfdfafd511c40" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotation3D</name></member>
+      <member refid="class_node_1a59c0b9e9afc4668320d90c340e5727e7" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotationQuat</name></member>
+      <member refid="class_node_1a66a533225994dbfe125c3421df4cbb38" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotationSkewX</name></member>
+      <member refid="class_node_1a901c5fbd2327fbd6fd14771fd45d71af" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotationSkewY</name></member>
+      <member refid="class_node_1ad1bd25ac980529f8a410523a42ab6e2a" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotationX</name></member>
+      <member refid="class_node_1a66f99fb391706801bd5c162654a8786c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setRotationY</name></member>
+      <member refid="class_node_1acf0955a52f51a9d6c8b0c9267b1e8668" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScale</name></member>
+      <member refid="class_node_1a31f8130cfd505a5c327c4cc66fe4fa69" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScale</name></member>
+      <member refid="class_node_1acf7f04074f7f49972e152788c090b877" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScaleX</name></member>
+      <member refid="class_node_1aec805a1fa9e8e1038556e468138bb804" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScaleY</name></member>
+      <member refid="class_node_1a79518b90226335e0997552687eb7b33f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScaleZ</name></member>
+      <member refid="class_node_1a9f0c84dfabdce76b5251725944ae7706" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setScheduler</name></member>
+      <member refid="class_node_1a579457920a0b016ad2d5f566d54229c2" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>setShaderProgram</name></member>
+      <member refid="class_node_1a48cf4d7b304b57a3f593d9eecde3ac7f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setSkewX</name></member>
+      <member refid="class_node_1ac1f4c4be8099a0d4bca1464c51f81f94" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setSkewY</name></member>
+      <member refid="class_node_1a41ecfc5e9e398e70dfe2e158f926c16f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setTag</name></member>
+      <member refid="class_node_1ad07f1d7702df679c5d07772bcfd316a2" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setUserData</name></member>
+      <member refid="class_node_1aa9ccf509ea89dcbd94e3b1d383aeda6f" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setUserObject</name></member>
+      <member refid="class_node_1ae6caed983c3f8d7686ebd602bb27de08" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setVertexZ</name></member>
+      <member refid="class_node_1ad8d9f6f838941a2a8ae18420757af158" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setVisible</name></member>
+      <member refid="class_node_1ae88b083cf8714fe62a3180ca790073a4" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>setZOrder</name></member>
+      <member refid="class_node_1adfaeea03013d3eae710c4d4d725bce0b" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>sortAllChildren</name></member>
+      <member refid="class_node_1a17a2149cbfe0819a11f3e109cc67645c" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>sortNodes</name></member>
+      <member refid="class_node_1a7f07a11c8550f7be6b6215b56ab69723" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>stopAction</name></member>
+      <member refid="class_node_1a58833aec8d21bf1ed647865c220c7c49" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>stopActionByTag</name></member>
+      <member refid="class_node_1a36eef67f2b7d8026328d452e9a5ab09c" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>stopActionsByFlags</name></member>
+      <member refid="class_node_1a1d542784d864cffe325e9e32d180aa6d" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>stopAllActions</name></member>
+      <member refid="class_node_1a70f8518979a58094c1ed2dbbe7ebcb9f" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>stopAllActionsByTag</name></member>
+      <member refid="class_node_1ac2c42b42f83093c1c2eec1c85db42da3" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>transform</name></member>
+      <member refid="class_node_1a04fd599a10f38d31fa0c07bfda6cc90c" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>unschedule</name></member>
+      <member refid="class_node_1ad7864aa1e9a8391007eca370628d3ce7" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>unschedule</name></member>
+      <member refid="class_node_1ab8711d9b97d8b944a95c4227c7e9869f" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>unscheduleAllCallbacks</name></member>
+      <member refid="class_node_1a11bc90abb2fd9e8211abcdb2de9d1f76" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>unscheduleAllSelectors</name></member>
+      <member refid="class_node_1a4f4252bff36a5ce566ff66f80f9d38ee" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>unscheduleUpdate</name></member>
+      <member refid="class_node_1a32878481ba54b3856ab53c10af13848e" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>update</name></member>
+      <member refid="class_node_1af73c6c7509327024e982f1441b9c1be3" prot="protected" virt="virtual"><scope>__NodeRGBA</scope><name>updateCascadeColor</name></member>
+      <member refid="class_node_1a9605f03a838df163865754fd5563ef4e" prot="protected" virt="virtual"><scope>__NodeRGBA</scope><name>updateCascadeOpacity</name></member>
+      <member refid="class_node_1a2704ff7c772030d210ffe5d7efce75a2" prot="protected" virt="virtual"><scope>__NodeRGBA</scope><name>updateColor</name></member>
+      <member refid="class_____node_r_g_b_a_1a7b792b469020beebcd515a2eacba90f7" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>updateDisplayedColor</name></member>
+      <member refid="class_____node_r_g_b_a_1a428c41148bb3d1fe27d7eac80bb6df59" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>updateDisplayedOpacity</name></member>
+      <member refid="class_node_1a75318d1418261ae7e8856ba2868b5a81" prot="public" virt="non-virtual"><scope>__NodeRGBA</scope><name>updateOrderOfArrival</name></member>
+      <member refid="class_node_1a6837d39880dd37abab5ac55c1b0801f3" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>updateRotation3D</name></member>
+      <member refid="class_node_1aca86193f13f3d6c1772630b30e995681" prot="protected" virt="non-virtual"><scope>__NodeRGBA</scope><name>updateRotationQuat</name></member>
+      <member refid="class_node_1a8583decfa6069f06ec1e9f8080c1ae36" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>updateTransform</name></member>
+      <member refid="class_node_1a7d794a5e30745611ec33881a625edf26" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>visit</name></member>
+      <member refid="class_node_1a751486a54cdcb7f75db9f11be8469818" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>visit</name></member>
+      <member refid="class_node_1a0b6b4ad592891ca7ec7ec0bd09341dd1" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>worldToNodeTransform</name></member>
+      <member refid="class_____node_r_g_b_a_1a0caccee11896f2d1ff093c30e140d44c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>~__NodeRGBA</name></member>
+      <member refid="class_node_1aa0840c3cb5c7159be6d992adecd2097c" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>~Node</name></member>
+      <member refid="class_ref_1a1c3c3986014151251b39041e2556d2e3" prot="public" virt="virtual"><scope>__NodeRGBA</scope><name>~Ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
