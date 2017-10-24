@@ -4,6 +4,10 @@
 #include "2d/CCFontAtlasCache.h"
 
 USING_NS_CC;
+
+// enable log
+#define COCOS2D_DEBUG 1
+
 using namespace ui;
 using namespace extension;
 
@@ -222,7 +226,7 @@ LabelFNTSpriteActions::LabelFNTSpriteActions()
     
     
     // Bottom Label
-    auto label2 = Label::createWithBMFont("fonts/bitmapFontTest.fnt", "00.0");
+    auto label2 = Label::createWithBMFont("fonts/bitmapFontTest.fnt", "0000.0");
     addChild(label2, 0, kTagBitmapAtlas2);
     label2->setPosition( Vec2(s.width/2.0f, 80) );
     
@@ -358,7 +362,7 @@ std::string LabelFNTOpacity::subtitle() const
 LabelFNTHundredLabels::LabelFNTHundredLabels()
 {
     // Upper Label
-    for ( int i=0 ; i < 100;i ++ ) 
+    for ( int i=0 ; i < 100;i ++ )
     {
         char str[6] = {0};
         sprintf(str, "-%d-", i);
@@ -513,6 +517,7 @@ LabelFNTGlyphDesigner::LabelFNTGlyphDesigner()
     auto label1 = Label::createWithBMFont("fonts/futura-48.fnt", "Testing Glyph Designer");
     // Demo for reloadFontAtlasFNT function, after it been called, all UI widget
     //  use the special font must reset font, because the old one is invalid.
+    // DOUBT: why is crashes?
     FontAtlasCache::reloadFontAtlasFNT("fonts/futura-48.fnt");
     label1->setBMFontFilePath("fonts/futura-48.fnt");
     addChild(label1);
@@ -789,7 +794,7 @@ LabelFNTBounds::LabelFNTBounds()
     auto drawNode = DrawNode::create();
     auto labelSize = label1->getContentSize();
     auto origin    = Director::getInstance()->getWinSize();
-    
+
     origin.width = origin.width   / 2 - (labelSize.width / 2);
     origin.height = origin.height / 2 - (labelSize.height / 2);
     
@@ -1830,7 +1835,9 @@ LabelIssue10773Test::LabelIssue10773Test()
     auto center = VisibleRect::center();
 
     auto label = Label::createWithTTF("create label with TTF", "fonts/arial.ttf", 24);
-    label->getLetter(5);
+//    Sprite* letter = label->getLetter(1);
+//    letter->setColor(Color3B::Red);
+    label->getLetter(1)->setColor(Color3B::RED);
     label->setString("Hi");
     label->setPosition(center.x, center.y);
     addChild(label);

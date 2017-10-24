@@ -5824,6 +5824,9 @@
 					507B43541C31FB340067B53E = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					A07A517F1783A1D20073F6A7 = {
+						DevelopmentTeam = 6R7FR7P79V;
+					};
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cocos2d_tests" */;
@@ -8795,7 +8798,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6R7FR7P79V;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "../tests/cpp-tests/proj.ios/Prefix.pch";
@@ -8810,6 +8813,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../external/curl/prebuilt/ios",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ljm.org.cocos2d-x.cpp-tests-iOS";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -8822,7 +8826,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6R7FR7P79V;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "../tests/cpp-tests/proj.ios/Prefix.pch";
@@ -8837,6 +8841,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../external/curl/prebuilt/ios",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ljm.org.cocos2d-x.cpp-tests-iOS";
 				SDKROOT = iphoneos;
 				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -117,7 +117,9 @@ class CC_DLL Label : public Node, public LabelProtocol, public BlendProtocol
 public:
     enum class Overflow
     {
-        //In NONE mode, the dimensions is (0,0) and the content size will change dynamically to fit the label.
+        /**
+         *In NONE mode, the dimensions is (0,0) and the content size will change dynamically to fit the label.
+         */
         NONE,
         /**
          *In CLAMP mode, when label content goes out of the bounding box, it will be clipped.

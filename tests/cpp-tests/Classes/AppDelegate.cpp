@@ -30,6 +30,8 @@
 #include "editor-support/cocostudio/CocoStudio.h"
 #include "extensions/cocos-ext.h"
 
+#define COCOS2D_DEBUG 1
+
 USING_NS_CC;
 
 AppDelegate::AppDelegate()

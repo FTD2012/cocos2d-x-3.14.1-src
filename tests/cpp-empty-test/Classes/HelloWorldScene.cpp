@@ -73,6 +73,11 @@ bool HelloWorld::init()
 //    // add the sprite as a child to this layer
 //    this->addChild(sprite);
 
+    auto systemFontLabel = Label::createWithSystemFont("createWithSystemFont", "fonts/A Damn Mess.ttf", 24);
+    systemFontLabel->setPosition(Vec2(visibleSize/2));
+    systemFontLabel->setName("createWithTTF");
+    this->addChild(systemFontLabel);
+
 //    auto ttfLabel = Label::createWithTTF("createWithTTF", "fonts/arial.ttf", 23);
 //    ttfLabel->setPosition(Vec2(visibleSize/2));
 //    ttfLabel->setName("createWithTTF");
@@ -102,14 +107,14 @@ bool HelloWorld::init()
 //    createWithCharMapPng->setName("createWithCharMapPng");
 //    this->addChild(createWithCharMapPng);
 //
-    Texture2D* charMapTexture = Director::getInstance()->getTextureCache()->addImage("fonts/tuffy_bold_italic-charmap-hd.png");
-    if (charMapTexture) {
-        Label* createWithCharMapTexture = Label::createWithCharMap(charMapTexture, 96, 128, 32);
-        createWithCharMapTexture->setString("createWithCharMapTexture");
-        createWithCharMapTexture->setPosition(Vec2(visibleSize/2));
-        createWithCharMapTexture->setName("createWithCharMapTexture");
-        this->addChild(createWithCharMapTexture);
-    }
+//    Texture2D* charMapTexture = Director::getInstance()->getTextureCache()->addImage("fonts/tuffy_bold_italic-charmap-hd.png");
+//    if (charMapTexture) {
+//        Label* createWithCharMapTexture = Label::createWithCharMap(charMapTexture, 96, 128, 32);
+//        createWithCharMapTexture->setString("createWithCharMapTexture");
+//        createWithCharMapTexture->setPosition(Vec2(visibleSize/2));
+//        createWithCharMapTexture->setName("createWithCharMapTexture");
+//        this->addChild(createWithCharMapTexture);
+//    }
 
 
     return true;

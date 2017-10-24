@@ -1662,6 +1662,10 @@ AffineTransform Node::getNodeToParentAffineTransform(Node* ancestor) const
 
     return t;
 }
+
+
+
+// http://blog.csdn.net/ronintao/article/details/9263883
 const Mat4& Node::getNodeToParentTransform() const
 {
     if (_transformDirty)
