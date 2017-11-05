@@ -30,6 +30,7 @@
 #define __CCNODE_H__
 
 #include <cstdint>
+#include <typeinfo>
 #include "base/ccMacros.h"
 #include "base/CCVector.h"
 #include "base/CCProtocols.h"

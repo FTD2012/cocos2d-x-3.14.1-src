@@ -1275,6 +1275,8 @@ Mat4 Node::transform(const Mat4& parentTransform)
 
 void Node::onEnter()
 {
+    CCLOG("Node running type is %s.", typeid(*this).name());
+
 #if CC_ENABLE_SCRIPT_BINDING
     if (_scriptType == kScriptTypeJavascript)
     {
