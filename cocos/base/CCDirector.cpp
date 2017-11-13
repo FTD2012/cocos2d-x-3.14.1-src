@@ -1171,6 +1171,9 @@ void Director::setNextScene()
     _nextScene->retain();
     _nextScene = nullptr;
 
+    NodeTreeMap* nodeTreeMap = NodeTreeMap::getInstance();
+    nodeTreeMap->getNodeTree(_runningScene);
+
     if ((! runningIsTransition) && _runningScene)
     {
         _runningScene->onEnter();

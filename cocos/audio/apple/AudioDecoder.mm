@@ -47,6 +47,8 @@ namespace cocos2d { namespace experimental {
 
     bool AudioDecoder::open(const char* path)
     {
+        return false;
+        /*
         bool ret = false;
         CFURLRef fileURL = nil;
         do
@@ -109,6 +111,7 @@ namespace cocos2d { namespace experimental {
         }
 
         return ret;
+         */
     }
 
     void AudioDecoder::close()

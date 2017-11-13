@@ -69,52 +69,53 @@ namespace cocos2d { namespace network {
 
     Downloader::Downloader(const DownloaderHints& hints)
     {
-        DLLOG("Construct Downloader %p", this);
-         _impl.reset(new DownloaderImpl(hints));
-        _impl->onTaskProgress = [this](const DownloadTask& task,
-                                       int64_t bytesReceived,
-                                       int64_t totalBytesReceived,
-                                       int64_t totalBytesExpected,
-                                       std::function<int64_t(void *buffer, int64_t len)>& /*transferDataToBuffer*/)
-        {
-            if (onTaskProgress)
-            {
-                onTaskProgress(task, bytesReceived, totalBytesReceived, totalBytesExpected);
-            }
-        };
-
-        _impl->onTaskFinish = [this](const DownloadTask& task,
-                                     int errorCode,
-                                     int errorCodeInternal,
-                                     const std::string& errorStr,
-                                     std::vector<unsigned char>& data)
-        {
-            if (DownloadTask::ERROR_NO_ERROR != errorCode)
-            {
-                if (onTaskError)
-                {
-                    onTaskError(task, errorCode, errorCodeInternal, errorStr);
-                }
-                return;
-            }
-
-            // success callback
-            if (task.storagePath.length())
-            {
-                if (onFileTaskSuccess)
-                {
-                    onFileTaskSuccess(task);
-                }
-            }
-            else
-            {
-                // data task
-                if (onDataTaskSuccess)
-                {
-                    onDataTaskSuccess(task, data);
-                }
-            }
-        };
+        return;
+//        DLLOG("Construct Downloader %p", this);
+//         _impl.reset(new DownloaderImpl(hints));
+//        _impl->onTaskProgress = [this](const DownloadTask& task,
+//                                       int64_t bytesReceived,
+//                                       int64_t totalBytesReceived,
+//                                       int64_t totalBytesExpected,
+//                                       std::function<int64_t(void *buffer, int64_t len)>& /*transferDataToBuffer*/)
+//        {
+//            if (onTaskProgress)
+//            {
+//                onTaskProgress(task, bytesReceived, totalBytesReceived, totalBytesExpected);
+//            }
+//        };
+//
+//        _impl->onTaskFinish = [this](const DownloadTask& task,
+//                                     int errorCode,
+//                                     int errorCodeInternal,
+//                                     const std::string& errorStr,
+//                                     std::vector<unsigned char>& data)
+//        {
+//            if (DownloadTask::ERROR_NO_ERROR != errorCode)
+//            {
+//                if (onTaskError)
+//                {
+//                    onTaskError(task, errorCode, errorCodeInternal, errorStr);
+//                }
+//                return;
+//            }
+//
+//            // success callback
+//            if (task.storagePath.length())
+//            {
+//                if (onFileTaskSuccess)
+//                {
+//                    onFileTaskSuccess(task);
+//                }
+//            }
+//            else
+//            {
+//                // data task
+//                if (onDataTaskSuccess)
+//                {
+//                    onDataTaskSuccess(task, data);
+//                }
+//            }
+//        };
     }
 
     Downloader::~Downloader()

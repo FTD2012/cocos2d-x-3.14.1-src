@@ -63,6 +63,7 @@ class GLProgramState;
 class Material;
 class Camera;
 class PhysicsBody;
+class NodeTreeMap;
 
 /**
  * @addtogroup _2d

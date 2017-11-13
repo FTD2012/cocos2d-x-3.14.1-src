@@ -708,6 +708,8 @@ cc.loader = (function () {
             } else {
                 s.src = jsPath;
             }
+            console.log("_createScript = " + s.src);
+
             s.addEventListener('load', function () {
                 s.parentNode.removeChild(s);
                 this.removeEventListener('load', arguments.callee, false);
@@ -777,10 +779,13 @@ cc.loader = (function () {
                             clearTimeout(xhr._timeoutId);
                         }
                         if (xhr.readyState === 4) {
+                            console.log("xhr.onerror info = " + errInfo);
+                            // xhr.status === 200 ? cb(null, xhr.responseText) : cb({status:xhr.status, errorMessage:errInfo}, null);
                             xhr.status === 200 ? cb(null, xhr.responseText) : cb({status:xhr.status, errorMessage:errInfo}, null);
                         }
                     };
                     xhr.onerror = function () {
+                        console.log("xhr.onerror info = " + errInfo);
                         cb({status: xhr.status, errorMessage: errInfo}, null);
                     };
                     if (xhr.ontimeout === undefined) {

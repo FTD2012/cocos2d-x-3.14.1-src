@@ -39,6 +39,7 @@ THE SOFTWARE.
 #include "math/CCMath.h"
 #include "platform/CCGL.h"
 #include "platform/CCGLView.h"
+#include "cocos/2d/CCNodeTree.h"
 
 NS_CC_BEGIN
 
@@ -570,7 +571,7 @@ protected:
     
     void purgeDirector();
     bool _purgeDirectorInNextLoop; // this flag will be set to true in end()
-    
+
     void restartDirector();
     bool _restartDirectorInNextLoop; // this flag will be set to true in restart()
     
