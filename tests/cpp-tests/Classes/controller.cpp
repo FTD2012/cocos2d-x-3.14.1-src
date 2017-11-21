@@ -21,7 +21,7 @@ public:
     {
 
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
+        addTest("Node: UI", [](){  return new UITests(); });
         addTest("Fonts", []() { return new FontTests(); });
         addTest("Node: Label - New API", [](){return new NewLabelTests(); });
         addTest("Node: Label - Old API", [](){return new LabelTests(); });
@@ -97,7 +97,7 @@ public:
         addTest("Node: TileMap", [](){return new TileMapTests(); });
         addTest("Node: FastTileMap", [](){return new FastTileMapTests(); });
         addTest("Node: Text Input", [](){return new TextInputTests(); });
-//        addTest("Node: UI", [](){  return new UITests(); });
+        addTest("Node: UI", [](){  return new UITests(); });
         addTest("Mouse", []() { return new MouseTests(); });
         addTest("MultiTouch", []() { return new MutiTouchTests(); });
         addTest("Renderer", []() { return new NewRendererTests(); });

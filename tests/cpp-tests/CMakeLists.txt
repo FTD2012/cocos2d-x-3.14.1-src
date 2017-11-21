@@ -159,7 +159,7 @@ set(TESTS_SRC
   Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp
   Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp
   Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp
-#  Classes/UITest/UITest.cpp
+  Classes/UITest/UITest.cpp
   Classes/UnitTest/RefPtrTest.cpp
   Classes/UnitTest/UnitTest.cpp
   Classes/UserDefaultTest/UserDefaultTest.cpp

@@ -444,6 +444,12 @@ Label::~Label()
     CC_SAFE_RELEASE_NULL(_shadowNode);
 }
 
+
+void Label::onEnter() {
+    CCLOG("This is Label onEnter!");
+    Node::onEnter();
+}
+
 void Label::reset()
 {
     CC_SAFE_RELEASE_NULL(_textSprite);

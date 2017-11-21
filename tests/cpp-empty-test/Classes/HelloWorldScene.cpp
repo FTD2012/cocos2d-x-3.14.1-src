@@ -76,6 +76,7 @@ bool HelloWorld::init()
     auto systemFontLabel = Label::createWithSystemFont("createWithSystemFont", "fonts/A Damn Mess.ttf", 24);
     systemFontLabel->setPosition(Vec2(visibleSize/2));
     systemFontLabel->setName("createWithTTF");
+    systemFontLabel->setOnEnterCallback([]()->void { CCLOG("This is systemFontLabel setOnEnterCallback");});
     this->addChild(systemFontLabel);
 
 //    auto ttfLabel = Label::createWithTTF("createWithTTF", "fonts/arial.ttf", 23);

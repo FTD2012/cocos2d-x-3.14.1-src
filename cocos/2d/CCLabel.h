@@ -247,6 +247,9 @@ public:
     /// @{
     /// @name Font methods
 
+
+    virtual void onEnter() override;
+
     /**
      * Sets a new TTF configuration to Label.
      * @see `TTFConfig`
