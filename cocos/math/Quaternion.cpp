@@ -25,6 +25,10 @@
 
 NS_CC_MATH_BEGIN
 
+/*
+ * 四元数
+ */
+
 const Quaternion Quaternion::ZERO(0.0f, 0.0f, 0.0f, 0.0f);
 
 Quaternion::Quaternion()

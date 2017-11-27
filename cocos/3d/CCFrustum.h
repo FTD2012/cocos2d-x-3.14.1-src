@@ -41,7 +41,7 @@ class Camera;
  * @js NA
  * @lua NA
  */
-class CC_DLL Frustum
+class CC_DLL Frustum // 视锥体
 {
     friend class Camera;
 public:
