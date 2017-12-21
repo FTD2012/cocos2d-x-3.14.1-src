@@ -650,7 +650,7 @@ bool Label::setBMFontFilePath(const std::string& bmfontFilePath, const Vec2& ima
         }
     }
 
-    if(fontSize > 0.0f){
+    if(fontSize > 0.0f) {
         _bmFontSize = fontSize;
     }
 

@@ -1215,6 +1215,9 @@ bool Node::isVisitableByVisitingCamera() const
 
 void Node::visit(Renderer* renderer, const Mat4 &parentTransform, uint32_t parentFlags)
 {
+
+    CCLOG("Node visit type is %s.", typeid(*this).name());
+
     // quick return if not visible. children won't be drawn.
     if (!_visible)
     {

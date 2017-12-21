@@ -343,4 +343,8 @@ public: virtual void set##funName(varType var)   \
     #endif
 #endif
 
+#ifndef COCOS2D_INFO
+#define COCOS2D_INFO
+#endif
+
 #endif // __CC_PLATFORM_MACROS_H__

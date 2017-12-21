@@ -1068,7 +1068,7 @@ std::string LabelTTFFontsTestNew::subtitle() const
 LabelTTFDistanceField::LabelTTFDistanceField()
 {
     auto size = Director::getInstance()->getWinSize();
-    TTFConfig ttfConfig("fonts/arial.ttf", 40, GlyphCollection::DYNAMIC,nullptr,true);
+    TTFConfig ttfConfig("fonts/arial.ttf", 40, GlyphCollection::DYNAMIC,nullptr,false);
 
     auto label1 = Label::createWithTTF(ttfConfig,"Distance Field",TextHAlignment::CENTER,size.width);
     label1->setPosition( Vec2(size.width/2, size.height * 0.6f) );
@@ -1080,7 +1080,7 @@ LabelTTFDistanceField::LabelTTFDistanceField()
         ScaleTo::create(6.0f,5.0f,5.0f),
         ScaleTo::create(6.0f,1.0f,1.0f),
         nullptr);
-    label1->runAction(RepeatForever::create(action));
+    label1->runAction(RepeatForever::create(action->clone()));
 
     // Draw the label border
     auto& labelContentSize = label1->getContentSize();
@@ -1097,11 +1097,14 @@ LabelTTFDistanceField::LabelTTFDistanceField()
     };
     borderDraw->drawPoly(vertices, 4, true, Color4F::RED);
 
-    auto label2 = Label::createWithTTF(ttfConfig,"Distance Field",TextHAlignment::CENTER,size.width);
+    TTFConfig ttfConfig2("fonts/arial.ttf", 40, GlyphCollection::DYNAMIC,nullptr,true);
+    auto label2 = Label::createWithTTF(ttfConfig2,"Distance Field",TextHAlignment::CENTER,size.width);
     label2->setPosition( Vec2(size.width/2, size.height * 0.3f) );
     label2->setTextColor( Color4B::RED );
     addChild(label2);
-    
+
+    label2->runAction(RepeatForever::create(action->clone()));
+
     // Draw the label border
     auto& labelContentSize2 = label2->getContentSize();
     auto borderDraw2 = DrawNode::create();

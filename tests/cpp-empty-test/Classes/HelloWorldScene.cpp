@@ -73,22 +73,29 @@ bool HelloWorld::init()
 //    // add the sprite as a child to this layer
 //    this->addChild(sprite);
 
-    auto systemFontLabel = Label::createWithSystemFont("createWithSystemFont", "fonts/A Damn Mess.ttf", 24);
-    systemFontLabel->setPosition(Vec2(visibleSize/2));
-    systemFontLabel->setName("createWithTTF");
-    systemFontLabel->setOnEnterCallback([]()->void { CCLOG("This is systemFontLabel setOnEnterCallback");});
-    this->addChild(systemFontLabel);
+//    auto systemFontLabel = Label::createWithSystemFont("createWithSystemFont", "fonts/A Damn Mess.ttf", 24);
+//    systemFontLabel->setPosition(Vec2(visibleSize/2));
+//    systemFontLabel->setName("createWithTTF");
+//    systemFontLabel->setOnEnterCallback([]()->void { CCLOG("This is systemFontLabel setOnEnterCallback");});
+//    this->addChild(systemFontLabel);
 
 //    auto ttfLabel = Label::createWithTTF("createWithTTF", "fonts/arial.ttf", 23);
 //    ttfLabel->setPosition(Vec2(visibleSize/2));
 //    ttfLabel->setName("createWithTTF");
 //    this->addChild(ttfLabel);
 
-//    TTFConfig _ttfConfig("fonts/arial.ttf", 23, GlyphCollection::DYNAMIC);
-//    Label* createWithTTFConfigLabel = Label::createWithTTF(_ttfConfig, "createWithTTFConfigLabel");
-//    createWithTTFConfigLabel->setPosition(Vec2(visibleSize/2));
-//    createWithTTFConfigLabel->setName("createWithTTFConfigLabel");
-//    this->addChild(createWithTTFConfigLabel);
+    TTFConfig _ttfConfig("fonts/arial.ttf", 23, GlyphCollection::DYNAMIC, NULL, true);
+    Label* createWithTTFConfigLabel = Label::createWithTTF(_ttfConfig, "createWithTTFConfigLabel");
+    createWithTTFConfigLabel->setPosition(Vec2(visibleSize/2));
+    createWithTTFConfigLabel->setName("createWithTTFConfigLabel");
+    this->addChild(createWithTTFConfigLabel);
+
+    auto action = Sequence::create(
+            DelayTime::create(1.0f),
+            ScaleTo::create(6.0f,5.0f,5.0f),
+            ScaleTo::create(6.0f,1.0f,1.0f),
+            nullptr);
+    createWithTTFConfigLabel->runAction(RepeatForever::create(action->clone()));
 
 
 //    Label* creatWithBMFont = Label::createWithBMFont("fonts/arial-unicode-26.fnt", "createWithBMFont");
@@ -117,6 +124,9 @@ bool HelloWorld::init()
 //        this->addChild(createWithCharMapTexture);
 //    }
 
+//    DrawNode* drawNode = DrawNode::create();
+//    drawNode->drawLine(Vec2(100, 100), Vec2(200 ,200), Color4F::BLUE);
+//    this->addChild(drawNode);
 
     return true;
 }

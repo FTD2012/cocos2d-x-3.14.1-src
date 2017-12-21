@@ -302,6 +302,9 @@ void FontAtlas::findNewCharacters(const std::u16string& u16Text, std::unordered_
         {
             for (auto u16Code : newChars)
             {
+#ifdef COCOS2D_INFO
+                CCLOG("FontAtlas::findNewCharacters character = %c", u16Code);
+#endif
                 charCodeMap[u16Code] = u16Code;
             }
             break;
